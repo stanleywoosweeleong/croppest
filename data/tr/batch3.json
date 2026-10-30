@@ -1,0 +1,285 @@
+[
+ {
+  "id": 3,
+  "name": {
+   "ms": "Nematod Parasit Tanaman",
+   "en": "Plant-Parasitic Nematodes",
+   "zh": "植物寄生线虫"
+  },
+  "sci": "<em>Meloidogyne incognita</em>, <em>Pratylenchus</em> spp., <em>Radopholus</em> spp., <em>Helicotylenchus</em> spp.",
+  "desc": {
+   "en": "Plant-parasitic nematodes found on banana in Malaysia include <em>Pratylenchus reniformis</em>, <em>Meloidogyne incognita</em>, <em>Helicotylenchus</em> spp., <em>Radopholus</em> spp. and <em>Pratylenchus</em> spp. These nematodes feed on the cortical tissue of the roots. Their activity damages the roots of infected plants and reduces the uptake of water and nutrients. Badly affected plants are stunted and thin, with yellowish leaves that have greenish-yellow streaks along the leaf. There is no effective method to control this disease, so infected plants must be destroyed immediately. Soil and plants from infected areas must not be moved out of the area.",
+   "zh": "马来西亚香蕉上的植物寄生线虫包括 <em>Pratylenchus reniformis</em>、<em>Meloidogyne incognita</em>（南方根结线虫）、<em>Helicotylenchus</em> spp.（螺旋线虫）、<em>Radopholus</em> spp.（穿孔线虫）和 <em>Pratylenchus</em> spp.（根腐线虫）。这些线虫以根部皮层组织为食，会损伤受感染植株的根系，影响水分和养分的吸收。严重受害的植株矮小、瘦弱，叶片发黄，并沿叶片出现黄绿色条纹。目前没有有效的方法防治此病，因此受感染的植株必须立即销毁。禁止将受感染地区的泥土和植株带出该地区。"
+  },
+  "symptoms": [
+   {
+    "en": "Infected roots have lesions and dead tissue.",
+    "zh": "受感染的根部有伤斑和坏死组织。",
+    "steps": [
+     {
+      "en": "Infected roots have lesions and dead tissue.",
+      "zh": "受感染的根部有伤斑和坏死组织。"
+     }
+    ]
+   },
+   {
+    "en": "Infected banana plants are stunted and thin, with yellowing leaves. Badly infected plants wilt even when the weather is not very hot, and topple over easily.",
+    "zh": "受感染的香蕉植株矮小、瘦弱，叶片发黄。严重受感染的植株即使天气不太热也会萎蔫，而且容易倒伏。",
+    "steps": [
+     {
+      "en": "Infected banana plants are stunted and thin, with yellowing leaves. Badly infected plants wilt even when the weather is not very hot, and topple over easily.",
+      "zh": "受感染的香蕉植株矮小、瘦弱，叶片发黄。严重受感染的植株即使天气不太热也会萎蔫，而且容易倒伏。"
+     }
+    ]
+   },
+   {
+    "en": "Leaves turn yellowish and have greenish-yellow streaks.",
+    "zh": "叶片发黄，并出现黄绿色条纹。",
+    "steps": [
+     {
+      "en": "Leaves turn yellow or become discoloured, with greenish-yellow streaks along the edges of the leaf.",
+      "zh": "叶片发黄或变色，叶缘出现黄绿色条纹。"
+     },
+     {
+      "en": "Banana plants infected by parasitic nematodes topple over easily, even when the wind is not strong.",
+      "zh": "受寄生线虫感染的香蕉植株很容易倒伏，即使风不大也会倒下。"
+     },
+     {
+      "en": "Roots of banana plants infested by parasitic nematodes have small, shallow rotting lesions only on the surface. Heavy infestation causes necrosis (death of tissue) in the roots.",
+      "zh": "受寄生线虫侵害的香蕉根部有细小、浅表的腐烂伤斑，只在表面。严重侵害会导致根部坏死。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "name": {
+   "ms": "Liken",
+   "en": "Lichen",
+   "zh": "地衣"
+  },
+  "sci": "<em>Parmelia</em> sp.",
+  "desc": {
+   "en": "This alga causes lichen infestation on trees. It attacks trees in areas with high humidity, especially during the rainy season. If the infection is severe, spray with a copper-based fungicide and an oil emulsion. Spraying is more effective when it is done while the lichen is dry.",
+   "zh": "这种藻类会使树木受地衣侵染。它会侵害处于高湿度地区的树木，尤其是在雨季。如果感染严重，可喷洒含铜的杀菌剂和油乳剂。在地衣干燥时喷洒，效果会更好。"
+  },
+  "symptoms": [
+   {
+    "en": "Infestation occurs on the trunk, branches and leaves. Greenish-white patches appear on the attacked trunk. If the attack is severe, the tree bark will split. This affects the production of durian flowers and fruits.",
+    "zh": "侵染发生在树干、枝条和叶片上。受害的树干上会出现青白色斑块。如果侵害严重，树皮会裂开。这会影响榴莲开花和结果。",
+    "steps": [
+     {
+      "en": "Look for lichen infestation on the trunk, branches and leaves. Greenish-white patches appear on the attacked trunk. If the attack is severe, the tree bark will split.",
+      "zh": "检查树干、枝条和叶片上是否有地衣侵染。受害的树干上会出现青白色斑块。如果侵害严重，树皮会裂开。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "name": {
+   "ms": "Bintik Perang Tirus",
+   "en": "Narrow Brown Leaf Spot",
+   "zh": "水稻窄条斑病"
+  },
+  "sci": "<em>Cercospora oryzae</em> Miyake",
+  "desc": {
+   "en": "This fungus causes narrow brown leaf spot in paddy. It can infect the leaves, leaf sheaths and panicles. The disease usually occurs in potassium-deficient soils and in areas with temperatures between 25-28 degrees Celsius. It appears in the late stages of the rice crop, starting from heading. Plants are most easily infected from panicle initiation onwards, and the damage becomes more severe as the crop matures. To prevent it, plant rice varieties that are resistant to this disease and apply fertiliser containing potassium and phosphorus. Using fungicide is not economical, but fungicide sprays used to control other fungal diseases can also help prevent this disease.",
+   "zh": "这种真菌会引起水稻窄条斑病。它可以感染叶片、叶鞘和稻穗。此病通常发生在缺钾的土壤，以及气温在25-28摄氏度之间的地区。它出现在水稻生长后期，从抽穗期开始。植株在幼穗分化期以后最容易受感染，越接近成熟，损害越严重。为预防此病，应种植抗病的水稻品种，并施用含钾和磷的肥料。专门使用杀菌剂并不划算，但为防治其他真菌病害而喷洒的杀菌剂也可以帮助预防此病。"
+  },
+  "symptoms": [
+   {
+    "en": "Short, straight, narrow <em>lesions</em> (about 2-20 mm long and 1 mm wide), reddish-brown in colour, on the leaf surface. These <em>lesions</em> are also found on the leaf sheath, pedicel, <em>glume</em> or <em>rice hull</em>.",
+    "zh": "叶面上出现短、直而细的红褐色<em>病斑</em>（长约2-20 mm，宽约1 mm）。这些<em>病斑</em>也会出现在叶鞘、小穗梗、<em>颖片</em>或<em>谷壳</em>上。",
+    "steps": [
+     {
+      "en": "Short, straight, narrow <em>lesions</em> (about 2-20 mm long and 1 mm wide), reddish-brown in colour, on the leaf surface. These <em>lesions</em> are also found on the leaf sheath, pedicel, <em>glume</em> or <em>rice hull</em>.",
+      "zh": "叶面上出现短、直而细的红褐色<em>病斑</em>（长约2-20 mm，宽约1 mm）。这些<em>病斑</em>也会出现在叶鞘、小穗梗、<em>颖片</em>或<em>谷壳</em>上。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 90,
+  "name": {
+   "ms": "Karat Daun Kopi",
+   "en": "Coffee Leaf Rust",
+   "zh": "咖啡锈病"
+  },
+  "sci": "<em>Hemileia vastatrix</em> Berk. &amp; Broome",
+  "desc": {
+   "en": "<p>Coffee leaf rust is a serious fungal disease of coffee caused by the fungus <em>Hemileia vastatrix</em>. The disease mainly attacks coffee leaves, reducing the tree's ability to photosynthesise and to produce good-quality berries. Infected leaves show yellow spots on the upper surface and yellow-orange to orange powder on the underside. Severe attacks can cause early leaf drop, weak trees, lower yields and poorer coffee bean quality. The disease spreads easily through wind, rain splash and infected planting material, especially in hot and humid weather.</p><p><strong>Crop Disease Management:</strong></p><ul><li>Prune infected branches and leaves to reduce the source of inoculum.</li><li>Ensure good air flow by keeping suitable planting distances.</li><li>Collect and destroy fallen and infected leaves.</li><li>Apply balanced fertiliser to improve tree health and resistance.</li><li>Reduce excess humidity in the field through good shade and drainage management.</li><li>Check the crop regularly to detect attacks early.</li><li>Use suitable fungicides, such as copper-based or systemic fungicides, according to the recommendations and the product label. E.g. Copper Oxychloride</li><li>Practise good field sanitation to reduce the spread of the disease.</li></ul>",
+   "zh": "<p>咖啡锈病是咖啡的一种严重真菌病害，由真菌 <em>Hemileia vastatrix</em>（咖啡驼孢锈菌）引起。此病主要侵害咖啡叶片，降低植株进行光合作用和结出优质果实的能力。受感染的叶片正面出现黄色斑点，叶背出现橙黄色至橙色的粉状物。严重侵害会导致叶片提早脱落、植株衰弱、产量下降以及咖啡豆品质降低。此病很容易通过风、雨水飞溅和受感染的种植材料传播，尤其是在炎热潮湿的天气。</p><p><strong>作物病害管理：</strong></p><ul><li>修剪受感染的枝条和叶片，以减少病菌来源。</li><li>保持适当的种植距离，确保通风良好。</li><li>收集并销毁掉落及受感染的叶片。</li><li>均衡施肥，以增强植株的健康和抵抗力。</li><li>通过良好的遮荫和排水管理，减少园内过多的湿气。</li><li>定期检查作物，以便及早发现病害。</li><li>根据建议和产品标签使用合适的杀菌剂，例如铜基杀菌剂或内吸性杀菌剂。例如：Copper Oxychloride（氧氯化铜）</li><li>保持园地清洁卫生，以减少病害传播。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>At first, small pale yellow spots appear on the leaf surface.</li><li>These spots turn orange and later turn brown.</li><li>Severe attacks cause leaves to fall and the tree to die back.</li></ul>",
+    "zh": "<ul><li>起初，叶面上出现细小的淡黄色斑点。</li><li>这些斑点会变成橙色，之后再变成褐色。</li><li>严重侵害会导致叶片脱落，植株枯萎衰退。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 105,
+  "name": {
+   "ms": "Kesing",
+   "en": "Rice Ear Bug",
+   "zh": "稻缘蝽"
+  },
+  "sci": "<em>Leptocorisa oratorius</em> (Fabricius)",
+  "desc": {
+   "en": "<p>The rice ear bug (pianggang or kesing) is a major pest of paddy. This insect lays its eggs in rows on the leaf surface. The eggs are dark brown and take about 7 days to hatch into nymphs. The insect attacks paddy at the grain-filling stage by sucking the liquid from the ripening grains, causing the grains to become empty and of low quality, and to give off an unpleasant smell.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Control host weeds such as sambau grass and weedy rice.</li><li>Plant and harvest at the same time as neighbouring fields to reduce pest numbers.</li><li>Use light traps to attract and monitor adult insects.</li><li>The egg parasitoid <em>Gryon nixoni</em> and predators such as spiders are natural enemies of the rice ear bug (kesing/pianggang).</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray insecticides such as fipronil or lambda-cyhalothrin at the recommended dose.</li><li>Spray insecticides from the flowering stage through the milk stage.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>稻缘蝽（当地称 pianggang 或 kesing）是水稻的主要害虫。这种昆虫把卵成排产在叶面上，卵呈深褐色，约7天孵化成若虫。它在灌浆期侵害水稻，吸食正在成熟的谷粒中的汁液，导致谷粒空瘪、品质低劣，并散发难闻的气味。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>防除作为寄主的杂草，例如牛筋草（rumput sambau）和杂草稻。</li><li>与邻近稻田同时插秧和收割，以减少害虫数量。</li><li>使用诱虫灯吸引并监测成虫。</li><li>卵寄生蜂 <em>Gryon nixoni</em> 以及蜘蛛等捕食者是稻缘蝽（kesing/pianggang）的天敌。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按建议剂量喷洒杀虫剂，例如 fipronil（氟虫腈）或 lambda-cyhalothrin（高效氯氟氰菊酯）。</li><li>从开花期到乳熟期喷洒杀虫剂。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、合适的施药时间，以及收割前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Symptoms of rice ear bug attack on paddy</strong></p><ul><li>Rice grains have puncture marks or small holes.</li><li>Grains become empty and light because the liquid has been sucked out.</li><li>Brown or black spots appear on the rice grains.</li><li>Grain quality and harvest yield drop because of the damaged grains.</li></ul>",
+    "zh": "<p><strong>稻缘蝽侵害水稻的症状</strong></p><ul><li>谷粒上有刺吸痕迹或小孔。</li><li>谷粒因汁液被吸走而变得空瘪、轻飘。</li><li>谷粒上出现褐色或黑色斑点。</li><li>谷粒受损导致品质和收成下降。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "Adult rice ear bug <em>Leptocorisa oratorius</em>",
+    "zh": "稻缘蝽成虫 <em>Leptocorisa oratorius</em>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 118,
+  "name": {
+   "ms": "Koya",
+   "en": "Mealybug",
+   "zh": "粉蚧"
+  },
+  "sci": "<em>Planococcus pacificus</em> Cox",
+  "desc": {
+   "en": "<p>This insect attacks durian trees by sucking sap from young shoots, leaves, stalks, flowers and fruits. It is covered with a white, cotton-like layer that protects its body, and is often found in groups. The attack stunts the growth of the tree, and leaves turn yellow, wilt and fall. On fruits, the attack can reduce fruit size, lower quality and cause the fruit to drop early. The honeydew it gives off also encourages sooty mould, which covers the surface of leaves and fruits and reduces photosynthesis.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP) </li><li>Check the orchard regularly, especially young shoots, flowers and fruits, to detect attacks early.</li><li>Prune and destroy badly attacked parts of the tree to reduce the source of infestation.</li><li>Control ants, because ants protect mealybugs from their natural enemies and help them spread.</li><li>Encourage and protect natural enemies such as ladybird beetles, lacewings and parasitoid wasps, which help control mealybug numbers.</li><li>Avoid using too much nitrogen fertiliser, because very lush shoot growth encourages mealybug attack.</li><li>Keep the farm surroundings clean, and collect and destroy damaged fruits.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Spray insecticides such as white oil, malathion or dimethoate, and fungicides such as benomyl, at the rate recommended on the label.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>这种害虫吸食榴莲嫩梢、叶片、叶柄/果柄、花和果实的汁液，从而侵害榴莲树。虫体覆盖着一层像棉花的白色蜡质保护层，常成群出现。侵害会使植株生长受阻，叶片发黄、萎蔫并脱落。在果实上，侵害会使果实变小、品质下降，并导致果实提早脱落。它分泌的蜜露还会促使煤烟病（sooty mould）滋生，覆盖叶片和果实表面，降低光合作用。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范 (APB/GAP) </li><li>定期检查果园，尤其是嫩梢、花和果实，以便及早发现虫害。</li><li>修剪并销毁受害严重的植株部位，以减少虫源。</li><li>控制蚂蚁数量，因为蚂蚁会保护粉蚧免受天敌攻击，并帮助它们传播。</li><li>保护和鼓励天敌，例如瓢虫、草蛉和寄生蜂，它们有助于控制粉蚧数量。</li><li>避免过量施用氮肥，因为嫩梢生长过于茂盛会招来粉蚧。</li><li>保持园地环境清洁，收集并销毁受损的果实。</li></ul><p>化学防治（如有需要）</p><ul><li>按标签上的建议用量喷洒杀虫剂，例如白油（矿物油）、malathion（马拉硫磷）或 dimethoate（乐果），以及杀菌剂，例如 benomyl（苯菌灵）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、合适的施药时间，以及收割前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Black sooty mould grows on the fruit surface because of the sweet honeydew given off by the mealybugs.</li></ul>",
+    "zh": "<ul><li>由于粉蚧分泌甜蜜露，果实表面会长出黑色的煤烟霉。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Signs of mealybug attack can be clearly seen on the leaf surface (upper and lower sides). </li><li>Leaves become covered with mealybugs, lowering leaf quality and function.</li></ul>",
+    "zh": "<ul><li>在叶片表面（正面和背面）可以清楚看到粉蚧侵害的迹象。</li><li>叶片被粉蚧覆盖，导致叶片质量和功能下降。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 127,
+  "name": {
+   "ms": "Kutu Trip Avokado",
+   "en": "Avocado Thrips",
+   "zh": "牛油果蓟马"
+  },
+  "sci": "<em>Scirtothrips perseae</em> Nakahara",
+  "desc": {
+   "en": "<p>Thrips (Thysanoptera: Thripidae) are small insects, 1-2 mm in size, with two pairs of wings made of fine hairs and piercing mouthparts. Thrips (adults and nymphs) attack plants by piercing the plant tissue and sucking the sap, which causes damage. Thrips can be found on leaves and inside flowers.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Control weeds in the surrounding area that serve as alternative hosts for thrips</li><li>Cut off and destroy plant parts that show symptoms of attack</li><li>Natural predators: green lacewings and some types of parasitic wasps help control thrips.</li><li>Encourage populations of beneficial natural predators by reducing the use of broad-spectrum pesticides.</li></ul><p>Chemical control (If needed)</p><ul><li>Contact pesticides: azadirachtin, insecticidal soap and neem.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>蓟马（缨翅目：蓟马科）是体长1-2 mm的小型昆虫，有两对由细毛组成的翅膀，口器为刺吸式。蓟马（成虫和若虫）刺破植物组织并吸食汁液，从而造成损害。蓟马可在叶片上和花朵内发现。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>防除周边作为蓟马替代寄主的杂草</li><li>剪除并销毁出现受害症状的植株部位</li><li>天然捕食者：草蛉和一些寄生蜂有助于控制蓟马。</li><li>减少使用广谱农药，以促进有益天敌的数量。</li></ul><p>化学防治（如有需要）</p><ul><li>触杀型农药：azadirachtin（印楝素）、杀虫皂和印楝（neem）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、合适的施药时间，以及收割前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Adult avocado thrips",
+    "zh": "牛油果蓟马成虫",
+    "steps": []
+   },
+   {
+    "en": "Scratch marks and scars on the surface of the fruit skin",
+    "zh": "果皮表面出现刮痕和疤痕",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 156,
+  "name": {
+   "ms": "Ulat Ratus",
+   "en": "Common Cutworm",
+   "zh": "斜纹夜蛾"
+  },
+  "sci": "<em>Spodoptera litura</em> (Fabricius)",
+  "desc": {
+   "en": "This insect attacks at the larval stage. Newly hatched larvae feed on leaves and shoots in groups, then scatter. From the second instar onwards, the larvae attack leaves and shoots separately. Severe attacks can destroy the leaves until only the leaf skeleton is left. Control by spraying pesticides such as deltamethrin, cypermethrin, gamma-cyhalothrin, emamectin benzoate or <em>Bacillus thuringiensis</em> at the recommended rate, and destroy the insects and attacked leaves.",
+   "zh": "这种害虫在幼虫期造成危害。刚孵化的幼虫成群取食叶片和嫩梢，之后分散开来。从二龄起，幼虫分散各自取食叶片和嫩梢。严重侵害可把叶片吃光，只剩下叶脉骨架。防治方法：按建议用量喷洒农药，例如 deltamethrin（溴氰菊酯）、cypermethrin（氯氰菊酯）、gamma-cyhalothrin（精高效氯氟氰菊酯）、emamectin benzoate（甲氨基阿维菌素苯甲酸盐）或 <em>Bacillus thuringiensis</em>（苏云金杆菌，Bt），并销毁害虫和受害叶片。"
+  },
+  "symptoms": [
+   {
+    "en": "This insect attacks at the larval stage. Newly hatched larvae feed on leaves and shoots in groups, then scatter. From the second instar onwards, the larvae attack leaves and shoots separately. Severe attacks can destroy the leaves until only the leaf skeleton is left.",
+    "zh": "这种害虫在幼虫期造成危害。刚孵化的幼虫成群取食叶片和嫩梢，之后分散开来。从二龄起，幼虫分散各自取食叶片和嫩梢。严重侵害可把叶片吃光，只剩下叶脉骨架。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 183,
+  "name": {
+   "ms": "Bintik Cercospora",
+   "en": "Cercospora Spot",
+   "zh": "牛油果尾孢斑点病"
+  },
+  "sci": "<em>Cercospora purpurea</em> Cooke",
+  "desc": {
+   "en": "<ul><li>The infection appears as round spots with a light grey centre and a reddish-brown edge.</li><li>The spots are small at first and slowly grow larger.</li><li>Along the leaf edge, there are spots that are darker in colour (usually brownish) than the brown centre.</li></ul>",
+   "zh": "<ul><li>感染症状为圆形斑点，中央呈浅灰色，边缘呈红褐色。</li><li>斑点起初很小，然后慢慢扩大。</li><li>叶缘处有颜色较深（通常为深褐色）的斑点，比中央的褐色部分更深。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The infection appears as round spots with a light grey centre and a reddish-brown edge.</li><li>The spots are small at first and slowly grow larger.</li><li>Along the leaf edge, there are spots that are darker in colour (brownish) than the brown centre.</li></ul>",
+    "zh": "<ul><li>感染症状为圆形斑点，中央呈浅灰色，边缘呈红褐色。</li><li>斑点起初很小，然后慢慢扩大。</li><li>叶缘处有颜色较深（深褐色）的斑点，比中央的褐色部分更深。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>The infection appears on fruits as small, angular, dark brown spots that join together to form irregular patches.</li><li>These patches have a yellow ring around them. Fruit wounds often become entry points for other rot organisms, such as the anthracnose fungus.</li></ul>",
+    "zh": "<ul><li>果实受感染时出现细小、有棱角的深褐色斑点，这些斑点会连成不规则的斑块。</li><li>这些斑块周围有黄色晕圈。果实上的伤口常成为其他腐烂病菌（例如炭疽病菌）的入侵点。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 310,
+  "name": {
+   "ms": "Kumbang Badak",
+   "en": "Coconut Rhinoceros Beetle",
+   "zh": "椰子犀角金龟"
+  },
+  "sci": "<em>Oryctes rhinoceros</em> (Linnaeus)",
+  "desc": {
+   "en": "<p>Adult rhinoceros beetles attack the growing point (heart) and young shoots of coconut palms by boring into and feeding on the soft tissue in the centre (spear leaf). The attack causes young leaves to become holed and damaged, and can stunt the palm's growth or kill it if the attack is severe.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Destroy breeding sites such as rotting coconut trunks, stumps and organic waste in the farm area.</li><li>Use pheromone traps to monitor and reduce the number of adult beetles.</li><li>Install insect netting along the farm boundary to stop the pest from entering the crop area.</li><li>Use mothball (naphthalene) sachets as a repellent, because the smell drives away CRB.</li><li>Use the insect-killing fungus <em>Metarhizium anisopliae</em> to control the pest population.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray or apply insecticides such as methamidophos </li><li>When using pesticides, follow the label instructions, including the dose rate, application timing and safety measures.</li></ul>",
+   "zh": "<p>椰子犀角金龟成虫钻蛀并取食椰子树中心（未展开的心叶）的嫩组织，从而侵害椰子树的生长点（椰心）和嫩梢。侵害会使嫩叶出现孔洞和损伤，严重时会导致椰子树生长受阻甚至死亡。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>清除繁殖场所，例如园内腐烂的椰子树干、树桩和有机废料。</li><li>使用信息素诱捕器监测并减少成虫数量。</li><li>在园地边界安装防虫网，阻止害虫进入种植区。</li><li>使用樟脑丸（萘）小袋作为驱避剂，因为其气味可驱赶犀角金龟（CRB）。</li><li>使用昆虫病原真菌 <em>Metarhizium anisopliae</em>（绿僵菌）控制害虫数量。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>喷洒或施用杀虫剂，例如 methamidophos（甲胺磷） </li><li>使用农药时，请遵守标签说明，包括剂量、施药时间和安全措施。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Adult CRB</li></ul>",
+    "zh": "<ul><li>犀角金龟（CRB）成虫</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>CRB bores into and feeds on the coconut heart (growing point)</li></ul>",
+    "zh": "<ul><li>犀角金龟钻蛀并取食椰心（生长点）</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Holes and tunnels in the fronds caused by the boring of adult beetles.</li><li>Moist fibres at the base of the fronds show a new attack</li></ul>",
+    "zh": "<ul><li>叶柄上有成虫钻蛀造成的孔洞和隧道。</li><li>叶柄基部出现潮湿的纤维，表示有新的侵害</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Newly opened young leaves show &quot;V&quot;-shaped or triangular cuts.</li><li>Young leaves look torn, shredded or misshapen as they open.</li></ul>",
+    "zh": "<ul><li>新展开的嫩叶出现&quot;V&quot;形或三角形的切口。</li><li>嫩叶展开时显得破裂、撕碎或残缺不全。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "Life cycle of the rhinoceros beetle",
+    "zh": "椰子犀角金龟的生活史",
+    "steps": []
+   }
+  ]
+ }
+]

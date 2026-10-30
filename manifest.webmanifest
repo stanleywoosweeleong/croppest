@@ -1,0 +1,22 @@
+{
+  "name": "Perosak Tanaman · Crop Pests · 作物病虫害",
+  "short_name": "Perosak",
+  "description": "Sabah crop pests and diseases in Bahasa Melayu, English and 中文.",
+  "id": "./",
+  "start_url": "./#crops",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2eee5",
+  "theme_color": "#f2eee5",
+  "categories": ["education", "agriculture"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Diagnosis", "url": "./#diag", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Quiz", "url": "./#learn", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

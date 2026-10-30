@@ -1,0 +1,307 @@
+[
+ {
+  "id": 2,
+  "name": {
+   "ms": "Layu Fusarium",
+   "en": "Fusarium Wilt (Panama Disease)",
+   "zh": "香蕉枯萎病（巴拿马病）"
+  },
+  "sci": "<em>Fusarium oxysporum</em> f. sp. <em>cubense</em>",
+  "desc": {
+   "en": "<em>Fusarium oxysporum</em> is commonly found in soil and produces three types of asexual spores: macroconidia, microconidia and chlamydospores. Macroconidia and chlamydospores usually form on host plants that are dead or dying. Chlamydospores are the most important structures for the survival of this pathogen. <em>Fusarium oxysporum</em> f. sp. <em>cubense</em> (Foc) causes Fusarium Wilt, also called Panama Disease, in banana. The pathogen can be spread through infected mother plants and suckers. Therefore, any planting material, including suckers that show no symptoms, can be a source of infection. There is no effective method yet to control this disease. Infected plants must be destroyed, and disease-free planting material should be used when planting in a new area.",
+   "zh": "<em>Fusarium oxysporum</em>（尖孢镰刀菌）常见于土壤中，会产生三种无性孢子：大型分生孢子、小型分生孢子和厚垣孢子。大型分生孢子和厚垣孢子通常在已经死亡或正在死亡的寄主植物上形成。厚垣孢子是这种病原菌赖以存活的最重要结构。<em>Fusarium oxysporum</em> f. sp. <em>cubense</em>（Foc）会引起香蕉的镰刀菌枯萎病，也叫巴拿马病。病原菌可通过受感染的母株和吸芽传播。因此，任何种植材料，包括没有显示症状的吸芽，都可能成为传染源。目前还没有有效的方法防治这种病害。受感染的植株必须销毁，在新地区种植时应使用无病种苗。"
+  },
+  "symptoms": [
+   {
+    "en": "Infection starts at the tips of the fine feeder roots and spreads to the rhizome (corm). A sign of infection is a black stain on the inner tissue of the affected roots. The presence of parasitic nematodes is linked to high levels of Fusarium Wilt (Panama Disease) infection.",
+    "zh": "感染从细小须根的根尖开始，然后扩散到球茎（根状茎）。感染的迹象是受害根部内部组织出现黑色斑痕。寄生性线虫的存在与镰刀菌枯萎病（巴拿马病）的高感染率有关。",
+    "steps": [
+     {
+      "en": "Infection starts at the tips of the fine feeder roots and spreads to the rhizome (corm). A sign of infection is a black stain on the inner tissue of the affected roots. As the infection spreads, the xylem (water-conducting tissue) turns reddish-brown. Fusarium Wilt (Panama Disease) is closely linked to infestation of the roots by parasitic nematodes.",
+      "zh": "感染从细小须根的根尖开始，然后扩散到球茎（根状茎）。感染的迹象是受害根部内部组织出现黑色斑痕。随着感染扩散，木质部（输水组织）会变成红褐色。镰刀菌枯萎病（巴拿马病）与根部受寄生性线虫侵害密切相关。"
+     }
+    ]
+   },
+   {
+    "en": "<em>Fusarium oxysporum</em> infection starts at the tips of the fine feeder roots and then moves to the rhizome. The infection appears as black spots in the root tissue where the stele joins the cortex. As the infection develops, the xylem turns reddish-brown. The old leaves turn yellow and wilt, and this spreads to the young leaves. The wilted leaves break and hang down along the banana pseudostem.",
+    "zh": "<em>Fusarium oxysporum</em>的感染从细小须根的根尖开始，然后扩散到根状茎。在根部组织中维管柱与皮层相接的地方会出现黑色斑点。随着感染发展，木质部会变成红褐色。老叶先变黄并枯萎，然后扩散到嫩叶。枯萎的叶片会折断，沿着香蕉假茎下垂。",
+    "steps": [
+     {
+      "en": "Old leaves turn yellow and wilt. The wilted leaves break and hang down along the banana pseudostem.",
+      "zh": "老叶变黄并枯萎。枯萎的叶片折断，沿着香蕉假茎下垂。"
+     }
+    ]
+   },
+   {
+    "en": "<em>Fusarium oxysporum</em> infection triggers the plant's defence mechanism, causing it to produce a gel. This is followed by the formation of tyloses in the vascular bundles, which block the movement of water and nutrients to the upper parts of the plant. A cross-section of the pseudostem shows a reddish-brown colour.",
+    "zh": "<em>Fusarium oxysporum</em>的感染会触发寄主植物的防御机制，使其分泌胶状物。随后维管束内形成侵填体（tylose），阻断水分和养分向植株上部输送。切开假茎的横截面可见红褐色变色。",
+    "steps": [
+     {
+      "en": "<em>Fusarium oxysporum</em> infection triggers the plant's defence mechanism, causing it to produce a gel. This is followed by the formation of tyloses in the vascular bundles, which block the movement of water and nutrients to the upper parts of the plant. A cross-section of the stem of an infected plant is reddish-brown.",
+      "zh": "<em>Fusarium oxysporum</em>的感染会触发植株的防御机制，使其分泌胶状物。随后维管束内形成侵填体（tylose），阻断水分和养分向植株上部输送。受感染植株的茎部横截面呈红褐色。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": {
+   "ms": "Alga Trentepohlia",
+   "en": "Trentepohlia Algae",
+   "zh": "橘色藻"
+  },
+  "sci": "<em>Trentepohlia</em> spp.",
+  "desc": {
+   "en": "This alga is a plant parasite on durian trees. It can be prevented by pruning to improve air flow around the tree and reduce humidity. Proper watering and fertilising can reduce infestation by this alga. If the infestation is severe, a copper-based fungicide spray can be applied.",
+   "zh": "这种藻类是寄生在榴莲树上的植物寄生物。可以通过修剪枝条来增加树体周围的通风、降低湿度，从而预防它。适当的灌溉和施肥可以减少这种藻类的侵染。如果侵染严重，可以喷施铜基杀菌剂。"
+  },
+  "symptoms": [
+   {
+    "en": "The trunk and branches are covered with a bright golden-orange layer on the parts of the bark exposed to sunlight. On shaded trees or damp trunks, the alga appears whitish-green. This interferes with fruit and flower production.",
+    "zh": "树干和枝条上暴露在阳光下的树皮部分覆盖着一层鲜艳的金橙色物质。在遮荫的树或潮湿的树干上，这种藻类呈白绿色。这会影响开花和结果。",
+    "steps": [
+     {
+      "en": "Check the trunk and branches for a bright golden-orange layer on the parts of the bark exposed to sunlight. On shaded trees or damp trunks, the alga appears whitish-green.",
+      "zh": "检查树干和枝条上暴露在阳光下的树皮部分是否覆盖着一层鲜艳的金橙色物质。在遮荫的树或潮湿的树干上，这种藻类呈白绿色。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "name": {
+   "ms": "Bintik Perang",
+   "en": "Brown Spot",
+   "zh": "水稻胡麻斑病"
+  },
+  "sci": "<em>Cochliobolus miyabeanus</em>",
+  "desc": {
+   "en": "<p><em>Cochliobolus miyabeanus</em> is the fungus that causes Brown Spot disease in rice. It is a common and widespread rice disease that can cause farmers to lose a large part of their harvest. The disease occurs in drier conditions where there is less water. It grows well at low temperatures during the growth stages.</p><p><strong>Control</strong></p><ul><li>Use disease-resistant rice varieties, especially in areas where soil fertility is a problem.</li><li>Apply silica fertiliser before planting to increase resistance to brown spot infection and to improve yield.</li><li>Avoid water stress, because this disease is severe during the dry season or when water is short.</li><li>Plough in or burn all infected stubble and crop residues.</li><li>If the attack is severe, spray with fungicides such as mancozeb + tricyclazole or carbendazim at the booting stage.</li><li>Treat seeds with fungicides such as thiram, captan, carbendazim and mancozeb to reduce seedling infection.</li></ul>",
+   "zh": "<p><em>Cochliobolus miyabeanus</em>是引起水稻胡麻斑病（褐斑病）的真菌。这是一种常见且分布广泛的水稻病害，可使农民的稻米产量大幅损失。病害多发生在较干燥、水量减少的环境中。在生长阶段，它在低温下生长良好。</p><p><strong>防治</strong></p><ul><li>使用抗病水稻品种，尤其是在土壤肥力有问题的地区。</li><li>种植前施用硅肥，以提高对胡麻斑病的抵抗力并提高产量。</li><li>避免水分胁迫，因为在旱季或缺水时此病会更严重。</li><li>将所有受感染的稻桩和作物残体翻耕入土或烧毁。</li><li>如果病害严重，在孕穗期喷施杀菌剂，例如 mancozeb（代森锰锌）+ tricyclazole（三环唑）或 carbendazim（多菌灵）。</li><li>用 thiram（福美双）、captan（克菌丹）、carbendazim（多菌灵）和 mancozeb（代森锰锌）等杀菌剂处理种子，以减少秧苗感染。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Oval spots on the leaf surface, about the size of a sesame seed, 8–15 mm in diameter, silvery-brown in colour. The centre of the spot turns whitish-grey when the spot is fully formed. Spots also appear on the glumes (grain husks) as dark brown or black spots. Brown spots are also found on the coleoptile, stem, leaf sheath, panicle stalk and roots as the plant matures.",
+    "zh": "叶面出现椭圆形斑点，大小如芝麻粒，直径 8–15 mm，呈银褐色。斑点完全形成后，中央变成灰白色。颖壳（谷壳）上也会出现深褐色或黑色斑点。随着植株成熟，胚芽鞘、茎秆、叶鞘、穗柄和根部也会出现褐色斑点。",
+    "steps": [
+     {
+      "en": "Look for oval, silvery-brown spots on the leaf surface. The centre of the spot turns whitish-grey when the spot is fully formed. Spots also appear on the glumes (grain husks) as dark brown or black spots.",
+      "zh": "观察叶面是否有椭圆形、银褐色的斑点。斑点完全形成后，中央变成灰白色。颖壳（谷壳）上也会出现深褐色或黑色斑点。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 79,
+  "name": {
+   "ms": "Mati Rosot Betik",
+   "en": "Papaya Dieback",
+   "zh": "木瓜细菌性顶枯病"
+  },
+  "sci": "<em>Erwinia papayae</em>",
+  "desc": {
+   "en": "This bacterium causes Papaya Dieback disease. All commercial varieties are susceptible, and the practices used by farmers have not yet been proven successful in managing this disease. The bacterium usually enters the host through wounds and passes through the leaf stalk into the green stem. The part of the leaf stalk attached to the leaf blade dries up and rots. To prevent this, before infection occurs or in areas without infection, check regularly for early signs of the disease. Manage the crop properly, including fertilising and harvesting. Always keep the field clean, for example by weeding to destroy alternative host plants. Control pests in the field, and prevent infection and spread of the disease from other farms by controlling the movement of people and vehicles. Before planting in the field, use disease-free planting material. At the nursery stage, it is better to raise seedlings in an insect-proof house. Use seeds from fruits taken from disease-free farms.",
+   "zh": "这种细菌会引起木瓜顶枯病。所有商业品种都容易感染，农民目前采用的管理方法尚未被证明能有效控制此病。细菌通常从伤口侵入寄主，经叶柄进入绿色茎干。叶柄与叶片相连的部分会干枯并腐烂。为防止这种情况，在感染发生之前或在未受感染的地区，应定期检查以及早发现病害症状。妥善管理作物，例如施肥和采收。经常保持田间清洁，例如除草以消灭其他寄主植物。控制田间害虫，并通过管制人员和车辆的进出，防止病害从其他农场传入和扩散。下田种植前，使用无病种苗。在育苗阶段，最好在防虫网室内培育幼苗。使用从无病农场采摘的果实的种子。"
+  },
+  "symptoms": [
+   {
+    "en": "The fruit flesh becomes water-soaked and there are black patches on the skin.",
+    "zh": "果肉呈水渍状，果皮上有黑色斑块。",
+    "steps": [
+     {
+      "en": "Black patches appear on young fruit, starting as a small blackish-brown spot that later enlarges and spreads. The flesh of the papaya looks water-soaked when the fruit is cut open.",
+      "zh": "幼果上出现黑色斑块，起初是一个小的黑褐色斑点，之后逐渐扩大并蔓延。切开木瓜时，果肉呈水渍状。"
+     }
+    ]
+   },
+   {
+    "en": "The shoot becomes water-soaked with blackish necrosis (dead tissue) between the shoot and the leaf stalks. The shoot then droops and dies.",
+    "zh": "嫩梢与叶柄之间的部位出现水渍状及黑色坏死（组织死亡）。嫩梢随后下垂并死亡。",
+    "steps": [
+     {
+      "en": "Water-soaked and blackish necrotic symptoms between the shoot and the leaf stalks. The shoot droops and the tree dies.",
+      "zh": "嫩梢与叶柄之间出现水渍状和黑色坏死症状。嫩梢下垂，植株死亡。"
+     }
+    ]
+   },
+   {
+    "en": "Leaf edges become necrotic, wilted and dry. Lesions appear on the upper and lower leaf surfaces, and there are spots on the leaves.",
+    "zh": "叶缘坏死、萎蔫并干枯。叶片正面和背面都出现病斑，叶上有斑点。",
+    "steps": [
+     {
+      "en": "Leaf edges are wilted and dry. Lesions appear on the upper and lower leaf surfaces, and there are blackish spots on the leaves.",
+      "zh": "叶缘萎蔫干枯。叶片正面和背面都出现病斑，叶上有黑色斑点。"
+     }
+    ]
+   },
+   {
+    "en": "The stem and leaf stalks show water-soaked symptoms. The leaf stalks also become blackish, necrotic and droop.",
+    "zh": "茎干和叶柄出现水渍状症状。叶柄也会变黑、坏死并下垂。",
+    "steps": [
+     {
+      "en": "The stem and leaf stalks show water-soaked symptoms and blackish necrosis, and the leaf stalks droop.",
+      "zh": "茎干和叶柄出现水渍状和黑色坏死症状，叶柄下垂。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 104,
+  "name": {
+   "ms": "Ulat Pengorek Batang Padi",
+   "en": "Rice Stem Borer",
+   "zh": "水稻螟虫（三化螟、二化螟）"
+  },
+  "sci": "<em>Scirpophaga incertulas</em> / <em>Chilo</em> spp.",
+  "desc": {
+   "en": "<p>This insect is the yellow stem borer, a moth belonging to the family Crambidae. Edward Meyrick (1932) recorded this species in India, Malaysia, Thailand, Laos, Vietnam and Indonesia. The wingspan of this moth is 16-25mm, and it is yellow and brown with small dark spots. The stem borer caterpillars attack the rice stem by boring into it. Attack at the vegetative stage causes the “dead heart” symptom, while attack at the grain-filling stage causes the “white head” symptom, where the panicle is empty and white.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Use resistant rice varieties if available.</li><li>Destroy stubble and crop residues after harvest.</li><li>Practise synchronised planting to reduce the pest's food sources.</li><li>Set up pheromone traps to monitor adult moth populations.</li><li>Encourage natural enemies such as egg parasitoids and spiders.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray insecticides such as chlorantraniliprole, fipronil or cartap hydrochloride at the recommended dose.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>这种昆虫是水稻螟虫，属于草螟科（Crambidae）的蛾类。Edward Meyrick（1932）记录此物种分布于印度、马来西亚、泰国、老挝、越南和印度尼西亚。成虫翅展 16-25mm，呈黄色和褐色，带有小的暗色斑点。螟虫幼虫钻入稻茎内部进行危害。在营养生长期受害会出现“枯心”症状，而在灌浆期受害则出现“白穗”症状，即稻穗空瘪并呈白色。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>如有抗虫水稻品种，应加以使用。</li><li>收割后销毁稻桩和作物残体。</li><li>实行同期种植，以减少害虫的食物来源。</li><li>设置性信息素诱捕器，监测成虫（蛾）的数量。</li><li>保护和利用天敌，例如卵寄生蜂和蜘蛛。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按推荐剂量喷施杀虫剂，例如 chlorantraniliprole（氯虫苯甲酰胺）、fipronil（氟虫腈）或 cartap hydrochloride（杀螟丹）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括推荐剂量、合适的施药时间，以及收割前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Stem borer attack causes the rice panicles to turn white and empty, producing the “white head” or “chicken feather” symptom, because the flow of nutrients in the rice plant is disrupted.",
+    "zh": "螟虫危害会使稻穗变白、空瘪，形成“白穗”（又称“鸡毛穗”）症状，这是因为稻株体内的养分输送受到破坏。",
+    "steps": []
+   },
+   {
+    "en": "Adult stem borer <em>Scirpophaga incertulas</em> / <em>Chilo</em> spp.",
+    "zh": "螟虫成虫 <em>Scirpophaga incertulas</em> / <em>Chilo</em> spp.",
+    "steps": []
+   },
+   {
+    "en": "<p><strong>Symptoms of rice stem borer attack</strong></p><ul><li>Rice stems become weak and are easily pulled out.</li><li>Rice stems turn yellowish and wilt.</li><li>There are bore holes in the rice stems.</li><li>Severe attack causes the rice stems to die.</li></ul>",
+    "zh": "<p><strong>水稻螟虫危害症状</strong></p><ul><li>稻茎变得软弱，容易被拔起。</li><li>稻茎变黄并枯萎。</li><li>稻茎上有蛀孔。</li><li>严重危害会导致稻茎死亡。</li></ul>",
+    "steps": [
+     {
+      "en": "Attacked stems can be seen changing colour from green to yellowish.",
+      "zh": "可以看到受害的稻茎由绿色变为淡黄色。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 117,
+  "name": {
+   "ms": "Kutu Psilid Durian",
+   "en": "Durian Psyllid",
+   "zh": "榴莲木虱"
+  },
+  "sci": "<em>Allocaridara malayensis</em> Crawford",
+  "desc": {
+   "en": "<p>The durian psyllid (Psyllidae: Hemiptera) is a small sap-sucking insect pest that mainly attacks durian trees. Both nymphs and adults feed on young shoots, leaves and buds by piercing the plant tissue and sucking the sap. This feeding can cause leaf curling, stunted shoot growth and the formation of sooty mould on the honeydew they excrete.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Monitor early to detect the presence of the pest.</li><li>Control using biopesticide sprays such as wood vinegar.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Use pesticides containing the active ingredient abamectin or cypermethrin, following the label recommendations.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>榴莲木虱（木虱科 Psyllidae：半翅目 Hemiptera）是一种体型细小、吸食汁液的害虫，主要危害榴莲树。若虫和成虫都以刺吸植物组织、吸取汁液的方式取食嫩梢、叶片和芽。这种取食会导致叶片卷曲、新梢生长受阻，以及由其分泌的蜜露引起煤烟病（黑霉）。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>及早进行监测，以发现害虫的出现。</li><li>使用生物农药喷施防治，例如木醋液。</li></ul><p>化学防治（如有需要）</p><ul><li>按照标签建议，使用含有 abamectin（阿维菌素）或 cypermethrin（氯氰菊酯）有效成分的农药。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括推荐剂量、合适的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Psyllids attack the shoots, especially young leaves during flushing.</li><li>Nymphs and adults suck the sap from the leaves.</li><li>High populations cause severe damage: leaves become curled, dry and fall off.</li></ul>",
+    "zh": "<ul><li>木虱危害嫩梢，尤其是抽梢期的嫩叶。</li><li>若虫和成虫吸食叶片汁液。</li><li>虫口密度高时危害严重：叶片卷曲、干枯并脱落。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "Durian psyllid (<em>Allocaridara malayensis</em>)",
+    "zh": "榴莲木虱（<em>Allocaridara malayensis</em>）",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 126,
+  "name": {
+   "ms": "Bintik Daun Alga",
+   "en": "Algal Leaf Spot",
+   "zh": "藻斑病"
+  },
+  "sci": "<em>Cephaleuros virescens</em>",
+  "desc": {
+   "en": "<p>Algal leaf spot, caused by the pathogen <em>Cephaleuros</em> sp., usually occurs on leaves shaded from sunlight, especially when the crop is exposed to high temperature and humidity. It causes indirect damage by reducing the photosynthetic area of the leaves.</p><p><strong>Disease Management</strong></p><ul><li>Make sure trees are well pruned and fertilised to encourage healthy growth.</li><li>Remove all weeds around the base of the tree.</li><li>Use wider plant spacing to improve air circulation around the trees.</li><li>Badly infected trees can be treated with copper-based fungicides.</li></ul>",
+   "zh": "<p>藻斑病由病原体 <em>Cephaleuros</em> sp.（头孢藻）引起，通常发生在遮荫、照不到阳光的叶片上，尤其是在作物处于高温高湿环境时。它通过减少叶片的光合作用面积而造成间接危害。</p><p><strong>病害管理</strong></p><ul><li>确保果树修剪得当、施肥充足，以促进健康生长。</li><li>清除树基周围的所有杂草。</li><li>采用较宽的种植距离，以改善树木周围的空气流通。</li><li>严重感染的树可用含铜杀菌剂处理。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Raised orange-red spots on both the upper and lower surfaces of the leaves.</li><li>The spots may merge to form irregularly shaped patches.</li><li>Spots may also be found on twigs and branches.</li><li>When the surface of a spot is scraped off, a grey necrotic crust can be seen.</li></ul>",
+    "zh": "<ul><li>叶片正面和背面都出现凸起的橙红色斑点。</li><li>斑点可能会合并，形成形状不规则的斑块。</li><li>细枝和枝条上也可能出现斑点。</li><li>刮去斑点表面后，可见灰色的坏死硬壳。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 134,
+  "name": {
+   "ms": "Kumbang Pengorek Buah Kopi",
+   "en": "Coffee Berry Borer",
+   "zh": "咖啡果小蠹"
+  },
+  "sci": "<em>Hypothenemus hampei</em>",
+  "desc": {
+   "en": "<p>The Coffee Berry Borer is one of the most damaging insect pests of coffee worldwide. Adult female beetles bore into developing or ripe coffee berries to lay eggs, and the larvae feed on the coffee beans inside the berry. This pest reduces bean quality, lowers yield and causes significant economic losses. Symptoms include small holes in the coffee berries, berries falling before they are ripe, and damaged or hollow beans. Severe attacks can reduce the market value of the coffee harvest.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Collect and destroy fallen or damaged coffee berries.</li><li>Harvest on time.</li><li>Keep the farm clean at all times.</li><li>Use pheromone traps to monitor and control the population.</li><li>Use fungus-based biopesticides such as <em>Metarhizium anisopliae</em> and <em>Beauveria bassiana</em> for biological control of CBB.</li><li>Encourage natural enemies such as the parasitoid <em>Cephalonomia stephanoderis</em>.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray insecticides according to the label recommendations.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>咖啡果小蠹是全世界危害咖啡最严重的害虫之一。成年雌虫钻入正在发育或已成熟的咖啡果内产卵，幼虫则取食果内的咖啡豆。这种害虫会降低咖啡豆品质、减少产量，并造成严重的经济损失。危害症状包括咖啡果上有小孔、果实未熟先落，以及咖啡豆受损或中空。严重危害会降低咖啡收成的市场价值。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>收集并销毁掉落或受损的咖啡果。</li><li>适时采收。</li><li>持续保持园地清洁。</li><li>使用性信息素诱捕器监测和控制虫口数量。</li><li>使用真菌类生物农药，例如 <em>Metarhizium anisopliae</em>（绿僵菌）和 <em>Beauveria bassiana</em>（白僵菌），对咖啡果小蠹进行生物防治。</li><li>保护和利用天敌，例如寄生蜂 <em>Cephalonomia stephanoderis</em>。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按照标签建议喷施杀虫剂。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括推荐剂量、合适的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Coffee berry borer (Coffee Pod Borer) - <em>Hypothenemus hampei</em>",
+    "zh": "咖啡果小蠹 - <em>Hypothenemus hampei</em>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Small round holes on the surface of the coffee berry (beetle entry holes).</li><li>Fine brown powder (frass) around the entry hole from the boring activity.</li><li>The coffee berry shows internal damage when cut open.</li><li>Attacked berries may ripen unevenly.</li><li>Berries drop before they are ripe in serious attacks.</li></ul>",
+    "zh": "<ul><li>咖啡果表面有圆形小孔（成虫钻入孔）。</li><li>蛀孔周围有蛀食留下的褐色细粉（虫粪）。</li><li>切开咖啡果可见内部受损。</li><li>受害果实可能成熟不均匀。</li><li>严重危害时会出现未熟落果。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>The coffee berry shows internal damage when cut open.</li><li>Coffee beans become holed, damaged or hollow because of larval feeding.</li><li>Bean quality and weight drop, lowering the market value of the harvest.</li><li>Severe attacks can cause significant yield loss and lower coffee quality.</li></ul>",
+    "zh": "<ul><li>切开咖啡果可见内部受损。</li><li>由于幼虫取食，咖啡豆出现蛀孔、受损或中空。</li><li>咖啡豆的品质和重量下降，使收成的市场价值降低。</li><li>严重危害会造成显著的产量损失，并影响咖啡品质。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 182,
+  "name": {
+   "ms": "Hawar Daun Halia",
+   "en": "Ginger Leaf Blight",
+   "zh": "姜叶枯病"
+  },
+  "sci": "<em>Phyllosticta zingiberi</em>",
+  "desc": {
+   "en": "<p>Leaf blight disease of ginger, caused specifically by <em>Phyllosticta zingiberi</em>.</p><p><strong>Description:</strong></p><ul><li><p><strong>Symptoms</strong>: Leaf blight caused by <em>Phyllosticta zingiberi</em> usually appears as round to irregular spots on ginger leaves. The spots first look water-soaked and later turn dark brown or black with a yellow halo around them. As the disease develops, the spots merge and can cover large areas of the leaf surface.</p></li><li><p><strong>Pathogen</strong>: <em>Phyllosticta zingiberi</em> is a fungal pathogen that attacks mainly ginger leaves, causing typical lesions that affect the health and vigour of the plant.</p></li><li><p><strong>Spread</strong>: The fungus spreads through water splash and wind, as well as through contaminated tools and plant debris. It thrives in the hot, humid conditions common in ginger-growing areas.</p></li><li><p><strong>Impact</strong>: Infected leaves lose photosynthetic ability, causing yellowing, wilting and early leaf drop. Severe infection reduces crop yield.</p></li><li><p><strong>Management</strong>: Control measures include planting disease-free seed or plants, practising crop rotation, keeping the field clean by removing infected plant debris, and using fungicides if necessary to prevent the disease from spreading.</p></li></ul><p>Managing <em>Phyllosticta zingiberi</em> effectively is important to minimise its harmful effects on ginger, ensure healthy growth and increase crop productivity.</p>",
+   "zh": "<p>姜叶枯病，由 <em>Phyllosticta zingiberi</em>（姜叶点霉）引起的姜叶部病害。</p><p><strong>说明：</strong></p><ul><li><p><strong>症状</strong>：由 <em>Phyllosticta zingiberi</em> 引起的叶枯病，通常在姜叶上出现圆形至不规则形的斑点。斑点起初呈水渍状，之后变成深褐色或黑色，周围有黄色晕圈。随着病害发展，斑点相互合并，可覆盖叶面的大片区域。</p></li><li><p><strong>病原菌</strong>：<em>Phyllosticta zingiberi</em> 是一种真菌病原菌，主要侵染姜叶，造成典型病斑，影响植株的健康和长势。</p></li><li><p><strong>传播</strong>：这种真菌通过雨水飞溅和风传播，也会通过受污染的农具和植物残体传播。它在姜种植区常见的高温潮湿条件下繁殖旺盛。</p></li><li><p><strong>影响</strong>：受害叶片的光合作用能力下降，导致叶片变黄、萎蔫和提早脱落。严重感染会降低作物产量。</p></li><li><p><strong>管理</strong>：防治措施包括种植无病种姜或种苗、实行轮作、清除受感染的植物残体以保持田园清洁，以及在必要时使用杀菌剂防止病害扩散。</p></li></ul><p>有效管理 <em>Phyllosticta zingiberi</em> 对于减少其对姜作物的不良影响、确保健康生长和提高作物生产力非常重要。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li><p><strong>Root Rot</strong>: Infected roots may rot, becoming soft, mushy and discoloured. Infected roots turn brown or black.</p></li><li><p><strong>Reduced Root Mass</strong>: The overall root mass may decrease as infected roots rot, leaving a weak root system that cannot support the plant properly.</p></li><li><p><strong>Lesions on Roots</strong>: As with the leaf symptoms, small dark spots or lesions can appear on the roots. These spots can enlarge and cause further root damage.</p></li><li><p><strong>Poor Water and Nutrient Uptake</strong>: Root rot and damage reduce the plant's ability to absorb water and nutrients effectively, causing stunted growth and poor plant health.</p></li><li><strong>Secondary Infection: </strong>Weakened roots can become more open to secondary infection by other soil-borne pathogens, adding to the problem and putting more stress on the plant.</li></ul>",
+    "zh": "<ul><li><p><strong>根腐</strong>：受感染的根可能腐烂，变软、变烂并变色。受感染的根会变成褐色或黑色。</p></li><li><p><strong>根量减少</strong>：随着受感染的根腐烂，整体根量可能减少，形成无法好好支撑植株的衰弱根系。</p></li><li><p><strong>根部病斑</strong>：与叶片症状类似，根上可能出现深色小斑点或病斑。这些斑点会扩大，使根部受损更严重。</p></li><li><p><strong>水分和养分吸收受阻</strong>：根部腐烂和受损会削弱植株有效吸收水分和养分的能力，导致生长受阻、植株健康不良。</p></li><li><strong>二次感染：</strong>衰弱的根更容易受到其他土传病原菌的二次感染，使问题加重，植株承受更大压力。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li><p><strong>Early Spots</strong>: Small, round, water-soaked spots appear on the leaves. These spots can be light brown to dark brown.</p></li><li><p><strong>Yellow Halo</strong>: The spots are often surrounded by a yellow halo, which can be clearly seen and helps to tell <em>Phyllosticta</em> infection apart from other leaf spot diseases.</p></li><li><p><strong>Merging Spots</strong>: Several spots can merge to form larger necrotic areas, which can cover most of the leaf surface.</p></li><li><p><strong>Leaf Yellowing and Necrosis</strong>: Infected leaves may start to turn yellow, especially around the lesions, and eventually become necrotic and die if the infection is severe.</p></li><li><p><strong>Early Leaf Drop</strong>: Infected leaves may fall early, reducing the leaf area for photosynthesis and affecting plant growth and yield.</p></li></ul>",
+    "zh": "<ul><li><p><strong>初期斑点</strong>：叶片上出现细小、圆形、水渍状的斑点。这些斑点可呈浅褐色至深褐色。</p></li><li><p><strong>黄色晕圈</strong>：斑点周围常有明显的黄色晕圈，有助于将 <em>Phyllosticta</em> 感染与其他叶斑病区分开来。</p></li><li><p><strong>斑点合并</strong>：数个斑点可合并成较大的坏死区域，可覆盖叶面的大部分。</p></li><li><p><strong>叶片变黄和坏死</strong>：受感染的叶片可能开始变黄，尤其是病斑周围，若感染严重，最终会坏死枯死。</p></li><li><p><strong>提早落叶</strong>：受感染的叶片可能提早脱落，减少进行光合作用的叶面积，影响植株生长和产量。</p></li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 309,
+  "name": {
+   "ms": "Tupai Buah",
+   "en": "Fruit Squirrel",
+   "zh": "丽松鼠（果园松鼠）"
+  },
+  "sci": "<em>Callosciurus</em> spp.",
+  "desc": {
+   "en": "<p>Fruit squirrels are small mammals of the rodent group that eat many kinds of fruit, seeds, flowers and young shoots. On farms, squirrels are considered pests because they gnaw into and eat developing and nearly ripe fruit, reducing quality and quantity. Squirrels bite and eat the fruit flesh, leaving bite marks, holes and damage on the fruit surface. Damaged fruit is also more easily infected by fungi and bacteria, which further increases yield loss.</p><p><br><strong>Integrated Pest Management (IPM) </strong><br>&bull; Harvest fruit promptly when it is mature to reduce the food source. <br>&bull; Remove damaged fruit from the farm. <br>&bull; Install protective netting on the pineapple plants.<br>&bull; Inspect regularly for feeding damage, bite marks and the presence of squirrels. <br>&bull; Encourage natural enemies such as birds of prey (for example owls and eagles) where suitable. <br>&bull; Use visual or sound repellents.</p><p><br>Chemical Control<br>&bull; Not recommended. Squirrels are managed more effectively through prevention, exclusion, farm sanitation and the use of traps that comply with local regulations.</p>",
+   "zh": "<p>果园松鼠是啮齿类的小型哺乳动物，吃各种水果、种子、花朵和嫩芽。在果园里，松鼠被视为害虫，因为它们会啃咬并吃掉正在发育和接近成熟的果实，使果实品质和数量下降。松鼠啃咬并吃掉果肉，在果实表面留下咬痕、孔洞和损伤。受损的果实也更容易受到真菌和细菌感染，进一步增加产量损失。</p><p><br><strong>综合虫害管理（IPM）</strong><br>&bull; 果实成熟时及时采收，以减少松鼠的食物来源。<br>&bull; 将受损果实清出园地。<br>&bull; 在黄梨植株上安装防护网。<br>&bull; 定期检查是否有取食损伤、咬痕和松鼠出没。<br>&bull; 在适合的情况下，保护和吸引天敌，例如猛禽（如猫头鹰和老鹰）。<br>&bull; 使用视觉或声音驱赶装置。</p><p><br>化学防治<br>&bull; 不建议使用。通过预防、隔离阻挡、保持园地清洁，以及使用符合当地法规的捕捉器来管理松鼠更为有效。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Irregular bite marks on the surface of the pineapple fruit.</li><li>The fruit flesh is eaten or gouged out, leaving holes in the fruit.</li><li>Open wounds on the fruit caused by squirrel feeding.</li></ul>",
+    "zh": "<ul><li>黄梨果实表面有不规则的咬痕。</li><li>果肉被吃掉或挖空，使果实出现孔洞。</li><li>松鼠取食造成果实上有开放性伤口。</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

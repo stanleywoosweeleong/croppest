@@ -1,0 +1,232 @@
+[
+ {
+  "id": 16,
+  "name": {
+   "ms": "Kulat Phytophthora",
+   "en": "Phytophthora Fungus",
+   "zh": "榴莲疫病（棕榈疫霉）"
+  },
+  "sci": "<em>Phytophthora palmivora</em>",
+  "desc": {
+   "en": "The fungus <em>Phytophthora palmivora</em> is a pathogen often reported on durian. It can cause Durian Patch Canker and Phytophthora Fruit Rot. It is an effective pathogen: it produces sporangia that can survive and spread through the air, and it sporulates quickly on the plant. Its zoospores can enter the roots, attracted chemically and electrostatically. It can also survive for a long time both inside and outside the plant.",
+   "zh": "<em>Phytophthora palmivora</em>（棕榈疫霉）是榴莲上常见的病原菌，可引起榴莲斑块溃疡病（茎溃疡）和疫霉果腐病。这种病原菌侵染力强，会产生孢子囊，能够存活并随空气传播，在植株上产孢速度很快。其游动孢子可通过化学和静电吸引进入根部。它在植株体内外都能长期存活。"
+  },
+  "symptoms": [
+   {
+    "en": "In the early stage, small dark brown <em>lesion</em> spots appear on the fruit surface and turn black. In moist, favourable conditions, white and black fungal mycelium grows on the <em>lesions</em>. The fruit becomes rotten and foul within just a few days. It also damages the seeds of the durian fruit.",
+    "zh": "初期，果实表面出现深褐色的小<em>病斑</em>，随后变成黑色。在潮湿适宜的条件下，<em>病斑</em>上会长出白色和黑色的菌丝。果实在短短几天内便会腐烂发臭，还会损坏榴莲的种子。",
+    "steps": [
+     {
+      "en": "Small dark brown <em>lesion</em> spots on the fruit surface that turn black. White and black fungal mycelium can be seen. Also look for fruit that appears rotten and smells foul.",
+      "zh": "果实表面出现深褐色的小<em>病斑</em>，并逐渐变黑，可见白色和黑色的菌丝。同时留意外观腐烂、发出臭味的果实。"
+     }
+    ]
+   },
+   {
+    "en": "When the infection is severe, the leaves wilt and fall. The tree produces a large number of flowers and eventually dies.",
+    "zh": "感染严重时，叶片会萎蔫脱落。树上会大量开花，最终整棵树死亡。",
+    "steps": [
+     {
+      "en": "The tree starts producing many flowers and the leaves fall. This is a sign that the durian tree is going to die.",
+      "zh": "树开始大量开花，叶片脱落。这表示这棵榴莲树即将死亡。"
+     }
+    ]
+   },
+   {
+    "en": "<em>Lesions</em> form on the bark surface, with reddish-brown sap oozing out. The infection starts on the trunk and moves upwards. When the bark is scraped, the tissue underneath looks reddish, and the twigs wilt and dry out, followed by dieback of the upper branches.",
+    "zh": "树皮表面出现<em>病斑</em>，并流出红褐色的树液（流胶）。感染从树干开始，向上蔓延。刮开树皮，可见树干组织呈红色，小枝萎蔫干枯，随后上部枝条枯死。",
+    "steps": [
+     {
+      "en": "<em>Lesions</em> on the bark surface with reddish-brown sap. When the bark is scraped, the tissue of the trunk looks reddish, and the twigs wilt and dry out, followed by dieback of the upper branches.",
+      "zh": "树皮表面有<em>病斑</em>，并流出红褐色树液。刮开树皮，可见树干组织呈红色，小枝萎蔫干枯，随后上部枝条枯死。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "name": {
+   "ms": "Karat Daun Jagung",
+   "en": "Maize Leaf Rust",
+   "zh": "玉米锈病"
+  },
+  "sci": "<em>Puccinia polysora</em> Underw., <em>Puccinia sorghi</em> Schwein.",
+  "desc": {
+   "en": "This fungus causes leaf rust in maize. It is the most worrying disease affecting maize growth. The pathogen also infects other hosts and stunts plant growth. To prevent this, destroy infected plants and practise crop rotation. Always make sure the field has good drainage and use seed varieties that are resistant to this disease. Use chemical fungicides such as tebuconazole at the recommended rate.",
+   "zh": "这种真菌会引起玉米锈病，是影响玉米生长最令人担忧的病害。该病原菌也会侵染其他寄主，使植株生长受阻。为防止发病，应销毁受感染的植株并实行轮作。务必确保田地排水良好，并使用抗此病的种子品种。可按推荐用量使用化学药剂，如戊唑醇 Tebuconazole。"
+  },
+  "symptoms": [
+   {
+    "en": "Oval, orange/rust-coloured spots appear on the leaf surface, causing the leaves to dry out. The leaf sheath is also infected, and in some conditions the leaves become yellow (chlorosis) or die.",
+    "zh": "叶片表面出现椭圆形、橙色/铁锈色的斑点，导致叶片干枯。叶鞘也会受感染，在某些情况下叶片会黄化（褪绿）或枯死。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "name": {
+   "ms": "Penyakit Merah Virus (Tungro)",
+   "en": "Rice Tungro Disease",
+   "zh": "水稻东格鲁病（通格罗病）"
+  },
+  "sci": "Rice tungro spherical virus (RTSV) &amp; Rice tungro bacilliform virus (RTBV)",
+  "desc": {
+   "en": "<p>Rice tungro disease is caused by a combination of two viruses: Rice tungro spherical virus (RTSV) and Rice tungro bacilliform virus (RTBV). The disease is spread by green leafhoppers that feed on plants infected with the tungro virus. It can occur at all growth stages of the rice plant.</p><p><strong>Control Measures</strong></p><ul><li>Destroy infected rice stubble and weeds.</li><li>Plant at the same time as neighbouring fields and avoid using too much nitrogen fertilizer.</li><li>Use varieties that are resistant to this disease or to the insect vector.</li><li>Control the insect vector, the green leafhopper, using integrated control methods.</li></ul>",
+   "zh": "<p>水稻东格鲁病由两种病毒共同引起：水稻东格鲁球状病毒（RTSV）和水稻东格鲁杆状病毒（RTBV）。此病由取食过染病植株的黑尾叶蝉（绿叶蝉）传播，可发生在水稻生长的各个阶段。</p><p><strong>防治措施</strong></p><ul><li>销毁受感染的稻桩和杂草。</li><li>统一同期种植，避免过量施用氮肥。</li><li>使用抗此病或抗传毒昆虫的品种。</li><li>以综合防治方法控制传毒昆虫——黑尾叶蝉。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Infected leaves turn light yellow to orange-yellow. Young leaves become 'mottled', with a pale whitish-green colour between the leaf veins.",
+    "zh": "受害叶片呈淡黄色至橙黄色。嫩叶出现“斑驳”，叶脉之间呈淡绿偏白色。",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Plants are stunted.</li><li>Late flowering.</li><li>Poor, incomplete panicle production.</li></ul>",
+    "zh": "<ul><li>植株矮化。</li><li>抽穗开花推迟。</li><li>稻穗抽出不完全。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 97,
+  "name": {
+   "ms": "Penyakit Hawar Bulir Bakteria",
+   "en": "Bacterial Panicle Blight",
+   "zh": "水稻细菌性穗枯病"
+  },
+  "sci": "<em>Burkholderia glumae</em> &amp; <em>Burkholderia gladioli</em>",
+  "desc": {
+   "en": "This disease causes rotting of rice grains and seedlings and is caused by <em>Burkholderia glumae</em>, a seed-borne disease. Although <em>B. glumae</em> is the main cause, <em>Burkholderia gladioli</em> can also cause this disease. It spreads through seed and can be both seed-borne and soil-borne. The critical periods are the emergence and flowering stages of the rice plant. The bacteria multiply and attack the spikelets as soon as they emerge. This disease can be a major cause of heavy yield losses for farmers. Treat seed by soaking it in a copper-based fungicide as recommended.",
+   "zh": "此病会引起稻谷和秧苗腐烂，病原为种传病菌<em>Burkholderia glumae</em>（颖壳伯克霍尔德氏菌）。虽然<em>B. glumae</em>是主要病原，<em>Burkholderia gladioli</em>（唐菖蒲伯克霍尔德氏菌）也可引起此病。病害通过种子传播，也可经种子和土壤两种途径传播。关键时期是水稻出苗期和抽穗开花期。病菌在小穗抽出后便在其中繁殖并侵害小穗。此病可给农民造成严重的产量损失。请按推荐方法用铜基杀菌剂浸种处理。"
+  },
+  "symptoms": [
+   {
+    "en": "Dark brown discolouration at the base of the grain.",
+    "zh": "谷粒基部变成深褐色。",
+    "steps": [
+     {
+      "en": "Check the rice grains. Infected grains show a darker area at the base. The stalk of an infected panicle stays green, and the flag leaf remains healthy and upright.",
+      "zh": "检查稻谷。受感染的谷粒基部颜色较深。受害稻穗的穗梗仍保持绿色，剑叶健康挺直。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 109,
+  "name": {
+   "ms": "Kumbang Merah Palma",
+   "en": "Red Palm Weevil",
+   "zh": "红棕象甲"
+  },
+  "sci": "<em>Rhynchophorus</em> spp.",
+  "desc": {
+   "en": "<p>Two species of red palm weevil, <em>Rhynchophorus vulneratus</em> - RPW rv (present in Sabah) and <em>Rhynchophorus ferrugineus</em> - RPW rf (not present in Sabah), are major insect pests that attack many palm species such as coconut, oil palm, date palm and areca palm. The larvae bore into and feed on the soft tissue of the trunk and shoot of the palm, causing serious internal damage. Early attacks are hard to detect because most of the pest's activity happens inside the trunk. Attacked palms usually show symptoms such as wilting fronds, damaged or broken young leaves, holes in the trunk that release a foul-smelling liquid, and the presence of chewed fibre waste (frass). A severe attack can make the palm weak, fall over and finally die if it is not controlled quickly.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Avoid injuring the palm trunk, as wounds attract the pest.</li><li>Destroy palms that are severely infested.</li><li>Use pheromone traps to monitor the adult population.</li><li>Inspect the trunk and base of the palm regularly.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Inject insecticides such as methamidophos into the palm trunk.</li><li>When using pesticides, follow the label instructions, including dosage rate, application timing and safety precautions.</li></ul>",
+   "zh": "<p>红棕象甲有两种：<em>Rhynchophorus vulneratus</em>（RPW rv，沙巴有分布）和<em>Rhynchophorus ferrugineus</em>（RPW rf，沙巴未发现），都是危害多种棕榈植物的主要害虫，如椰子、油棕、椰枣和槟榔。幼虫蛀入并取食棕榈树干和心部（生长点）的柔软组织，造成严重的内部损害。早期危害难以察觉，因为害虫大部分活动都在树干内进行。受害植株通常出现以下症状：叶柄（叶片）萎蔫、嫩叶受损或折断、树干上有孔洞并流出恶臭液体，以及出现蛀屑（虫粪纤维）。若不及时防治，严重危害会使植株衰弱、倒伏，最终死亡。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>避免弄伤树干，因为伤口会吸引害虫。</li><li>销毁受害严重的植株。</li><li>使用信息素诱捕器监测成虫数量。</li><li>定期检查树干和树基部。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>将杀虫剂如甲胺磷 Methamidophos 注射入树干。</li><li>使用农药时，须遵守标签说明，包括剂量、施用时间和安全措施。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Adult females lay eggs in wounded or injured parts of the palm caused by rhinoceros beetle attack, human activity or other factors. The larvae feed on the shoot until the palm dies. There are no visible symptoms in the early stage, because the attack is only noticed once it is severe; by then the attacked shoot has rotted and is easily pulled out. Attacked palms usually break at the crown/shoot, leaving only the trunk. The whole life cycle of the red palm weevil takes place inside the palm, and the beetles only come out to look for a new place to breed after the palm dies.",
+    "zh": "雌成虫在因犀角金龟危害、人为活动或其他原因造成的伤口处产卵。幼虫取食心部，直至植株死亡。早期没有明显症状，往往到危害严重时才被发现，此时受害心部已腐烂，很容易被拔出。受害植株通常在树冠/心部折断，只剩下树干。红棕象甲的整个生活史都在树内完成，只有在树死后才会飞出寻找新的繁殖场所。",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Young leaves or fronds gradually wilt and turn yellow.</li><li>Fronds break or collapse easily because of internal damage to the trunk and shoot.</li><li>Holes in the trunk or at the base of the fronds, where larvae and adult beetles go in and out.</li></ul>",
+    "zh": "<ul><li>嫩叶或叶柄逐渐萎蔫、变黄。</li><li>由于树干和心部内部受损，叶柄容易折断或垂倒。</li><li>树干或叶柄基部有孔洞，是幼虫和成虫进出的地方。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 122,
+  "name": {
+   "ms": "Bena Hijau",
+   "en": "Green Leafhopper",
+   "zh": "黑尾叶蝉（绿叶蝉）"
+  },
+  "sci": "<em>Nephotettix virescens</em> (Distant)",
+  "desc": {
+   "en": "<p>The green leafhopper sucks sap from rice leaves and acts as a vector of virus diseases such as rice tungro disease (PMV). Its attack causes the leaves to turn yellow, stunted growth and lower rice yield.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Use resistant or moderately resistant rice varieties.</li><li>Destroy weeds that act as alternative hosts.</li><li>Plant at the same time as neighbouring fields and manage water well.</li><li>Monitor the pest population regularly.</li><li>Encourage natural enemies such as spiders and predatory beetles.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray insecticides such as imidacloprid, dinotefuran or buprofezin at the recommended dose.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dosage rate, suitable application timing and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>黑尾叶蝉吸食稻叶汁液，并传播病毒病，如水稻东格鲁病（PMV）。受害后叶片变黄、植株生长受阻、稻谷产量下降。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>使用抗虫或中抗的水稻品种。</li><li>清除作为中间寄主的杂草。</li><li>统一同期种植，并做好水分管理。</li><li>定期监测虫口数量。</li><li>保护和利用天敌，如蜘蛛和捕食性甲虫。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按推荐剂量喷施杀虫剂，如吡虫啉 Imidacloprid、呋虫胺 Dinotefuran 或噻嗪酮 Buprofezin。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签说明，包括推荐剂量、适当的施药时间以及收割前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Symptoms of rice tungro disease (PMV) spread by the green leafhopper.",
+    "zh": "由黑尾叶蝉传播的水稻东格鲁病（PMV）症状。",
+    "steps": [
+     {
+      "en": "Nymphs and adults suck sap from the leaves and leaf sheaths of the rice clump, causing stunted growth and pale, dried-out leaves.",
+      "zh": "若虫和成虫吸食稻丛叶片和叶鞘的汁液，导致植株生长受阻，叶片发白干枯。"
+     }
+    ]
+   },
+   {
+    "en": "Adult green leafhopper - <em>Nephotettix virescens</em>",
+    "zh": "黑尾叶蝉成虫 - <em>Nephotettix virescens</em>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 129,
+  "name": {
+   "ms": "Keruping Avokado",
+   "en": "Avocado Scab",
+   "zh": "鳄梨疮痂病（牛油果疮痂病）"
+  },
+  "sci": "<em>Sphaceloma perseae</em> Jenkins",
+  "desc": {
+   "en": "<p>Scab (<em>Sphaceloma perseae</em>) is a fungal disease of avocado that reduces fruit quality.</p><p>Disease Management</p><ul><li>Prune dead twigs and branches from the tree before the fungus produces spores.</li><li>Spray with a copper fungicide at the early stage of fruit development.</li></ul>",
+   "zh": "<p>疮痂病（<em>Sphaceloma perseae</em>）是鳄梨（牛油果）的一种真菌病害，会降低果实品质。</p><p>病害管理</p><ul><li>在真菌产生孢子之前，剪除树上的枯枝。</li><li>在果实发育初期喷施铜制杀菌剂。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small, rough, scabby dark brown or black spots appear on the fruit skin.</li><li>The infection can make the fruit skin crack, scar and become dented, spoiling the look of the fruit even though the flesh is still good.</li><li>In severe cases, infected fruit may drop before it is ripe.</li></ul>",
+    "zh": "<ul><li>果皮表面出现深褐色或黑色、粗糙结痂的小斑点。</li><li>感染可导致果皮开裂、留疤和凹陷，影响果实外观，但果肉仍然完好。</li><li>严重时，受感染的果实可能在成熟前脱落。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 159,
+  "name": {
+   "ms": "Penyakit Layu Bakteria Halia",
+   "en": "Ginger Bacterial Wilt",
+   "zh": "生姜青枯病（细菌性枯萎病）"
+  },
+  "sci": "<em>Ralstonia solanacearum</em> (Smith) Yabuuchi et al.",
+  "desc": {
+   "en": "Bacterial wilt of ginger, caused by <em>Ralstonia solanacearum</em>, is a serious threat. It affects the plant's vascular system, causing young leaves to wilt during the day and possibly recover at night, while older leaves wilt gradually but stay green. As the disease develops, the leaves turn yellow before wilting, often together with browning of the stems. Infected roots and rhizomes become soft and brown and give off an unpleasant smell. Plant growth is stunted, and infected stems may release white bacterial slime (ooze) when cut. The disease spreads quickly, usually starting on one side of the plant and then infecting the whole plant. It needs careful management through disease-free planting material, crop rotation and keeping the soil healthy.",
+   "zh": "由<em>Ralstonia solanacearum</em>（青枯雷尔氏菌）引起的生姜青枯病是一种严重威胁。它破坏植株的维管束系统，使嫩叶在白天萎蔫、夜间可能恢复，而老叶则逐渐萎蔫但仍保持绿色。随着病情发展，叶片先变黄后萎蔫，茎部也常常变褐。受感染的根和根茎（姜块）变软、变褐，并散发难闻气味。植株生长受阻，切开受感染的茎时可能流出白色菌脓。此病蔓延迅速，通常从植株一侧开始，再扩展到整株。需要认真管理，包括使用无病种植材料、实行轮作以及保持土壤健康。"
+  },
+  "symptoms": [
+   {
+    "en": "The disease causes wet, water-soaked lesions at the base of the pseudostem, making it rot and easy to pull out. The leaves turn yellow, starting from the lower leaves and spreading to the upper leaves, and then become necrotic (die). The rhizome also rots and smells foul, and the plant is stunted and dies.",
+    "zh": "此病会在假茎基部造成湿润的水渍状病斑，使其腐烂，容易被拔起。叶片从下部开始变黄，逐渐蔓延到上部叶片，随后坏死。根茎（姜块）也会腐烂并发出恶臭，植株矮化并死亡。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 286,
+  "name": {
+   "ms": "Nematod Puru Akar",
+   "en": "Root-Knot Nematode",
+   "zh": "根结线虫"
+  },
+  "sci": "<em>Meloidogyne</em> sp.",
+  "desc": {
+   "en": "<ul><li>Crop yield losses of up to 100%.</li><li>Damages many annual and perennial crops such as tomatoes, vegetables, ornamental plants and grasses.</li><li>Very harmful in tropical and subtropical areas.</li></ul>",
+   "zh": "<ul><li>可造成高达100%的产量损失。</li><li>危害多种一年生和多年生作物，如番茄、蔬菜、观赏植物和草类。</li><li>在热带和亚热带地区危害极大。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Growth of attacked trees declines; the tree looks wilted and the trunk cracks.</li><li>Limits fruit production and shortens the life of the tree.</li><li>'Galls' (swellings) can be seen on attacked roots.</li></ul><p>Life Cycle:</p><ul><li>Juveniles hatch from eggs and move through the soil to attack the roots.</li><li>Juveniles develop into females that lay hundreds of eggs on the root surface.</li><li>The eggs hatch in warm, moist soil and the life cycle continues.</li></ul><p>Nematode management</p><p>Fumigate the soil with methyl bromide before planting.</p>",
+    "zh": "<ul><li>受害树木生长衰退，植株萎蔫，树干开裂。</li><li>限制果实产量，缩短树的寿命。</li><li>受害根部可见“根结”（瘤状肿大）。</li></ul><p>生活史：</p><ul><li>幼虫从卵中孵化，在土壤中移动并侵入根部。</li><li>幼虫发育为雌虫，在根表面产下数百粒卵。</li><li>卵在温暖潮湿的土壤中孵化，继续其生活史。</li></ul><p>线虫管理</p><p>种植前用溴甲烷 Methyl bromide 熏蒸土壤。</p>",
+    "steps": []
+   }
+  ]
+ }
+]

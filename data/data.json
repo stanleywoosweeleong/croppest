@@ -1,0 +1,2427 @@
+{
+ "source": "https://smarttani.sabah.gov.my/ALUS/Pest/",
+ "crops": [
+  {
+   "code": "BUAH",
+   "name": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "pests": [
+    132,
+    128,
+    183,
+    126,
+    129,
+    127,
+    131
+   ]
+  },
+  {
+   "code": "DURIAN",
+   "name": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "pests": [
+    118,
+    120,
+    117,
+    112,
+    25,
+    22,
+    27,
+    20,
+    16,
+    26
+   ]
+  },
+  {
+   "code": "COCONUT",
+   "name": {
+    "ms": "Kelapa",
+    "en": "Coconut"
+   },
+   "pests": [
+    290,
+    310,
+    110,
+    109,
+    283
+   ]
+  },
+  {
+   "code": "KOPI",
+   "name": {
+    "ms": "Kopi",
+    "en": "Coffee"
+   },
+   "pests": [
+    92,
+    90,
+    134
+   ]
+  },
+  {
+   "code": "PINEAPPLE",
+   "name": {
+    "ms": "Nanas",
+    "en": "Pineapple"
+   },
+   "pests": [
+    173,
+    309
+   ]
+  },
+  {
+   "code": "JACKFRUIT",
+   "name": {
+    "ms": "Nangka",
+    "en": "Jackfruit"
+   },
+   "pests": [
+    286,
+    288,
+    47
+   ]
+  },
+  {
+   "code": "PADDY",
+   "name": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "pests": [
+    122,
+    124,
+    42,
+    43,
+    38,
+    105,
+    125,
+    97,
+    44,
+    41,
+    45,
+    104
+   ]
+  },
+  {
+   "code": "BANANA",
+   "name": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "pests": [
+    100,
+    1,
+    2,
+    3,
+    4,
+    102
+   ]
+  }
+ ],
+ "parts": {
+  "STEM": {
+   "ms": "Batang",
+   "en": "Stem"
+  },
+  "LEAF": {
+   "ms": "Daun",
+   "en": "Leaf"
+  },
+  "PLANT": {
+   "ms": "Pokok",
+   "en": "Plant"
+  },
+  "ROOT": {
+   "ms": "Akar",
+   "en": "Root"
+  },
+  "FR": {
+   "ms": "Buah",
+   "en": "Fruit"
+  },
+  "PEST": {
+   "ms": "Perosak",
+   "en": "Pest"
+  },
+  "TREE": {
+   "ms": "Pokok",
+   "en": "Tree"
+  },
+  "MORFOLOGI": {
+   "ms": "Morfologi",
+   "en": "Morphology"
+  },
+  "BEAN": {
+   "ms": "Biji Kopi",
+   "en": "Coffee Bean"
+  },
+  "F": {
+   "ms": "Pelepah",
+   "en": "Frond"
+  },
+  "LC": {
+   "ms": "Kitaran Hidup",
+   "en": "Life Cycle"
+  }
+ },
+ "pests": [
+  {
+   "id": 1,
+   "crops": [
+    "BANANA"
+   ],
+   "name": {
+    "ms": "Layu Bakteria<em> (Ralstonia solanacearum</em> species complex)",
+    "en": "Bacterial Wilt <em>(Ralstonia solanacearum</em> species complex)"
+   },
+   "affected": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "desc": {
+    "ms": "<em>Ralstonia solanacearum</em> spesis kompleks adalah bakteria bawaan tanah, aerob tanpa spora dan gram-negatif yang menyebabkan penyakit tanaman. Bakteria ini menjangkiti zailem menyebabkan penyakit layu pada tanaman pisang. Tanaman yang dijangkiti harus dihapuskan dengan segera. Belum ada kaedah yang berkesan untuk mengawal penyakit ini. Oleh itu untuk penanaman di kawasan baharu gunakan bahan tanaman yang bebas penyakit.",
+    "en": "<em>Ralstonia solanacearum</em> species complex is a soil-borne bacterium, aerobic non-spore-forming and gram-negative plant pathogen. This bacterium colonises the xylem causing bacterial wilt in banana. There is no known effective control of the disease. Diseased banana plant should be destroyed immediately. Therefore planting in new area should use disease-free material."
+   },
+   "symptoms": [
+    {
+     "part": "STEM",
+     "img": "THUMBNAIL_9.jpg",
+     "text": {
+      "ms": "Batang menunjukkan perubahan warna pada tisu vaskular. Bahagian batang yang di potong jika direndam dalam air jernih dalam bekas lutsinar atau kaca menunjukkan juraian ooz bakteria.",
+      "en": "The stem has discoloured vascular tissues. The cut end of the stem when submerge in clear water in clear or glass container, cloud of bacterial ooze seem streaming down."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_8.jpg",
+       "text": {
+        "ms": "Potong batang pisang atau tangkai buah dan lihat perubahan warna pada tisu vaskular (bahagian tengah atau batang sebenar). Bahagian yang dipotong ini jika direndam dalam air jernih dalam bekas yang lutsinar akan keluar juraian ooz bakteria. Ooz bakteria ini boleh juga dalam keadaan tidak berwarna. Pada pisang yang dijangkiti dengan teruk, ooz bakteria ini boleh kelihatan pada potongan batang yang terdedah.",
+        "en": "Cut the stem and observe the discolouration on the vascular tissues (middle or true stem). When the cut end of the stem immerse in clear water in a clear container, cloud of bacterial ooze can be seen streaming out. The bacterial ooze can be transparent in colour. In a severely infected banana plant the bacterial ooze can be seen on the exposed cut stem."
+       }
+      },
+      {
+       "img": "THUMBNAIL_10_qEPiMfP.jpg",
+       "text": {
+        "ms": "Ooz bakteria kelihatan apabila bahagian batang atau umbut di rendam dalam air jernih dalam bekas yang jernih. Ooz bakteria ini berwarna keputihan kadang-kadang tidak berwarna.",
+        "en": "Bacterial ooze can be seen when the cut end of the stem soak in clear water in a clear container. The bacteriel ooze can be whitish in colour sometimes colourless."
+       }
+      }
+     ]
+    },
+    {
+     "part": "LEAF",
+     "img": "THUMBNAIL_6.jpg",
+     "text": {
+      "ms": "Daun muda menguning dan layu.",
+      "en": "Yellowing and wilting of the younger leaves."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_6_6TOxXn7.jpg",
+       "text": {
+        "ms": "Daun muda menguning dan layu.",
+        "en": "Younger leaves turned yellow and wilted."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PLANT",
+     "img": "pokok_pisang_layu_bakteria_YKoZ989.png",
+     "text": {
+      "ms": "Pokok pisang yang dijangkiti penyakit bakteria mempunyai simtom kekuningan dan layu dengan buah dan isi buah yang berubah warna.",
+      "en": "Banana plant infected with the bacterial disease have yellowing and wilting symptoms with fruit pulp and bunch discolouration."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_6.jpg",
+       "text": {
+        "ms": "Pokok yang dijangkiti menunjukkan daun muda yang kuning dan layu.",
+        "en": "Infected plant showed yellowing and wilting of the younger leaves."
+       }
+      },
+      {
+       "img": "THUMBNAIL_10.jpg",
+       "text": {
+        "ms": "Pokok yang dijangkiti akan mengeluarkan ooz bakteria yang boleh diperiksa dengan merendam umbut pisang dalam air dan bekas yang jernih.",
+        "en": "Infected banana plant produced bacterial ooze which can be checked by cutting the stem and immersing the cut end in clear water in a clear container."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "crops": [
+    "BANANA"
+   ],
+   "name": {
+    "ms": "Layu Fusarium<em> (Fusarium oxysporum </em>f. sp. <em>cubense</em>)",
+    "en": "Fusarium wilt <em>(Fusarium oxysporum </em>f.sp. <em>cubense)</em>"
+   },
+   "affected": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "desc": {
+    "ms": "<em>Fusarium oxysporum</em> biasa didapati dalam tanah dan mengeluarkan tiga jenis spora aseksual; makrokonidia, mikrokonidia dan klamidospora. Makrokonidia dan klamidospora biasa berlaku pada perumah / tanaman yang telah atau sedang mati. Klamidospora adalah struktur yang paling signifikan dalam kelangsungan hidup patogen ini. <em>Fusarium oxysporum</em> f. sp. cubense (Foc) menyebabkan penyakit Layu Fusarium atau Penyakit Panama pada tanaman pisang. Patogen ini boleh disebarkan melalui pokok induk dan sulur yang dijangkiti. Oleh itu mana-mana bahan tanaman termasuk sulur yang tidak menunjukkan simtom berpotensi sebagai sumber inokulum. Belum ada kaedah yang berkesan untuk mengawal penyakit ini. Tanaman yang dijangkiti haruslah dimusnahkan dan gunakan bahan tanaman bebas penyakit apabila menanam di kawasan yang baru.",
+    "en": "<em>Fusarium oxysporum</em> is a common inhabitant of soil and produces three types of asexual spores; macroconidia, microconidia and clamydospores. The macroconidia and clamydospores are normally formed on dead or dying host plants. Clamydospores are most significant survival structures of this pathogen and can remain in soil for more than 20 years.<em> Fusarium oxysporum</em> f. sp. cubense (Foc) caused Fusarium Wilt or Panama Disease on banana. The pathogen can be dispersed through infected mother plant and suckers. Therefore any infected plant material, including symptomless suckers, is a potential inoculum source. There is no effective control of this disease. Any infected plant should be destroyed and disease-free planting material must be used for planting in new area."
+   },
+   "symptoms": [
+    {
+     "part": "ROOT",
+     "img": "THUMBNAIL_13_loCSQpI.jpg",
+     "text": {
+      "ms": "Hujung akar rambut adalah tempat bermulanya jangkitan dan merebak ke umbisi. Tanda jangkitan adalah kesan hitam pada tisu dalaman akar berkenaan. Kehadiran nematoda parasitik ini dikaitkan dengan jangkitan yang tinggi penyakit Layu Fusarium atau Panama.",
+      "en": "The tip of the feeder roots are the initial sites of infection which then moves to the rhizome. The signs of the disease are most noticeable as a dark stain where the stele joins the cortex. As the disease develops, large portions of the xylem turn a reddish-brown colour. Parasitic nematodes has been associated with the increase infection of Fusarium Wilt or Panama Disease."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_13_Hd6lNFs.jpg",
+       "text": {
+        "ms": "Hujung akar rambut adalah tempat bermulanya jangkitan dan merebak ke umbisi. Tanda jangkitan adalah kesan hitam pada tisu dalaman akar berkenaan. Penularan jangkitan menyebabkan bahagian zailem berwarna merah-keperangan. Penyakit Layu Fusarium atau Panama ini adalah berkait rapat dengan infestasi nematoda parasit pada akar.",
+        "en": "The tips of the feeder roots are the initial sites of infection which then moves to the rhizome. The signs of the disease are most noticeable as a dark stain where the stele joins the cortex. As the disease develops, large portions of the xylem turn a reddish-brown colour. Fusarium Wilt or Panama Disease has been associatd with parasitic nematodes infestation of the roots."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PLANT",
+     "img": "THUMBNAIL_1.jpg",
+     "text": {
+      "ms": "Jangkitan Fusarium oxysporum bermula daripada hujung akar rambut kemudian ke raizom. Jangkitan kelihatan sebagai bintik hitam pada tisu akar dimana stele bersambung dengan korteks. Perkembangan jangkitan menyebabkan bahagian zailem menjadi perang kemerahan. Daun yang tua akan menjadi kuning dan layu sehingga merebak ke daun muda. Daun-daun yang layu akan patah dan terkulai pada batang pisang.",
+      "en": "Infection by Fusarium oxysporum started from the tip of the feeder roots which then moves to the rhizome. The signs of the disease are most noticeable as a dark stain where the stele joins the cortex. As the disease develops, large portions of the xylem turn a reddish-brown colour. Externally, the oldest leaves start yellowing and wilt. The wilting typically progresses from the older to younger leaves. The wilted leaves also snap at the petiole and hang down the pseudostem."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_2.jpg",
+       "text": {
+        "ms": "Daun tua menguning dan layu. Daun-daun yang layu patah dan jatuh terkulai pada batang pisang.",
+        "en": "Yellowing and wilting of the older leaves. Wilted leaves snap at the petiole and hang down the pseudostem."
+       }
+      }
+     ]
+    },
+    {
+     "part": "STEM",
+     "img": "THUMBNAIL_3.jpg",
+     "text": {
+      "ms": "Jangkitan Fusarium oxysporum mencetuskan mekanisma pertahanan pada pokok perumah menyebabkan pengeluaran lendir. Ini diikuti dengan pembentukan 'tylose' dalam berkas pembuluh yang menyebabkan pergerakkan air dan nutrient ke bahagian atas tanaman tersekat. Keratan rentas batang akan menunjukkan warna perang-kemerahan.",
+      "en": "Infection of Fusarium oxysporum triggers the self-defense mrchanisms of the host plant causing the secretion of a gel. This is followed by the formation of tylose in the vascular vessels which blocks the movement of water and nutrients to the upper part of the plant. A cross section of the pseudostem showed redish-brown discoloration of the vascular vessels."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_3_Rzpu0r8.jpg",
+       "text": {
+        "ms": "Jangkitan Fusarium oxysporum mencetuskan mekanisma pertahanan oleh tanaman yang menyebabkan pengeluaran lendir. Ini diikuti dengan pembentukan \"tylose\" dalam berkas pembuluh yang menyebabkan pergerakkan air dan nutrien ke bahagian atas tanaman tersekat. Keratan rentas batang pokok yang dijangkiti berwarna perang-kemerahan.",
+        "en": "Infection by Fusarium oxysporum triggers the self-defense mechanisms of the host plant causing the secretion of a gel. This followed by the formation of tylose in the vascular vessels which blocks the movement of water and nutrients to the upper part of the plant. A cross section of the pseudostem showed reddish-brown discoloration of the the vascular vessels."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "crops": [
+    "BANANA"
+   ],
+   "name": {
+    "ms": "Nematoda parasit tanaman",
+    "en": "Plant Parasitic nematodes"
+   },
+   "affected": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "desc": {
+    "ms": "Nematoda parasitik pada tanaman pisang di Malaysia trmasuk <em>Pratylenchus reniformis</em>, <em>Melodogyne incognita</em>, <em>Helicothylenchus </em>spp., <em>Radopholus </em>spp., <em>Pratylenchus</em> spp. Nematoda parasitik ini mendapatkan makanan daripada tisu kortikal akar. Aktiviti patogen ini menyebakan kerosakan pada akar tanaman yang dijangkiti dan menjejaskan pengambilan air dan nutrien. Tanaman yang terjejas dengan teruk adalah terbantut dan kurus serta daun kekuningan dengan garisan berwarna hijau-kekuningan di sepanjang daun. Tidak ada kaedah yang berkesan untuk mengawal penyakit ini oleh itu pokok yang dijangkiti harus dihapuskan dengan segera. Tanah dan tanaman yang dijangkiti adalah dilarang untuk di bawa daripada kawasan ini.",
+    "en": "Parasitic nematodes associated with banana in Malaysia include <em>Pratylenchus reniformis</em>,<em> Melodogyne incognita</em>, <em>Helicothylenchus</em> spp., <em>Radopholus</em> spp., <em>Pratylenchus </em>spp. These nematodes feed primarily on cortical tissue of the roots. Their feeding produce lesions and necrosis on the roots depriving the banana of water and nutrients. Heavily infected plants are stunted and have thin pseudostem, whilst leaves are yellowish or show discoloured, greenish-yellow bands along the leaf blades. Infected plants are also prone to wilting during moderate hot days, toppling of plants may also occur. There is no effective control of the disease therefore affected plant should be destroyed immediately. Movement of soils and plants from affected area is strictly prohibited."
+   },
+   "symptoms": [
+    {
+     "part": "ROOT",
+     "img": "Nematode_on_banana_roots_9Qo331x.png",
+     "text": {
+      "ms": "Akar yang dijangkiti mempunyai kesan luka dan tisu-tisu yang mati.",
+      "en": "The affected roots have lesion and dead tissues."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_13_ehl8bbR.jpg",
+       "text": {
+        "ms": "Akar yang dijangkiti mempunyai kesan luka dan tisu-tisu yang mati.",
+        "en": "Affected roots had lesion and dead tissues."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PLANT",
+     "img": "Nematode_on_banana2.png",
+     "text": {
+      "ms": "Pokok pisang yang dijangkiti adalah terbantut dan kurus dengan daun yang menguning. Pokok yang teruk dijangkiti menjadi layu walaupun dalam cuaca yang kurang panas serta mudah tumbang.",
+      "en": "Infected banana plants are stunted and have thin pseudostem with yellowing leaves. Heavily infected plant may be wilt in moderate hot weather and topple down easily."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_12_VIK46Rg.jpg",
+       "text": {
+        "ms": "Pokok pisang yang dijangkiti adalah terbantut dan kurus dengan daun yang menguning. Pokok yang teruk dijangkiti menjadi layu walaupun dalam cuaca yang kurang panas serta mudah tumbang.",
+        "en": "Affected banana plant looks stunted, thin and yellowing of the leaves. Badly affected plant become wilted eventhough the weather is not sunny, and easily topple over."
+       }
+      }
+     ]
+    },
+    {
+     "part": "LEAF",
+     "img": "THUMBNAIL_11.jpg",
+     "text": {
+      "ms": "Daun kekuningan dan mempunyai garisan berwarna hijau-kekuningan.",
+      "en": "Leaves are yellowish or show discoloured, greenish-yellow bands along the leaf blades."
+     },
+     "steps": [
+      {
+       "img": "THUMBNAIL_11.jpg",
+       "text": {
+        "ms": "Daun menguning atau menunjukkan perubahan warna dan terdapat garisan hijau-kuning pada tepi daun.",
+        "en": "Yellowing of the leaves or show discoloured, greenish-yellow bands along the leaf blades."
+       }
+      },
+      {
+       "img": "THUMBNAIL_12.jpg",
+       "text": {
+        "ms": "Pokok pisang yang dijangkiti oleh nematoda parasit senang tumbang walaupun tiupan angin tidak kencang.",
+        "en": "Banana plants affected by parasitic nematode easily topple over with the slightest blowing of wind."
+       }
+      },
+      {
+       "img": "THUMBNAIL_13_zxP6RkZ.jpg",
+       "text": {
+        "ms": "Akar pokok pisang yang di infestasi oleh nematoda parasit mempunyai kesan reput yang kecil yang tidak dalam dan hanya di permukaan. Infestasi yang teruk menyebabkan nekrosis pada akar.",
+        "en": "Banana roots affected by parasitic nematodes have small lesions that are mostly shallow and superficial. Heavy infestations may cause root necrosis."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "crops": [
+    "BANANA"
+   ],
+   "name": {
+    "ms": "Sigatoka Hitam<em> (Mycosphaerella fijiensis)</em>",
+    "en": "Black Sigatoka<em> (Mycosphaerella fijiensis)</em>"
+   },
+   "affected": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "desc": {
+    "ms": "Penyakit ini biasa menjangkiti tanaman pisang. Jangkitan bermula dengan bintik kekuningan pada daun yang kemudian membesar dengan warna ungu/hitam ditengahnya. Jangkitan yang teruk menyebabkan pokok kelihatan seperti terbakar. Penyakit boleh dikawal dengan pemangkasan dan penggunaan racun kulat seperti Mancozeb.",
+    "en": "This is a common disease of banana. Infection started with a yellowish spot on the leaf. The spot became bigger with purplish/black lesion in the middle. Seriously infected trees may have large areas of dead leaf and look like burned. Control of the disease can be done by prunning dead leaves and application of Mancozeb fungicide."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Penyakit_Pisang_Sigatoka_Hitam_PnG.png",
+     "text": {
+      "ms": "Bintik Hitam Sigatoka",
+      "en": "Black Sigatoka Leaf Spot"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Kulat Phytopthora<em> (Phytophthora palmivora)</em>",
+    "en": "Phytopthora fungus (<em>Phytophthora palmivora)</em>"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "Kulat <em>Phytophthora palmivora</em> adalah patogen yang sering dilaporkan pada durian. Ia boleh menjadi penyebab kepada penyakit Bengkak Cerana Durian dan Reput Buah Phytophthora. Ia adalah patogen yang berkesan di mana ia akan menghasilkan sporangium yang mempunyai kemampuan untuk bertahan dan menyebar melalui udara dan mempunyai sporulasi yang cepat di tanaman. Zoospora dapat memasuki akar secara kimia dan elektrostatik. Ia juga dapat hidup lama di dalam dan di luar tanaman.",
+    "en": "The fungus <em>Phytophthora palmivora</em> is a frequent reported pathogen in durian. It will cause Durian Patch Canker and Phytophthora Fruit Rot in Durian. It is an effective pathogen where it will produce sporangium that have the ability to survive and spread through the air and having a rapid sporulation in host plant. The zoospore able to enter the roots chemostatically and electrostatically. It can also able to live a long life inside and outside of the host plants."
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "fruitrotdurian.png",
+     "text": {
+      "ms": "Pada peringkat awal, tompok<em> lesion</em> kecil berwarna coklat gelap akan bertukar kepada warna hitam pada permukaan buah. Apabila keadaan lembab dan sesuai, miselium kulat akan tumbuh pada <em>lesion</em> yang berwarna putih dan hitam. Buah tersebut akan menjadi reput dan busuk dalam masa beberapa hari sahaja. Ia juga akan merosakkan bahagian biji buah durian.",
+      "en": "In the early stages, small patches of dark brown lesions will become black on the surface of the fruit. At moist and suitable conditions, white and black fungal mycelium will grow on lesions. The fruit will be reputable and rotten in just a few days. It will also damage the seed part of the durian fruit."
+     },
+     "steps": [
+      {
+       "img": "fruitrotdurian.png",
+       "text": {
+        "ms": "Tompok<em> lesion</em> kecil berwarna coklat gelap yang akan bertukar kepada warna hitam pada permukaan buah. Miselium kulat berwarna putih dan hitam akan kelihatan. Perhatikan juga buah yang kelihatan reput dan berbau busuk.",
+        "en": "There is small dark brown lesions that will turn black on the surface of the fruit. White and black fungal mycelium will be visible. Also pay attention to fruits that look rotten and smell bad."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PLANT",
+     "img": "canker_durian_new.png",
+     "text": {
+      "ms": "Pada peringkat jangkitan teruk, daun akan menjadi layu dan gugur. Bunga pada pokok akan keluar dengan banyak dan akhirnya pokok akan mati.",
+      "en": "Under severe infection, leaves will wilt and fall. Huge number of flowers on the tree will come out and eventually the tree will die."
+     },
+     "steps": [
+      {
+       "img": "canker_durian_new_zGYkrtN.png",
+       "text": {
+        "ms": "Pokok mula mengeluarkan bunga yang banyak dan daun-daun gugur. Ini menandakan pokok durian itu akan mati.",
+        "en": "Trees that start to produce a lot of flowers and the leaves start falling. This means that the durian tree will die."
+       }
+      }
+     ]
+    },
+    {
+     "part": "STEM",
+     "img": "rotdurian.png",
+     "text": {
+      "ms": "Berlakunya<em> lesion</em> pada permukaan kulit kayu dan damar yang mengalir berwarna coklat kemerahan. Jangkitan bermula pada bahagian batang dan bergerak ke atas. Apabila kulit dikikis, tisu pada batang kelihatan kemerahan dan ranting akan layu dan kering diikuti dengan kematian dahan pada bahagian atas.",
+      "en": "Occurrence of lesions on the surface of the bark and the flowing resin is reddish brown. The infection starts on the trunk part and moves upwards. When the bark is scraped, the tissues of the stem occur reddish and the twigs will wither and dry out followed by the death of the branches at the top."
+     },
+     "steps": [
+      {
+       "img": "rotdurian_2BGtF8q.png",
+       "text": {
+        "ms": "Terdapat<em> lesion</em> pada permukaan kulit kayu dan cairan damar berwarna coklat kemerahan. Apabila kulit dikikis, tisu pada batang akan kelihatan kemerahan dan ranting akan layu dan kering diikuti dengan kematian dahan pada bahagian atas.",
+        "en": "There is lesions on the surface of the bark and the reddish-brown resins fluid. When the bark is scraped off, the tissues occur reddish and the twigs will wither and dry followed by death of the upper branches."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Kulat Antraknos (<em>Colletothricum gloeosporioides</em>)",
+    "en": "Anthracnose fungus (<em>Colletothricum gloeosporioides</em>)"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "<em>Colletothricum gloeosporioides </em>menyebabkan Antraknos Daun di ladang durian. Jangkitan dan perkembangan penyakit oleh fungus ini biasanya bergantung pada air hujan dan juga memerlukan suhu antara 20-25 darjah Celcius agar konidia bercambah dan jangkitan berlaku. Jangkitan bermula dengan konidia yang bercambah yang menghasilkan apesoria yang melekat kuat pada permukaan inang. Ia kemudian akan menembusi kutikula host dan dinding sel. Untuk mengelakkan perkara ini berlaku, pastikan selalu mengamalkan Amalan Pertanian yang Baik (APB) di mana semua daun yang gugur di ladang harus dibersihkan terutama di pangkal pokok agar penyakit tidak merebak. Pemangkasan dahan secara berkala untuk meningkatkan pengudaraan di dalam kanopi dan mengurangkan kelembapan di sekitar pokok. Di bawah jangkitan teruk, semburkan racun kulat sistemik seperti benomyl dan carbendazim dan bergantian dengan fungisida sentuhan (mancozeb dan maneb dalam masa 7-10 hari.",
+    "en": "<em>Colletothricum gloeosporioides </em>cause Leaf Anthracnose in durian plantation. The infection and disease development by this fungus usually depends on rain water and also requires temperature between 20-25 degree Celcius for the conidia to germinate and infection to occur. The infection begins with germinated conidia that produce appresoria that firmly attached to host surface. It will then penetrate the host cuticle and cell wall. To prevent this from happen, make sure to always practicing Good Agricultural Practices (GAP) where all the fallen leaves in the plantation should be cleaned up especially at the base of the tree do prevent the disease from spreading. The branches shouls be pruned regularly to improve the aeration inside the canopy and reduce moisture around the trees. Under severe infection, spray systemic fungicide such as benomyl and carbendazim and alternately with contact fungicide (mancozeb and maneb in between 7-10 days."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "durianantrachnose.png",
+     "text": {
+      "ms": "Berlaku pada pokok dan anak pokok yang kurang dijaga. Bintik nekrotik bulat atau tidak sekata pada bahagian daun atau tepi daun akan timbul. Bintik ini biasanya berwarna kelabu keperangan dan mempunyai beberapa lapisan seperti cincin yang berpusar di sekelilingnya. Serangan teruk akan menyebabkan daun gugur.",
+      "en": "Occurs on poorly cared for trees and seedlings. Round or uneven necrotic spots on the leaves or edges of the leaves will appear. These spots are usually brownish gray in color and have several ring-like layers swirling around them. A severe attack will cause the leaves to fall."
+     },
+     "steps": [
+      {
+       "img": "durianantrachnose_Ta9FAhC.png",
+       "text": {
+        "ms": "Bintik nekrotik bulat atau tidak sekata pada bahagian daun atau tepi daun akan timbul. Bintik ini biasanya berwarna kelabu keperangan dan mempunyai beberapa lapisan seperti cincin yang berpusar di sekelilingnya. Serangan teruk akan menyebabkan daun gugur.",
+        "en": "Round or irregular necrotic spots on the leaf or leaf edge will appear. These spots are usually brownish gray in color and have several ring-like layers swirling around them. A severe attack will cause the leaves to fall."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Cendawan angin<em> (Corticium salmonicolor</em>)",
+    "en": "Pink disease<em> (Corticium salmonicolor)</em>"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "Kulat ini akan menyerang ranting atau dahan pokok durian pada usia bawah 6 tahun. Kulat ini akan mengganggu sistem saliran nutrient pokok dan sangat aktif pada waktu hujan. Penanaman durian berhampiran ladang getah sangat berisiko tinggi untuk menghadapi masalah ini. Bagi mengelakkan masalah penyakit ini, sentiasa amalkan Amalan Pertanian Baik (APB) dengan mencantas dan memusnahkan bahagian yang dijangkiti untuk pengudaraan yang baik bagi mengelakkan jangkitan penyakit. Bagi penanaman baru, pastikan jarak tanaman adalah seperti yang disyorkan. Bagi kaedah pengawalan kimia, sembur atau sapu racun kulat sistemik (benomyl, carbendazim, tridemorph) dan diselangselikan dengan racun kulat sentuh (copper oxychloride) pada setiap 7-10 hari.",
+    "en": "This fungus will attack the twigs or branches of the durian tree at the age of 6 years. This fungus will disrupt the nutrients supply in trees and is very active during the rainy season. Durian cultivation near rubber plantations is very high risk to face this problem. To prevent the problem of this disease, always practice Good Agricultural Practices (GMP) by pruning and destroying the infected parts for good aeration to prevent infection. For new plantings, make sure the planting spacing is as recommended. For chemical control methods, spray or apply systemic fungicides (benomyl, carbendazim, tridemorph) and alternately with contact fungicides (copper oxychloride) every 7-10 days."
+   },
+   "symptoms": [
+    {
+     "part": "STEM",
+     "img": "newdurianpinkdisease.png",
+     "text": {
+      "ms": "Pada peringkat awal, miselium berwarna putih pada kulit dahan atau ranting akan kelihatan. Miselium ini akan menjadi bebenang berwarna merah jambu dan lama-kelamaan ranting atau dahan yang dijangkiti akan mati dan meninggalkan lapisan miselium yang tebal berwarna merah jambu keputihan.",
+      "en": "In the early stages, white mycelium on the bark of a branch or twig will be visible. This mycelium will become a pink thread and over time the infected twig or branch will die and leave a thick layer of whitish pink mycelium."
+     },
+     "steps": [
+      {
+       "img": "newdurianpinkdisease_IlOh0Cf.png",
+       "text": {
+        "ms": "Terdapat miselium berwarna putih pada kulit dahan atau ranting dan akan menjadi bebenang berwarna merah jambu. Lama-kelamaan ranting atau dahan yang dijangkiti akan mati dan meninggalkan lapisan miselium yang tebal berwarna merah jambu keputihan.",
+        "en": "There is a white mycelium on the bark of the branch or twig and will become a pink thread. Over time the infected twigs or branches will die and leave behind a thick layer of mycelium that is pink and whitish in color."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Alga Trentepohlia (<em>Trentepohlia</em> spp.)",
+    "en": "Trentepohlia algae (<em>Trentepohlia</em> spp.)"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "Alga ini adalah sejenis parasit tumbuhan pada tanaman durian. Ia boleh dielakkan dengan melakukan pemangkasan bagi meningkatkan pengudaraan di sekeliling pokok dan mengurangkan kelembapan. Pengairan dan pembajaan yang sempurna boleh mengurangkan infestasi alga ini. Jika berlaku infestasi yang teruk, semburan racun kulat berasaskan kuprum boleh dilakukan.",
+    "en": "This algae is a parasitic plants on durian trees. It can be avoided by pruning to increase aeration around the tree and reduce moisture. Good irrigation and manuring can also reduce infestation of this algae. In case of severe infestation, copper based chemical spray is recommended."
+   },
+   "symptoms": [
+    {
+     "part": "STEM",
+     "img": "Trentepohlia_Durian.png",
+     "text": {
+      "ms": "Batang dan dahan diselaputi oleh lapisan berwarna oren keemasan terang pada bahagian kulit pokok yang terdedah kepada cahaya matahari. Bagi pokok yang terlindung atau batang lembap, alga ini akan berwarna hijau keputihan. Ini akan mengganggu pengeluaran buah dan bunga.",
+      "en": "The stems and branches are covered with a bright golden orange -colored layer on the part of the tree bark that is exposed to sunlight. For sheltered trees or moist stems, these algae will be whitish green in color. This will interfere with fruit and flower production."
+     },
+     "steps": [
+      {
+       "img": "Trentepohlia_Durian.png",
+       "text": {
+        "ms": "Perhatikan pada batang dan dahan jika terdapat selaput lapisan berwarna oren keemasan terang pada bahagian kulit pokok yang terdedah kepada cahaya matahari. Bagi pokok yang terlindung atau batang lembap, alga ini akan berwarna hijau keputihan.",
+        "en": "Diagnose if the stems and branches are covered with a bright golden orange -colored layer on the part of the tree bark that is exposed to sunlight. For sheltered trees or moist stems, these algae will be whitish green in color."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Liken <em>(Parmelia</em> sp.)",
+    "en": "Lichen <em>(Parmelia</em> sp.)"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "Alga ini akan menyebabkan Infestasi Liken pada pokok. Ia akan menyerang pokok yang berada di kawasan berkelembapan tinggi, terutama pada musim hujan. Sekiranya terdapat jangkitan teruk, lakukan penyemburan dengan racun kulat yang mengandungi kuprum dan emulsi minyak. Penyemburan akan lebih berkesan apabila dilakukan semasa liken kering.",
+    "en": "This algae will cause Lichen Infestation in trees. It will attact trees that are in high humidity area, particularly during rainy season. If there is severe infection, do spraying with fungicide that contain copper and oil emulsion. Spraying will be more effective when it is done during the lichen is dry."
+   },
+   "symptoms": [
+    {
+     "part": "STEM",
+     "img": "Durian_Lichen_.png",
+     "text": {
+      "ms": "Infestasi akan berlaku pada batang. dahan dan daun. Tompok-tompok putih kehijauan akan kelihatan pada batang yang diserang. Jika serangan teruk, kulit pokok akan terbelah. Ini akan memberikan kesan kepada pengeluaran bunga dan buah durian.",
+      "en": "Infestation will occur on the stem. branches and leaves. Greenish white spots will appear on the attacked stem. If the attack is severe, the bark of the tree will split. This will affect the production of flowers and fruits."
+     },
+     "steps": [
+      {
+       "img": "Durian_Lichen_.png",
+       "text": {
+        "ms": "Perhatikan infestasi lichen pada batang. dahan dan daun. Tompok-tompok putih kehijauan akan kelihatan pada batang yang diserang. Jika serangan teruk, kulit pokok akan terbelah.",
+        "en": "Look for lichen infestation on the stem. branches and leaves. Greenish white spots will appear on the attacked stem. If the attack is severe, the bark of the tree will split."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Karat Alga Cephaleuros (<em>Cephaleuros virescens)</em>",
+    "en": "Cephaleuros Algal Rust (<em>Cephaleuros virescens)</em>"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "Alga ini akan menyebabkan penyakit iaitu Karat Alga Cephaleuros pada daun durian. Ini adalah alga hijau filamen yang dikenali sebagai parasit pada tumbuhan yang lebih tinggi. Sentiasa amalkan Good Agriculture Pratices (GAP) di mana pembajaan dan pengairan dilakukan dengan baik dan bertani bebas daripada rumpai terutamanya di sekitar pokok. Jarak penanaman juga mesti mengikut cadangan untuk memastikan pengudaraan yang baik dan mengurangkan kelembapan di sekitar pokok.",
+    "en": "This algae will cause disease namely <em>Cephaleuros</em> Algal Rust to durian leaves. This is a filamentous green algae which known as parasites of higher plants. Always practice Good Agriculture Pratices (GAP) where fertilization and irrigation done well and farm free from weeds especially around the trees. Planting distance must also following the recommendation to ensure good aeration and to reduce moisture around the trees."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Untitled-3_cSYjWfC.png",
+     "text": {
+      "ms": "Tompok-tompok perang kemerahan seperti baldu akan kelihatan pada permukaan daun dan ranting. Daun akan menjadi kekuningan dan gugur.",
+      "en": "Reddish brown spots like velvet will appear on the surface of leaves and twigs. Leaves will turn yellowish and fall off."
+     },
+     "steps": [
+      {
+       "img": "Untitled-3_cZ3wCxL.png",
+       "text": {
+        "ms": "Tompok-tompok perang kemerahan seperti baldu akan kelihatan pada permukaan daun dan ranting. Daun akan menjadi kekuningan dan gugur.",
+        "en": "Reddish brown spots like velvet will appear on the surface of the leaves and twigs. The leaves will turn yellow and fall off."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "crops": [],
+   "name": {
+    "ms": "<em>Karat Daun (Puccinia polysora, Puccinia sorghi)</em>",
+    "en": "<em>Leaf Rust (Puccinia polysora, Puccinia sorghi)</em>"
+   },
+   "affected": {
+    "ms": "Jagung",
+    "en": "Maize"
+   },
+   "desc": {
+    "ms": "Kulat ini menyebabkan Karat Daun di jagung. Ini adalah penyakit yang paling membimbangkan yang mempengaruhi pertumbuhan jagung. Patogen ini juga menjangkiti hos lain yang akan menyebabkan membantutkan tumbesaran tumbuhan. Untuk mengelakkan ini berlaku, musnahkan tanaman yang dijangkiti dan amalkan tanaman giliran. Sentiasa pastikan bahawa ladang mempunyai sistem saliran yang baik dan gunakan varieti biji benih yang rintang terhadap penyakit ini. Gunakan racun kimia seperti tebuconazole dengan kadar yang disyorkan.",
+    "en": "This fungus cause Leaf Rust in corn. This is the most devastating rust that affects the development of corn. This pathogen also infects other hosts which will give damages as plant develops. To prevent this from happening, destroy infected plants and practice crop rotation. Always make sure that the field have good drainage system and use seed varieties which is resistance to this disease. Use chemical pesticide such as tebuconazole by following the recommended rate."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Untitled-5.png",
+     "text": {
+      "ms": "Bintik berbentuk bujur dan berwarna oren/karat besi pada permukaan daun yang mengakibatkan daun-daun menjadi kering. Seludang daun juga akan dijangkiti dan dalam keadaan tertentu daun akan klorosis atau mati.",
+      "en": "Oval spots and orange color/iron rust will appear on the surface of the leaves become dry.The leaf sheath will also be infected and under certain circumstances, chlorosis or dead leaves will occur."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Hawar Daun Bakteria<em> (Xanthomonas campestris</em> pv. <em>oryzae)</em>",
+    "en": "Bacterial Leaf Blight (<em>Xanthomonas campestris</em> pv. <em>oryzae)</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "Ia adalah patogen bakteria yang menyebabkan Hawar Daun Bakteria serius pada padi. Patogen ini tersebar dan menjangkiti urat daun dan xilem yang menyebabkan penyumbatan dan juga layu. <em>Bacterial ooze</em> yang keluar dari <em>lesion</em> daun disebarkan oleh angin atau hujan dan menyebabkan luka pada tanaman. Untuk mengelakkan hal ini terjadi, gunakan varieti padi yang rintang dari penyakit ini, elakkan penggunaan baja yang berlebihan dan kawal paras air di ladang.",
+    "en": "It is a bacterial pathogen that causes a serious Bacterial Leaf Blight in paddy. This pathogen grows in plant and infect the leaf veins and xylem which cause blockage and also wilting, The bacterial oozes from leaf lesions is spread by wind or rain and cause wounds to plants. To prevent this from happening, use paddy varieties that is resistant from this disease, avoid excess application of fertilizer and control the water level in field."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "BLLLLLLLLLLLLLLLB.png",
+     "text": {
+      "ms": "Kecederaan bermula di tepi hujung daun. Warnanya hijau pucat ke hijau kelabu, yang kemudiannya bertukar menjadi putih dan kemudian kuning. Garisan kecederaan tidak sama. Hujung daun menjadi kering dan bergulung ke dalam.",
+      "en": "The injury begins at the edge of the leaf tip. Its color is pale green to grayish green, which then turns white and then yellow. The lines of injury are not the same. The tips of the leaves become dry and roll inwards."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Penyakit Karah <em>(Pycularia oryzae)</em>",
+    "en": "Blast disease<em> (Pycularia oryzae)</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p><em>Pycularia oryzae </em>adalah kulat yang menyebabkan Karah daun dan Karah Tangkai pada padi. Penyakit Ini adalah penyakit yang paling serius dalam penanaman padi. Ia adalah kulat fitopatogenik berfilamen yang menjadi nekrotropik yang memusnahkan tisu tumbuhan.</p><p><strong>Kawalan</strong></p><ul><li>Amalkan Amalan Pertanian yang Baik di ladang.</li><li>Bersihkan kawasan sawah dari rumpai dengan menebas, membakar semua jerami padi dan tunggul.</li><li> Gunakan biji yang sihat dengan mengikuti kadar yang disarankan (120kg / ha).</li><li>Rawat benih dengan racun kulat seperti benomil (4g / kg biji) atau captan (2g / kg biji).</li><li>Gunakan baja nitrogen pada kadar yang disyorkan (120 kg N/ha) dan secara berperingkat dengan mengikut keperluan.</li><li>Gunakan baja silika (kadar yang disarankan 50-75 kg / ha) sebagai baja asas untuk mengurangkan jangkitan penyakit.</li></ul>",
+    "en": "<p><em>Pycularia oryzae </em>is a fungus causes Leaf Blast and Neck Blast in paddy. This is the most serious disease in rice cultivation. It is a filamentous phytopathogenic fungus which becomes necrotropic that destroy plant tissues.</p><p><strong>Control </strong></p><ul><li>Practice Good Agricultural Practices in field.</li><li>Clean up the field area from weeds by slashing, burn all the paddy straws and stumps</li><li>Use healthy seeds and plant paddy seeds by following the recommended rate (120kg/ha).</li><li>Treat seeds with fungicide such as benomyl (4g/kg seeds) or captan (2g/kg seeds).</li><li>Use nitrogen fertilizer at recommended rate (120 kg N/ha) and in stages by following the needs.</li><li>Use silica fertilizer (recommended rate 50-75 kg/ha) as basic fertilizer to reduce the disease infection.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "BBlast_lesion.png",
+     "text": {
+      "ms": "Bintik daun berbentuk lonjong dan tajam di kedua-dua hujung. Bahagian tepi berwarna perang kemerahan dengan tengahnya berwarna kelabu keputihan.",
+      "en": "Leaf spots are oval and sharp at both ends of the edges are reddish brown with a whitish gray center."
+     },
+     "steps": []
+    },
+    {
+     "part": "STEM",
+     "img": "blast_2.PNG",
+     "text": {
+      "ms": "Jangkitan juga boleh berlaku pada buku batang padi dan pangkal tangkai padi yang menyebabkan penyakit reput tangkai. Serangan penyakit reput tangkai di peringkat awal pembentukan bulir boleh menyebabkan padi sambang.",
+      "en": "Infection can also occur on the rice stalk and the base of the rice stalk causing stalk rot disease. Attacks of stalk rot disease in the early stages of grain formation can cause &#39;padi sambang&#39;."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Bintik Perang (<em>Cochliobolus miyabeanus)</em>",
+    "en": "Brown spot<em> (Cochliobolus miyabeanus)</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p><em>Cochliobolus miyabeanus </em>adalah kulat yang menyebabkan Penyakit Bintik Perang pada padi. Ia merupakan penyakit padi yang lazim dan berleluasa yang boleh menyebabkan petani kehilangan hasil padi yang tinggi. Penyakit berlaku di persekitaran yang lebih kering di mana jumlah air berkurang. Ia tumbuh dengan baik pada suhu rendah semasa peringkat perkembangan.</p><p><strong>Kawalan</strong></p><ul><li>Gunakan varieti padi yang tahan penyakit terutama di kawasan di mana kesuburan tanah menjadi masalah.</li><li>Gunakan baja silika sebelum penanaman untuk meningkatkan daya tahan dari jangkitan bintik perang dan untuk meningkatkan hasil.</li><li> Elakkan stress air kerana penyakit ini teruk ketika musim kemarau atau kekurangan air.</li><li>Bajak atau bakar semua tunggul dan sisa tanaman yang dijangkiti.</li><li>Sekiranya terdapat serangan teruk, semburkan dengan racun kulat seperti mancozeb + tricyclazole atau carbendazim pada peringkat bunting.</li><li>Rawat biji benih dengan racun kulat seperti thiram, captan, carbendazim dan mancozeb untuk mengurangkan jangkitan anak benih.</li></ul>",
+    "en": "<p><em>Cochliobolus miyabeanus </em>is a fungus that causes Brown Spot disease in paddy. It is a common and widespread rice disease which cause high level of yield losses. Disease occur in drier environment where reduced amount of water present. It grows well at low temperature during developmental stages.</p><p><strong>Control</strong></p><ul><li>Use resistant paddy varieties especially in areas where soil fertility is a problem.</li><li>Use silica fertilizers before planting to increase resistance to brown spot infection and to increase yields.</li><li>Avoid water stress as the disease is severe during dry seasons or water shortages.<br>Plow or burn all infected stumps and plant debris.</li><li>In case of severe infestation, spray with fungicides such as mancozeb + tricyclazole or carbendazim at the budding stage.</li><li>Treat seeds with fungicides such as thiram, captan, carbendazim and mancozeb to reduce seedling infection.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Untitled-2_6r41B6p.png",
+     "text": {
+      "ms": "Bintik bulat bujur di permukaan daun, saiz seperti bijan bergaris pusat 8*15 mm, berwarna perak coklat. Bahagian tengah bintik menjadi kelabu keputihan apabila bintik terbentuk sepenuhnya. Bintik juga terdapat pada glumes-kelihatan bintik perang gelap ataupun hitam pada glumes. Bintik perang terdapat pada keleoptil, batang, seludang daun, tangkai panikel dan akar pokok semakin matang.",
+      "en": "Oval round spots on the surface of the leaves, sesame -like size 8-15 mm in diameter, silvery brown in color. The middle part of the spot becomes whitish gray when the spot is fully formed. Spots are also found on glumes &mdash; appear dark brown or black spots on glumes. Brown spots are found on the coleoptile, stems, leaf sheaths, panicle stalks and roots of mature trees."
+     },
+     "steps": [
+      {
+       "img": "Untitled-2.png",
+       "text": {
+        "ms": "Perhatikan bintik bulat bujur di permukaan daun yang berwarna perak coklat. Bahagian tengah bintik menjadi kelabu keputihan apabila bintik terbentuk sepenuhnya. Bintik juga terdapat pada glumes-kelihatan bintik perang gelap ataupun hitam pada glumes.",
+        "en": "Observe the oval round (silvery brown in color) spots on the surface of the leaves.The middle part of the spot becomes whitish gray when the spot is fully formed. Spots are also found on glumes &mdash; appear dark brown or black spots on glumes."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Bintik Perang Tirus <em>(Cercospora oryzae)</em>",
+    "en": "Narrow Brown Spot<em> (Cercospora oryzae)</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "Kulat ini menyebabkan Bintik Perang Tirus pada padi. Ia boleh menjangkiti daun, sarung dan panikel. Penyakit ini biasanya berlaku di tanah yang kekurangan potasium dan di kawasan dengan suhu antara 25-28 darjah Celsius. Ia muncul pada peringkat akhir tanaman padi, bermula pada tahap awal. Tumbuhan paling mudah dijangkiti semasa permulaan panikel dan kerosakan menjadi lebih teruk apabila tanaman semakin matang. Untuk mengelakkan ini terjadi, gunakan varieti padi yang tahan dari penyakit ini dan lakukan pembajaan dengan baja yang mengandungi potassium dan phosphorus. Adalah tidak ekonomi untuk menggunakan racun kulat tetapi penyemburan racun kulat dapat mengawal penyakit kulat lain untuk mencegah penyakit ini.",
+    "en": "This fungus cause Narrow Brown Spot in paddy. It can infect leaves, sheaths and panicles. The disease usually occurs in potassium deficient soils and in areas with temperature ranging from 25-28 degree Celsius. It appears during the late growth stages of rice crop, starting at heading stage. Plants are most susceptible during panicle initiation onwards and damage becomes more severe as plants approach maturity. To prevent this from happening, use rice variety that is resistance from this disease and apply fertilizer that contain potassium and phosphorus. It is not economic to apply fungicide but spraying fungicide can control other fungal disease to prevent this disease."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "brown_spot_paddy.jpg",
+     "text": {
+      "ms": "<em>Lesion</em> yang pendek, lurus dan halus (lebih kurang 2-20 mm panjang dan 1 mm lebar) berwarna coklat keperangan pada permukaan daun. <em>Lesion</em> in juga terdapat pada seludang daun, pedikel, <em>glume </em>atau <em>rice hull</em>.",
+      "en": "Short, straight and fine lesions (approximately 2&ndash;20 mm long and 1 mm wide) are brownish brown on the leaf surface. These lesions are also found on the leaf sheath, pedicel, glume or rice hull."
+     },
+     "steps": [
+      {
+       "img": "narrow_brown_spot.png",
+       "text": {
+        "ms": "<em>Lesion</em> yang pendek, lurus dan halus (lebih kurang 2-20 mm panjang dan 1 mm lebar) berwarna coklat keperangan pada permukaan daun. <em>Lesion</em> in juga terdapat pada seludang daun, pedikel, <em>glume </em>atau <em>rice hull</em>.",
+        "en": "Short, straight and fine lesions (approximately 2&ndash;20 mm long and 1 mm wide) are brownish brown on the leaf surface. These lesions are also found on the leaf sheath, pedicel, glume or rice hull."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Penyakit Hawar seludang (<em>Rhizoctonia solani</em>)",
+    "en": "<em>Sheath Blight Disease</em> (<em>Rhizoctonia solani</em>)"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p><em>Rhizoctonia solani </em>adalah kulat yang menyebabkan Hawar Seludang pada padi dan merupakan salah satu penyakit paling serius dalam penanaman padi. Jangkitan penyakit berlaku apabila padi mencapai pertumbuhan vegetatif sepenuhnya. Simptom dapat diperhatikan pada tahap tumbesaran maksimum atau tumbesaran batang.</p><p><strong>Kawalan</strong></p><ul><li>Gunakan biji benih yang sihat pada kadar optimum dan elakkan pembajaan berlebihan.</li><li>Penambahan baja kalium dan silika dapat mengurangkan jangkitan penyakit. </li><li>Pastikan paras air di tapak semaian tidak terlalu kering.</li><li>Bagi kawalan kimia, gunakan racun perosak kimia seperti isoprothiolane (2kg / ha) dan rawat benih dengan racun kulat seperti thiram (3g / 100g biji), benomil (4g / kg biji) atau captan (3g / 100g biji).</li></ul>",
+    "en": "<p><em>Rhizoctonia solani </em> is a fungus that causes Sheath Blight in paddy and one of the most serious diseases in paddy cultivation. Disease infection occured during paddy&#39;s full vegetative growth. Symptoms can be observed at the stages of maximum tillering or stem elongation.</p><p><strong>Control </strong></p><ul><li>Use healthy seeds at the optimum rate and avoid excess fertilization.</li><li>The addition of potassium and silica fertilizer can reduce the infection of the disease.</li><li>Make sure the water level in nurseries is not too dry.</li><li>As for chemical control, use chemical pesticides such as isoprothiolane (2kg/ha) and treat the seeds with fungicide such as thiram (3g/100g seeds), benomyl (4g/kg seeds) or captan (3g/100g seeds).</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "STEM",
+     "img": "6.jpg",
+     "text": {
+      "ms": "Biasanya mula menyerang pada peringkat beranak maksimum. Bentuk lesi bujur dan melecuh, merebak dengan cepat pada peringkat berbunga sehingga pengisian biji bila terdapat hujan. Boleh menyebabkan padi rebah.",
+      "en": "Usually begins to attack at the maximum reproductive stage. The lesions form oval and scaly, spreading rapidly at the flowering stage until seed filling when there is rain. May cause rice to collapse."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Penyakit Merah Virus (Tungro)",
+    "en": "Rice Tungro Virus"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p>Penyakit Merah Virus (Tungro) disebabkan oleh gabungan dua virus iaitu &#39;Rice tungro spherical virus&#39; (RTSV) dan &#39;Rice tungro bacilliform virus&#39; (RTBV). Penyakit ini disebarkan oleh bena hijau yang memakan tanaman yang dijangkiti virus tungro. Penyakit ini boleh berlaku pada semua peringkat pertumbuhan tanaman padi.</p><p><strong>Langkah Kawalan</strong></p><ul><li>Musnahkan tunggul padi dan rumpai yang dijangkiti.</li><li>Laksanakan penanaman secara serentak dan elakkan penggunaan baja nitrogen yang berlebihan.</li><li>Gunakan varieti tanaman yang tahan terhadap penyakit ini atau terhadap vektor serangga.</li><li>Kawal serangga vektor iaitu bena hijau menggunakan kaedah kawalan secara bersepadu. </li></ul>",
+    "en": "<p>Rice Tungro is caused by the combination of two viruses which are Rice tungro spherical virus (RTSV) and Rice tungro bacilliform virus (RTBV). The viruses are transmitted by green leafhoppers that feed on tungro-infected plants. This disease can occur during all growth stages of the rice plant. </p><p><strong>Control </strong></p><ul><li>Destroy infected rice stubble and weeds.</li><li>Plant simultaneously and avoid excessive use of nitrogen fertilizer.</li><li>Use crop varieties that are resistant to the disease or to insect vectors.</li><li>Control green leafhopper, using integrated control methods.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "tungro-2.jpg",
+     "text": {
+      "ms": "Daun yang diserang berwarna kuning muda hingga kuning jingga. Daun muda menjadi &#39;mottled&#39; dan berwarna hijau pucat keputihan di antara urat daun.",
+      "en": "The infected leaves are light yellow to orange-yellow. The young leaves become &lsquo;mottled&rsquo; and pale green in color between the leaf veins."
+     },
+     "steps": []
+    },
+    {
+     "part": "PLANT",
+     "img": "Untitled-3_HGL1VcX.png",
+     "text": {
+      "ms": "<ul><li>Pokok terbantut. </li><li>Lambat berbunga</li><li>Pengeluaran tangkai tidak sempurna</li></ul>",
+      "en": "<ul><li>The tree is stunted.</li><li>Slow flowering</li><li>Stalk production is imperfect</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "crops": [
+    "JACKFRUIT"
+   ],
+   "name": {
+    "ms": "Reput Buah<em> (Rhizopus</em> sp.)",
+    "en": "Fruit Rot<em> (Rhizopus</em> sp.)"
+   },
+   "affected": {
+    "ms": "Nangka",
+    "en": "Jackfruit"
+   },
+   "desc": {
+    "ms": "<ul><li><p>Reput Buah nangka disebabkan oleh jangkitan kulat.</p></li><li><p>Amalkan Amalan Pertanian yang Baik (APB):</p><ul><li><p>Lakukan pemangkasan untuk meningkatkan pengudaraan di dalam kanopi pokok.</p></li><li><p>Musnahkan semua buah yang dijangkiti, sama ada di pokok atau yang jatuh ke tanah &mdash; bakar atau tanam dalam tanah.</p></li><li><p>Bersihkan kawasan ladang dari rumpai, semak, dan daun gugur.</p></li><li><p>Elakkan mencederakan buah semasa aktiviti ladang.</p></li><li><p>Pastikan buah tidak bersentuhan dengan tanah atau ditindih.</p></li><li><p>Elakkan menyimpan buah di tempat panas dan kurang pengudaraan.</p></li></ul></li><li><p>Jika berlaku serangan teruk:</p><ul><li><p>Semburkan racun kulat berasaskan kuprum pada bunga, tangkai buah, dan buah setiap 7&ndash;10 hari.</p></li></ul></li></ul>",
+    "en": "<ul><li><p>Fruit Rot in jackfruit is caused by fungal infection.</p></li><li><p>Practice Good Agricultural Practices (GAP):</p><ul><li><p>Prune the trees to improve air circulation within the canopy.</p></li><li><p>Destroy all infected fruits, whether still on the tree or fallen on the ground &mdash; burn or bury them.</p></li><li><p>Clean and sanitize the orchard area from weeds, shrubs, and fallen leaves.</p></li><li><p>Avoid injuring the fruits during field operations.</p></li><li><p>Ensure fruits do not touch the soil or pile on top of each other.</p></li><li><p>Avoid storing fruits in hot or poorly ventilated places.</p></li></ul></li><li><p>In case of severe infection:</p><ul><li><p>Spray copper-based fungicides on flowers, fruit stalks, and fruits every 7&ndash;10 days.</p></li></ul></li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "WhatsApp_Image_2025-07-11_at_15.24.39_2.jpeg",
+     "text": {
+      "ms": "<p>Boleh menyerang ranting, tangkai, buah, bunga, putik dan buah.</p><ul><li>Empulur kelihatan reput kehitaman bermula dari bahagian tangkai sehingga keseluruhannya.</li><li>Isi buah, jerami, kulit dan selaput biji kelihatan perang seperti karat dan reput kehitaman. </li><li>Bunga menjadi reput dan diselaputi miselium hitam.</li></ul>",
+      "en": "<p>Can attack twigs, stalks, fruits, flowers, buds and fruit.</p><ul><li>The pith appears to rot to blackness starting from the stalk part to the whole.</li><li>The flesh of the fruit, straw, skin and seed coat look brown like rust and blackish rot.</li><li>The flowers rot and are covered with black mycelium.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "crops": [],
+   "name": {
+    "ms": "Citrus Greening Disease<em> (Candidatus liberibacter asiaticus)</em>",
+    "en": "Citrus Greening Disease<em> (Candidatus liberibacter asiaticus)</em>"
+   },
+   "affected": {
+    "ms": "Sitrus",
+    "en": "Citrus"
+   },
+   "desc": {
+    "ms": "Bakteria ini menyebabkan Penyakit &#39;Citrus Greening&#39; pada limau manis. Ini adalah penyakit tanaman sitrus yang paling serius di dunia. Penyakit ini adalah penyakit yang sangat merbahaya kerana belum ada cara kawalan yang berkesan. Penyakit ini disebarkan oleh serangga yang dijangkiti penyakit. Bakteria &#39;Citrus Greening&#39; dan &#39;psyllid&#39; sitrus Asia merebak pada tanaman sitrus dan bahan tanaman sitrus yang dijangkiti. Tumbuhan dan bahan dapat menyebarkan jangkitan walaupun tidak ada &#39;psyllid&#39; yang kelihatan. Buah sitrus komersial, yang biasanya digred, dicuci, disikat dan dibersihkan tidak menyebarkan penyakit ini. Untuk mengelakkan ini berlaku, langkah-langkah kawalan jangka panjang dapat dilakukan dengan menggunakan bahan penanaman yang bebas dari penyakit dan pastikan perumah kedua untuk patogen seperti limau nipis, pokok daun kari dan limau purut tidak ada di sekitarnya. Musnahkan semua tanaman yang dijangkiti dan cantas semua dahan-dahan yang berpenyakit. Tebang dan bakar semua pokok yang telah disahkan terkena penyakit ini. Kawal lelompat (<em>Diaphorina citri</em>) dengan menyemburkan racun perosak seperti imidachloprid dan diafenthiuron.",
+    "en": "This bacteria causes Citrus Greening in sweet orange. This is the most serious citrus plant disease in the world. Once a tree is infected, there is no cure. Citrus greening is spread by a disease-infected insect. The citrus greening bacterium and the Asian citrus psyllid spread on infected citrus plants and citrus plant material. Plants and material can spread the infection even if no psyllids are visible. Commercial citrus fruit, which is typically graded, washed, brushed and cleaned is not known to spread the disease. To prevent this from happening, long-term control measures can be done by using planting materials that are free from diseases and make sure the secondary host for the pathogen such as key lime, curry leaf and kaffir lime not existed in the surrounding. Destroy all infected plants and prune all infected branches. Cut down and burn all trees that have been confirmed to be affected by the disease. Control hoppers (<em>Diaphorina citri</em>) by spraying pesticides such as imidachloprid and diafenthiuron."
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "buahcgggg.png",
+     "text": {
+      "ms": "Buah menjadi semakin kecil, keras dan tidak sekata.",
+      "en": "Fruits become smaller, hard and lopsided."
+     },
+     "steps": [
+      {
+       "img": "diagcgbuah.png",
+       "text": {
+        "ms": "Buah limau akan menjadi kecil, pahit dan keras serta tidak sekata (<em>lopsided</em>).",
+        "en": "The fruits will become smaller, bitter and hard. The fruits will also appear lopsided."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PLANT",
+     "img": "dbcg.png",
+     "text": {
+      "ms": "Pokok akan mati rosot.",
+      "en": "The trees will undergo dieback."
+     },
+     "steps": [
+      {
+       "img": "digtree.jpg",
+       "text": {
+        "ms": "Pucuk pokok akan menjadi kekuningan, pokok akan terbantut dan perlahan-lahan pokok akan mati.",
+        "en": "The shoots will turn yellowish, stunted and the trees will slowly undergo dieback."
+       }
+      }
+     ]
+    },
+    {
+     "part": "LEAF",
+     "img": "dauncg_new.jpg",
+     "text": {
+      "ms": "<ul><li>Kekuningan antara urat daun pada sebahagian dahan (sektorial)</li><li>Daun menjadi lebih kecil seperti inai dan tumbuh tegak.</li><li>Daun melengkung sedikit dan keras</li></ul>",
+      "en": "<ul><li>Yellowing between leaf veins on some branches (sectorial)</li><li>The leaves become smaller like henna and grow erect.</li><li>The leaves are slightly curved and hard</li></ul>"
+     },
+     "steps": [
+      {
+       "img": "cgdiagnosedaun.jpg.png",
+       "text": {
+        "ms": "Daun akan menjadi hujau kekuningan, kelihatan tebal, kaku dan bersaiz lebih kecil. Kekuningan pada daun akan kelihatan pada urat daunnya.",
+        "en": "The leaves will turn yellowish green, becomes thicker, stiff and smaller in size. The yellowing of leaves might visible on its vein."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "crops": [],
+   "name": {
+    "ms": "Mati Rosot (<em>Erwinia papayae)</em>",
+    "en": "Papaya Dieback (<em>Erwinia papayae)</em>"
+   },
+   "affected": {
+    "ms": "Betik",
+    "en": "Papaya"
+   },
+   "desc": {
+    "ms": "Bakteria ini menyebabkan penyakit Mati Rosot pada betik. Semua kultivar komersial terdedah dan amalan pengurusan oleh petani belum terbukti berjaya dalam menguruskan penyakit ini. Bakteria biasanya memasuki inang melalui luka dan melewati tangkai ke batang hijau. Segmen tangkai daun yang melekat pada lamina akan menyebabkan pengeringan dan busuk. Untuk mengelakkan perkara ini terjadi, sebelum jangkitan berlaku atau di kawasan tanpa jangkitan, pengesanan awal gejala penyakit dari masa ke masa. Pengurusan tanaman yang betul seperti pembajaan dan penuaian. Sentiasa lakukan kebersihan di padang seperti merumput untuk memusnahkan tuan rumah sekunder. Kawal perosak di ladang dan cegah jangkitan dan penyebaran penyakit dari ladang lain dengan mengawal pergerakan manusia dan kenderaan. Sebelum menanam di ladang, gunakan bahan penanaman yang bebas penyakit. Pada peringkat semaian, lebih baik menanam anak benih di rumah kalis serangga. Gunakan biji dari buah yang diambil dari ladang bebas penyakit.",
+    "en": "This bacteria cause Papaya Dieback in papaya. All commercial cultivars are susceptible and management practices by farmers have not been proven to be successful so far in managing this disease. The bacterium typically enters the host through wounds and passes through the petiole into the green stem. The segment of the petiole attached to the lamina will cause drying up and rots. To prevent this from happening, before infection occurs or at the area with no infection, early detection of disease symptoms over time. Proper plant management such as fertilization and harvesting. Always do field sanitation such as weeding to destroy the secondary host. Control the pest in the field and prevent infection and the spread of disease from another field by controlling the movement of humans and vehicles. Before planting in the field, use disease-free planting materials. At nursery stage, it is better to plant seedlings in an insect-proof house. Use seeds from fruits that are been taken from a disease-free field."
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "buahdiebacknew.png",
+     "text": {
+      "ms": "Isi buah juga menjadi melecur dan terdapat tompok-tompok hitam pada kulit.",
+      "en": "The flesh of the fruit shows watersoaked symptom and there are black spots on the skin."
+     },
+     "steps": [
+      {
+       "img": "buahdiebacknew_Czwda9G.png",
+       "text": {
+        "ms": "Terdapat tompok-tompok hitam pada buah muda bermula dengan satu bintik perang kehitaman kecil yang kemudiannya membesar dan merebak. Terdapat kesan melecur pada isi buah betik apabila dibelah.",
+        "en": "Black spots on young fruit starting with a small blackish brown spot that then grows and spreads. There are water-soaked spots on the papaya when cut."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PLANT",
+     "img": "newpapayapokokdieback.png",
+     "text": {
+      "ms": "Pucuk akan menjadi seperti melecur dan nekrotik kehitaman pada bahagian antara pucuk dan pelepah. Pucuk kemudian akan terkulai dan mati.",
+      "en": "Shoots will be wet blisters and blackish necrotic on the part between the shoots and fronds. Shoots will then droop and die."
+     },
+     "steps": [
+      {
+       "img": "newpapayapokokdieback.png",
+       "text": {
+        "ms": "Kesan seperti <em>watersoaked </em>dan nekrotik yang berwarna kehitaman antara pucuk dan pelepah. Pucuk akan kelihatan terkulai dan pokok akan mati.",
+        "en": "Watersoaked and blackish necrotic symptoms between the shoots and fronds. The shoots will look droopy and the tree will die."
+       }
+      }
+     ]
+    },
+    {
+     "part": "LEAF",
+     "img": "daunpapayadiebacknew.png",
+     "text": {
+      "ms": "Tepi daun menjadi nekrotik, layu dan kering. <em>Lesion</em> pada bahagian atas dan bawah daun dan terdapat bintik-bintik pada daun.",
+      "en": "The edges of the leaves become necrotic, withered and dry. Lesions on upper and underside of leaves, including leaf spots."
+     },
+     "steps": [
+      {
+       "img": "daunpapayadiebacknew_4e6QHKG.png",
+       "text": {
+        "ms": "Keadaan tepi daun yang layu dan kering. <em>Lesion</em> pada bahagian atas dan bawah daun dan terdapat bintik-bintik pada daun dan berwarna kehitaman.",
+        "en": "Edges of the leaves that are withered and dry. Lesions on the top and bottom of the leaves and there are spots on the leaves and are black in color."
+       }
+      }
+     ]
+    },
+    {
+     "part": "STEM",
+     "img": "batangpapayadiebacknew.png",
+     "text": {
+      "ms": "Batang dan pelepah daun menunjukkan simptom melecur. Pelepah juga menjadi nekrotik kehitaman dan terkulai.",
+      "en": "The stems and fronds of the leaves shows watersoaked simptom. The fronds also become necrotic, blackish and drooping."
+     },
+     "steps": [
+      {
+       "img": "batangpapayadiebacknew_DcRb4h9.png",
+       "text": {
+        "ms": "Batang dan pelepah daun menunjukkan simptom <em>watersoaked</em>, nekrotik kehitaman dan pelepah terkulai.",
+        "en": "Stems and leaf midribs showing symptoms of watersoaked, black necrotic and drooping midribs."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "crops": [
+    "KOPI"
+   ],
+   "name": {
+    "ms": "Karat Daun (Leaf Rust) -<em> Hemileia vastatrix</em>",
+    "en": "Karat Daun (Leaf Rust) -<em> Hemileia vastatrix</em>"
+   },
+   "affected": {
+    "ms": "Kopi",
+    "en": "Coffee"
+   },
+   "desc": {
+    "ms": "<p>Penyakit Karat Daun Kopi merupakan penyakit kulat yang serius pada tanaman kopi dan disebabkan oleh kulat <em>Hemileia vastatrix</em>. Penyakit ini menyerang terutamanya daun kopi, sekali gus mengurangkan keupayaan pokok untuk menjalankan fotosintesis dan menghasilkan buah yang berkualiti. Daun yang dijangkiti menunjukkan tompok-tompok kuning pada permukaan atas daun dan serbuk berwarna jingga hingga oren pada bahagian bawah daun. Serangan yang teruk boleh menyebabkan daun gugur pramatang, pokok menjadi lemah, pengurangan hasil, serta penurunan kualiti biji kopi. Penyakit ini mudah merebak melalui angin, percikan air hujan, dan bahan tanaman yang dijangkiti, terutama pada cuaca panas dan lembap.</p><p><strong>Pengurusan Penyakit Tanaman:</strong></p><ul><li>Pangkas dahan dan daun yang dijangkiti untuk mengurangkan sumber inokulum.</li><li>Pastikan pengudaraan yang baik dengan mengekalkan jarak tanaman yang sesuai.</li><li>Kutip dan musnahkan daun yang gugur serta dijangkiti.</li><li>Laksanakan pembajaan yang seimbang untuk meningkatkan kesihatan dan ketahanan pokok.</li><li>Kurangkan kelembapan berlebihan di ladang melalui pengurusan naungan dan saliran yang baik.</li><li>Pantau tanaman secara berkala bagi mengesan serangan awal.</li><li>Gunakan racun kulat yang sesuai seperti berasaskan kuprum atau fungisid sistemik mengikut syor dan label produk. Eg: Copper Oxychloride</li><li>Amalkan sanitasi ladang yang baik untuk mengurangkan penyebaran penyakit.</li></ul>",
+    "en": "<p>Coffee Leaf Rust is a destructive fungal disease of coffee caused by the fungus <em>Hemileia vastatrix</em>. The disease primarily affects coffee leaves, reducing the plant&#39;s ability to photosynthesize and produce healthy berries. Infected leaves develop yellow-orange powdery lesions, eventually leading to premature leaf drop. Severe infections can weaken coffee plants, reduce yield, and lower bean quality, causing significant economic losses for coffee growers. The disease spreads mainly through wind, rain splash, and infected plant material, particularly under warm and humid conditions.</p><p><strong>Crop Disease Management:</strong></p><ul><li>Prune infected branches and leaves to reduce sources of inoculum.</li><li>Ensure good air circulation by maintaining proper plant spacing.</li><li>Collect and destroy fallen infected leaves.</li><li>Apply balanced fertilization to improve plant health and resistance.</li><li>Reduce excessive humidity through proper shade and drainage management.</li><li>Monitor plantations regularly for early detection of disease.</li><li>Apply appropriate fungicides such as copper-based products or systemic fungicides according to label recommendations.</li><li>Practice good field sanitation to minimize disease spread.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Coffee_Rust_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Pada permulaannya, kelihatan bintik kecil berwarna kuning pudar di atas permukaan daun.</li><li>Bintik ini bertukar menjadi jingga kemudiannya bertukar keperangan.</li><li>Keadaan serangan teruk menyebabkan daun gugur dan pokok mati rosot.</li></ul>",
+      "en": "<ul><li>At first, small faded yellow spots appear on the surface of the leaves.</li><li>These spots turn orange then turn brown.</li><li>Severe attack conditions cause leaves to fall and dead trees to decay.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "crops": [
+    "KOPI"
+   ],
+   "name": {
+    "ms": "Bintik Daun (Brown Eye Spot) - <em>Cercospora</em> sp.",
+    "en": "Bintik Daun (Brown Eye Spot) - <em>Cercospora</em> sp."
+   },
+   "affected": {
+    "ms": "Kopi",
+    "en": "Coffee"
+   },
+   "desc": {
+    "ms": "<p>Bintik Daun Kopi ialah penyakit kulat pada tanaman kopi yang disebabkan oleh spesies <em>Cercospora</em>. Penyakit ini menyerang daun kopi dan menghasilkan tompok-tompok kecil berwarna coklat berbentuk bulat atau tidak sekata, sering kali dengan bahagian tengah yang lebih cerah atau kelabu, menyerupai &ldquo;mata&rdquo;. Apabila serangan menjadi teruk, daun akan menjadi kuning, kering, dan gugur lebih awal. Ini mengurangkan keupayaan fotosintesis pokok, melemahkan tanaman, serta boleh menyebabkan penurunan hasil dan kualiti biji kopi. Penyakit ini biasanya lebih mudah merebak dalam keadaan kelembapan tinggi, pengudaraan yang kurang baik, dan kawasan tanaman yang terlalu teduh.</p><p><strong>Kawalan Penyakit Tanaman:</strong></p><ul><li>Pangkas dahan dan daun yang terlalu rimbun untuk meningkatkan pengudaraan.</li><li>Keluarkan dan musnahkan daun yang dijangkiti bagi mengurangkan sumber inokulum.</li><li>Amalkan jarak tanaman yang sesuai untuk mengurangkan kelembapan berlebihan.</li><li>Kawal naungan agar tidak terlalu teduh di kawasan tanaman.</li><li>Laksanakan pembajaan seimbang untuk meningkatkan kesihatan pokok.</li><li>Elakkan kelembapan berlebihan dengan sistem saliran ladang yang baik.</li><li>Gunakan racun kulat yang sesuai (contohnya berasaskan kuprum atau fungisid sistemik) mengikut syor label. eg. Copper hydroxide</li><li>Pantau tanaman secara berkala untuk pengesanan awal serangan.</li></ul></p>",
+    "en": "<p>Coffee Leaf Brown Eye Spot is a fungal disease of coffee caused by <em>Cercospora</em> species. It mainly affects coffee leaves, producing small, round to irregular brown lesions often with a lighter or greyish center, giving a &ldquo;brown eye&rdquo; appearance. As the disease progresses, infected leaves may turn yellow, dry out, and drop prematurely. Severe infections reduce the plant&rsquo;s photosynthetic ability, weaken the tree, and can lead to yield reduction and lower coffee quality. The disease is favored by high humidity, poor air circulation, and shaded conditions in coffee plantations.</p><p><strong>Crop Disease Management:</strong></p><ul><li>Prune dense branches and foliage to improve air circulation.</li><li>Remove and destroy infected leaves to reduce inoculum sources.</li><li>Maintain proper plant spacing to reduce excessive humidity.</li><li>Manage shade levels to avoid overly shaded conditions.</li><li>Apply balanced fertilization to strengthen plant health.</li><li>Ensure good field drainage to prevent excessive moisture.</li><li>Apply appropriate fungicides (e.g., copper-based or systemic fungicides) according to label recommendations. eg: Copper hydroxide</li><li>Monitor plants regularly for early detection and control of infection.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Fungus_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Terdapat bintik perang pada daun dan akan membesar dengan margin berwarna perang kemerahan.</li><li>Bintik ini kelihatan pada atas dan bahagian bawah daun.</li><li>Apabila terdapat banyak bintik pada daun, daun kelihatan seperti terbakar.</li></ul>",
+      "en": "<ul><li>There are brown spots on the leaves and will grow with reddish brown margins.</li><li>These spots are visible on the top and bottom of the leaves.</li><li>When there are many spots on the leaves, the leaves look like they are burning.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Penyakit Hawar Bulir Bakteria <em>(Burkholderia glumae &amp; Burkholderia gladioli )</em>",
+    "en": "Bacterial Panicle Blight <em>(Burkholderia glumae &amp; Burkholderia gladioli)</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "Penyakit ini boleh menyebabkan biji padi dan plantlet reput yang disebabkan oleh <em>Burkholderia glumae</em> iaitu penyakit bawaan benih. Walaupun<em> B. glumae</em> adalah penyebab utama penyakit ini, <em>Burkholderia gladioli</em> juga boleh menjadi punca penyakit ini. Penyakit ini berjangkit melalui benih dan juga boleh menjadi kedua-dua benih dan tanah. Titik kritikal adalah semasa peringkat kemunculan dan berbunga tanaman padi. Ia akan membiak dalam dan menyerang spikelet sebaik sahaja ia bercambah. Penyakit ini mampu menjadi punca utama kepada kehilangan hasil yang besar kepada petani. Lakukan rawatan benih dengan merendam benih dalam racun kulat berasaskan kuprum seperti yang disyorkan.",
+    "en": "This is a disease that causes rice grain and plantlet rotting caused by the <em>Burkholderia glumae</em> which is seedborne. Although <em>B. glumae</em> is the main causal of the disease, <em>Burkholderia gladioli </em>can aso be the cause of the disease. This disease transmitted through the seeds and can also be both seeds and soil. The critical point is during the emergence and flowering stages of the paddy plants. It will multiplies within the panicles and attacks spikelets once they sprout. This may be a major causes to a huge loss of yield to the farmers.Treat the seeds by soaking the seeds in a copper-based fungicide as recommended."
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "BPB1.png",
+     "text": {
+      "ms": "Perubahan warna perang gelap di pangkal bijiran",
+      "en": "Dark brown discolouration at the base of the grain"
+     },
+     "steps": [
+      {
+       "img": "BPB2.PNG",
+       "text": {
+        "ms": "Perhatikan bijiran padi. Biji padi yang dijangkiti akan menunjukkan bahagian pangkal bijiran yang lebih gelap. Batang bulir yang dijangkiti kekal hijau dan daun pengasuh sihat dan tegak.",
+        "en": "Pay attention to the grain of rice. Infected rice seeds will show a darker part of the base of the grain. Infected cob stems remain green and the nurse leaves are healthy and upright."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 100,
+   "crops": [
+    "BANANA"
+   ],
+   "name": {
+    "ms": "Bintik Daun Cordana <em>(Cordana musae)</em>",
+    "en": "Cordana Leaf Spot<em> (Cordana musae)</em>"
+   },
+   "affected": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "desc": {
+    "ms": "Bintik daun Cordana bermula dengan bintikl perang atau perang pucat berbentuk bujur/lonjong pada permukaan daun. Bintik ini membesar dengan bahagian tengahnya mempunyai pusaran berwarna kehitaman dikelilingi warna kuning cerah. Jangkitan yang teruk pada permukaan daun akan menyebabkan kawasan hijau berkurangan dan menghalang proses fotosintesis. Kebersihan ladang adalah penting untuk mengawal penyakit ini. Daun yang dijangkiti mesti dipangkas dan dimusnahkan. Kawasan penanaman harus mempunyai saliran yang baik untuk pertumbuhan pokok yang sihat. Kawalan menggunakan racun kulat Mancozeb jika perlu sahaja dan hendaklah dibuat secara berhemah dengan mematuhi peraturan pada bekas/botol racun.",
+    "en": "Cordana leaf spots are oval in shape, pale brown with a yellow border and found on the upper leaf. The spots coalesce, affecting large areas of the leaf which reduce green which in turn prevent photosynthesis."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Penyakit_Pisang_Bintik_Daun_Cordana_New_PnG.png",
+     "text": {
+      "ms": "Penyakit ini menyebabkan bintik kuning atau perang pucat berbentuk bujur/lonjong pada permukaan daun.",
+      "en": "This disease caused brown or yellowish oval shaped spot on the leaf surface."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "crops": [
+    "BANANA"
+   ],
+   "name": {
+    "ms": "Sigatoka Kuning (<em>Mycosphaerella musicola)</em>",
+    "en": "Yellow Sigatoka (<em>Mycosphaerella musicola)</em>"
+   },
+   "affected": {
+    "ms": "Pisang",
+    "en": "Banana"
+   },
+   "desc": {
+    "ms": "Sigatoka Kuning merupakan penyakit yang biasa untuk tanaman pisang. Penyakit ini menjejaskan daun dan mengurangkan proses fotosintesis dan seterusnya saiz tandan.",
+    "en": "Yellow Sigatoka is a common fungal disease affecting banana. Initial symptoms appear on the lower leaves with small reddish-brown specks develop near the tip or margin of lamina and also midrib of leaves. Later the specks increase in size and turn to spindle shape spots with reddish brown margin and grey centre, surrounded by yellow hallow. The spots coalece and leaves starts to dry. Gradually the infection spreads to the upper leaves. This disease reduces plant photosynthetic potential and subsequent bunch size. Remove suckers periodically to avoid overcrowding and maintained only one or two healthy suckers. Remove and burn affected leaves to avoid further spreading of the disease. Keep fields free from weeds."
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Penyakit_Pisang_-_Sigatoka_Kuning_New.jpg",
+     "text": {
+      "ms": "Penyakit bintik daun Sigatoka Kuning",
+      "en": "Yellow Sigatoka leaf spot"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Ulat Pengorek Batang (Stem borer) - <em>Scirpophaga incertulas</em> /<em>Chilo </em>spp<em>.</em>",
+    "en": "Ulat Pengorek Batang (Stem borer) - <em>Scirpophaga incertulas</em> /<em>Chilo </em>spp<em>.</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p>Serangga ini ialah Pengorek Batang Kepala Hitam ia adalah jenis kupu-kupu yang tergolong dalam famili Crambidae. Edward Meyrick (1932) menyatakan bahawa spesis ini terdapat di India, Malaysia, Thailand, Laos, Vietnam dan Indonesia. Lebar sayap kupu-kupu ini adalah 16-25mm, berwarna kuning dan coklat dengan tompok-tompok kecil yang gelap. Larva ulat pengorek batang menyerang bahagian batang padi dengan mengorek masuk ke dalam batang. Serangan pada peringkat vegetatif menyebabkan simptom &ldquo;mati pucuk&rdquo; manakala pada peringkat pengisian biji menyebabkan simptom &ldquo;white head&rdquo; iaitu tangkai padi kosong dan berwarna putih.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Gunakan varieti padi yang tahan serangan jika tersedia.</li><li>Musnahkan tunggul dan sisa tanaman selepas menuai.</li><li>Laksanakan penanaman serentak bagi mengurangkan sumber makanan perosak.</li><li>Pasang perangkap feromon untuk pemantauan populasi rama-rama dewasa.</li><li>Galakkan musuh semula jadi seperti parasitoid telur dan labah-labah.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan racun serangga seperti chlorantraniliprole, fipronil atau cartap hydrochloride berdasarkan dos yang disyorkan.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul></p>",
+    "en": "<p>This insect is a moth in the family Crambidae. Edward Meyrick (1932) described that it is found in India, Malaysia, Thailand, Laos, Vietnam and Indonesia. The wingspan of this moth is 16-25mm in the color of yellow and brown with small dark spots. The larvae of the stem borer attack the rice stem by boring into it. Infestation at the vegetative stage causes the &ldquo;dead heart&rdquo; symptom, while at the grain-filling stage it causes the &ldquo;whitehead&rdquo; symptom, where the panicle is empty and turns white.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Use pest-resistant rice varieties if available.</li><li>Destroy stubble and crop residues after harvesting.</li><li>Practice synchronous planting to reduce pest food sources.</li><li> Install pheromone traps to monitor adult moth populations.</li><li>Encourage natural enemies such as egg parasitoids and spiders</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray insecticides such as chlorantraniliprole, fipronil, or cartap hydrochloride according to the recommended dosage.</li><li>When using pesticides, always wear protective clothing and follow the product label instructions, including the recommended dosage rate, appropriate application timing, and the pre-harvest interval before harvesting.</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "Stemborer_symptom_DOA_Sabah.png",
+     "text": {
+      "ms": "Serangan pengorek batang menyebabkan tangkai padi menjadi putih dan hampa sehingga membentuk gejala &ldquo;white head&rdquo; atau &ldquo;bulu ayam&rdquo; akibat gangguan terhadap aliran nutrien dalam pokok padi.",
+      "en": "Stem borer infestation causes rice panicles to turn white and empty, resulting in a symptom known as &ldquo;white head&rdquo; or &ldquo;dead heart&rdquo; due to disruption of nutrient transport within the rice plant."
+     },
+     "steps": []
+    },
+    {
+     "part": "PEST",
+     "img": "Pengorek_batang_DOA_Sabah.png",
+     "text": {
+      "ms": "Dewasa Pengorek batang <em>Scirpophaga incertulas</em> /<em>Chilo </em>spp<em>.</em>",
+      "en": "Adult rice stem borer <em>Scirpophaga incertulas</em> /<em>Chilo </em>spp<em>.</em>"
+     },
+     "steps": []
+    },
+    {
+     "part": "STEM",
+     "img": null,
+     "text": {
+      "ms": "<p><strong>Simptom serangan Pengorek batang padi</strong></p><ul><li>Batang padi menjadi lemah dan mudah tercabut.</li><li>Batang padi bertukar kekuningan dan layu.</li><li>Terdapat lubang gerekan pada batang padi.</li><li>Serangan teruk menyebabkan batang padi mati.</li></ul>",
+      "en": "<strong>Symptoms of rice stem borer infestation</strong></p><ul><li>Rice stems become weak and can be easily pulled out.</li><li>Rice stems turn yellow and wilt.</li><li>Boring holes can be observed on the rice stems.</li><li>Severe infestations may cause the rice stems to die.</li></ul>"
+     },
+     "steps": [
+      {
+       "img": null,
+       "text": {
+        "ms": "Dapat dilihat pada batang yang telah diserang akan berubah warna daripada hijau ke kekuning kuningan.",
+        "en": "Can be seen on the stems that have been attacked will change color from green to yellowish yellow."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Kesing(Rice ear bug) -<em> Leptocorisa oratorius</em>",
+    "en": "Kesing(Rice ear bug) -<em> Leptocorisa oratorius</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p>Pianggang atau kesing merupakan perosak utama padi. Serangga ini bertelur pada permukaan daun secara berbaris, telur berwarna coklat gelap dan mengambil masa sekitar 7 hari untuk menetas menjadi nimfa. Serangga ini menyerang padi pada peringkat pengisian biji dengan menghisap cecair daripada biji yang sedang matang, menyebabkan biji menjadi hampa, berkualiti rendah serta mengeluarkan bau yang kurang menyenangkan.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Kawalan rumpai yang menjadi perumah seperti rumput sambau dan padi angin.</li><li>Lakukan penanaman dan penuaian serentak bagi mengurangkan populasi perosak.</li><li>Menggunakan perangkap cahaya untuk menarik dan memantau kehadiran serangga dewasa.</li><li><em>Parasitoid telur</em> <em>Gryon nixoni</em> serta pemangsa seperti labah-labah merupakan musuh semula jadi kepada kesing/pianggang.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan racun serangga seperti fipronil atau lambda-cyhalothrin berdasarkan dos yang disyorkan.</li><li>Semburan racun serangga dilakukan dari peringkat berbunga dan susu.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul></p>",
+    "en": "<p>Rice bug is a major rice pest. This insect lays its eggs in rows on the leaf surfaces, with the eggs are dark brown in colour and taking about 7 days to hatch into nymphs. It attacks rice during the grain-filling stage by sucking the fluid from developing grains, causing them to become empty, poor quality, and emit an unpleasant odour.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Control weeds that act as hosts, such as wild rice and volunteer rice.</li><li>Practice synchronous planting and harvesting to reduce pest populations.</li><li>Use light traps to attract and monitor the presence of adult insects.</li><li>The egg parasitoid <em>Gryon nixoni</em> and predators such as spiders are natural enemies of rice bugs/kesing (pianggang).</li></ul><p><strong>Chemical Control (If Necessary) </strong></p><ul><li>Spray insecticides such as fipronil or lambda-cyhalothrin according to the recommended dosage.</li><li>Insecticide spraying is carried out from the flowering stage to the milk stage.</li><li>When using pesticides, always wear protective clothing and follow the product label instructions, including the recommended dosage rate, appropriate application timing, and the pre-harvest interval before harvesting.</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "PLANT",
+     "img": "Kesing_Doa_Sabah.png",
+     "text": {
+      "ms": "<p><strong>Simptom serangan kesing pada padi</strong></p><ul><li>Biji padi mempunyai kesan cucukan atau lubang kecil.</li><li>Buah padi menjadi hampa dan ringan akibat cecair diisap.</li><li>Terdapat tompok perang atau hitam pada biji padi.</li><li>Kualiti dan hasil tuaian menurun akibat kerosakan biji padi</li></ul>",
+      "en": "<p>Symptoms of infestation</p><ul><li>Rice grains show puncture marks or small holes.</li><li>The grains become empty and light due to sap being sucked out.</li><li>Brown or black spots appear on the rice grains.</li><li>Grain quality and yield decrease due to grain damage.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "PEST",
+     "img": "Dewasa_kesing_Leptocorisa_oratorius_DOA_Sabah.png",
+     "text": {
+      "ms": "Dewasa kesing <em>Leptocorisa oratorius</em>",
+      "en": "Adult rice bug <em>Leptocorisa oratorius</em>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "crops": [],
+   "name": {
+    "ms": "Mango Leaf-Cutting weevil<em> (Deporaus marginatus pascal)</em>",
+    "en": "Mango Leaf-Cutting weevil<em> (Deporaus marginatus pascal)</em>"
+   },
+   "affected": {
+    "ms": "Mangga",
+    "en": "Mango"
+   },
+   "desc": {
+    "ms": "<p>Serangga ini dikenali sebagai kumbang pengerat daun mangga, telur ditanam pada tisu daun. <br>serangga ini akan membuat belahan pada daun dan telur akan dimasukkan kedalamnya. <br>Telur diletakkan secara tunggal (0.5mm).<br>Perkembangan selanjutnya berlaku didalam daun yang telah dipotong. <br>Daun gugur pada sesetengah tumbuhan mengelakkan daripada dehidrasi serta merta.<br>Pengeraman: Kira-kira 2 hari<br>Apabila menetas, larva mengorek lubang pada tanah, meyebabkan permukaan yang tidak rata.<br>Peringkat larva: 1 minggu (Saiz :5 mm)<br>Penyediaan pupa: larva membina sel di dalam tanah terlebih dahulu, di dalam sel membentuk pupa.<br>Peringkat pupa: 9 hari &amp; Peringkat Dewasa (5mm) <br>(Khoo et al., 1991) </p><p><strong>Kawalan</strong></p><p>Satu gabungan budaya dan kawalan kimia ialah disyorkan. Semasa menyembur sistemik racun serangga: untuk contoh 0.15% a.i. asetat penyelesaian pada daun baru, yang populasi perosak akan lebih jauh ditindas jika daun potong yang gugur dikeluarkan dan musnah.</p>",
+    "en": "<p>Eggs are embedded in the leaf tissue. A slit made in leaf and then the egg into the slit. Eggs laid singly (0.5mm) Futher development occurs whithin the leaf which has been cut off. Leaf fall on some vegetation prevents immediate dehydration. Incubation about 2 days upon hatching, larva mines on the ground, giving rise to an irregular mine. Larval lasts about a week (full grown :5mm). Preparation pupation : larva constructs a cell in the soil first, whitin the cell forms pupa. Pupa stage : 9 days, Adult (5mm)</p><p><strong>Control methods</strong></p><p>A combination of cultural and chemical control is recommended. While spraying systemic insecticide: for example 0.15% a.i. acephate solution on the new leaves, the pest population will be further suppressed if fallen cut leaves are removed and destroyed.</p>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Deporaus_marginatus.png",
+     "text": {
+      "ms": "<p>Kumbang merosakkan daun muda dengan dua cara: </p><ol><li> Kumbang dewasa memakan daun menyebabkan dehidrasi.</li><li> Serangga betina yang matang akan memotong daun muda merangsang pertumbuhan pucuk baru yang banyak mengakibatkan pertumbuhan yang tidak kemas. Serangan serius akan memberi kesan terhadap pengeluaran buah.</li></ol>",
+      "en": "<p>The weevil damages young leaves in two ways:</p><ol><li>Newly emerged adults feed on the leaves causing its hydration.</li><li>The mature female will cut off young leaves and besides the react loss of eaves the growing point will be stimulated to produce many new shoots, resulting in untidy plants. A serious attack will affect fruits production.</li></ol>"
+     },
+     "steps": [
+      {
+       "img": "Deporaus_marginatus.png",
+       "text": {
+        "ms": "Kerosakan pada pucuk daun mangga oleh Pengerat daun. Daun muda dipotong dipangkal oleh kumbang betina selepas meletakkan telurnya dibahagian tulang daun. Pangkal daun akhirnya gugur meninggalkan batang yang tandus.",
+        "en": "Damage to mango shoots by <em>Deporaus marginatus</em>. The young leaves are cut at the base by the female weevils after she has laid her eggs on the distal portion. The leaf bases eventually drop off leaving barren stems."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "crops": [
+    "COCONUT"
+   ],
+   "name": {
+    "ms": "Kumbang Merah Palma (Red Palm Weevil) -<em>Rhynchophorus </em>spp<em>.</em>",
+    "en": "Kumbang Merah Palma (Red Palm Weevil) -<em>Rhynchophorus </em>spp<em>.</em>"
+   },
+   "affected": {
+    "ms": "Kelapa",
+    "en": "Coconut"
+   },
+   "desc": {
+    "ms": "<p>Dua spesies kumbang merah palma iaitu <em>Rhynchophorus vulneratus</em> - RPW rv (ada di Sabah) dan <em>Rhynchophorus ferrugineus</em> - RPW rf (tiada di Sabah) merupakan serangga perosak utama yang menyerang pelbagai spesies palma seperti kelapa, kelapa sawit, kurma dan pinang. Larva kumbang ini mengorek serta memakan tisu lembut di bahagian batang dan pucuk palma, menyebabkan kerosakan dalaman yang serius. Serangan awal sukar dikesan kerana kebanyakan aktiviti perosak berlaku di dalam batang. Pokok yang diserang biasanya menunjukkan simptom seperti pelepah layu, daun muda rosak atau patah, lubang pada batang yang mengeluarkan cecair berbau busuk, serta kehadiran sisa makanan (frass). Serangan yang teruk boleh menyebabkan pokok menjadi lemah, tumbang, dan akhirnya mati jika tidak dikawal dengan segera.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Elakkan kecederaan pada batang pokok kerana ia menarik perosak.</li><li>Musnahkan pokok yang telah dijangkiti teruk.</li><li>Gunakan perangkap feromon untuk pemantauan populasi dewasa.</li><li>Lakukan pemeriksaan berkala pada batang dan pangkal pokok.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Suntikan racun serangga seperti methamidophos ke dalam batang pokok.</li><li>Apabila menggunakan racun perosak, patuhi arahan label termasuk kadar dos, masa aplikasi dan langkah keselamatan.</li></ul></p>",
+    "en": "<p>Two species of red palm weevil, <em>Rhynchophorus vulneratus - </em>RPW rv(present in Sabah) and <em>Rhynchophorus ferrugineus - </em>RPW rf (not present in Sabah), are major insect pest that attacks various palm species, including coconut, oil palm, date palm, and areca palm. The larvae bore into and feed on the soft tissues inside the trunk and crown, causing severe internal damage. Early infestations are often difficult to detect because most of the feeding activity occurs within the palm. Infested palms may exhibit symptoms such as wilting fronds, damaged or collapsed young leaves, holes in the trunk exuding brownish sap, and the presence of fibrous frass. Severe infestations can weaken the palm, leading to structural failure and eventual death if control measures are not implemented promptly.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Avoid injuring the palm trunk, as wounds can attract the pest.</li><li>Destroy severely infested palms to prevent the spread of infestation.</li><li>Use pheromone traps to monitor the adult population.</li><li>Conduct regular inspections on the trunk and base of the palm.</li></ul><p>Chemical Control (If Necessary)</p><ul><li> Inject insecticides such as methamidophos into the tree trunk.</li><li> When using pesticides, follow the label instructions, including dosage rate, application timing, and safety precautions.</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "PLANT",
+     "img": "RPW_Doa_Sabah.png",
+     "text": {
+      "ms": "Dewasa betina bertelur di bahagian yang luka atau cedera disebabkan oleh serangan kumbang badak, aktiviti manusia atau lain-lain faktor. Larva memakan pucuk sehingga menyebabkan pokok mati. Simptom tidak kelihatan pada peringkat awal serangan kerana ia hanya disedari setelah serangan pada peringkat teruk, pucuk yang diserang menjadi reput dan mudah tercabut. Pokok yang diserang kebiasaannya akan patah di bahagian crown/pucuk dan meninggalkan batang sahaja. Keseluruhan kitaran hidup kumbang RPW adalah berada di dalam pokok dan hanya akan keluar untuk mencari tempat untuk membiak setelah pokok mati.",
+      "en": "Female adults will lay their eggs in injured areas on the tree caused by coconut rhinoceros beetle, human activities or other factors. The larvae (grubs) will eat the shoots causing the tree to die. Symptoms are not visible in the early stage of the attack because they can be only noticed after the attack has progressed to severe stage. The shoots that being attacked will rot and easily pulled out. Infested trees usually break at the crown/shoot and leaving only the trunk behind. The entire life cycle of Red Palm Weevil beetle occurs inside the tree and only comes out to find a new place to breed after the tree dies."
+     },
+     "steps": []
+    },
+    {
+     "part": "TREE",
+     "img": "RPW_Simptom.png",
+     "text": {
+      "ms": "<ul><li>Daun muda atau pelepah menjadi layu dan menguning secara beransur-ansur.</li><li>Pelepah mudah patah atau rebah akibat kerosakan dalaman pada batang dan pucuk.</li><li>Lubang pada batang atau pangkal pelepah yang menjadi tempat keluar masuk larva dan kumbang dewasa.</li></ul>",
+      "en": "<ul><li>Yellowing and wilting of young leaves and fronds.</li><li>Drooping, weakening, or breakage of fronds due to internal tissue damage.</li><li>Presence of holes or tunnels in the trunk or at the base of fronds.</li><li>Brownish or reddish sap-like fluid oozing from infestation sites.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "crops": [
+    "COCONUT"
+   ],
+   "name": {
+    "ms": "Kumbang Daun Kelapa (Coconut Leaf Beetle) -<em>Brontispa longissima</em>",
+    "en": "Kumbang Daun Kelapa (Coconut Leaf Beetle) -<em>Brontispa longissima</em>"
+   },
+   "affected": {
+    "ms": "Kelapa",
+    "en": "Coconut"
+   },
+   "desc": {
+    "ms": "<p>Kumbang daun kelapa, terutamanya spesies <em>Brontispa longissima</em>, ialah perosak utama yang memakan tisu lembut pada pucuk dan daun muda yang belum kembang. Serangan menyebabkan daun kelihatan seperti terbakar atau kering dan bertukar warna coklat, yang boleh membantutkan pertumbuhan atau mematikan pokok jika tidak dikawal.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Pangkas dan musnahkan daun atau pelepah yang terjejas teruk bagi mengurangkan sumber infestasi.</li><li>Elakkan pemindahan anak benih dari kawasan yang dijangkiti perosak.</li><li>Galakkan penggunaan musuh semula jadi seperti parasitoid <em>Asecodes hispinarum</em> yang menyerang larva kumbang.</li><li>Amalkan sanitasi ladang dengan memusnahkan pelepah mati dan sisa tanaman yang berpotensi menjadi tempat pembiakan perosak.</li><li>Lakukan pemantauan berkala terutama pada pucuk dan pelepah muda di kawasan tanaman muda.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Penggunaan racun serangga atau ubat gegat (naphthalene) yang diletakkan di celah pelepah daun untuk anak pokok.</li><li>Apabila menggunakan racun perosak, patuhi arahan label termasuk kadar dos, masa aplikasi dan langkah keselamatan.</li></ul></p>",
+    "en": "<p>The coconut leaf beetle, particularly <em>Brontispa longissima</em>, is a major pest that feeds on the soft tissues of unopened shoots and young leaves. Infestation causes the leaves to appear burnt or dried, turning brown in color, which can stunt growth or even kill the palm if left uncontrolled.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Prune and destroy severely infested leaves or fronds to reduce sources of infestation.</li><li>Avoid transferring seedlings from pest-infested areas.</li><li>Encourage the use of natural enemies such as the parasitoid <em>Asecodes hispinarum</em>, which attacks the beetle larvae.</li><li>Practice good field sanitation by removing dead fronds and plant debris that may serve as breeding sites for the pest.</li><li>Conduct regular monitoring, especially on young shoots and fronds in newly established planting areas.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Use registered insecticides or mothballs (naphthalene) placed between the leaf axils to protect young palms from pest attacks.</li><li>Pesticides should be applied according to the label instructions, including the recommended dosage, application timing, and safety precautions.</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Brontispa_DOA_Sabah.png",
+     "text": {
+      "ms": "<p><strong>Simptom serangan </strong></p><ul><li>Daun muda bergulung dan berkedut.</li><li>Terdapat tompok-tompok perang atau jalur kering pada permukaan daun.</li><li>Daun kelihatan terbakar atau kering.</li><li>Pertumbuhan anak pokok menjadi terencat.</li><li>Pelepah muda tidak terbuka dengan sempurna.</li></ul>",
+      "en": "<p><strong>Symptoms of Infestation</strong></p><ul><li>Young leaves become curled and wrinkled.</li><li>Brown spots or dry streaks appear on the leaf surface.</li><li>Leaves appear scorched or dried out.</li><li>Growth of young seedlings becomes stunted.</li><li>Young fronds do not open properly.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Pengorek Biji Durian (Durian Seed Borer) - <em>Mudaria magniplaga</em> Walker",
+    "en": "Pengorek Biji Durian (Durian Seed Borer) - <em>Mudaria magniplaga</em> Walker"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "<p>Sejenis perosak yang menyerang buah durian dengan mengorek dan memakan biji di dalam buah. Larva (ulat) masuk ke dalam buah dan membentuk terowong sehingga ke bahagian biji, menyebabkan kerosakan dalaman yang serius. Serangan biasanya berlaku pada buah yang sedang berkembang hingga hampir masak. Perosak ini sukar dikesan pada peringkat awal kerana kerosakan berlaku di dalam buah tanpa tanda luar yang jelas. Serangga ini merupakan sejenis kupu-kupu yang tergolong dalam famili Noctuidae dan oder Lepidoptera. Terdapat lubang serangan dan sisa buangan fras pada permukaan buah. Buah yang diserang biasanya akan busuk dan luruh.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Amalan Pertanian Baik (APB) </li><li>Kutip dan musnahkan buah yang diserang atau gugur untuk mengurangkan sumber pembiakan.</li><li>Lakukan pemantauan kebun secara berkala, terutama pada musim berbuah.</li><li>Gunakan pembungkusan buah (fruit bagging) untuk menghalang rama-rama bertelur pada buah.</li><li>Kawal rumpai dan pastikan kebun bersih untuk mengurangkan habitat perosak.</li><li>Membersihkan persekitaran ladang serta mengutip buah yang rosak dan dihapuskan bagi mengelak serangga membiak pada buah yang rosak.</li></ul><p>Kawalan Kimia (Jika Perlu)</p><ul><li>Sembur racun seperti Deltamethrin /Cypermethrin/ Dimethoate mengikut kadar yang disyorkan pada label.</li><li>Semasa menggunakan racun perosak, sentiasa memakai pakaian pelindung dan mematuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>This insect is a moth that belongs to the Noctuidae family and the Lepidoptera order. The larvae cause damage by digging into the skin of the fruit, pulp, and seeds. There are attack holes and waste residues on the surface of the fruit, and the attacked fruit will usually rot and fall.</p><p><strong>Integrated Pest Management (IPM)</strong> </p><ul><li>Cleaning the farm environment, picking damaged fruit, and removing it to prevent insects from breeding on damaged fruit can reduce Pest attacks.</li></ul><p>Chemical Control (If needed)</p><ul><li>Apply insecticides such as Deltamethrin / Cypermethrin / Dimethoate according to the rate recommended on the label.</li><li>When applying pesticides, wear protective clothing and follow the product label instructions, including the correct dosage, timing, and pre-harvest interval.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "JABATAN_PERTANIAN_SABAH_2.png",
+     "text": {
+      "ms": "<ul><li>Larva mengorek kulit buah, isi dan biji.</li><li>Di permukaan buah terdapat lubang serangan yang dipenuhi oleh butiran fras yang kasar dan basah.</li><li>Fras yang basah menunjukkan adanya larva yang hidup di dalam buah, sedangkan fras yang kering pula menunjukkan larva telah membentung kepompong atau telah muncul menjadi dewasa.</li><li>Buah yang diserang biasanya jadi busuk dan luruh.</li></ul>",
+      "en": "<ul><li>The larvae dig into the skin of the fruit, pulp and seeds.</li><li>On the surface of the fruit, there are attack holes filled with coarse and wet frass grains.</li><li>A wet frass indicates the presence of larvae in the fruit, while a dry frass indicates that the larvae have cocooned or emerged as adults.</li><li>Affected fruits usually will rot </li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Kutu Psilid Durian (Psyllid) - <em>Allocaridara malayensis</em> Crawford",
+    "en": "Kutu Psilid Durian (Psyllid) - <em>Allocaridara malayensis</em> Crawford"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "<p>Psyllid durian (Psylidae: Hemiptera) ialah serangga perosak kecil yang menghisap sap dan terutamanya menyerang pokok durian. Kedua-dua peringkat nimfa dan dewasa memakan pucuk muda, daun, dan tunas dengan cara mencucuk tisu tumbuhan dan menghisap sap. Aktiviti pemakanan ini boleh menyebabkan daun menggulung, pertumbuhan pucuk terbantut, serta pembentukan kulapuk hitam (sooty mould) akibat rembesan honeydew.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Laksanakan pemantauan awal untuk mengesan kehadiran perosak.</li><li>Lakukan kawalan menggunakan semburan biopestisid seperti cuka kayu.</li></ul><p>Kawalan Kimia (Jika Perlu)</p><ul><li>Gunakan racun perosak yang mengandungi bahan aktif abamectin atau cypermethrin mengikut syor label.</li><li>Semasa menggunakan racun perosak, sentiasa memakai pakaian pelindung dan mematuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>Durian psyllid (Psylidae: Hemiptera) is a small sap-sucking insect pest that primarily attacks durian trees. Both nymphs and adults feed on young shoots, leaves, and buds by piercing plant tissues and sucking sap. This feeding activity can cause leaf curling, stunted shoot growth, and the development of sooty mould due to honeydew secretion.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li><p>Conduct early monitoring to detect the presence of pests.</p></li><li><p>Apply control measures using biopesticide sprays such as &#39;Cuka kayu&quot;.</p></li></ul><p>Chemical Control (if needed)</p><ul><li>Use chemical pesticides containing the active ingredients abamectin or cypermethrin, following label recommendations.</li><li>When applying pesticides, wear protective clothing and follow the product label instructions, including the correct dosage, timing, and pre-harvest interval.</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Psilid_pada_daun_muda_durian.png",
+     "text": {
+      "ms": "<ul><li>Psyllid menyerang pucuk terutama daun muda ketika pengeluaran pucuk.</li><li>Larva dan dewasa menghisap cecair daun.</li><li>Populasi tinggi menyebabkan serangan teruk- daun menjadi kerinting, kering dan gugur.</li></ul>",
+      "en": "<ul><li>Psyllid attack young shoot and new leave </li><li>Both the adult and nymph stages by sucking the cell fluid on the surface and under the shoots/young leaves of durian</li><li>high infestation causing the leave to shrivel, dry, desiccated and plant stunted. </li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "MORFOLOGI",
+     "img": "Psyllid_durian_cpEnabx.png",
+     "text": {
+      "ms": "Psilid durian (<em>Allocaridara malayensis</em>)",
+      "en": "Durian psyllid (<em>Allocaridara malayensis</em>)"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Koya (Mealybug) - <em>Planococcus pacifus</em>",
+    "en": "Koya (Mealybug) - <em>Planococcus pacifus</em>"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "<p>Serangga ini menyerang tanaman durian dengan menghisap sap daripada pucuk muda, daun, tangkai, bunga dan buah. Serangga ini diselaputi lapisan putih seperti kapas yang melindungi badannya dan sering ditemui secara berkelompok. Serangan menyebabkan pertumbuhan pokok terbantut, daun menjadi kuning, layu dan gugur. Pada buah, serangan boleh mengurangkan saiz, menjejaskan kualiti dan menyebabkan buah gugur pramatang. Madu yang dirembeskan juga menggalakkan pertumbuhan kulapuk jelaga (sooty mould), yang menutupi permukaan daun dan buah lalu mengurangkan kadar fotosintesis.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Amalan Pertanian Baik (APB) </li><li>Pantau kebun secara berkala, terutamanya pada pucuk muda, bunga dan buah, bagi mengesan serangan pada peringkat awal.</li><li>Pangkas dan musnahkan bahagian pokok yang diserang dengan teruk untuk mengurangkan sumber infestasi.</li><li>Kawal populasi semut kerana semut melindungi koya daripada musuh semula jadi dan membantu penyebarannya.</li><li>Galakkan pemeliharaan musuh semula jadi seperti kumbang kura-kura (ladybird beetles), lacewings dan tebuan parasitoid yang membantu mengawal populasi koya.</li><li>Elakkan penggunaan baja nitrogen secara berlebihan kerana pertumbuhan pucuk yang terlalu subur menggalakkan serangan koya</li><li>Bersihkan persekitaran ladang serta kutip dan hapuskan buah yang rosak</li></ul><p>Kawalan Kimia (Jika Perlu)</p><ul><li>Semburkan racun serangga seperti minyak putih, malathion atau dimethoate serta racun kulat seperti benomyl mengikut kadar yang disyorkan pada label.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>This insect attacks durian trees by sucking sap from young shoots, leaves, petioles, flowers, and fruits. It is covered with a white, cottony wax that protects its body and is commonly found in colonies. Infestations stunt tree growth, causing leaves to turn yellow, wilt, and eventually drop. On fruits, feeding damage can reduce fruit size, lower fruit quality, and cause premature fruit drop. The honeydew excreted by the insects also promotes the growth of sooty mould, which covers the surface of leaves and fruits, reducing photosynthesis.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Practice Good Agricultural Practices (GAP) to maintain healthy and vigorous trees.</li><li>Monitor the orchard regularly, especially young shoots, flowers, and fruits, to detect infestations at an early stage.</li><li>Prune and destroy heavily infested plant parts to reduce sources of infestation.</li><li>Control ant populations, as ants protect mealybugs from their natural enemies and facilitate their spread.</li><li>Conserve natural enemies such as ladybird beetles, lacewings, and parasitoid wasps, which help suppress mealybug populations.</li><li>Avoid excessive nitrogen fertilization, as lush vegetative growth encourages mealybug infestations.</li><li>Maintain orchard sanitation by removing weeds and collecting and destroying damaged or infested fruits.</li></ul><p>Chemical Control (When Necessary)</p><ul><li>Apply insecticides such as white oil (horticultural mineral oil), malathion, or dimethoate, and fungicides such as benomyl, according to the recommended label rates.</li><li>When using pesticides, always wear appropriate personal protective equipment (PPE) and follow all instructions on the product label, including the recommended application rate, proper timing of application, and the pre-harvest interval (PHI) before harvesting the crop.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "koya_durian_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Kulat kulapuk hitam akan tumbuh pada permukaan buah akibat daripada rembesan cecair manisan oleh koya.</li></ul>",
+      "en": "<ul><li>Black mold fungus will grow on the surface of the fruit as a result of the honey secretion by the mealybug.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "LEAF",
+     "img": null,
+     "text": {
+      "ms": "<ul><li>Tanda serangan koya dapat dilihat secara jelas pada permukaan daun (depan dan belakang). </li><li>Daun akan diliputi koya mengakibatkan kualiti dan keupayaan fungsi daun merosot</li></ul>",
+      "en": "<ul><li>Infestation signs and the mealybug can be visually seen on the back and front sides of the leaf.</li><li>Leave are covered with mealybug and reduce the quality of the keave.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "crops": [
+    "DURIAN"
+   ],
+   "name": {
+    "ms": "Kumbang Belangkas (Gold-dust weevil) - <em>Hypomeces squamosus</em> Fab",
+    "en": "Kumbang Belangkas (Gold-dust weevil) - <em>Hypomeces squamosus</em> Fab"
+   },
+   "affected": {
+    "ms": "Durian",
+    "en": "Durian"
+   },
+   "desc": {
+    "ms": "<p>Perosak daun yang menyerang tanaman durian, terutama pada peringkat pokok muda hingga matang. Kumbang dewasa memakan permukaan daun, pucuk muda dan kadang-kadang bunga, menyebabkan kerosakan yang jelas pada kanopi pokok.Serangga ini dikenali melalui badan yang diselaputi sisik berwarna kehijauan keemasan seperti debu emas. Larvanya hidup di dalam tanah dan memakan akar, manakala dewasa menyerang bahagian atas pokok. Kumbang dewasa memakan daun dengan cara menggigit bahagian tepi, menyebabkan tepi daun menjadi tidak sekata atau bergerigi. Najis serangga (frass) sering kelihatan pada permukaan daun dan di atas tanah di sekelilingnya.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Amalan Pertanian Baik (APB) </li><li>Pantau kebun secara berkala, terutama pada pucuk muda dan daun baharu.</li><li>Kutip dan musnahkan kumbang dewasa secara manual jika populasi rendah.</li><li>Kawal rumpai di sekitar pokok untuk mengurangkan habitat larva di dalam tanah.</li><li>Galakkan musuh semula jadi seperti burung dan pemangsa serangga.</li></ul><p>Kawalan Kimia (Jika Perlu)</p><ul><li>Gunakan racun serangga yang mengandungi bahan aktif cypermethrin atau deltamethrin, mengikut kadar yang disyorkan pada label produk.</li><li>Semburan hendaklah dilakukan pada waktu pagi di permukaan daun, kerana serangga ini aktif pada waktu tersebut.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>A foliage pest that attacks durian trees, especially from the young to mature stages. Adult beetles feed on the surface of leaves, young shoots, and sometimes flowers, causing visible damage to the tree canopy. This insect is recognized by its body covered with greenish-golden scales resembling gold dust. The larvae live in the soil and feed on roots, while the adults attack the above-ground parts of the tree. Adult beetles feed on leaves by chewing along the edges, resulting in irregular or serrated leaf margins. Insect droppings (frass) are often found on leaf surfaces and on the soil around the tree.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Monitor the orchard regularly, especially young shoots and new leaves.</li><li>Handpick and destroy adult beetles when populations are low.</li><li>Control weeds around the trees to reduce larval habitats in the soil.</li><li>Encourage natural enemies such as birds and insect predators.</li></ul><p><strong>Chemical Control (When Necessary)</strong></p><ul><li>Use insecticides containing active ingredients such as cypermethrin or deltamethrin, according to the recommended label rates.</li><li>Spraying should be carried out in the morning on leaf surfaces, as the pest is most active during this time.</li><li>When using pesticides, always wear appropriate personal protective equipment (PPE) and follow all instructions on the product label, including the recommended dosage, proper timing of application, and the pre-harvest interval (PHI) before harvesting the crop.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "PEST",
+     "img": "Gold_Dust_1_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Kumbang dewasa berwarna badan hijau keemasan berkilau yang diselaputi sisik halus.</li><li>Peringkat dewasa merupakan peringkat yang paling kerap ditemui dan menyebabkan kerosakan pada tanaman dengan memakan daun.</li><li>Serangan menyebabkan terbentuknya lubang-lubang tidak sekata pada permukaan dan tepi daun, sekali gus mengurangkan kadar fotosintesis tumbuhan.</li></ul>",
+      "en": "<ul><li>The adult weevil is easily recognized by its metallic golden-green scales covering the body.</li><li>Both adults and larvae can damage crops, but adults are the most commonly observed stage in plantations and orchards.</li><li>They feed on leaves by chewing irregular holes along the leaf margins and surfaces, reducing the plant&#39;s photosynthetic capacity.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "LEAF",
+     "img": "Gold_dust_DOA_sabah_qJXzU0j.png",
+     "text": {
+      "ms": "<ul><li>Kumbang dewasa menyerang dengan mengunyah tepi daun dan menyebabkan tepi daun bergerigi</li></ul>",
+      "en": "<ul><li>Adult weevils feed by chewing the edges of leaves, resulting in characteristic notched or serrated leaf margins.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Bena hijau (Green leafhopper) - <em>Nephotettix virescens</em>",
+    "en": "Bena hijau (Green leafhopper) - <em>Nephotettix virescens</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p>Bena hijau menghisap cecair daun padi dan bertindak sebagai vektor penyakit virus seperti penyakit merah virus (PMV). Serangan menyebabkan daun menjadi kuning, pertumbuhan terbantut dan hasil padi menurun.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Gunakan varieti padi yang rintang atau sederhana rintang.</li><li>Musnahkan rumpai yang menjadi perumah alternatif.</li><li>Laksanakan penanaman serentak dan pengurusan air yang baik.</li><li>Jalankan pemantauan populasi secara berkala.</li><li>Galakkan musuh semula jadi seperti labah-labah dan kumbang pemangsa.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan racun serangga seperti imidacloprid, dinotefuran atau buprofezin berdasarkan dos yang disyorkan.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul></p>",
+    "en": "<p>The green leafhopper sucks sap from rice leaves and acts as a vector for viral diseases such as tungro disease. Infestation causes leaves to turn yellow, stunted growth, and reduced rice yield.</p><p><strong>Integrated Pest Management (IPM) </strong></p><ul><li>Use resistant or moderately resistant rice varieties.</li><li>Destroy weeds that serve as alternative hosts.</li><li>Implement synchronous planting and good water management.</li><li>Conduct regular population monitoring.</li><li>Encourage natural enemies such as spiders and predatory beetles.</li></ul><p><strong>Chemical Control (If Necessary) </strong></p><ul><li>Spray insecticides such as imidacloprid, dinotefuran, or buprofezin according to the recommended dosage.</li><li>When using pesticides, always wear protective clothing and follow the product label instructions, including the recommended dosage rate, appropriate application timing, and the pre-harvest interval before harvesting</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Penyakit_PMV_DOA_Sabah.png",
+     "text": {
+      "ms": "Simptom serangan penyakit merah virus (PMV) yang disebabkan oleh bena hijau.",
+      "en": "Symptoms of Rice Tungro Disease (RTD), caused by transmission of the green leafhopper."
+     },
+     "steps": [
+      {
+       "img": null,
+       "text": {
+        "ms": "Peringkat nimfa dan dewasa menghisap sap pada daun dan upih rumpun padi mengakibatkan pertumbuhan pokok terbantut dan daunnya menjadi pucat kekeringan.",
+        "en": "."
+       }
+      }
+     ]
+    },
+    {
+     "part": "PEST",
+     "img": "Bena_hijau_DOA_Sabah_SRU0K3p.png",
+     "text": {
+      "ms": "Dewasa Bena hijau (Green leafhopper) - <em>Nephotettix virescens</em>",
+      "en": "Adult green leafhopper (<em>Nephotettix virescens</em>)"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Bena perang (Brown planthopper)<strong> - </strong><em>Nilaparvata lugens</em>",
+    "en": "Bena perang (Brown planthopper)<strong> - </strong><em>Nilaparvata lugens</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p>Bena perang ialah perosak utama padi di Asia yang membiak dengan cepat. Betina bertelur pada upih atau daun secara berkelompok. Dewasa berwarna perang dan mempunyai dua bentuk, iaitu makroptera (bersayap panjang) dan brachyptera (bersayap pendek).Perosak ini menghisap cecair pada pangkal pokok padi hingga menyebabkan &ldquo;hopper burn&rdquo; serta boleh menyebarkan penyakit virus padi.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Elakkan penggunaan baja nitrogen secara berlebihan.</li><li>Pantau populasi bena perang secara berkala di sawah.</li><li>Kekalkan musuh semula jadi seperti labah-labah dan kumbang pemangsa.</li><li>Gunakan varieti tahan jika ada dan laksanakan penanaman serentak.</li><li>Elakkan penggunaan racun serangga secara tidak terkawal yang boleh membunuh musuh semula jadi.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan racun serangga seperti buprofezin, pymetrozine atau imidacloprid berdasarkan dos yang disyorkan.</li><li>Semburan racun serangga dilakukan pada pangkal pokok padi.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul></p>",
+    "en": "<p>The brown planthopper is a major rice pest in Asia that reproduces rapidly. Females lay eggs in clusters on leaf sheaths or sometimes leaf veins. Adults are brown and occur in two forms: macropterous (long-winged) and brachypterous (short-winged). This pest sucks plant sap at the base of rice plants, causing &ldquo;hopper burn&rdquo;, where plants turn brown and die in patches. It can also transmit rice viral diseases.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Avoid excessive use of nitrogen fertilizer.</li><li>Monitor planthopper populations regularly in the rice field.</li><li>Maintain natural enemies such as spiders and predatory beetles.</li><li>Use resistant varieties if available and practice synchronous planting.</li><li>Avoid uncontrolled use of insecticides that may kill natural enemies.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Apply insecticides such as buprofezin, pymetrozine, or imidacloprid according to the recommended dosage</li><li>Spray insecticides at the base of the rice plants</li><li>Always wear protective clothing and follow product label instructions, including recommended dosage, proper application timing, and pre-harvest interval before harvesting</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "MORFOLOGI",
+     "img": "2_cbIYOtG.png",
+     "text": {
+      "ms": "Bena perang (<em>Nilaparvata lugens</em>)",
+      "en": "Brown leafhopper (<em>Nilaparvata lugens</em>)"
+     },
+     "steps": []
+    },
+    {
+     "part": "STEM",
+     "img": "Hopperburn_DOA_Sabah.png",
+     "text": {
+      "ms": "<p><strong>Simptom serangan Bena perang pada padi</strong></p><ul><li>Pokok menjadi kuning, layu dan kering secara bertompok (hopper burn).</li><li>Pertumbuhan padi terbantut dan boleh menyebabkan kemusnahan tanaman apabila serangan teruk.</li><li>Lokasi : Projek Penanaman Padi Sawit Kinabalu, Kg. Ongkilan</li></ul>",
+      "en": "<p><strong>Symptoms of Brown planthopper infestation on rice:</strong></p><ul><li>Plants turn yellow, wilt, and dry out in patches (hopper burn).</li><li>Rice growth becomes stunted and may lead to crop damage in severe infestations.</li><li>Lokasi : Projek Penanaman Padi Sawit Kinabalu, Kg. Ongkilan</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "crops": [
+    "PADDY"
+   ],
+   "name": {
+    "ms": "Kutu beruang (Rice black bug) - <em>Scotinophara coarctata</em>",
+    "en": "Kutu beruang (Rice black bug) - <em>Scotinophara coarctata</em>"
+   },
+   "affected": {
+    "ms": "Padi",
+    "en": "Paddy"
+   },
+   "desc": {
+    "ms": "<p>Kutu beruang menghisap cecair batang dan daun padi terutamanya di bahagian pangkal pokok. Serangan menyebabkan pokok menjadi kuning, layu dan pertumbuhan terbantut. Serangan teruk boleh menyebabkan kehilangan hasil yang tinggi.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Bersihkan rumpai dan tunggul jerami kawasan sawah.</li><li>Keringkan petak sawah sementara waktu untuk mengganggu pembiakan kutu dan mendedahkannya kepada musuh semula jadi.</li><li>Gunakan perangkap lampu untuk mengurangkan populasi dewasa.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan racun serangga seperti fenobucarb, fenthion atau malathion berdasarkan dos yang disyorkan.</li><li>Semburan perlu dilakukan di pangkal pokok padi.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul></p>",
+    "en": "<p>Rice black bug from the stems and leaves of rice plants, especially at the base of the plant. Infestation causes yellowing, wilting, and stunted growth. Severe attacks can lead to significant yield losses.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Remove weeds and rice stubble from the paddy field</li><li>Temporarily drain the field to disrupt pest breeding and expose them to natural enemies</li><li>Use light traps to reduce the adult population</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Apply insecticides such as fenobucarb, fenthion, or malathion according to the recommended dosage</li><li>Spray insecticides at the base of the rice plants</li><li>Always wear protective clothing and follow product label instructions, including recommended dosage, proper application timing, and pre-harvest interval before harvesting</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "MORFOLOGI",
+     "img": "Kutu_beruang_DOA_Sabah.png",
+     "text": {
+      "ms": "Serangga dewasa Kutu Beruang(<em>Scotinophara coarctata</em>)",
+      "en": "Adult rice black bug (<em>Scotinophara coarctata</em>)"
+     },
+     "steps": []
+    },
+    {
+     "part": "PLANT",
+     "img": "Simptom_kutu_beruang_DOA_Sabah.png",
+     "text": {
+      "ms": "Serangan kutu beruang pada tanaman padi menyebabkan daun menguning, layu, dan pertumbuhan terbantut, manakala serangan yang teruk boleh mengakibatkan tanaman padi mati.",
+      "en": "Rice black bug (<em>Scotinophara coarctata</em>) infestation in rice plants causes yellowing and wilting of leaves, stunted growth, and in severe cases may lead to plant death."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Bintik daun alga (<em>Cephaleuros virescens</em>)",
+    "en": "Algal leaf spot<em> (Cephaleuros virescens)</em>"
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<p>Bintik daun alga, yang disebabkan oleh patogen <em>Cephaleuros</em> sp., biasanya berlaku pada daun yang terlindung daripada cahaya matahari, terutamanya apabila tanaman terdedah kepada suhu dan kelembapan yang tinggi. Ia menyebabkan kerosakan tidak langsung dengan mengurangkan kawasan fotosintesis daun.</p><p><strong>Pengurusan Penyakit</strong></p><ul><li>Pastikan pokok dipangkas dan dibaja dengan baik untuk menggalakkan pertumbuhan yang sihat. </li><li>Buang semua rumpai di sekitar pangkal pokok</li><li>Gunakan jarak tanaman yang lebih luas untuk meningkatkan pengedaran udara di sekeliling pokok.</li><li>Pokok yang dijangkiti dengan teruk boleh dirawat dengan racun kulat yang mengandungi kuprum.</li></ul></p>",
+    "en": "<p>Algal leaf spot is caused by the pathogen<em> Cephaleuros</em> sp., specially occurs on the shaded leaves of the plant, when it is subjected to high temperature and humidity, causing indirect damage due to the reduced leaf photosynthetic area.</p><p>Disease Control</p><ul><li>Ensure that trees are properly pruned and fertilized to promote vigour</li><li>Remove all weeds from around tree bases</li><li>Employ a wider tree spacing to increase air circulation around the trees</li><li>Badly infested trees can be treated with copper fungicides</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "1.jpg",
+     "text": {
+      "ms": "<ul><li>Bintik-bintik merah jingga yang timbul pada kedua-dua permukaan atas dan bawah daun.</li><li>Tompok-tompok mungkin bercantum untuk membentuk tompok berbentuk tidak sekata.</li><li>Bintik-bintik juga mungkin terdapat pada ranting dan dahan.</li><li>Apabila permukaan bintik dikikis, kerak nekrotik berwarna kelabu dapat dilihat.</li></ul>",
+      "en": "<ul><li>Raised, orange-red spots on both upper and lower surfaces of leaves.</li><li>Spots may coalesce to form irregularly shaped patches and may also be present on twigs and branches</li><li>When the surface of the spot is scraped away, a grey to dark necrotic crust is visible.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Kutu trip (Thrips) - <em>Scirtothrips perseae</em>",
+    "en": "Kutu trip (Thrips) - <em>Scirtothrips perseae</em>"
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<p>Kutu trip (Thysanoptera: Thripidae) adalah serangga kecil, bersaiz 1-2 mm, mempunyai dua pasang sayap yang terdiri daripada rerambut halus serta bahagian mulut yang menusuk. Kutu trip (dewasa dan nimfa) menyerang tumbuhan dengan cara menusuk lapisan tisu tumbuhan dan menyedut sap yang menyebabkan kerosakan. Kutu trip boleh dijumpai pada daun dan dalam bunga.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Kawal rumpai di sekitar yang menjadi perumah alternatif bagi kutu trip</li><li>Potong dan musnahkan bahagian tanaman yang terdapat simptom serangan</li><li>Pemangsa semula jadi: lacewings hijau dan beberapa jenis lebah parasit membantu mengawal kutu trip.</li><li>Mendorong populasi pemangsa semula jadi yang bermanfaat, dengan mengurangkan penggunaan racun perosak berspektrum luas.</li></ul><p>Kaedah kimia (Jika Perlu)</p><ul><li>Racun perosak jenis sentuh; azadirachtin, sabun insektisida, dan neem.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>Thrips (Thysanoptera: Thripidae) are small insects, measuring 1-2 mm in size, with two pairs of wings consisting of fine fringe hairs and piercing mouthparts. Most thrips (both adults and nymphs) feed on plants by grasping and piercing plant tissue layers and sucking sap, causing damage. Thrips can be found on leaves and in flowers.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Control nearby weeds that serve as alternate hosts for pest thrips.</li><li>Prune and destroy infected plant parts</li><li>Predatory thrips, green lacewings, minute pirate bugs, mites, and certain parasitic wasps help to control plant-feeding thrips. (Biological control)</li><li>To conserve and encourage naturally occurring populations of these beneficial insects, avoid persistent pesticides, and grow a diversity of plant species.</li></ul><p>Chemical control (If needed)</p><ul><li>Contact insecticides include azadirachtin, insecticidal soaps, narrow-range oil, neem oil, and pyrethrins.</li><li>When applying pesticides, wear protective clothing and follow the product label instructions, including the correct dosage, timing, and pre-harvest interval.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "MORFOLOGI",
+     "img": "avocdo_thrips_2YJbXCP.png",
+     "text": {
+      "ms": "Kutu trip avokado dewasa",
+      "en": "Adult avocado thrips"
+     },
+     "steps": []
+    },
+    {
+     "part": "FR",
+     "img": "Psyllid_durian_2.png",
+     "text": {
+      "ms": "Kesan calar dan parut pada permukaan kulit buah",
+      "en": "Flecking and brown scars of the fruit skin"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Antraknos (<em>Glomerella cingulata</em>)",
+    "en": "Anthracnose (<em>Glomerella cingulata</em>)"
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<p>Kulat yang menyebabkan antraknos pada avokado boleh hidup sepanjang musim dalam sisa tumbuhan yang dijangkiti atau di dalam buah. Apabila keadaan persekitaran menggalakkan pertumbuhan patogen, seperti kelembapan tinggi dan suhu sederhana, kulat ini akan menghasilkan spora. Spora tersebut boleh tersebar melalui hujan, angin atau sentuhan fizikal dan akan menjangkiti tisu avokado yang sihat lalu menyebabkan jangkitan baharu.</p><p><strong>Pengurusan Kawalan:</strong></p><ul><li>Pangkas ranting dan dahan mati sebelum kulat menghasilkan spora</li><li>Buang daun mati dari kanopi pokok.</li><li>Pastikan buah yang telah dituai sentiasa kering dan disimpan dalam keadaan sejuk.</li></ul>",
+    "en": "<p>The fungus that causes avocado anthracnose can overwinter in infected plant debris or in the fruit. When conditions are favorable, such as high humidity and moderate temperatures, the fungus produces spores. These spores can be spread by rain, wind or physical contact and they infect healthy avocado tissue, leading to new infections.</p><p><strong>Control Management</strong></p><ul><li>Prune dead twigs and branches from trees before fungi produce spores</li><li>Remove dead leaves out of the canopy</li><li>Keep harvested fruit dry and cool.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "gmbar.jpg",
+     "text": {
+      "ms": "Bintik-bintik klorotik dan nekrotik; lesi coklat atau ungu pada buah.",
+      "en": "Chlorotic and necrotic spots; brown or purple lesions on fruits."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Keruping (<em>Sphaceloma perseae</em>)",
+    "en": "Scab (<em>Sphaceloma perseae</em>)"
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<p>Keruping (Sphaceloma perseae) adalah penyakit kulat pada avokado yang mengurangkan kualiti buah.</p><p>Pengurusan Penyakit</p><ul><li>Pangkas ranting dan dahan yang mati dari pokok sebelum kulat menghasilkan spora</li><li>Sembur dengan racun kulat kuprum pada peringkat awal perkembangan buah.</li></ul>",
+    "en": "Avocado scab (<em>Sphaceloma perseae</em>) is a widespread fungal disease of avocado that causes severe losses from fruit drop and reduces fruit quality by marking fruit.<p>Disease Management</p><ul><li>Prune dead twigs and branches from trees before fungi produce spores</li><li>Spray with copper containing fungicides at an early stage of fruit development.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "Untitled_design-2.jpg",
+     "text": {
+      "ms": "<ul><li>Kehadiran tompok-tompok kecil berwarna coklat gelap atau hitam yang kasar dan berkeruping pada permukaan kulit buah.</li><li>Jangkitan ini boleh menyebabkan kulit buah retak, berparut dan memberi kesan lekuk yang menjejaskan penampilan buah walaupun isinya masih elok.</li><li>Dalam kes yang teruk, buah yang dijangkiti mungkin gugur sebelum matang.</li></ul>",
+      "en": "<ul><li>The presence of small, dark brown or black rough and scabby spots on the surface of the fruit skin.</li><li>This infection can cause the fruit skin to crack, scar and develop sunken lesions that affect the appearance of the fruit, even though the flesh remains intact.</li><li>In severe cases, infected fruits may drop prematurely before reaching maturity.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Lalat buah (Fruit fly) - <em>Bactrocera</em> spp.",
+    "en": "Lalat buah (Fruit fly) - <em>Bactrocera</em> spp."
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<p>Lalat buah (Diptera: Tephritidae) merupakan serangga perosak utama bagi tanaman buah-buahan. Serangga ini bertelur di dalam buah sama ada pada peringkat muda atau matang, dan larvanya akan berkembang di dalam buah tersebut. Serangan larva boleh merosakkan isi buah, menyebabkan pembusukan, serta menurunkan kualiti hasil buah.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Kumpulkan buah yang menunjukkan simptom serangan serta buah yang gugur.</li><li>Tanam buah tersebut dalam lubang yang dalam bagi mengelakkan penyebaran perosak.</li><li>Amalkan pembungkusan buah untuk melindungi buah daripada serangan lanjut.</li><li>Menggunakan <em>Fopius arisanus</em>, parasitoid hymenoptera (Kawalan biologi)</li></ul><p>Kawalan kimia (Jika Perlu)</p><ul><li>Semburan racun serangga yang sesuai (contohnya, malathion, spinosad, fipronil) dicampur dengan umpan protein (methyl eugenol) berdasarkan dos yang disyorkan.</li><li>Umpan menggunakan feromon methyl eugenol untuk menarik lalat buah jantan.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul></p>",
+    "en": "<p>Fruit flies (Diptera: Tephritidae) are major pests of fruits. Fruit flies lay their eggs in young or ripe fruits, and their larvae then develop inside the fruit. In addition to creating holes in the fruit&#39;s skin, the larvae can also damage the fruit pulp, causing decay and reducing the overall fruit quality.</p><p><strong>I</strong><strong>ntegrated Pest Management (IPM)</strong></p><ul><li>Collect infested and fallen fruits and bury them in deep pits</li><li>Wrap immature fruit and harvest fruits before they&#39;re fully ripe.</li><li>Using <em>Fopius arisanus,</em> the hymenopteran parasitoid (Biological control)</li></ul><p>Chemical control (If needed)</p><ul><li>A bait spray consists of a suitable insecticide (e.g. malathion, spinosad, fipronil) mixed with a protein bait (methyl eugenol) based on the recommended dosage</li><li>Bait lure using pheromone methyl eugenol to attract male fruit fly</li><li>When applying pesticides, wear protective clothing and follow the product label instructions, including the correct dosage, timing, and pre-harvest interval.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "MORFOLOGI",
+     "img": "lalat_buah_avo_v2URDZE.png",
+     "text": {
+      "ms": "Lalat buah <em>Bactrocera</em> spp.",
+      "en": "Fruit flies <em>Bactrocera</em> spp."
+     },
+     "steps": []
+    },
+    {
+     "part": "FR",
+     "img": "Simptom_serangan_lalat_buah_pada_buah_avokado_1.png",
+     "text": {
+      "ms": "<strong>Simptom serangan lalat buah pada buah avokado;</strong><p>1. Pembentukan buah terbantut </p><p>2. Buah muda gugur</p><p>3. Lubang kecil pada kulit buah (lalat buah bertelur)</p><p>4. Terdapat larva di dalam buah</p><p>5. Cairan atau residu keluar dari buah</p>",
+      "en": "<p>Fruit fly infestation symptoms on fruit;</p><p>1. Infested young fruits become distorted, callused, and malformed fruits<br>2. Premature dropping of fruits and also unfit for consumption<br>3. Visible small hole punctured by the adult female fruit fly to oviposit the eggs <br>4. Maggots hatched and feed on the flesh of the fruit, the fruit will eventually rot and fall<br>5. Oozing of resinous fluid from fruits</p>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 132,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Phytophthora Root Rot (<em>Phytophthora cinnamomi)</em>",
+    "en": "Reput akar Phytophthora (<em>Phytophthora cinnamomi)</em>"
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<p><em>Phytophthora cinnamomi </em>adalahagen penyebab penyakit reput akar Phytophthora. Setelah patogen ini berjaya bertapak dalam tanah, ia tidak dapat dimusnahkan dari kawasan yang terjejas kerana ia boleh kekal dalam tanah atau bahan tanaman yang dijangkiti dalam jangka masa yang panjang.</p><p><strong>Pengurusan Penyakit</strong></p><ul><li>Laksanakan langkah sanitasi yang betul, amalan kultur yang baik dan kawalan kimia yang bersesuaian.</li><li>Kawalan paling penting bagi penyakit ini adalah pengurusan pengairan yang baik.</li><li>Gunakan bahan tanaman yang bebas penyakit terutamanya apabila menanam di kawasan baharu.</li><li>Gunakan baja yang mengandungi elemen nitrogen yang sederhana untuk menggalakkan pertumbuhan yang baik dan membantu pokok avokado lebih tahan terhadap penyakit reput akar. Elakkan penggunaan baja yang berlebihan.</li><li>Beberapa jenis racun kulat fosfonat (asid fosforus dan sebatian fosfonat) boleh meningkatkan keupayaan pokok untuk menahan, mencegah atau pulih daripada jangkitan.</li><li>Racun kulat berasaskan kuprum juga telah digunakan secara meluas untuk mengawal penyakit ini pada tanaman avokado.</li></ul>",
+    "en": "<p><em>Phytophthora cinnamomi</em>, the causative agent of Phytophthora root rot disease. Once the pathogen has effectively established in soils, there is no way to remove this oomycete from affected areas since it can remain in the soil or infected plant material for prolonged periods of time.</p><p>Management</p><ul><li>Employ stringent sanitation measures</li><li>Good cultural practices and appropriate chemical controls.</li><li>The most important control of this disease is good irrigation management.</li><li>Use disease-free planting materials, especially when planting in new areas.</li><li>Moderate amounts of nitrogen promote good growth that helps avocado better tolerate root rot.</li><li>Avoid excess amounts of fertilizer.</li><li>Certain phosphonate fungicides (phosphorous acid and phosphonate compounds) can markedly improve trees&#39; ability to tolerate, resist, or recover from infection. Copper fungicide has been used widely to control this disease in avocado.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "ROOT",
+     "img": "Screenshot_2024-01-16_103032.png",
+     "text": {
+      "ms": "<ul><li>Akar serabut berkurangan pada peringkat jangkitan penyakit yang teruk.</li></ul>",
+      "en": "<ul><li>Small, fibrous feeder roots are scarce at advanced stages of this disease.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "LEAF",
+     "img": "Screenshot_2024-01-16_103902.png",
+     "text": {
+      "ms": "<ul><li>Daun kecil, hijau pucat atau kekuningan.</li><li>Daun sering layu dan mempunyai hujung berwarna coklat dan nekrotik.</li><li>Daun menjadi jarang dan pertumbuhan baru jarang berlaku. Terdapat longgokan daun gugur di bawah pokok yang dijangkiti.</li></ul>",
+      "en": "<ul><li>Small, pale green or yellowish leaves.</li><li>Leaves often wilt and have brown, necrotic tips.</li><li>Foliage is sparse and new growth is rare. There may be little leaf litter under infected trees.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 134,
+   "crops": [
+    "KOPI"
+   ],
+   "name": {
+    "ms": "Kumbang pengorek buah kopi (Coffee Berry Borer) - <em>Hypothenemus hampei</em>",
+    "en": "Kumbang pengorek buah kopi (Coffee Berry Borer) - <em>Hypothenemus hampei</em>"
+   },
+   "affected": {
+    "ms": "Kopi",
+    "en": "Coffee"
+   },
+   "desc": {
+    "ms": "<p>Pengorek Buah Kopi merupakan salah satu perosak serangga yang paling merosakkan tanaman kopi di seluruh dunia. Kumbang betina dewasa mengorek masuk ke dalam buah kopi yang sedang berkembang atau masak untuk bertelur, manakala larvanya memakan biji kopi di dalam buah. Serangan perosak ini menyebabkan penurunan kualiti biji kopi, pengurangan hasil, dan kerugian ekonomi yang ketara. Simptom serangan termasuk kehadiran lubang kecil pada buah kopi, buah gugur sebelum matang, serta biji kopi yang rosak atau berongga. Serangan yang teruk boleh menjejaskan nilai pasaran hasil kopi.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Kutip dan musnahkan buah kopi yang gugur atau rosak.</li><li>Laksanakan penuaian tepat pada masa.</li><li>Amalkan kebersihan ladang secara berterusan.</li><li>Gunakan perangkap feromon untuk pemantauan dan pengendalian populasi.</li><li>Gunakan biopestisid berasaskan kulat seperti <em>Metarhizium anisopliae</em> dan <em>Beauveria bassiana</em> untuk mengawal CBB secara biologi.</li><li>Galakkan musuh semula jadi seperti parasitoid <em>Cephalonomia stephanoderis</em>.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan racun serangga mengikut syor dalam label.</li><li> Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>Coffee Berry Borer is one of the most destructive insect pests of coffee worldwide. Adult female beetles bore into developing and ripening coffee berries, where they lay eggs, and the larvae feed on the coffee beans inside. Infestation results in reduced bean quality, lower yield, and significant economic losses. Common symptoms include small entry holes on the coffee berries, premature fruit drop, and damaged or hollowed beans. Severe infestations can greatly reduce the market value of harvested coffee.</p><p><strong>Integrated Pest Management (IPM)</strong><br>&bull; Collect and destroy fallen or damaged coffee berries.<br>&bull; Carry out harvesting at the proper time.<br>&bull; Maintain continuous field sanitation.<br>&bull; Use pheromone traps for monitoring and reducing pest populations.<br>&bull; Apply fungal biopesticides such as <em>Metarhizium anisopliae</em> and <em>Beauveria bassiana</em> for biological control of CBB.<br>&bull; Encourage natural enemies such as the parasitoid <em>Cephalonomia stephanoderis.</em></p><p><strong>Chemical Control (If Necessary)</strong><br>&bull; Apply insecticide sprays according to the recommendations stated on the product label.<br>&bull; When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dosage rate, appropriate application timing, and pre-harvest interval before harvesting.</p>"
+   },
+   "symptoms": [
+    {
+     "part": "PEST",
+     "img": "CBB_DOA_Sabah.png",
+     "text": {
+      "ms": "Kumbang pengorek biji kopi (Coffee Pod Borer) - <em>Hypothenemus hampei</em>",
+      "en": "Kumbang pengorek biji kopi (Coffee Pod Borer) - <em>Hypothenemus hampei</em>"
+     },
+     "steps": []
+    },
+    {
+     "part": "FR",
+     "img": "CBB_2_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Terdapat lubang kecil berbentuk bulat pada permukaan buah kopi (lubang kumbang masuk).</li><li>Kehadiran serbuk halus berwarna coklat di sekitar lubang serangan akibat aktiviti pengorekan.</li><li>Buah kopi menunjukkan tanda kerosakan dalaman apabila dibelah.</li><li>Buah yang diserang boleh mengalami kematangan tidak sekata.</li><li>Berlaku keguguran buah pramatang dalam serangan yang serius.</li></ul>",
+      "en": "<ul><li>Presence of small, round entry holes on the surface of coffee berries.</li><li>Brownish frass (powder-like material) visible around the entry hole due to boring activity.</li><li>Internal damage to the coffee berry when cut open.</li><li>Uneven ripening of infested berries.</li><li>Premature fruit drop may occur under severe infestations.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "BEAN",
+     "img": "CBB_3_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Buah kopi menunjukkan tanda kerosakan dalaman apabila dibelah.</li><li>Biji kopi menjadi berlubang, rosak atau berongga akibat pemakanan larva.</li><li>Kualiti dan berat biji kopi menurun, menyebabkan nilai pasaran hasil berkurangan.</li><li>Serangan teruk boleh menyebabkan kehilangan hasil yang ketara dan menjejaskan mutu kopi.</li></ul>",
+      "en": "<ul><li>Internal damage to the coffee berry when cut open.</li><li>Coffee beans become damaged, perforated, or hollowed out by larval feeding.</li><li>Reduced bean weight and quality, leading to lower market value.</li><li>Severe infestations can result in significant yield losses.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 156,
+   "crops": [],
+   "name": {
+    "ms": "Ulat Ratus (<em>Spodoptera litura</em>)",
+    "en": "(<em>Spodoptera litura</em>)"
+   },
+   "affected": {
+    "ms": "Kobis",
+    "en": "Cabbage"
+   },
+   "desc": {
+    "ms": "Serangga ini menyerang diperingkat larva yang baru menetas makan daun dan pucuk secara berkumpulan dan berselerak. Apabila meningkat kedua dan seterusnya larva menyerang daun dan pucuk berasingan. serangan yang teruk boleh memusnahkan daun sehingga daun tinggal rangka sahaja. Kawalan dilakukan dengan menyembur racun perosak deltamethrin, cypermethrin, gamma-cyhalothrin, emamectin benzoate atau <em>Bacillus thuringiensis</em> mengikut kadar yang disyorkan, musnah serangga dan daun yang di serang.",
+    "en": "--"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "kobis.png",
+     "text": {
+      "ms": "Serangga ini menyerang diperingkat larva yang baru menetas makan daun dan pucuk secara berkumpulan dan berselerak. Apabila peringkat kedua dan seterusnya larva menyerang daun dan pucuk berasingan. serangan yang teruk boleh memusnahkan daun sehingga daun tinggal rangka sahaja.",
+      "en": "--"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 157,
+   "crops": [],
+   "name": {
+    "ms": "Lalat buah (Fruit fly)<strong> - </strong><em>Bactrocera papayae</em>",
+    "en": "Lalat buah (Fruit fly)<strong> - </strong><em>Bactrocera papayae</em>"
+   },
+   "affected": {
+    "ms": "Betik",
+    "en": "Papaya"
+   },
+   "desc": {
+    "ms": "<ul><li>Serangga aktif pada waktu siang terutama waktu pagi dan petang</li><li>Populasi lalat buah meningkat dengan cepat dalam cuaca panas dan lembap</li><li>Lalat buah biasanya menyerang buah betik semasa buah hampir matang atau baru mula masak</li></ul><p>Pengurusan perosak</p><ul><li>Amalan pertanian baik</li><li>Balut buah betik dengan plastik lutsinar atau kertas khas.</li><li>Tuai buah awal, jangan tunggu terlalu masak atas pokok.</li><li>Guna perangkap feromon (methyl eugenol) yang sangat menarik lalat jantan.</li><li>Penggunaan racun kimia mengikut syor dalam label (contoh: cypermethrin dan deltamethrin).</li></ul>",
+    "en": "<ul><li>Insect are active during the day, especially in the morning and late afternoon.</li><li>Fruitfly populations increase rapidly in hot, humid weather.</li><li>Fruitflies typically attack papaya fruit when it is nearly ripe or just beginning to ripen.</li></ul><p>Control management</p><ul><li> Practice good agricultural practices (GAP)</li><li>Wrap papaya fruits with transparent plastic or special paper</li><li>Harvest fruits early; do not wait until they are overly ripe on the tree</li><li>Use pheromone traps (methyl eugenol), which are highly attractive to male fruit flies</li><li>Apply chemical pesticides according to the recommendations on the label (e.g., cypermethrin and deltamethrin)</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "papaya-fruit-fly.jpg",
+     "text": {
+      "ms": "<ul><li>Buah betik yang diserang lalat buah menunjukkan tanda seperti lubang tusukan kecil, buah mengeluarkan getah putih, isi buah lembik atau busuk, terdapat larva di dalamnya, dan sering gugur sebelum matang.</li></ul>",
+      "en": "<ul><li>Papaya fruits infested by fruit flies show signs such as small puncture holes, white sap exuding from the fruit, soft or rotten flesh, presence of larvae inside, and premature fruit drop.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "crops": [],
+   "name": {
+    "ms": "Penyakit Layu Bakteria <em>(Ralstonia solanacearum)</em>",
+    "en": "Bacteria Wilt Dsease <em>(Ralstonia solanacearum)</em>"
+   },
+   "affected": {
+    "ms": "Halia",
+    "en": "Ginger"
+   },
+   "desc": {
+    "ms": "Penyakit layu bakteria pada tanaman halia, disebabkan oleh <em>Ralstonia solanacearum</em>, merupakan ancaman serius. Ia menjejaskan sistem vaskular, menyebabkan gejala layu pada daun muda pada siang hari yang mungkin pulih pada malam hari, manakala daun lebih tua layu secara beransur-ansur tetapi kekal hijau. Penyakit ini berkembang dengan kuningnya daun sebelum layu, sering disertai dengan pemeronokan batang. Akar dan rizom yang dijangkiti menjadi lembik dan berwarna coklat, mengeluarkan bau yang tidak menyenangkan. Pertumbuhan tanaman terhambat, dan batang yang dijangkiti mungkin mengeluarkan lendir bakteria putih (ooze) apabila dipotong. Penyakit ini merebak dengan cepat, biasanya bermula dari satu sisi tanaman dan menjangkiti keseluruhan tanaman, memerlukan pengurusan yang cermat melalui bahan tanaman yang bebas penyakit, penggiliran tanaman, dan pemeliharaan kesihatan tanah.",
+    "en": "Bacterial wilt disease in ginger plants, caused by Ralstonia solanacearum, manifests as a serious threat. It primarily affects the vascular system, leading to symptoms like wilting of younger leaves during the day, which may recover at night, while older leaves gradually wilt but remain green. The disease progresses with yellowing of leaves before wilting, often accompanied by browning of stems. Infected roots and rhizomes turn soft and brown, emitting a foul odor. Growth is stunted, and infected stems may exude white bacterial slime when cut. This disease spreads quickly, typically starting on one side of the plant and advancing throughout, necessitating careful management through disease-free planting materials, crop rotation, and soil health maintenance."
+   },
+   "symptoms": [
+    {
+     "part": "PLANT",
+     "img": "Untitled_design.jpg",
+     "text": {
+      "ms": "Penyakit ini menyebabkan lesi lecuh basah pada pangkal pseudostem menjadikannya reput dan mudah tercabut. Daun akan berubah kekuningan bermula dari daun bawah dan merebak ke daun atas dan kemudian akan menjadi nekrotik. Rizom turut mereput, berbau busuk, pokok terbantut serta mati.",
+      "en": "This disease causes wet, waterlogged lesions at the base of the pseudostem, making it rot and easily detached. The leaves will turn yellow starting from the lower leaves and spreading to the upper leaves and then will become necrotic. The rhizome also rots, has a foul smell, the tree is stunted and dies."
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 171,
+   "crops": [],
+   "name": {
+    "ms": "Penyakit Busuk Rizom (<em>Pythium</em> spp.)",
+    "en": "Rhizome Rot (<em>Pythium</em> spp.)"
+   },
+   "affected": {
+    "ms": "Halia",
+    "en": "Ginger"
+   },
+   "desc": {
+    "ms": "<p>Busuk rizom pada halia, disebabkan oleh pelbagai patogen seperti spesies <em>Pythium</em>, melibatkan penerangan berikut :<br><strong>- Gejala:</strong> Tanda-tanda awal busuk rizom biasanya termasuk lembut dan perubahan warna pada rizom halia. Rizom yang terkena boleh kelihatan seperti diserap air, lembap, dan boleh memancarkan bau busuk apabila penyakit berkembang. Rizom yang dijangkiti juga boleh mempunyai lepuhan atau bintik hitam.</p><p><strong>- Patogen: </strong>Busuk rizom disebabkan oleh beberapa patogen, di mana spesies <em>Pythium</em> adalah salah satu penyebab yang utama. Patogen ini berkembang dengan baik di tanah yang bertakung air atau sistem pengairan yang tidak baik, terutamanya dalam keadaan panas dan lembap.</p><p><strong>- Impak: </strong>Penyakit ini mempengaruhi organ penyimpanan tanaman halia, mengurangkan kualiti dan nilai pasarnya. Infeksi yang teruk boleh menyebabkan kerugian hasil yang signifikan kerana rizom yang terinfeksi tidak sesuai untuk dimakan atau ditanam semula.</p><p><strong>- Penyebaran:</strong> Patogen yang bertanggungjawab terhadap busuk rizom boleh menyebar melalui tanah yang tercemar, air, atau bahan tanam yang terinfeksi. Ia dapat memasuki rizom melalui luka atau bukaan semulajadi, Jadi ia akan memulakan proses pereputan.</p><p><strong>- Pengurusan: </strong>Strategi pengurusan yang berkesan termasuk meningkatkan saliran tanah untuk mencegah takungan air, menggunakan bahan tanam bebas penyakit, dan melakukan aktiviti pengiliran tanaman dengan tanaman berlainan. Rawatan fungisida juga boleh digunakan secara preventif atau kurasif untuk mengawal penyebaran penyakit.</p><p>Menguruskan busuk rizom pada tanaman halia adalah penting untuk menjaga kesihatan tanaman dan memaksimumkan hasil, terutamanya di kawasan yang tahan terhadap keadaan air bertakung atau kelembapan tinggi di mana penyakit ini berkembang.</p>",
+    "en": "<p>Rhizome rot in ginger, caused by various pathogens such as <em>Pythium </em>species, involves the following description:</p><p><strong>Description:</strong><br><strong>- Symptoms: </strong>The initial signs of rhizome rot typically include softening and discoloration of the ginger rhizome. Affected rhizomes may appear water-soaked, mushy, and may emit a foul odor as the disease progresses. Infected rhizomes can also develop lesions or dark spots.</p><p><strong>- Pathogens:</strong> Rhizome rot can be caused by several pathogens, with <em>Pythium </em>species being common culprits. These pathogens thrive in waterlogged or poorly drained soils, especially in warm and humid conditions.</p><p><strong>- Impact:</strong> The disease affects the storage organ of the ginger plant, reducing its quality and market value. Severe infections can lead to significant yield losses as infected rhizomes become unfit for consumption or planting.</p><p><strong>- Spread: </strong>The pathogens responsible for rhizome rot can spread through contaminated soil, water, or infected planting material. They can enter the rhizomes through wounds or natural openings, initiating the rotting process.</p><p><strong>- Management:</strong> Effective management strategies include improving soil drainage to prevent waterlogging, using disease-free planting material, and practicing crop rotation with non-host plants. Fungicidal treatments may also be used preventively or curatively to control the spread of the disease.</p><p>Managing rhizome rot in ginger is crucial to maintaining crop health and maximizing yields, especially in regions prone to waterlogged conditions or high humidity where the disease thrives.</p>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "Rhizome_Rot.png",
+     "text": {
+      "ms": "<ul><li><p><strong>Kuning dan Layu</strong>: Daun halia mungkin mulai kekuningan dan kemudian layu. Ini disebabkan oleh gangguan pada rizom yang mengakibatkan ketidakmampuan tanaman untuk menyerap nutrien dan air secara efektif.</p></li><li><p><strong>Pertumbuhan Terbantut</strong>: Tanaman yang terinfeksi biasanya menunjukkan pertumbuhan yang terbantut karena kekurangan nutrisi yang disebabkan oleh gangguan pada rizom.</p></li><li><p><strong>Daun Kecil dan Kurang Sihat</strong>: Daun pada tanaman yang terkena biasanya lebih kecil dari biasanya dan kurang sehat. Mereka mungkin tampak kerdil atau tidak berkembang dengan baik.</p></li><li><p><strong>Penurunan hasil</strong>: Pertumbuhan dan tumbesaran tanaman merosot disebabkan gangguan rizom yang menjejaskan ketersediaan nutrisi</p></li></ul>",
+      "en": "<ul><li><p><strong>Yellowing and Wilt</strong>: Ginger leaves may begin to yellow and subsequently wilt. This is due to disruptions in the rhizome, which result in the plant&#39;s inability to effectively absorb nutrients and water.</p></li><li><p><strong>Stunted Growth</strong>: Infected plants often exhibit stunted growth due to nutrient deficiencies caused by disruptions in the rhizome.</p></li><li><p><strong>Small and Unhealthy Leaves</strong>: Leaves on affected plants are usually smaller and less healthy than normal. They may appear stunted or fail to develop properly.</p></li><li><p><strong>Overall Decline</strong>: The overall health and growth of the plant can decline due to disruptions in the rhizome affecting nutrient availability.</p></li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "ROOT",
+     "img": "Rhizome_Rot_3dlnM46.png",
+     "text": {
+      "ms": "<ul><li><p><strong>Lembut dan Pembusukan</strong>: Akar yang terinfeksi menjadi lembut dan lembik. Ia akan bertakung air dan mudah patah apabila disentuh.</p></li><li><p><strong>Perubahan Warna</strong>: Akar mungkin menunjukkan perubahan warna, sering kali menjadi gelap atau menunjukkan warna yang tidak normal disebabkan oleh jangkitan kulat atau bakteria.</p></li><li><p><strong>Akar Menjadi ringan</strong>: Akar yang terinfeksi akan menyebabkan kemerosotan jisim pada akar begitu juga dengan rupa luarannya, mengakibatkan kesukaran tanaman untuk mencengkam dan menyerap nutrien dari tanah.</p></li><li><p><strong>Bau Busuk</strong>: Pada tahap teruk jangkitan, akar boleh mengeluarkan bau busuk, menandakan reput dan penguraian yang teruk.</p></li><li><p><strong>Kesan Terhadap Kesihatan Tanaman</strong>: Seiring dengan perkembangan penyakit, kemampuan akar untuk membekalkan air dan nutrien kepada tanaman lain berkurang, menyebabkan penurunan keseluruhan tanaman, layu, dan boleh menyebabkan kematian jika tidak dirawat dengan sewajarnya.</p></li></ul>",
+      "en": "<ul><li><p><strong>Softening and Decay</strong>: Infected roots become soft and mushy. They may appear waterlogged and break apart easily when handled.</p></li><li><p><strong>Discoloration</strong>: The roots may show discoloration, often turning dark or exhibiting abnormal colors due to fungal or bacterial infection.</p></li><li><p><strong>Reduced Root Mass</strong>: The affected roots may lose their healthy appearance and mass, leading to a reduction in the plant&#39;s ability to anchor itself and absorb nutrients from the soil.</p></li><li><p><strong>Foul Odor</strong>: In advanced stages of infection, the roots may emit a foul smell, indicating severe decay and decomposition.</p></li><li><p><strong>Impact on Plant Health</strong>: As the disease progresses, the roots&#39; ability to supply water and nutrients to the rest of the plant diminishes, resulting in overall plant decline, wilting, and potential death if left untreated.</p></li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "crops": [
+    "PINEAPPLE"
+   ],
+   "name": {
+    "ms": "Koya merah jambu (Pink mealybug)<strong> - </strong><em>Dysmicoccus brevipes</em>",
+    "en": "Koya merah jambu (Pink mealybug) <strong>- </strong><em>Dysmicoccus brevipes</em>"
+   },
+   "affected": {
+    "ms": "Nanas",
+    "en": "Pineapple"
+   },
+   "desc": {
+    "ms": "<p>Koya merah jambu (<em>Dysmicoccus brevipes</em>) salah satu perosak utama tanaman nanas. Perosak ini menghisap cecair daripada daun, batang, akar dan buah, menyebabkan pokok menjadi lemah serta pertumbuhannya terbantut. Koya juga menghasilkan madu (honeydew) yang menggalakkan pertumbuhan kulapuk jelaga, sekali gus mengurangkan kadar fotosintesis. Selain itu, koya merah jambu merupakan pembawa Virus Layu Koya Nenas (Pineapple Mealybug Wilt-Associated Virus, PMWaV) yang boleh menyebabkan penyakit layu pada tanaman nanas.</p><p><strong>Pengurusan perosak Bersepadu (IPM)</strong></p><ul><li>Amalan pertanian baik.</li><li>Gunakan bahan tanaman yang bebas daripada serangan koya.</li><li>Lakukan pemeriksaan secara berkala, terutama pada pangkal daun, akar dan buah.</li><li>Musnahkan pokok atau bahagian tanaman yang diserang dengan teruk.</li><li>Bersihkan kawasan kebun dan kawal rumpai yang boleh menjadi perumah alternatif.</li><li>Pelihara dan galakkan musuh semula jadi seperti kumbang kura-kura (<em>Cryptolaemus montrouzieri</em>), kumbang ladybird, lacewing dan tebuan parasitoid yang menyerang koya.</li><li>Kurangkan penggunaan racun serangga secara berlebihan bagi memelihara populasi musuh semula jadi</li></ul><p>Kawalan Kimia (Jika Perlu)</p><ul><li>Menggunakan bahan kimia mengikut syor dalam label, contoh malathion dan dimethoate.</li><li>Semburan hendaklah ditumpukan pada bahagian yang menjadi tempat persembunyian koya seperti celah daun, pangkal daun dan pangkal buah.</li><li>Apabila menggunakan racun perosak, sentiasa pakai pakaian pelindung dan patuhi arahan pada label produk, termasuk kadar dos yang disyorkan, masa aplikasi yang sesuai, serta tempoh pra-tuai sebelum hasil dituai.</li></ul>",
+    "en": "<p>The pink mealybug (<em>Dysmicoccus brevipes</em>) is one of the major insect pests of pineapple. It feeds by sucking sap from leaves, stems, roots, and fruits, weakening the plant and reducing its vigour. This pest also produces honeydew that encourages the growth of sooty mould, reducing photosynthesis. More importantly, it is a known vector of Pineapple Mealybug Wilt-Associated Virus (PMWaV), which can cause mealybug wilt disease in pineapple.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Use planting materials that are free from mealybug infestation.</li><li>Conduct regular inspections, especially around the leaf bases, roots, and fruits.</li><li>Remove and destroy severely infested plants or plant parts.</li><li>Keep the plantation clean and control weeds that may serve as alternative host plants.</li><li>Conserve and encourage natural enemies such as the mealybug destroyer (<em>Cryptolaemus montrouzieri</em>), ladybird beetles, lacewings, and parasitic wasps that prey on or parasitize mealybugs.</li><li>Minimize excessive use of insecticides to help preserve populations of beneficial natural enemies.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Apply pesticides according to the recommendations on the product label. Examples include malathion and dimethoate.</li><li>Direct the spray towards mealybug hiding places, such as leaf axils, leaf bases, and the base of the fruit.</li><li>When using pesticides, always wear appropriate personal protective equipment (PPE) and follow all instructions on the product label, including the recommended application rate, appropriate timing of application, and the pre-harvest interval (PHI) before harvesting the crop.</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "Koya_nanas_Doa_sabah.png",
+     "text": {
+      "ms": "<ul><li>Terdapat kehadiran koya di pangkal buah disertai kulapuk jelaga dan kehadiran semut</li></ul>",
+      "en": "<ul><li>Presence of mealybug with a cottony or waxy subtance on leaf acils, leaf bases, roots and fruits.</li><li>Production of honeydew, which promotes the growth of black sooty mold on leaves and fruits.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "PEST",
+     "img": "Koya_Merah_Jambu_Doa_Sabah.png",
+     "text": {
+      "ms": "Koya Merah Jambu",
+      "en": "Pink Mealybug"
+     },
+     "steps": []
+    },
+    {
+     "part": "LEAF",
+     "img": "Simptom_Virus_Koya_Doa_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Koya juga boleh menjadi vektor kepada Penyakit Layu Koya Nanas (Pineapple Mealybug Wilt) yang menyebabkan daun kemerahan, melengkung ke bawah dan akhirnya layu.</li></ul>",
+      "en": "<ul><li>Mealybugs may transmit Pineapple Mealybug Wilt-Associated Virus (PMWaV), causing wilt symptoms such as leaf reddening, downward curling, and plant decline.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 182,
+   "crops": [],
+   "name": {
+    "ms": "Penyakit Hawar Daun<em> (Phyllostica zingiberi)</em>",
+    "en": "Leaf Spot <em>(Phyllostica zingiberi)</em>"
+   },
+   "affected": {
+    "ms": "Halia",
+    "en": "Ginger"
+   },
+   "desc": {
+    "ms": "<p>Penyakit hawar daun pada tanaman halia yang disebabkan khususnya oleh <em>Phyllosticta zingiberi</em> </p><p><strong>Penerangan:</strong></p><ul><li><p><strong>Gejala</strong>: Hawar daun oleh <em>Phyllosticta zingiberi</em> biasanya muncul sebagai bintik bulat tidak teratur pada daun halia. Bintik ini pada awalnya kelihatan berair dan kemudian bertukar warna menjadi coklat gelap atau hitam dengan busur kuning di sekelilingnya. Seiring dengan perkembangan penyakit, bintik-bintik ini bergabung dan boleh meliputi kawasan besar permukaan daun.</p></li><li><p><strong>Patogen</strong>: <em>Phyllosticta zingiberi</em> adalah sejenis kulat patogen yang menyerang khususnya daun halia, menyebabkan lesi khas yang menjejaskan kesihatan dan kekuatan tanaman.</p></li><li><p><strong>Penyebaran</strong>: Kulat ini tersebar melalui percikan air dan angin, serta melalui alat tanam yang tercemar dan serpihan tumbuhan. Ia bertumbuhsubur di dalam keadaan panas dan lembap yang lazim di kawasan penanaman halia.</p></li><li><p><strong>Kesan</strong>: Daun yang diserang mengalami kemerosotan fotosintesis, menyebabkan kuning, layu, dan gugur awal daun. Infeksi yang teruk mengurangkan hasil tanaman.</p></li><li><p><strong>Pengurusan</strong>: Langkah-langkah kawalan termasuk menanam benih atau tanaman yang bebas penyakit, mempraktikkan penggiliran tanaman, menjaga kebersihan taman dengan membuang sisa tumbuhan yang diserang dan menggunakan fungisida jika perlu untuk mencegah penyebaran penyakit.</p></li></ul><p>Mengurus <em>Phyllosticta zingiberi</em> dengan berkesan adalah penting untuk meminimumkan kesan negatifnya terhadap tanaman halia, memastikan pertumbuhan yang sihat, dan meningkatkan produktiviti tanaman.</p>",
+    "en": "<p>Leaf blight disease in ginger plants caused specifically by <em>Phyllosticta zingiberi</em> involves the following details:</p><p><strong>Description:</strong></p><ul><li><p><strong>Symptoms</strong>: Leaf blight by <em>Phyllosticta zingiberi</em> manifests as small, circular to irregularly shaped spots on ginger leaves. These spots initially appear water-soaked and later turn dark brown or black with a yellowish halo around them. As the disease progresses, the spots coalesce and can cover large areas of the leaf surface.</p></li><li><p><strong>Pathogen</strong>: <em>Phyllosticta zingiberi</em> is a fungal pathogen that primarily attacks ginger leaves, causing distinct lesions that affect leaf health and overall plant vigor.</p></li><li><p><strong>Spread</strong>: The fungus spreads through water splash and wind, as well as through contaminated tools and plant debris. It thrives in warm, humid conditions typical of ginger growing regions.</p></li><li><p><strong>Impact</strong>: Infected leaves experience reduced photosynthetic efficiency, leading to yellowing, wilting, and premature leaf drop. Severe infections can weaken the plant and reduce yield.</p></li><li><p><strong>Management</strong>: Control measures include planting disease-free seeds or plants, practicing crop rotation, maintaining good garden hygiene by removing infected plant debris, and applying fungicides if necessary to prevent the spread of the disease.</p></li></ul><p>Managing <em>Phyllosticta zingiberi</em> effectively is crucial to minimize its impact on ginger plants, ensuring healthy growth and maximizing crop productivity.</p>"
+   },
+   "symptoms": [
+    {
+     "part": "ROOT",
+     "img": null,
+     "text": {
+      "ms": "<ul><li><p><strong>Pembusukan Akar</strong>: Akar yang dijangkiti mungkin mengalami pembusukan, menjadi lembut, lembik, dan berubah warna. Akar yang dijangkitiberubah menjadi coklat atau hitam.</p></li><li><p><strong>Ringan Akar</strong>: Jisim akar secara keseluruhan mungkin berkurang karena akar yang dijangkiti membusuk, mengakibatkan sistem akar yang lemah yang tidak dapat mendukung tanaman dengan baik.</p></li><li><p><strong>Luka pada Akar</strong>: Sama dengan gejala pada daun, bintik kecil gelap atau lesi dapat muncul pada akar. Bercak ini dapat berkembang dan menyebabkan akar semakin rusak.</p></li><li><p><strong>Gangguan Penyerapan Air dan Nutrien</strong>: Pembusukan dan kerosakan akar mengganggu kemampuan tanaman untuk menyerap air dan nutrien dengan efektif, mengakibatkan pertumbuhan yang terbantut dan kesihatan tanaman yang buruk.</p></li><li><strong>Jangkitan Sekunder : </strong>Akar yang lemah boleh menjadi lebih terdedah kepada jangkitan sekunder oleh patogen bawaan tanah yang lain, menambahkan masalah dan menekankan lagi tumbuhan </li></ul>",
+      "en": "<ul><li><p><strong>Root Rot</strong>: Infected roots may develop rot, becoming soft, mushy, and discolored. The affected roots can turn brown or black.</p></li><li><p><strong>Reduced Root Mass</strong>: The overall root mass may decrease as the infected roots decay, leading to a weaker root system that cannot support the plant properly.</p></li><li><p><strong>Lesions on Roots</strong>: Similar to the leaf symptoms, small dark spots or lesions can appear on the roots. These spots may expand and cause the roots to degrade further.</p></li><li><p><strong>Water and Nutrient Uptake Impairment</strong>: The rotting and decay of roots can impair the plant&rsquo;s ability to absorb water and nutrients effectively, leading to stunted growth and poor plant health.</p></li><li><p><strong>Secondary Infections</strong>: The weakened roots can become more susceptible to secondary infections by other soil-borne pathogens, compounding the problem and further stressing the plant.</p></li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "LEAF",
+     "img": "Leaf_Spot_2.png",
+     "text": {
+      "ms": "<ul><li><p><strong>Bintik Awal</strong>: Bintik kecil, bulat, dan kelihatan berair muncul pada daun. Bintik ini boleh berwarna coklat muda hingga coklat gelap.</p></li><li><p><strong>Busur Kuning</strong>: Bintik-bintik sering dikelilingi oleh busur kuning, yang dapat terlihat jelas dan membantu membezakan infeksi <em>Phyllosticta</em> dari penyakit bintik daun lainnya.</p></li><li><p><strong>Penggabungan Bintik</strong>: Beberapa bintik dapat bergabung membentuk area nekrotik yang lebih besar, yang dapat meliputi sebagian besar permukaan daun.</p></li><li><p><strong>Kuning dan Nekrosis Daun</strong>: Daun yang dijangkiti mungkin mulai kekuningan, terutama di sekitar luka, dan akhirnya berubah menjadi nekrotik dan mati jika jangkitan teruk.</p></li><li><p><strong>Gugur Daun Pramatang</strong>: Daun yang dijangkiti mungkin gugur lebih awal, mengurangikeluasan permukaan daun untuk fotosintesis dan mempengaruhi pertumbuhan dan hasil tanaman.</p></li></ul>",
+      "en": "<ul><li><p><strong>Initial Spots</strong>: Small, circular, water-soaked spots appear on the leaves. These spots can be light brown to dark brown.</p></li><li><p><strong>Lesion Development</strong>: As the disease progresses, the spots enlarge and become more irregular in shape. The center of the spots may dry out and turn tan or gray, while the edges remain dark brown or black.</p></li><li><p><strong>Yellow Halos</strong>: The spots are often surrounded by yellow halos, which can be prominent and help distinguish <em>Phyllosticta</em> infections from other leaf spot diseases.</p></li><li><p><strong>Coalescing Spots</strong>: Multiple spots may merge to form larger necrotic areas, which can cover significant portions of the leaf surface.</p></li><li><p><strong>Leaf Yellowing and Necrosis</strong>: Infected leaves may start to yellow, particularly around the lesions, and eventually turn necrotic and die if the infection is severe.</p></li><li><p><strong>Premature Leaf Drop</strong>: Severely affected leaves may drop prematurely, reducing the overall leaf area available for photosynthesis and thereby impacting plant growth and yield.</p></li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 183,
+   "crops": [
+    "BUAH"
+   ],
+   "name": {
+    "ms": "Bintik Cercospora (<em>Cercospora purpuera</em>)",
+    "en": "Cercospora Spot (<em>Cercospora purpuera)</em>"
+   },
+   "affected": {
+    "ms": "Avokado",
+    "en": "Avocado"
+   },
+   "desc": {
+    "ms": "<ul><li>Gejala jangkitan adalah tompok berbentuk bulat dengan bahagian tengah berwarna kelabu cerah dan tepi berwarna perang kemerahan.</li><li>Tompok tersebut pada awalnya kecil dan akan membesar secara perlahan-lahan.</li><li>Di bahagian tepi daun, terdapat tompok yang warnanya lebih tua (selalunya berwarna kecoklatan) berbanding bahagian tengah yang berwarna perang.</li></ul>",
+    "en": "<ul><li>Symptoms of infection are circular spots with a light gray center and reddish brown edges.</li><li>The spots are initially small and eventually slowly enlarge.</li><li>On the edge of the leaf there are spots that are older (often brownish) than brown in the middle.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "LEAF",
+     "img": "image_11.png",
+     "text": {
+      "ms": "<ul><li>Simptom jangkitan seperti bintik melingkar dengan pusat kelabu cerah dan tepi coklat kemerahan.</li><li>Bintik awal berukuran kecil akhirnya membesar dengan perlahan.</li><li>Pada bahagian tepi daun, terdapat bintik berwarna lebih tua (berwarna kecoklatan) dari berwarna coklat di bahagian tengahnya.</li></ul>",
+      "en": "<ul><li>Symptoms of infection are circular spots with a light gray center and reddish brown edges.</li><li>The spots are initially small and eventually slowly enlarge.</li><li>On the edge of the leaf there are spots that are older (often brownish) than brown in the middle.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "FR",
+     "img": "image_12.png",
+     "text": {
+      "ms": "<ul><li>Jangkitan muncul pada buah sebagai bintik-bintik kecil, bersudut, coklat gelap yang bergabung membentuk tompok yang tidak teratur.</li><li>Tompok-tompok ini mempunyai lingkaran kuning. Luka-luka buah selalunya menjadi titik masuk organisma reput lain, seperti kulat antraknos.</li></ul>",
+      "en": "<ul><li>Infection appears on fruits as small, angular, dark brown spots which coalesce to form irregular patches. These spots have a yellow halo.</li><li>Fruit lesions are frequently the point of entry for other decay organisms, such as the anthracnose fungus.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 283,
+   "crops": [
+    "COCONUT"
+   ],
+   "name": {
+    "ms": "Stem Bleeding (<em>Thielaviopsis paradoxa)</em>",
+    "en": "Stem Bleeding (<em>Thielaviopsis paradoxa)</em>"
+   },
+   "affected": {
+    "ms": "Kelapa",
+    "en": "Coconut"
+   },
+   "desc": {
+    "ms": "<ul><li>Tanda serangan ialah cecair merah tua meleleh keluar dari batang pokok</li><li>Serangan biasanya pada pokok yang lemah</li></ul><p><strong>Pengurusan penyakit: </strong></p><ul><li>Bersihkan tisu yang diserang. Musnahkan bahagian pokok yang diserang</li><li>Penggunaan Racun Kawalan &ndash; rawat dengan perekat campuran Bordeaux</li></ul>",
+    "en": "<ul><li>The main symptom is <strong>dark red sap oozing</strong> from the trunk</li><li>Infection usually occurs on <strong>weakened trees</strong></li></ul><p><strong>Disease Management:</strong> </p><ul><li><strong>Clean the infected tissue</strong> and destroy the affected parts of the tree</li><li><strong>Chemical control</strong> &ndash; treat with <strong>Bordeaux mixture</strong> combined with a sticker (adhesive)</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "STEM",
+     "img": "Source__Stephanie_Sokol_Nov_9_2023_6.png",
+     "text": {
+      "ms": "<ul><li> Tanda serangan ialah cecair merah tua meleleh keluar dari batang pokok</li><li> Serangan biasanya pada pokok yang lemah</li></ul>",
+      "en": "&bull; The symptom of infection is dark red liquid oozing from the plant stem<br>&bull; Infection usually occurs on weakened plants"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 286,
+   "crops": [
+    "JACKFRUIT"
+   ],
+   "name": {
+    "ms": "Root Knot Nematode <em>Meloidogyne sp.</em>",
+    "en": "Root Knot Nematode <em>Meloidogyne sp.</em>"
+   },
+   "affected": {
+    "ms": "Nangka",
+    "en": "Jackfruit"
+   },
+   "desc": {
+    "ms": "<ul><li>Kehilangan hasil tanaman sehingga 100%.</li><li> Merosakkan pelbagai tanaman tahunan dan saka seperti tomato, sayuran, tanaman hiasan, dan rumput.</li><li> Sangat berbahaya di kawasan tropika dan subtropika.</li></ul>",
+    "en": "<ul><li>Crop yield loss of up to 100%.</li><li>Damages various annual and perennial crops, including tomatoes, vegetables, ornamental plants, and grasses.</li><li>Highly dangerous in tropical and subtropical regions.</li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "ROOT",
+     "img": "Source__Stephanie_Sokol_Nov_9_2023_1.png",
+     "text": {
+      "ms": "<ul><li>Pertumbuhan pokok diserang terencat (decline), Pokok kelihatan layu dan batang pokok merekah</li><li>Mengehadkan penghasilan buah dan memendekkan hayat pokok</li><li> Kelihatan &lsquo;gall&rsquo; pada akar diserang</li></ul><p>Kitaran Hidup:</p><ul><li>Juvenil menetas dari telur dan bergerak melalui tanah untuk menyerang akar.</li><li>Juvenil berkembang menjadi betina yang bertelur ratusan biji pada permukaan akar.</li><li>Telur menetas dalam tanah yang hangat dan lembap untuk meneruskan kitaran hidup.</li></ul><p>Pengurusan nematode</p><p>Fumigasi tanah sebelum menanam dengan methyl bromide</p>",
+      "en": "<ul><li>Stunted plant growth (decline), wilting, and cracked stems.</li><li>Limits fruit production and shortens the plant&rsquo;s lifespan.</li><li>Presence of galls on infected roots.</li></ul><p>Life Cycle:</p><ul><li>Juveniles hatch from eggs and move through the soil to attack roots.</li><li>Juveniles develop into females that lay hundreds of eggs on the root surface.</li><li>Eggs hatch in warm, moist soil to continue the life cycle.</li></ul><p>Nematode Management:</p><ul><li> Soil fumigation with methyl bromide before planting.</li></ul></p>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 288,
+   "crops": [
+    "JACKFRUIT"
+   ],
+   "name": {
+    "ms": "Karat Buah <em>Pantoea stewartii</em>",
+    "en": "Fruit Rust <em>Pantoea stewartii</em>"
+   },
+   "affected": {
+    "ms": "Nangka",
+    "en": "Jackfruit"
+   },
+   "desc": {
+    "ms": "Karat Buah ialah penyakit <strong>berpunca daripada bakteria</strong> yang menyebabkan tompok-tompok berwarna karat pada permukaan buah. Penyakit ini biasanya berlaku apabila buah mengalami kecederaan atau terdedah kepada keadaan persekitaran yang tidak sesuai.",
+    "en": "Fruit Rust is a <strong>bacterial disease</strong> that causes rust-colored spots on the fruit surface. The disease typically appears when fruits are exposed to wounds or unfavorable environmental conditions."
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "Source__Stephanie_Sokol_Nov_9_2023_3.png",
+     "text": {
+      "ms": "<p><strong>Simptom :</strong></p><ul><li><p>Tompok bulat berwarna karat pada kulit buah</p></li><li><p>Tompok boleh bercantum dan menjadi kasar atau merekah</p></li><li><p>Buah mungkin berubah bentuk</p></li><li><p>Tiada kerosakan dalaman yang ketara kecuali berlaku jangkitan sekunder</p></li></ul><p><strong>Pengurusan Penyakit:</strong></p><ul><li><p>Musnahkan buah yang dijangkiti</p></li><li><p>Elakkan kecederaan pada buah semasa pengendalian</p></li><li><p>Amalkan kebersihan ladang dan pangkasan untuk pengudaraan baik</p></li><li><p>Semburan bakterisid berasaskan kuprum sebagai langkah pencegahan</p></li></ul>",
+      "en": "<p><strong>Symptoms:</strong></p><ul><li><p>Rusty, circular spots on the fruit skin</p></li><li><p>Spots may merge and form rough, cracked areas</p></li><li><p>In some cases, the fruit becomes deformed</p></li><li><p>No severe internal damage unless followed by secondary infection</p></li></ul><p><strong>Disease Management:</strong></p><ul><li><p>Remove and destroy infected fruits</p></li><li><p>Handle fruits carefully to avoid injuries</p></li><li><p>Practice field sanitation and pruning for good airflow</p></li><li><p>Apply copper-based bactericides as a preventive measure</p></li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 290,
+   "crops": [
+    "COCONUT"
+   ],
+   "name": {
+    "ms": "Burrowing Nematode -<em> Radopholus sp.</em>",
+    "en": "Burrowing Nematode -<em> Radopholus sp.</em>"
+   },
+   "affected": {
+    "ms": "Kelapa",
+    "en": "Coconut"
+   },
+   "desc": {
+    "ms": "<ul><li><p>Daun menjadi kekuningan.</p></li><li><p>Terdapat kecederaan berwarna oren pada akar yang akhirnya menyebabkan akar reput.</p></li><li><p>Pertumbuhan pokok terbantut.</p></li><li><p>Hasil tanaman berkurangan.</p></li><li><p>Daun tidak matang akan gugur.</p></li></ul><p><strong>Pengurusan Penyakit:</strong></p><ul><li><p>Elakkan penanaman pisang di kawasan yang dijangkiti.</p></li><li><p>Buang akar di luar sabut anak benih sebelum dipindahkan ke ladang.</p></li><li><p>Tanam tanaman kekacang <em>Crotalaria juncea</em> di antara barisan tanaman.</p></li><li><p>Gunakan racun kawalan &mdash; taburkan carbosulfan sebelum penanaman.</p></li></ul>",
+    "en": "<ul><li><p>Leaves turn yellow.</p></li><li><p>Orange-colored lesions on roots leading to root rot.</p></li><li><p>Stunted plant growth.</p></li><li><p>Reduced yield.</p></li><li><p>Premature leaf drop.</p></li></ul><p><strong>Disease Management:</strong></p><ul><li><p>Avoid planting bananas in the affected area.</p></li><li><p>Remove outer roots from seedlings before transplanting to the field.</p></li><li><p>Plant leguminous cover crop (<em>Crotalaria juncea</em>) between rows.</p></li><li><p>Apply control chemicals &mdash; broadcast carbosulfan before planting.</p></li></ul>"
+   },
+   "symptoms": [
+    {
+     "part": "ROOT",
+     "img": "Source__Stephanie_Sokol_Nov_9_2023_8.png",
+     "text": {
+      "ms": "<p>Gejala:<br>&bull; Daun menjadi kekuningan.<br>&bull; Kecederaan berwarna oren pada akar sehingga menyebabkan akar reput.<br>&bull; Pertumbuhan pokok terbantut.<br>&bull; Hasil pengeluaran berkurangan.<br>&bull; Daun tidak matang akan gugur.</p><p>Pengurusan penyakit (dalam bentuk point):<br>&bull; Elakkan penanaman pisang di kawasan tersebut.<br>&bull; Buang akar di luar sabut anak pokok sebelum dipindahkan ke ladang.<br>&bull; Tanam tanaman kekacang <strong>Crotalaria juncea</strong> di antara barisan tanaman.<br>&bull; Gunakan racun kawalan &ndash; Taburkan <strong>carbosulfan</strong> sebelum penanaman.</p>",
+      "en": "<p>Symptoms:<br>&bull; Yellowing of leaves.<br>&bull; Orange lesions on roots leading to root rot.<br>&bull; Stunted plant growth.<br>&bull; Reduced yield.<br>&bull; Premature leaf drop.</p><p>Disease management (in point form):<br>&bull; Avoid planting bananas in the area.<br>&bull; Remove roots outside the seedling husk before transplanting to the field.<br>&bull; Plant <strong>Crotalaria juncea</strong> (sunn hemp) as a cover crop between rows.<br>&bull; Apply nematicide &ndash; Broadcast <strong>carbosulfan</strong> before planting.</p>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 309,
+   "crops": [
+    "PINEAPPLE"
+   ],
+   "name": {
+    "ms": "Tupai Buah (Fruit squirrels) - <em>Callosciurus</em> spp.",
+    "en": "Tupai Buah (Fruit squirrels) - <em>Callosciurus</em> spp."
+   },
+   "affected": {
+    "ms": "Nanas",
+    "en": "Pineapple"
+   },
+   "desc": {
+    "ms": "<p>Tupai buah ialah mamalia kecil daripada kumpulan rodensia yang memakan pelbagai jenis buah-buahan, biji benih, bunga dan pucuk muda. Di kawasan kebun, tupai dianggap sebagai perosak kerana ia mengorek dan memakan buah yang sedang berkembang serta buah yang hampir ranum, menyebabkan penurunan kualiti dan kuantiti.Tupai akan menggigit dan memakan isi buah, menyebabkan kesan gigitan, lubang, serta kerosakan pada permukaan buah. Buah yang rosak juga lebih mudah dijangkiti oleh kulat dan bakteria, sekali gus meningkatkan kerugian hasil.</p><p><br><strong>Pengurusan Perosak Bersepadu (IPM) </strong><br>&bull; Tuai buah dengan segera apabila mencapai tahap kematangan bagi mengurangkan sumber makanan. <br>&bull; Buang buah yang rosak dari kawasan kebun. <br>&bull; Pasang jaring pelindung pada pokok nanas.<br>&bull; Lakukan pemeriksaan berkala untuk mengesan kerosakan akibat pemakanan, kesan gigitan dan kehadiran tupai. <br>&bull; Galakkan kehadiran musuh semula jadi seperti burung pemangsa (contohnya burung hantu dan helang) jika bersesuaian. <br>&bull; Gunakan penghalau visual atau bunyi .</p><p><br>Kawalan Kimia<br>&bull; Tidak disyorkan. Pengurusan tupai lebih berkesan melalui kaedah pencegahan, pengecualian (exclusion), sanitasi kebun dan penggunaan perangkap yang mematuhi peraturan tempatan.</p>",
+    "en": "<p>Fruit squirrels are small rodents that feed on a wide range of fruits, seeds, flowers, and young shoots. In orchards, they are considered pests because they gnaw on developing and ripening fruits, causing direct damage and reducing marketable yield. Their feeding activity often leaves bite marks, partially eaten fruits, and fruit drop. Damaged fruits are also more susceptible to secondary infections by fungi and bacteria, leading to further losses.</p><p><strong>Integrated Pest Management (IPM) </strong><br>&bull; Harvest fruits promptly as they ripen to reduce food sources. <br>&bull; Remove damaged fruits from the orchard. <br>&bull; Install netting around individual trees <br>&bull; Regularly inspect orchards for feeding damage, bite marks, and squirrel activity. <br>&bull; Encourage natural predators such as birds of prey (e.g., owls and hawks) where appropriate. <br>&bull; Use visual or sound deterrents (reflective tapes, predator decoys, noise devices), rotating them periodically to prevent habituation.</p><p><br>Chemical Control<br>&bull; Not recommended</p>"
+   },
+   "symptoms": [
+    {
+     "part": "FR",
+     "img": "Serangan_Tupai_pada_nanas_DOA_Sabah.png",
+     "text": {
+      "ms": "<ul><li>Terdapat kesan gigitan yang tidak sekata pada permukaan buah nanas.</li><li>Isi buah dimakan atau dikorek, menyebabkan bahagian buah berlubang.</li><li>Kehadiran luka terbuka pada buah akibat aktiviti pemakanan tupai.</li></ul>",
+      "en": "<ul><li>Irregular bite marks on the surface of the fruit.</li><li>Holes or cavities in the fruit flesh caused by feeding activity.</li><li>Partially eaten fruits with exposed flesh.</li></ul>"
+     },
+     "steps": []
+    }
+   ]
+  },
+  {
+   "id": 310,
+   "crops": [
+    "COCONUT"
+   ],
+   "name": {
+    "ms": "Kumbang Badak (Coconut Rhinoceros Beetle) -<em>Oryctes rhinoceros</em>",
+    "en": "Kumbang Badak (Coconut Rhinoceros Beetle) -<em>Oryctes rhinoceros</em>"
+   },
+   "affected": {
+    "ms": "Kelapa",
+    "en": "Coconut"
+   },
+   "desc": {
+    "ms": "<p>Kumbang badak dewasa menyerang bahagian umbut dan pucuk muda pokok kelapa dengan mengorek dan memakan tisu lembut di bahagian tengah (spear leaf). Serangan menyebabkan daun muda menjadi berlubang, rosak dan boleh mengakibatkan pertumbuhan pokok terbantut atau mati jika serangan teruk.</p><p><strong>Pengurusan Perosak Bersepadu (IPM)</strong></p><ul><li>Musnahkan tempat pembiakan seperti batang kelapa reput, tunggul dan sisa organik di kawasan ladang.</li><li>Gunakan perangkap feromon untuk memantau serta mengurangkan populasi kumbang dewasa.</li><li>Pasang jaring serangga di sempadan ladang bagi menghalang kemasukan perosak ke kawasan tanaman.</li><li>Gunakan bunjut ubat gegat sebagai bahan penghalau kerana baunya dapat menghalau CRB.</li><li>Kulat entomopatogen <em>Metarhizium anisopliae</em> untuk mengawal populasi perosak.</li></ul><p><strong>Kawalan Kimia (Jika Perlu)</strong></p><ul><li>Semburan atau aplikasi racun serangga seperti methamidophos </li><li>Apabila menggunakan racun perosak, patuhi arahan label termasuk kadar dos, masa aplikasi dan langkah keselamatan.</li></ul></p>",
+    "en": "<p>Adult Coconut rhinoceros beetle-CRB attacks the young shoots by boring into and feeding on the soft tissues in the central part (spear leaf). The attack causes the leaves to become perforated and damaged, and may result in stunted growth or death of the palm if the infestation is severe. </p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Destroy breeding sites such as decaying trunks, stumps, and organic debris within the plantation area.</li><li>Use pheromone traps to monitor and reduce the adult beetle population.</li><li>Use nephtaline sachets; the odor can help deter CRB.</li><li>Entomopathogenic <em>Metarhizium anisopliae</em> to control pest populations.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Apply insecticides such as Methamidophos</li><li>When using pesticides, always follow label instructions, application rate, timing, and safety precautions</li></ul></p>"
+   },
+   "symptoms": [
+    {
+     "part": "PEST",
+     "img": "CRB_Kumbang_badak.png",
+     "text": {
+      "ms": "<ul><li>CRB dewasa</li></ul>",
+      "en": "<ul><li>Adult CRB</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "STEM",
+     "img": "CRB_umbut_batang.png",
+     "text": {
+      "ms": "<ul><li>CRB mengorek dan memakan umbut kelapa</li></ul>",
+      "en": "<ul><li>CRB bored and feed on the soft stem of the coconut</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "F",
+     "img": "CRB_pelepah_simptom_yzPKzVe.png",
+     "text": {
+      "ms": "<ul><li>Terdapat lubang dan terowong pada pelepah akibat aktiviti pengorek oleh kumbang dewasa.</li><li>Terdapat fiber lembab pada pangkal pelepah menunjukan serangan baru</li></ul>",
+      "en": "<ul><li>Holes on frond were caused by adult beetles boring into the growing point.</li><li>Damaged central spindle (spear leaf) with visible feeding scars.</li><li>Wet fibres on a newly attacked </li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "LEAF",
+     "img": "CRB_Simptom_daun.png",
+     "text": {
+      "ms": "<ul><li>Daun muda yang baru terbuka menunjukkan potongan berbentuk &quot;V&quot; atau segi tiga.</li><li>Daun muda kelihatan koyak, tercarik atau tidak sempurna apabila berkembang.</li></ul>",
+      "en": "<ul><li>V-shaped or wedge-shaped cuts on young leaves when they unfold from the crown.</li><li>Chewed or shredded leaflets on newly emerged fronds.</li></ul>"
+     },
+     "steps": []
+    },
+    {
+     "part": "LC",
+     "img": "kitaran_hidup_CRB.png",
+     "text": {
+      "ms": "Kitaran hidup kumbang badak",
+      "en": "Life cycle of CRB"
+     },
+     "steps": []
+    }
+   ]
+  }
+ ]
+}

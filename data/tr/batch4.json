@@ -1,0 +1,197 @@
+[
+ {
+  "id": 4,
+  "name": {
+   "ms": "Sigatoka Hitam",
+   "en": "Black Sigatoka",
+   "zh": "香蕉黑条叶斑病"
+  },
+  "sci": "<em>Mycosphaerella fijiensis</em>",
+  "desc": {
+   "en": "This disease commonly infects banana plants. Infection begins as yellowish spots on the leaves, which then enlarge with a purple/black centre. Severe infection makes the plant look as if it has been burnt. The disease can be controlled by pruning and by using fungicides such as Mancozeb.",
+   "zh": "这种病害常见于香蕉。感染初期叶片上出现淡黄色斑点，之后斑点扩大，中间呈紫色或黑色。严重感染时植株看起来像被火烧过一样。可通过修剪及使用杀菌剂如代森锰锌 Mancozeb 来防治。"
+  },
+  "symptoms": [
+   {
+    "en": "Black Sigatoka leaf spot",
+    "zh": "黑条叶斑病叶斑",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": {
+   "ms": "Karat Alga Cephaleuros",
+   "en": "Cephaleuros Algal Rust",
+   "zh": "榴莲藻斑病（红锈藻病）"
+  },
+  "sci": "<em>Cephaleuros virescens</em>",
+  "desc": {
+   "en": "This alga causes a disease called Cephaleuros Algal Rust on durian leaves. It is a filamentous green alga known to be a parasite of higher plants. Always follow Good Agricultural Practices (GAP): fertilise and irrigate properly and keep the farm free of weeds, especially around the trees. Planting distance must also follow the recommendation to ensure good air flow and to reduce humidity around the trees.",
+   "zh": "这种藻类会引起榴莲叶片的藻斑病（红锈藻病）。它是一种丝状绿藻，已知会寄生于高等植物。应始终遵守良好农业规范（GAP）：做好施肥和灌溉，保持农场无杂草，尤其是树木周围。种植距离也必须按照建议，以确保通风良好并降低树木周围的湿度。"
+  },
+  "symptoms": [
+   {
+    "en": "Reddish-brown, velvet-like spots appear on the surface of leaves and twigs. The leaves turn yellowish and fall off.",
+    "zh": "叶片和小枝表面出现红褐色、像天鹅绒般的斑点。叶片会变黄并脱落。",
+    "steps": [
+     {
+      "en": "Reddish-brown, velvet-like spots appear on the surface of leaves and twigs. The leaves turn yellowish and fall off.",
+      "zh": "叶片和小枝表面出现红褐色、像天鹅绒般的斑点。叶片会变黄并脱落。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "name": {
+   "ms": "Penyakit Hawar Seludang",
+   "en": "Sheath Blight",
+   "zh": "水稻纹枯病"
+  },
+  "sci": "<em>Rhizoctonia solani</em>",
+  "desc": {
+   "en": "<p><em>Rhizoctonia solani</em> is the fungus that causes sheath blight in paddy and is one of the most serious diseases in rice cultivation. Infection occurs when the paddy reaches full vegetative growth. Symptoms can be seen at the maximum tillering or stem elongation stage.</p><p><strong>Control</strong></p><ul><li>Use healthy seed at the optimum rate and avoid over-fertilising.</li><li>Adding potassium and silica fertiliser can reduce infection.</li><li>Make sure the water level in the nursery does not become too dry.</li><li>For chemical control, use pesticides such as isoprothiolane (2kg / ha) and treat seed with fungicides such as thiram (3g / 100g seed), benomyl (4g / kg seed) or captan (3g / 100g seed).</li></ul>",
+   "zh": "<p><em>Rhizoctonia solani</em>（立枯丝核菌）是引起水稻纹枯病的真菌，是稻米种植中最严重的病害之一。当水稻达到营养生长旺盛期时便会发生感染。症状可在分蘖盛期或拔节期观察到。</p><p><strong>防治</strong></p><ul><li>按最适用量使用健康的种子，避免过量施肥。</li><li>增施钾肥和硅肥可减少病害感染。</li><li>确保秧田水位不要太干。</li><li>化学防治方面，可使用农药如稻瘟灵 isoprothiolane（2kg / ha），并用杀菌剂处理种子，如福美双 thiram（3g / 100g 种子）、苯菌灵 benomyl（4g / kg 种子）或克菌丹 captan（3g / 100g 种子）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Usually starts attacking at the maximum tillering stage. Lesions are oval and blister-like, and spread quickly from flowering until grain filling when there is rain. Can cause the rice plants to fall over (lodging).",
+    "zh": "通常在分蘖盛期开始发病。病斑呈椭圆形、像水泡状，遇雨时从开花期到灌浆期迅速扩散。可导致稻株倒伏。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 92,
+  "name": {
+   "ms": "Bintik Daun Kopi",
+   "en": "Coffee Brown Eye Spot",
+   "zh": "咖啡褐眼斑病"
+  },
+  "sci": "<em>Cercospora</em> sp.",
+  "desc": {
+   "en": "<p>Coffee leaf spot is a fungal disease of coffee caused by <em>Cercospora</em> species. It attacks coffee leaves and produces small, round or irregular brown spots, often with a lighter or grey centre that looks like an &ldquo;eye&rdquo;. When the attack becomes severe, the leaves turn yellow, dry up and fall early. This reduces the tree's ability to photosynthesise, weakens the plant, and can lower the yield and quality of coffee beans. The disease usually spreads more easily in high humidity, poor air flow and plantings that are too shaded.</p><p><strong>Crop Disease Control:</strong></p><ul><li>Prune branches and leaves that are too dense to improve air flow.</li><li>Remove and destroy infected leaves to reduce the source of inoculum.</li><li>Use suitable plant spacing to reduce excess humidity.</li><li>Control shade so the planting area is not too shaded.</li><li>Apply balanced fertiliser to improve tree health.</li><li>Avoid excess moisture with a good farm drainage system.</li><li>Use a suitable fungicide (for example copper-based or systemic fungicides) according to the label recommendation, e.g. Copper hydroxide.</li><li>Monitor the crop regularly for early detection of attack.</li></ul>",
+   "zh": "<p>咖啡叶斑病（褐眼斑病）是由 <em>Cercospora</em>（尾孢菌）引起的咖啡真菌病害。它侵害咖啡叶片，形成圆形或不规则的褐色小斑点，斑点中央往往较浅或呈灰色，看起来像“眼睛”。病害严重时，叶片会变黄、干枯并提早脱落。这会降低植株的光合作用能力，使植株衰弱，并可能导致咖啡豆产量和品质下降。在高湿度、通风不良及过度遮荫的种植区，此病通常更容易蔓延。</p><p><strong>作物病害防治：</strong></p><ul><li>修剪过于茂密的枝叶，以改善通风。</li><li>清除并销毁受感染的叶片，以减少病原菌来源。</li><li>采用适当的种植距离，以减少过高的湿度。</li><li>控制遮荫，避免种植区过于阴暗。</li><li>均衡施肥，增强植株健康。</li><li>做好农场排水系统，避免湿气过多。</li><li>按照标签建议使用适当的杀菌剂（例如铜基或内吸性杀菌剂），如氢氧化铜 Copper hydroxide。</li><li>定期巡查作物，以便及早发现病害。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Brown spots appear on the leaves and grow larger with a reddish-brown margin.</li><li>These spots can be seen on both the upper and lower sides of the leaf.</li><li>When there are many spots, the leaf looks as if it has been burnt.</li></ul>",
+    "zh": "<ul><li>叶片上出现褐色斑点，斑点会扩大，边缘呈红褐色。</li><li>叶片正面和背面都可看到这些斑点。</li><li>当叶片上斑点很多时，叶片看起来像被火烧过一样。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 106,
+  "name": {
+   "ms": "Kumbang Pengerat Daun Mangga",
+   "en": "Mango Leaf-Cutting Weevil",
+   "zh": "芒果切叶象甲"
+  },
+  "sci": "<em>Deporaus marginatus</em> Pascoe",
+  "desc": {
+   "en": "<p>This insect is known as the mango leaf-cutting weevil; its eggs are embedded in the leaf tissue. <br>The insect makes a slit in the leaf and the egg is inserted into it. <br>Eggs are laid singly (0.5mm).<br>Further development takes place inside the leaf that has been cut off. <br>On some vegetation the fallen leaf is kept from drying out immediately.<br>Incubation: about 2 days<br>After hatching, the larva tunnels (mines) in the leaf on the ground, forming an irregular mine.<br>Larval stage: 1 week (size: 5 mm)<br>Before pupation: the larva first builds a cell in the soil, and forms a pupa inside the cell.<br>Pupal stage: 9 days &amp; Adult stage (5mm) <br>(Khoo et al., 1991) </p><p><strong>Control</strong></p><p>A combination of cultural and chemical control is recommended. While spraying a systemic insecticide, for example a 0.15% a.i. acephate solution on new leaves, the pest population will be suppressed further if the fallen cut leaves are collected and destroyed.</p>",
+   "zh": "<p>这种昆虫称为芒果切叶象甲，卵产在叶片组织内。<br>成虫在叶片上割开一道裂缝，然后把卵产进去。<br>卵单粒产下（0.5mm）。<br>之后的发育在被切下的叶片内进行。<br>落在某些植被上的叶片不会立即干枯。<br>孵化期：约 2 天<br>孵化后，幼虫在落地叶片中钻蛀取食，形成不规则的蛀道。<br>幼虫期：1 周（体长：5 mm）<br>化蛹准备：幼虫先在土中筑一个土室，并在土室内化蛹。<br>蛹期：9 天 &amp; 成虫期（5mm）<br>(Khoo et al., 1991) </p><p><strong>防治</strong></p><p>建议结合栽培防治与化学防治。在新叶上喷施内吸性杀虫剂（例如 0.15% a.i. 乙酰甲胺磷 acephate 溶液）的同时，若把掉落的被切叶片收集并销毁，害虫数量会被进一步压低。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>The weevil damages young leaves in two ways: </p><ol><li>Adult weevils feed on the leaves, causing them to dry out.</li><li>Mature females cut off young leaves, which stimulates many new shoots to grow, resulting in untidy growth. A serious attack will affect fruit production.</li></ol>",
+    "zh": "<p>这种象甲以两种方式危害嫩叶：</p><ol><li>成虫取食叶片，导致叶片失水干枯。</li><li>成熟的雌虫会切断嫩叶，刺激大量新芽长出，使植株生长杂乱。严重危害会影响果实产量。</li></ol>",
+    "steps": [
+     {
+      "en": "Damage to mango shoots by the leaf-cutting weevil. Young leaves are cut at the base by the female weevil after she lays her eggs in the leaf midrib. The leaves finally fall, leaving bare stems.",
+      "zh": "芒果切叶象甲对芒果嫩梢的危害。雌虫在叶片中脉产卵后，从叶基部把嫩叶切断。叶片最终脱落，只留下光秃的枝条。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 120,
+  "name": {
+   "ms": "Kumbang Belangkas",
+   "en": "Gold-dust Weevil",
+   "zh": "绿鳞象甲"
+  },
+  "sci": "<em>Hypomeces squamosus</em> Fabricius",
+  "desc": {
+   "en": "<p>A leaf pest that attacks durian, especially from the young to mature tree stage. Adult beetles feed on the leaf surface, young shoots and sometimes flowers, causing clear damage to the tree canopy. This insect is recognised by its body covered with greenish-gold scales that look like gold dust. The larvae live in the soil and feed on roots, while the adults attack the upper parts of the tree. Adults feed by biting the leaf edges, making the edges uneven or jagged. Insect droppings (frass) are often seen on the leaf surface and on the ground around the tree.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Check the orchard regularly, especially young shoots and new leaves.</li><li>Collect and destroy adult beetles by hand when numbers are low.</li><li>Control weeds around the trees to reduce larval habitat in the soil.</li><li>Encourage natural enemies such as birds and insect predators.</li></ul><p>Chemical Control (If Needed)</p><ul><li>Use insecticides containing the active ingredient cypermethrin or deltamethrin, at the rate recommended on the product label.</li><li>Spray the leaf surface in the morning, because the insect is active at that time.</li><li>When using pesticides, always wear protective clothing and follow the label instructions, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>一种危害榴莲叶片的害虫，尤其在幼树至成龄树阶段。成虫取食叶面、嫩梢，有时也取食花朵，对树冠造成明显损害。这种昆虫的特征是身体覆盖着金绿色的鳞片，看起来像金粉。幼虫生活在土中取食根部，而成虫则危害树的上部。成虫从叶缘啃食叶片，使叶缘变得不整齐或呈锯齿状。叶面及树下地面常可见到虫粪。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范（APB/GAP）</li><li>定期巡查果园，尤其是嫩梢和新叶。</li><li>虫口数量少时，用手捕捉并销毁成虫。</li><li>清除树木周围的杂草，减少土中幼虫的栖息地。</li><li>保护和利用天敌，如鸟类和捕食性昆虫。</li></ul><p>化学防治（如有需要）</p><ul><li>使用含有效成分氯氰菊酯 cypermethrin 或溴氰菊酯 deltamethrin 的杀虫剂，按产品标签建议的用量使用。</li><li>应在早上喷洒叶面，因为这种害虫在此时段最活跃。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的指示，包括建议剂量、适当的施药时间以及收成前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The adult beetle has a shiny golden-green body covered with fine scales.</li><li>The adult stage is the one most often found and damages crops by eating the leaves.</li><li>The attack makes irregular holes on the surface and edges of the leaves, which reduces the plant's photosynthesis.</li></ul>",
+    "zh": "<ul><li>成虫身体呈闪亮的金绿色，覆盖着细小的鳞片。</li><li>成虫期是最常见的虫期，以取食叶片危害作物。</li><li>受害叶片的表面和边缘出现不规则的孔洞，从而降低植株的光合作用。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Adult beetles attack by chewing the leaf edges, making the edges jagged</li></ul>",
+    "zh": "<ul><li>成虫啃食叶缘，使叶缘呈锯齿状</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 128,
+  "name": {
+   "ms": "Antraknos Avokado",
+   "en": "Avocado Anthracnose",
+   "zh": "牛油果炭疽病"
+  },
+  "sci": "<em>Glomerella cingulata</em>",
+  "desc": {
+   "en": "<p>The fungus that causes anthracnose in avocado can survive all season in infected plant debris or inside the fruit. When conditions favour the pathogen, such as high humidity and moderate temperatures, the fungus produces spores. These spores can be spread by rain, wind or physical contact, and they infect healthy avocado tissue, causing new infections.</p><p><strong>Control Management:</strong></p><ul><li>Prune dead twigs and branches before the fungus produces spores</li><li>Remove dead leaves from the tree canopy.</li><li>Keep harvested fruit dry and store it in cool conditions.</li></ul>",
+   "zh": "<p>引起牛油果炭疽病的真菌可在受感染的植物残体或果实内存活一整季。当环境有利于病原菌生长时，例如高湿度和温度适中，这种真菌便会产生孢子。孢子可通过雨水、风或接触传播，感染健康的牛油果组织，造成新的感染。</p><p><strong>防治管理：</strong></p><ul><li>在真菌产生孢子之前，剪除枯死的小枝和枝条</li><li>清除树冠中的枯叶。</li><li>确保采收后的果实保持干燥，并存放在阴凉处。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Chlorotic (yellowing) and necrotic (dead) spots; brown or purple lesions on the fruit.",
+    "zh": "出现褪绿（发黄）和坏死斑点；果实上有褐色或紫色病斑。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 157,
+  "name": {
+   "ms": "Lalat Buah Betik",
+   "en": "Papaya Fruit Fly",
+   "zh": "木瓜果实蝇"
+  },
+  "sci": "<em>Bactrocera papayae</em>",
+  "desc": {
+   "en": "<ul><li>The insect is active during the day, especially in the morning and late afternoon</li><li>Fruit fly numbers increase quickly in hot and humid weather</li><li>Fruit flies usually attack papaya when the fruit is nearly ripe or just starting to ripen</li></ul><p>Pest management</p><ul><li>Good Agricultural Practices</li><li>Wrap papaya fruits with clear plastic or special paper.</li><li>Harvest fruit early; do not wait until it is too ripe on the tree.</li><li>Use pheromone traps (methyl eugenol), which strongly attract male flies.</li><li>Use chemical pesticides according to the label recommendation (e.g. cypermethrin and deltamethrin).</li></ul>",
+   "zh": "<ul><li>这种昆虫在白天活动，尤其是早上和傍晚</li><li>在炎热潮湿的天气里，果实蝇数量会迅速增加</li><li>果实蝇通常在木瓜接近成熟或刚开始成熟时危害果实</li></ul><p>害虫管理</p><ul><li>良好农业规范（APB/GAP）</li><li>用透明塑料袋或专用纸袋包裹木瓜果实。</li><li>提早采收，不要等果实在树上过熟。</li><li>使用信息素诱捕器（甲基丁香酚 methyl eugenol），对雄蝇有很强的吸引力。</li><li>按照标签建议使用化学农药（例如：氯氰菊酯 cypermethrin 和溴氰菊酯 deltamethrin）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Papaya fruits attacked by fruit flies show signs such as small puncture holes, white sap oozing from the fruit, soft or rotten flesh, larvae (maggots) inside, and often drop before ripening.</li></ul>",
+    "zh": "<ul><li>受果实蝇危害的木瓜会出现以下迹象：果皮上有细小的刺孔、果实流出白色乳汁、果肉变软或腐烂、果内有幼虫（蛆），并常在成熟前掉落。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 283,
+  "name": {
+   "ms": "Penyakit Batang Berdarah",
+   "en": "Stem Bleeding",
+   "zh": "椰子茎干流胶病（茎出血病）"
+  },
+  "sci": "<em>Thielaviopsis paradoxa</em>",
+  "desc": {
+   "en": "<ul><li>The sign of attack is dark red liquid oozing out of the trunk</li><li>Attacks usually occur on weak trees</li></ul><p><strong>Disease management: </strong></p><ul><li>Clean off the infected tissue. Destroy the infected parts of the tree</li><li>Chemical control &ndash; treat with Bordeaux mixture paste mixed with a sticker</li></ul>",
+   "zh": "<ul><li>发病迹象是树干流出深红色的液体</li><li>通常危害生长衰弱的树</li></ul><p><strong>病害管理：</strong></p><ul><li>清除受感染的组织，并销毁树上受害的部分</li><li>化学防治 &ndash; 用加入粘着剂的波尔多液 Bordeaux mixture 糊剂涂抹处理</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The sign of attack is dark red liquid oozing out of the trunk</li><li>Attacks usually occur on weak trees</li></ul>",
+    "zh": "<ul><li>发病迹象是树干流出深红色的液体</li><li>通常危害生长衰弱的树</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

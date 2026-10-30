@@ -1,0 +1,122 @@
+[
+{"id": 20,
+ "name": {"ms": "Antraknos Daun Durian", "en": "Durian Leaf Anthracnose", "zh": "榴莲炭疽病"},
+ "sci": "<em>Colletotrichum gloeosporioides</em>",
+ "desc": {
+  "en": "<em>Colletotrichum gloeosporioides</em> causes Leaf Anthracnose in durian farms. Infection and disease development by this fungus usually depend on rainwater, and a temperature of 20-25 degrees Celsius is needed for the conidia (spores) to germinate and for infection to happen. Infection starts when the conidia germinate and form appressoria that stick firmly to the surface of the host plant. The fungus then breaks through the host cuticle and cell walls. To prevent this, always practise Good Agricultural Practices (GAP): clean up all fallen leaves in the farm, especially at the base of the tree, so that the disease does not spread. Prune branches regularly to improve air flow inside the canopy and reduce humidity around the tree. In severe infection, spray a systemic fungicide such as benomyl or carbendazim, alternating with a contact fungicide (mancozeb or maneb), at 7-10 day intervals.",
+  "zh": "<em>Colletotrichum gloeosporioides</em>（胶孢炭疽菌）会引起榴莲园的叶片炭疽病。这种真菌的侵染和病害发展通常依赖雨水，而且需要20-25摄氏度的温度，分生孢子才能萌发并造成侵染。侵染开始时，萌发的分生孢子形成附着胞，牢牢附着在寄主表面，然后穿透寄主的角质层和细胞壁。为避免发生这种情况，务必坚持良好农业规范（APB/GAP）：清除园内所有落叶，特别是树干基部的落叶，以免病害蔓延。定期修剪枝条，改善树冠内的通风，降低树木周围的湿度。严重感染时，喷施内吸性杀菌剂如苯菌灵 benomyl 和多菌灵 carbendazim，并与保护性（触杀性）杀菌剂（代森锰锌 mancozeb 和代森锰 maneb）轮换使用，每隔7-10天喷一次。"
+ },
+ "symptoms": [
+  {"en": "Occurs on poorly maintained trees and seedlings. Round or irregular necrotic (dead) spots appear on the leaf or along the leaf edge. These spots are usually greyish-brown and have several ring-like layers circling around them. Severe attack causes the leaves to fall.",
+   "zh": "多发生在缺乏照顾的果树和幼苗上。叶片上或叶缘出现圆形或不规则的坏死斑。这些病斑通常呈灰褐色，周围有好几层像环纹一样的同心轮纹。严重侵染会导致落叶。",
+   "steps": [
+    {"en": "Round or irregular necrotic (dead) spots appear on the leaf or along the leaf edge. These spots are usually greyish-brown and have several ring-like layers circling around them. Severe attack causes the leaves to fall.",
+     "zh": "叶片上或叶缘出现圆形或不规则的坏死斑。这些病斑通常呈灰褐色，周围有好几层像环纹一样的同心轮纹。严重侵染会导致落叶。"}
+   ]}
+ ]},
+{"id": 38,
+ "name": {"ms": "Hawar Daun Bakteria", "en": "Bacterial Leaf Blight", "zh": "水稻白叶枯病"},
+ "sci": "<em>Xanthomonas campestris</em> pv. <em>oryzae</em>",
+ "desc": {
+  "en": "This is a bacterial pathogen that causes serious Bacterial Leaf Blight in paddy. The pathogen spreads in the plant and infects the leaf veins and xylem, causing blockage and wilting. <em>Bacterial ooze</em> coming out of the leaf <em>lesions</em> is spread by wind or rain and infects plants through wounds. To prevent this, use paddy varieties that are resistant to this disease, avoid using too much fertiliser and control the water level in the field.",
+  "zh": "这是一种细菌性病原体，会在稻田引起严重的白叶枯病。病原菌在植株内扩散，侵染叶脉和木质部，造成堵塞并导致萎蔫。从叶片<em>病斑</em>渗出的<em>菌脓</em>会随风或雨水传播，并从伤口侵染植株。为防止发生，应种植抗此病的水稻品种，避免过量施肥，并控制田间水位。"
+ },
+ "symptoms": [
+  {"en": "Lesions start at the edge of the leaf tip. They are pale green to greyish green, then turn white and later yellow. The edges of the lesions are uneven (wavy). The leaf tips dry up and roll inwards.",
+   "zh": "病斑从叶尖边缘开始出现，颜色由淡绿色至灰绿色，随后变白，再转黄。病斑边缘不整齐（呈波浪状）。叶尖干枯并向内卷曲。",
+   "steps": []}
+ ]},
+{"id": 47,
+ "name": {"ms": "Reput Buah Nangka", "en": "Jackfruit Fruit Rot", "zh": "菠萝蜜果腐病"},
+ "sci": "<em>Rhizopus</em> sp.",
+ "desc": {
+  "en": "<ul><li><p>Jackfruit Fruit Rot is caused by a fungal infection.</p></li><li><p>Practise Good Agricultural Practices (GAP):</p><ul><li><p>Prune the trees to improve air flow inside the canopy.</p></li><li><p>Destroy all infected fruits, whether on the tree or fallen on the ground &mdash; burn them or bury them in the soil.</p></li><li><p>Clear the farm of weeds, bushes and fallen leaves.</p></li><li><p>Avoid injuring the fruits during farm work.</p></li><li><p>Make sure fruits do not touch the soil and are not stacked on top of each other.</p></li><li><p>Avoid storing fruits in hot, poorly ventilated places.</p></li></ul></li><li><p>If the attack is severe:</p><ul><li><p>Spray a copper-based fungicide on the flowers, fruit stalks and fruits every 7&ndash;10 days.</p></li></ul></li></ul>",
+  "zh": "<ul><li><p>菠萝蜜果腐病由真菌感染引起。</p></li><li><p>坚持良好农业规范（APB/GAP）：</p><ul><li><p>进行修剪，改善树冠内的通风。</p></li><li><p>销毁所有受感染的果实，不论是挂在树上的还是掉落地面的——烧毁或埋入土中。</p></li><li><p>清除园内的杂草、灌木和落叶。</p></li><li><p>在园间作业时避免弄伤果实。</p></li><li><p>确保果实不接触土壤，也不互相堆压。</p></li><li><p>避免把果实存放在炎热、通风不良的地方。</p></li></ul></li><li><p>如果侵染严重：</p><ul><li><p>每7–10天在花、果柄和果实上喷施铜基杀菌剂。</p></li></ul></li></ul>"
+ },
+ "symptoms": [
+  {"en": "<p>Can attack twigs, stalks, flowers, young fruit (fruitlets) and fruit.</p><ul><li>The core (pith) rots and turns blackish, starting from the stalk and spreading through the whole fruit.</li><li>The fruit flesh, rags (fibrous strands), skin and seed coat turn rusty brown and rot black.</li><li>Flowers rot and become covered with black fungal growth (mycelium).</li></ul>",
+   "zh": "<p>可危害枝条、果柄、花、幼果和果实。</p><ul><li>果心（果轴）从果柄部位开始腐烂发黑，并蔓延到整个果实。</li><li>果肉、果丝（纤维状部分）、果皮和种皮变成锈褐色，并腐烂发黑。</li><li>花朵腐烂，并被黑色的菌丝体覆盖。</li></ul>",
+   "steps": []}
+ ]},
+{"id": 100,
+ "name": {"ms": "Bintik Daun Cordana", "en": "Cordana Leaf Spot", "zh": "香蕉灰纹病"},
+ "sci": "<em>Cordana musae</em>",
+ "desc": {
+  "en": "Cordana leaf spot starts as brown or pale brown oval/oblong spots on the leaf surface. The spots grow larger, with a blackish ring pattern in the centre surrounded by bright yellow. Severe infection of the leaf surface reduces the green area and blocks photosynthesis. Farm cleanliness is important to control this disease. Infected leaves must be cut off and destroyed. The planting area should have good drainage for healthy plant growth. Use the fungicide Mancozeb only when necessary, and use it carefully by following the instructions on the pesticide container/bottle.",
+  "zh": "灰纹病（Cordana叶斑病）初期在叶面出现褐色或淡褐色的椭圆形/长圆形斑点。病斑逐渐扩大，中央有黑色轮纹，外围有鲜黄色晕圈。叶面严重感染会减少绿色面积，妨碍光合作用。保持园地清洁对防治此病很重要。受感染的叶片必须剪除并销毁。种植区应排水良好，使植株健康生长。仅在必要时才使用杀菌剂代森锰锌 Mancozeb，并须谨慎使用，遵守农药容器/瓶子上的使用规定。"
+ },
+ "symptoms": [
+  {"en": "This disease causes yellow or pale brown oval/oblong spots on the leaf surface.",
+   "zh": "此病使叶面出现黄色或淡褐色的椭圆形/长圆形斑点。",
+   "steps": []}
+ ]},
+{"id": 110,
+ "name": {"ms": "Kumbang Daun Kelapa", "en": "Coconut Leaf Beetle", "zh": "椰心叶甲"},
+ "sci": "<em>Brontispa longissima</em> (Gestro)",
+ "desc": {
+  "en": "<p>The coconut leaf beetle, especially the species <em>Brontispa longissima</em>, is a major pest that feeds on the soft tissue of shoots and young unopened leaves. The attack makes the leaves look burnt or dry and turn brown, which can stunt growth or kill the palm if not controlled.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Prune and destroy badly affected leaves or fronds to reduce sources of infestation.</li><li>Avoid moving seedlings from pest-infested areas.</li><li>Encourage the use of natural enemies such as the parasitoid <em>Asecodes hispinarum</em>, which attacks the beetle larvae.</li><li>Practise farm sanitation by destroying dead fronds and crop debris that can become breeding places for the pest.</li><li>Check regularly, especially the shoots and young fronds in areas with young palms.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Use insecticides or mothballs (naphthalene) placed between the frond bases of young palms.</li><li>When using pesticides, follow the label instructions, including the dose rate, application timing and safety measures.</li></ul>",
+  "zh": "<p>椰心叶甲，特别是 <em>Brontispa longissima</em> 这一种，是一种主要害虫，取食心叶和尚未展开的嫩叶的柔软组织。受害叶片看起来像被火烧过或干枯，变成褐色；如不加以防治，会导致植株生长受阻甚至死亡。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>剪除并销毁受害严重的叶片或叶柄，减少虫源。</li><li>避免从虫害发生地区移出种苗。</li><li>鼓励利用天敌，例如寄生蜂 <em>Asecodes hispinarum</em>（椰甲截脉姬小蜂），它会寄生椰心叶甲的幼虫。</li><li>做好园地卫生，销毁可能成为害虫繁殖场所的枯叶和作物残体。</li><li>定期巡查，尤其是幼龄种植区的心叶和嫩叶。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>对幼苗可使用杀虫剂，或把樟脑丸（萘 naphthalene）放在叶柄基部的缝隙中。</li><li>使用农药时，须遵守标签说明，包括剂量、施药时间和安全措施。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "<p><strong>Symptoms of attack</strong></p><ul><li>Young leaves curl and wrinkle.</li><li>Brown patches or dry streaks appear on the leaf surface.</li><li>Leaves look burnt or dry.</li><li>Growth of young palms is stunted.</li><li>Young fronds do not open properly.</li></ul>",
+   "zh": "<p><strong>受害症状</strong></p><ul><li>嫩叶卷曲、起皱。</li><li>叶面出现褐色斑块或干枯条纹。</li><li>叶片看起来像被火烧过或干枯。</li><li>幼苗生长受阻。</li><li>嫩叶无法正常展开。</li></ul>",
+   "steps": []}
+ ]},
+{"id": 124,
+ "name": {"ms": "Bena Perang", "en": "Brown Planthopper", "zh": "褐飞虱"},
+ "sci": "<em>Nilaparvata lugens</em> (Stål)",
+ "desc": {
+  "en": "<p>The brown planthopper is a major rice pest in Asia that breeds quickly. Females lay eggs in clusters on the leaf sheaths or leaves. Adults are brown and come in two forms: macropterous (long-winged) and brachypterous (short-winged). This pest sucks sap from the base of the rice plant, causing &ldquo;hopper burn&rdquo;, and it can also spread rice virus diseases.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Avoid using too much nitrogen fertiliser.</li><li>Monitor brown planthopper numbers in the rice field regularly.</li><li>Protect natural enemies such as spiders and predatory beetles.</li><li>Use resistant varieties if available and plant at the same time as neighbouring fields.</li><li>Avoid uncontrolled use of insecticides, which can kill natural enemies.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Spray insecticides such as buprofezin, pymetrozine or imidacloprid at the recommended dose.</li><li>Spray the insecticide at the base of the rice plants.</li><li>When using pesticides, always wear protective clothing and follow the product label instructions, including the recommended dose rate, the right application timing, and the pre-harvest interval before harvesting.</li></ul>",
+  "zh": "<p>褐飞虱是亚洲水稻的主要害虫，繁殖速度很快。雌虫把卵成堆产在叶鞘或叶片上。成虫呈褐色，有两种型态：长翅型（macropterous）和短翅型（brachypterous）。这种害虫在稻株基部吸食汁液，造成“虱烧”（hopper burn），还会传播水稻病毒病。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>避免过量施用氮肥。</li><li>定期监测稻田里的褐飞虱数量。</li><li>保护蜘蛛和捕食性甲虫等天敌。</li><li>如有抗虫品种应加以采用，并实行同期种植。</li><li>避免滥用杀虫剂，以免杀死天敌。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按推荐剂量喷施杀虫剂，如噻嗪酮 buprofezin、吡蚜酮 pymetrozine 或吡虫啉 imidacloprid。</li><li>杀虫剂应喷在稻株基部。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括推荐剂量、适当的施药时间，以及收割前的安全间隔期。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "Brown planthopper (<em>Nilaparvata lugens</em>)",
+   "zh": "褐飞虱（<em>Nilaparvata lugens</em>）",
+   "steps": []},
+  {"en": "<p><strong>Symptoms of brown planthopper attack on rice</strong></p><ul><li>Plants turn yellow, wilt and dry out in patches (hopper burn).</li><li>Rice growth is stunted, and severe attack can destroy the crop.</li><li>Location: Projek Penanaman Padi Sawit Kinabalu, Kg. Ongkilan</li></ul>",
+   "zh": "<p><strong>褐飞虱危害水稻的症状</strong></p><ul><li>稻株成片变黄、萎蔫并干枯（虱烧）。</li><li>水稻生长受阻，严重时可导致作物毁损。</li><li>地点：Projek Penanaman Padi Sawit Kinabalu（京那巴鲁稻田种植项目），Kg. Ongkilan</li></ul>",
+   "steps": []}
+ ]},
+{"id": 131,
+ "name": {"ms": "Lalat Buah", "en": "Fruit Fly", "zh": "果实蝇"},
+ "sci": "<em>Bactrocera</em> spp.",
+ "desc": {
+  "en": "<p>Fruit flies (Diptera: Tephritidae) are major insect pests of fruit crops. They lay eggs inside young or ripe fruits, and the larvae develop inside the fruit. Larval attack damages the fruit flesh, causes rotting and lowers fruit quality.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Collect fruits showing signs of attack as well as fallen fruits.</li><li>Bury these fruits in a deep hole to stop the pest from spreading.</li><li>Wrap (bag) the fruits to protect them from further attack.</li><li>Use <em>Fopius arisanus</em>, a hymenopteran parasitoid (biological control).</li></ul><p>Chemical control (If Necessary)</p><ul><li>Spray a suitable insecticide (for example malathion, spinosad, fipronil) mixed with a protein bait (methyl eugenol) at the recommended dose.</li><li>Use methyl eugenol pheromone bait to attract male fruit flies.</li><li>When using pesticides, always wear protective clothing and follow the product label instructions, including the recommended dose rate, the right application timing, and the pre-harvest interval before harvesting.</li></ul>",
+  "zh": "<p>果实蝇（双翅目：实蝇科）是果树的主要害虫。它们把卵产在幼果或成熟果实里，幼虫在果实内发育。幼虫危害果肉，使果实腐烂，降低果实品质。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>收集有受害症状的果实以及掉落的果实。</li><li>把这些果实埋在深坑中，防止害虫扩散。</li><li>为果实套袋，保护果实免受进一步危害。</li><li>利用膜翅目寄生蜂 <em>Fopius arisanus</em>（阿里山潜蝇茧蜂）进行生物防治。</li></ul><p>化学防治（如有需要）</p><ul><li>按推荐剂量喷施适当的杀虫剂（例如马拉硫磷 malathion、多杀菌素 spinosad、氟虫腈 fipronil），并混合蛋白诱饵（甲基丁香酚 methyl eugenol）。</li><li>使用甲基丁香酚 methyl eugenol 信息素诱饵引诱雄性果实蝇。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括推荐剂量、适当的施药时间，以及收割前的安全间隔期。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "Fruit fly <em>Bactrocera</em> spp.",
+   "zh": "果实蝇 <em>Bactrocera</em> spp.",
+   "steps": []},
+  {"en": "<strong>Symptoms of fruit fly attack on avocado fruit:</strong><p>1. Fruit development is stunted</p><p>2. Young fruits drop</p><p>3. Small holes on the fruit skin (where the fruit fly laid eggs)</p><p>4. Larvae (maggots) inside the fruit</p><p>5. Liquid or residue oozes out of the fruit</p>",
+   "zh": "<strong>果实蝇危害牛油果果实的症状：</strong><p>1. 果实发育受阻</p><p>2. 幼果掉落</p><p>3. 果皮上有小孔（果实蝇产卵处）</p><p>4. 果实内有幼虫（蛆）</p><p>5. 果实流出汁液或残留物</p>",
+   "steps": []}
+ ]},
+{"id": 171,
+ "name": {"ms": "Busuk Rizom Halia", "en": "Ginger Rhizome Rot", "zh": "姜根茎腐病"},
+ "sci": "<em>Pythium</em> spp.",
+ "desc": {
+  "en": "<p>Rhizome rot of ginger, caused by various pathogens such as <em>Pythium</em> species, can be described as follows:<br><strong>- Symptoms:</strong> Early signs of rhizome rot usually include softening and discolouration of the ginger rhizome. Affected rhizomes may look water-soaked and mushy, and may give off a bad smell as the disease develops. Infected rhizomes may also have lesions or black spots.</p><p><strong>- Pathogens: </strong>Rhizome rot is caused by several pathogens, and <em>Pythium</em> species are among the main causes. These pathogens thrive in waterlogged soil or where drainage is poor, especially in hot and humid conditions.</p><p><strong>- Impact: </strong>The disease affects the storage organ (rhizome) of the ginger plant, reducing its quality and market value. Severe infection can cause major yield losses because infected rhizomes are not fit for eating or replanting.</p><p><strong>- Spread:</strong> The pathogens that cause rhizome rot can spread through contaminated soil, water or infected planting material. They enter the rhizome through wounds or natural openings and start the rotting process.</p><p><strong>- Management: </strong>Effective management includes improving soil drainage to prevent waterlogging, using disease-free planting material, and rotating with different crops. Fungicide treatment can also be used to prevent or cure the disease and control its spread.</p><p>Managing rhizome rot in ginger is important to keep the crop healthy and get the highest yield, especially in areas prone to waterlogging or high humidity where this disease thrives.</p>",
+  "zh": "<p>姜的根茎腐病由多种病原体引起，例如 <em>Pythium</em>（腐霉菌）属的多个种，说明如下：<br><strong>- 症状：</strong>根茎腐病的早期症状通常是姜根茎变软和变色。受害的根茎可能呈水渍状、软烂，随着病情发展会发出腐臭味。受感染的根茎也可能出现病斑或黑色斑点。</p><p><strong>- 病原：</strong>根茎腐病由几种病原体引起，其中 <em>Pythium</em> 属的种类是主要病因之一。这些病原体在积水或排水不良的土壤中生长旺盛，尤其是在炎热潮湿的条件下。</p><p><strong>- 影响：</strong>此病危害姜的贮藏器官（根茎），降低其品质和市场价值。严重感染会造成重大减产，因为受感染的根茎既不能食用，也不能再用作种植材料。</p><p><strong>- 传播：</strong>引起根茎腐病的病原体可通过受污染的土壤、水或带病的种植材料传播。它们从伤口或自然孔口侵入根茎，从而开始腐烂过程。</p><p><strong>- 管理：</strong>有效的管理措施包括改善土壤排水以防积水、使用无病种植材料，以及与其他作物轮作。也可使用杀菌剂进行预防或治疗，以控制病害蔓延。</p><p>管理好姜的根茎腐病，对保持作物健康和获得最高产量非常重要，尤其是在容易积水或湿度高、利于此病发展的地区。</p>"
+ },
+ "symptoms": [
+  {"en": "<ul><li><p><strong>Yellowing and Wilting</strong>: Ginger leaves may start to turn yellow and then wilt. This is because damage to the rhizome stops the plant from taking up nutrients and water properly.</p></li><li><p><strong>Stunted Growth</strong>: Infected plants usually show stunted growth because of the nutrient shortage caused by damage to the rhizome.</p></li><li><p><strong>Small, Unhealthy Leaves</strong>: Leaves on affected plants are usually smaller than normal and less healthy. They may look dwarfed or not develop properly.</p></li><li><p><strong>Lower Yield</strong>: Plant growth and development decline because damage to the rhizome reduces the supply of nutrients.</p></li></ul>",
+   "zh": "<ul><li><p><strong>发黄和萎蔫</strong>：姜叶可能开始发黄，随后萎蔫。这是因为根茎受损，使植株无法有效吸收养分和水分。</p></li><li><p><strong>生长受阻</strong>：由于根茎受损导致养分不足，受感染的植株通常生长受阻。</p></li><li><p><strong>叶片细小、不健康</strong>：受害植株的叶片通常比正常的小，也较不健康，可能显得矮小或发育不良。</p></li><li><p><strong>产量下降</strong>：根茎受损影响养分供应，使植株的生长和发育衰退。</p></li></ul>",
+   "steps": []},
+  {"en": "<ul><li><p><strong>Softening and Rotting</strong>: Infected roots become soft and mushy. They become water-soaked and break easily when touched.</p></li><li><p><strong>Discolouration</strong>: The roots may change colour, often turning dark or showing abnormal colours because of fungal or bacterial infection.</p></li><li><p><strong>Lighter Roots</strong>: Infection reduces the mass and changes the outer appearance of the roots, making it hard for the plant to anchor itself and take up nutrients from the soil.</p></li><li><p><strong>Bad Smell</strong>: In severe infection, the roots may give off a bad smell, a sign of serious rotting and decay.</p></li><li><p><strong>Effect on Plant Health</strong>: As the disease develops, the roots are less able to supply water and nutrients to the rest of the plant, causing overall decline and wilting, and the plant may die if not treated properly.</p></li></ul>",
+   "zh": "<ul><li><p><strong>变软和腐烂</strong>：受感染的根变软、软烂，呈水渍状，一碰就容易断。</p></li><li><p><strong>变色</strong>：由于真菌或细菌感染，根部可能变色，往往变暗或呈现不正常的颜色。</p></li><li><p><strong>根变轻</strong>：感染使根的重量减少，外观也改变，导致植株难以固定在土中并从土壤吸收养分。</p></li><li><p><strong>腐臭味</strong>：感染严重时，根部会发出腐臭味，表示已严重腐烂分解。</p></li><li><p><strong>对植株健康的影响</strong>：随着病情发展，根部向植株其他部分供应水分和养分的能力下降，导致整株衰弱、萎蔫，如不及时妥善处理，植株可能死亡。</p></li></ul>",
+   "steps": []}
+ ]},
+{"id": 288,
+ "name": {"ms": "Karat Buah", "en": "Fruit Rust", "zh": "菠萝蜜果锈病"},
+ "sci": "<em>Pantoea stewartii</em>",
+ "desc": {
+  "en": "Fruit Rust is a disease <strong>caused by bacteria</strong> that produces rust-coloured patches on the fruit surface. The disease usually occurs when the fruit is injured or exposed to unsuitable environmental conditions.",
+  "zh": "果锈病是一种<strong>由细菌引起</strong>的病害，会在果实表面形成锈色斑块。此病通常在果实受伤或处于不适宜的环境条件时发生。"
+ },
+ "symptoms": [
+  {"en": "<p><strong>Symptoms:</strong></p><ul><li><p>Round, rust-coloured spots on the fruit skin</p></li><li><p>Spots may join together and become rough or cracked</p></li><li><p>The fruit may become misshapen</p></li><li><p>No obvious internal damage unless secondary infection occurs</p></li></ul><p><strong>Disease Management:</strong></p><ul><li><p>Destroy infected fruits</p></li><li><p>Avoid injuring the fruits during handling</p></li><li><p>Practise farm sanitation and pruning for good air flow</p></li><li><p>Spray a copper-based bactericide as a preventive measure</p></li></ul>",
+   "zh": "<p><strong>症状：</strong></p><ul><li><p>果皮上出现圆形锈色斑点</p></li><li><p>斑点可能连成一片，变得粗糙或开裂</p></li><li><p>果实可能变形</p></li><li><p>除非发生二次感染，否则果实内部没有明显损害</p></li></ul><p><strong>病害管理：</strong></p><ul><li><p>销毁受感染的果实</p></li><li><p>处理果实时避免造成损伤</p></li><li><p>保持园地清洁并进行修剪，以利通风</p></li><li><p>喷施铜基杀细菌剂作为预防措施</p></li></ul>",
+   "steps": []}
+ ]}
+]

@@ -1,0 +1,171 @@
+[
+{"id": 1,
+ "name": {"ms": "Layu Bakteria", "en": "Bacterial Wilt", "zh": "香蕉青枯病"},
+ "sci": "<em>Ralstonia solanacearum</em> species complex",
+ "desc": {
+  "en": "<em>Ralstonia solanacearum</em> species complex is a soil-borne, aerobic, non-spore-forming, gram-negative bacterium that causes plant disease. The bacterium infects the xylem and causes wilt disease in banana plants. Infected plants must be destroyed immediately. There is no effective method yet to control this disease. Therefore, when planting in a new area, use disease-free planting material.",
+  "zh": "<em>Ralstonia solanacearum</em> 复合种（青枯雷尔氏菌）是一种土传、好氧、不产孢子的革兰氏阴性植物病原细菌。这种细菌侵染木质部，使香蕉植株发生萎蔫病。受感染的植株必须立即销毁。目前尚无有效的方法防治此病。因此，在新地区种植时，请使用无病的种植材料。"
+ },
+ "symptoms": [
+  {"en": "The stem shows discolouration of the vascular tissue. When a cut piece of the stem is soaked in clear water in a transparent or glass container, streams of bacterial ooze can be seen.",
+   "zh": "茎干的维管组织变色。把切下的茎段浸泡在透明或玻璃容器的清水中，可看到细菌菌脓呈丝状流出。",
+   "steps": [
+    {"en": "Cut the banana stem or the fruit stalk and look for discolouration in the vascular tissue (the centre or true stem). If the cut piece is soaked in clear water in a transparent container, streams of bacterial ooze will come out. The bacterial ooze can also be colourless. In badly infected banana plants, the bacterial ooze can be seen on the exposed cut surface of the stem.",
+     "zh": "切开香蕉茎干或果柄，观察维管组织（中心部分或真茎）是否变色。把切下的部分浸泡在透明容器的清水中，会有细菌菌脓呈丝状流出。菌脓也可能是无色的。在严重受感染的香蕉植株上，茎干切面上就能直接看到菌脓。"},
+    {"en": "Bacterial ooze can be seen when a piece of the stem or the heart (pith) is soaked in clear water in a clear container. The bacterial ooze is whitish, sometimes colourless.",
+     "zh": "把茎段或蕉心浸泡在透明容器的清水中，可看到细菌菌脓。菌脓呈白色，有时无色。"}
+   ]},
+  {"en": "Young leaves turn yellow and wilt.",
+   "zh": "嫩叶变黄并萎蔫。",
+   "steps": [
+    {"en": "Young leaves turn yellow and wilt.", "zh": "嫩叶变黄并萎蔫。"}
+   ]},
+  {"en": "Banana plants infected with the bacterial disease show yellowing and wilting, and the fruit and fruit flesh become discoloured.",
+   "zh": "感染细菌病害的香蕉植株出现叶片发黄和萎蔫，果实和果肉也会变色。",
+   "steps": [
+    {"en": "Infected plants show young leaves that are yellow and wilted.", "zh": "受感染的植株嫩叶发黄、萎蔫。"},
+    {"en": "Infected plants produce bacterial ooze, which can be checked by soaking a piece of the banana heart (pith) in clear water in a clear container.", "zh": "受感染的植株会产生细菌菌脓，可将一段蕉心浸泡在透明容器的清水中进行检查。"}
+   ]}
+ ]},
+{"id": 22,
+ "name": {"ms": "Cendawan Angin", "en": "Pink Disease", "zh": "榴莲赤衣病"},
+ "sci": "<em>Corticium salmonicolor</em>",
+ "desc": {
+  "en": "This fungus attacks the twigs and branches of durian trees under 6 years old. It disrupts the flow of nutrients in the tree and is very active in rainy weather. Durian planted near rubber estates is at very high risk of this problem. To prevent this disease, always follow Good Agricultural Practices (GAP): prune and destroy infected parts so the tree is well ventilated and infection is avoided. For new plantings, make sure the planting distance is as recommended. For chemical control, spray or paint on a systemic fungicide (benomyl, carbendazim, tridemorph), alternating with a contact fungicide (copper oxychloride), every 7-10 days.",
+  "zh": "这种真菌危害6年以下榴莲树的小枝和枝条。它会干扰树体的养分输送，在雨天特别活跃。靠近橡胶园种植的榴莲发生此病的风险非常高。为预防此病，应始终遵循良好农业规范（APB/GAP）：修剪并销毁受感染部位，使树冠通风良好，避免感染。新种植时，确保株距符合建议。化学防治方面，每7-10天喷洒或涂抹内吸性杀菌剂（苯菌灵 benomyl、多菌灵 carbendazim、十三吗啉 tridemorph），并与保护性（接触性）杀菌剂（氧氯化铜 copper oxychloride）轮换使用。"
+ },
+ "symptoms": [
+  {"en": "In the early stage, white mycelium can be seen on the bark of branches or twigs. This mycelium turns into pink threads, and over time the infected twigs or branches die, leaving a thick layer of whitish-pink mycelium.",
+   "zh": "早期可在枝条或小枝的树皮上看到白色菌丝。菌丝随后变成粉红色的丝状物，久而久之受感染的小枝或枝条会枯死，并留下一层厚厚的粉白色菌丝。",
+   "steps": [
+    {"en": "White mycelium appears on the bark of branches or twigs and turns into pink threads. Over time the infected twigs or branches die, leaving a thick layer of whitish-pink mycelium.",
+     "zh": "枝条或小枝的树皮上出现白色菌丝，并变成粉红色的丝状物。久而久之，受感染的小枝或枝条会枯死，留下一层厚厚的粉白色菌丝。"}
+   ]}
+ ]},
+{"id": 41,
+ "name": {"ms": "Penyakit Karah", "en": "Rice Blast", "zh": "稻瘟病"},
+ "sci": "<em>Pyricularia oryzae</em>",
+ "desc": {
+  "en": "<p><em>Pyricularia oryzae</em> is the fungus that causes leaf blast and neck blast in rice. This is the most serious disease in rice cultivation. It is a filamentous plant-pathogenic fungus that becomes necrotrophic and destroys plant tissue.</p><p><strong>Control</strong></p><ul><li>Follow Good Agricultural Practices in the field.</li><li>Clear weeds from the paddy field by slashing, and burn all rice straw and stubble.</li><li>Use healthy seed at the recommended rate (120kg / ha).</li><li>Treat seed with a fungicide such as benomyl (4g / kg seed) or captan (2g / kg seed).</li><li>Apply nitrogen fertiliser at the recommended rate (120 kg N/ha), in split doses according to the crop's needs.</li><li>Apply silica fertiliser (recommended rate 50-75 kg / ha) as a basal fertiliser to reduce disease infection.</li></ul>",
+  "zh": "<p><em>Pyricularia oryzae</em>（稻瘟病菌）是引起水稻叶瘟和穗颈瘟的真菌。这是水稻种植中最严重的病害。它是一种丝状植物病原真菌，会转为坏死营养型，破坏植物组织。</p><p><strong>防治</strong></p><ul><li>在田间遵循良好农业规范。</li><li>通过砍除清理稻田杂草，并烧毁所有稻草和稻茬。</li><li>使用健康种子，并按建议用量播种（120kg / ha）。</li><li>用杀菌剂处理种子，例如苯菌灵 benomyl（4g / kg 种子）或克菌丹 captan（2g / kg 种子）。</li><li>按建议用量（120 kg N/ha）施用氮肥，并根据作物需要分次施用。</li><li>施用硅肥（建议用量 50-75 kg / ha）作为基肥，以减少病害感染。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "Leaf spots are oval (spindle-shaped) and pointed at both ends. The edges are reddish-brown with a whitish-grey centre.",
+   "zh": "叶斑呈椭圆形（梭形），两端尖。病斑边缘红褐色，中央灰白色。",
+   "steps": []},
+  {"en": "Infection can also occur on the stem nodes and at the base of the panicle (neck), causing neck rot. Neck rot at the early stage of grain formation can cause empty, unfilled grains (padi sambang).",
+   "zh": "病菌也可侵染稻茎的节和稻穗基部（穗颈），引起穗颈腐烂（穗颈瘟）。在谷粒形成初期发生穗颈瘟，会造成空瘪粒（padi sambang）。",
+   "steps": []}
+ ]},
+{"id": 71,
+ "name": {"ms": "Penyakit Greening Sitrus", "en": "Citrus Greening Disease", "zh": "柑橘黄龙病"},
+ "sci": "<em>Candidatus</em> Liberibacter asiaticus",
+ "desc": {
+  "en": "This bacterium causes Citrus Greening disease in sweet oranges. It is the most serious disease of citrus crops in the world. It is a very dangerous disease because there is no effective control yet. The disease is spread by infected insects. The Citrus Greening bacterium and the Asian citrus psyllid spread through infected citrus plants and citrus planting material. Plants and planting material can spread the infection even when no psyllids are visible. Commercial citrus fruit, which is normally graded, washed, brushed and cleaned, does not spread this disease. To prevent infection, long-term control measures include using disease-free planting material and making sure that alternative hosts of the pathogen, such as key lime (limau nipis), curry leaf plants and kaffir lime (limau purut), are not present in the surrounding area. Destroy all infected plants and prune all diseased branches. Cut down and burn all trees confirmed to have this disease. Control the psyllid (<em>Diaphorina citri</em>) by spraying pesticides such as imidacloprid and diafenthiuron.",
+  "zh": "这种细菌在甜橙上引起柑橘黄龙病（Citrus Greening）。这是世界上最严重的柑橘病害。此病非常危险，因为目前还没有有效的防治方法。病害由带菌的昆虫传播。黄龙病菌和亚洲柑橘木虱会随受感染的柑橘植株和柑橘种植材料传播。即使看不到木虱，植株和种植材料也能传播病害。商业柑橘果实通常经过分级、清洗、刷洗和清洁，不会传播此病。为防止发生，可采取长期防治措施：使用无病的种植材料，并确保周围没有病原菌的其他寄主，例如青柠（limau nipis）、咖喱叶树和泰国青柠（limau purut）。销毁所有受感染的植株，并剪除所有患病枝条。经确认染病的果树应全部砍伐并烧毁。喷洒吡虫啉 imidacloprid 和丁醚脲 diafenthiuron 等农药，防治柑橘木虱（<em>Diaphorina citri</em>）。"
+ },
+ "symptoms": [
+  {"en": "Fruit becomes smaller, hard and lopsided.",
+   "zh": "果实变小、变硬且形状不对称（歪果）。",
+   "steps": [
+    {"en": "The citrus fruit becomes small, bitter, hard and uneven in shape (<em>lopsided</em>).",
+     "zh": "柑橘果实变小、味苦、变硬，形状不对称（<em>lopsided</em>，歪果）。"}
+   ]},
+  {"en": "The tree will die back.",
+   "zh": "果树会逐渐枯死（枯梢）。",
+   "steps": [
+    {"en": "The shoots turn yellowish, the tree becomes stunted and slowly dies.",
+     "zh": "嫩梢变黄，树体生长受阻，并慢慢枯死。"}
+   ]},
+  {"en": "<ul><li>Yellowing between the leaf veins on some branches (sectorial)</li><li>Leaves become smaller, like henna leaves, and grow upright.</li><li>Leaves curl slightly and become hard</li></ul>",
+   "zh": "<ul><li>部分枝条的叶片在叶脉之间发黄（扇区性/局部发生）</li><li>叶片变小，像指甲花（凤仙）叶，并向上直立生长。</li><li>叶片稍微卷曲并变硬</li></ul>",
+   "steps": [
+    {"en": "Leaves turn yellowish-green, look thick and stiff, and are smaller. The yellowing can be seen along the leaf veins.",
+     "zh": "叶片变成黄绿色，看起来厚而僵硬，并且变小。叶脉上可看到发黄。"}
+   ]}
+ ]},
+{"id": 102,
+ "name": {"ms": "Sigatoka Kuning", "en": "Yellow Sigatoka", "zh": "香蕉黄叶斑病"},
+ "sci": "<em>Mycosphaerella musicola</em>",
+ "desc": {
+  "en": "Yellow Sigatoka is a common disease of banana. It affects the leaves, reducing photosynthesis and, as a result, the size of the bunch.",
+  "zh": "黄叶斑病（Yellow Sigatoka）是香蕉的常见病害。此病危害叶片，降低光合作用，从而使果穗变小。"
+ },
+ "symptoms": [
+  {"en": "Yellow Sigatoka leaf spot disease",
+   "zh": "香蕉黄叶斑病（Sigatoka）叶斑症状",
+   "steps": []}
+ ]},
+{"id": 112,
+ "name": {"ms": "Pengorek Biji Durian", "en": "Durian Seed Borer", "zh": "榴莲种子螟"},
+ "sci": "<em>Mudaria magniplaga</em> Walker",
+ "desc": {
+  "en": "<p>A pest that attacks durian fruit by boring into and eating the seeds inside the fruit. The larvae (caterpillars) enter the fruit and make tunnels down to the seeds, causing serious internal damage. Attacks usually happen on fruit from the developing stage until almost ripe. The pest is hard to detect early because the damage happens inside the fruit with no clear outside signs. This insect is a moth belonging to the family Noctuidae and the order Lepidoptera. There are entry holes and frass (droppings) on the surface of the fruit. Attacked fruit usually rots and drops.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP) </li><li>Collect and destroy attacked or fallen fruit to reduce breeding sources.</li><li>Check the orchard regularly, especially during the fruiting season.</li><li>Use fruit bagging to stop moths from laying eggs on the fruit.</li><li>Control weeds and keep the orchard clean to reduce pest habitat.</li><li>Clean the farm surroundings, and collect and destroy damaged fruit so the insects cannot breed in it.</li></ul><p>Chemical Control (If Needed)</p><ul><li>Spray an insecticide such as Deltamethrin / Cypermethrin / Dimethoate at the rate recommended on the label.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+  "zh": "<p>一种危害榴莲果实的害虫，会钻蛀并取食果实内的种子。幼虫（毛虫）钻入果实，蛀出隧道直达种子，造成严重的内部损害。危害通常发生在果实发育期至接近成熟期。由于损害发生在果实内部，外表没有明显迹象，所以早期很难发现。这种昆虫是蛾类，属于夜蛾科（Noctuidae）、鳞翅目（Lepidoptera）。果实表面有蛀孔和虫粪。被害果实通常会腐烂并掉落。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范（APB/GAP） </li><li>收集并销毁被害果或落果，以减少害虫的繁殖来源。</li><li>定期巡查果园，尤其是在结果期。</li><li>采用果实套袋，防止蛾子在果实上产卵。</li><li>控制杂草，保持果园清洁，减少害虫的栖息地。</li><li>清理园区环境，收集并销毁受损果实，避免害虫在受损果实中繁殖。</li></ul><p>化学防治（如有需要）</p><ul><li>按标签建议用量喷洒杀虫剂，例如溴氰菊酯 Deltamethrin / 氯氰菊酯 Cypermethrin / 乐果 Dimethoate。</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、合适的施药时间，以及采收前的安全间隔期。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "<ul><li>The larvae bore into the fruit skin, flesh and seeds.</li><li>On the fruit surface there are entry holes filled with coarse, wet frass.</li><li>Wet frass shows that live larvae are inside the fruit, while dry frass shows that the larvae have pupated or have already emerged as adults.</li><li>Attacked fruit usually rots and drops.</li></ul>",
+   "zh": "<ul><li>幼虫蛀食果皮、果肉和种子。</li><li>果实表面有蛀孔，孔内充满粗糙、潮湿的虫粪。</li><li>虫粪潮湿表示果实内有活的幼虫；虫粪干燥则表示幼虫已化蛹或已羽化为成虫。</li><li>被害果实通常会腐烂并掉落。</li></ul>",
+   "steps": []}
+ ]},
+{"id": 125,
+ "name": {"ms": "Kutu Beruang", "en": "Rice Black Bug", "zh": "稻黑蝽"},
+ "sci": "<em>Scotinophara coarctata</em>",
+ "desc": {
+  "en": "<p>The rice black bug sucks sap from the stems and leaves of rice plants, especially at the base of the plant. Attacks cause the plants to turn yellow, wilt and become stunted. Severe attacks can cause high yield losses.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Clear weeds and straw stubble from the paddy field.</li><li>Drain the paddy plots for a while to disrupt the bugs' breeding and expose them to natural enemies.</li><li>Use light traps to reduce the adult population.</li></ul><p><strong>Chemical Control (If Needed)</strong></p><ul><li>Spray an insecticide such as fenobucarb, fenthion or malathion at the recommended dose.</li><li>Spray at the base of the rice plants.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+  "zh": "<p>稻黑蝽吸食水稻茎和叶的汁液，尤其是在植株基部。受害植株会变黄、萎蔫，生长受阻。严重危害可造成很大的产量损失。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>清除稻田中的杂草和稻茬。</li><li>暂时排干稻田，以干扰害虫繁殖，并使其暴露于天敌之下。</li><li>使用灯光诱捕器，减少成虫数量。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按建议剂量喷洒杀虫剂，例如仲丁威 fenobucarb、倍硫磷 fenthion 或马拉硫磷 malathion。</li><li>应对准水稻植株基部喷洒。</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、合适的施药时间，以及采收前的安全间隔期。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "Adult rice black bug (<em>Scotinophara coarctata</em>)",
+   "zh": "稻黑蝽成虫（<em>Scotinophara coarctata</em>）",
+   "steps": []},
+  {"en": "Rice black bug attacks on rice plants cause the leaves to turn yellow and wilt and the plants to be stunted, while severe attacks can kill the rice plants.",
+   "zh": "稻黑蝽危害水稻会导致叶片变黄、萎蔫，植株生长受阻；严重危害可使水稻植株死亡。",
+   "steps": []}
+ ]},
+{"id": 132,
+ "name": {"ms": "Reput Akar Phytophthora", "en": "Phytophthora Root Rot", "zh": "鳄梨疫霉根腐病"},
+ "sci": "<em>Phytophthora cinnamomi</em>",
+ "desc": {
+  "en": "<p><em>Phytophthora cinnamomi</em> is the agent that causes Phytophthora root rot. Once this pathogen has become established in the soil, it cannot be eliminated from the affected area, because it can survive in the soil or in infected plant material for a long time.</p><p><strong>Disease Management</strong></p><ul><li>Carry out proper sanitation, good cultural practices and suitable chemical control.</li><li>The most important control for this disease is good irrigation (water) management.</li><li>Use disease-free planting material, especially when planting in a new area.</li><li>Use fertiliser with a moderate nitrogen content to encourage good growth and help avocado trees better withstand root rot. Avoid using too much fertiliser.</li><li>Some phosphonate fungicides (phosphorous acid and phosphonate compounds) can improve the tree's ability to withstand, prevent or recover from infection.</li><li>Copper-based fungicides have also been widely used to control this disease in avocado.</li></ul>",
+  "zh": "<p><em>Phytophthora cinnamomi</em>（樟疫霉）是引起疫霉根腐病的病原。这种病原一旦在土壤中立足，就无法从受害地区清除，因为它可以在土壤或受感染的植物材料中长期存活。</p><p><strong>病害管理</strong></p><ul><li>落实正确的卫生措施、良好的栽培管理和适当的化学防治。</li><li>防治此病最重要的是做好灌溉（水分）管理。</li><li>使用无病的种植材料，尤其是在新地区种植时。</li><li>使用含氮量适中的肥料，促进良好生长，帮助鳄梨（牛油果）树更能抵抗根腐病。避免过量施肥。</li><li>某些亚磷酸盐类杀菌剂（亚磷酸及亚磷酸盐化合物）可提高果树抵抗、预防感染或从感染中恢复的能力。</li><li>铜基杀菌剂也已被广泛用于防治鳄梨上的这种病害。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "<ul><li>Fine feeder roots become fewer when the infection is severe.</li></ul>",
+   "zh": "<ul><li>感染严重时，须根（吸收根）明显减少。</li></ul>",
+   "steps": []},
+  {"en": "<ul><li>Leaves are small, pale green or yellowish.</li><li>Leaves often wilt and have brown, dead (necrotic) tips.</li><li>Foliage becomes sparse and new growth is rare. Fallen leaves pile up under infected trees.</li></ul>",
+   "zh": "<ul><li>叶片小，呈淡绿色或黄色。</li><li>叶片常萎蔫，叶尖褐色、坏死。</li><li>树叶稀疏，很少长出新梢。受感染的树下堆积着落叶。</li></ul>",
+   "steps": []}
+ ]},
+{"id": 173,
+ "name": {"ms": "Koya Merah Jambu", "en": "Pink Pineapple Mealybug", "zh": "黄梨灰粉蚧"},
+ "sci": "<em>Dysmicoccus brevipes</em>",
+ "desc": {
+  "en": "<p>The pink mealybug (<em>Dysmicoccus brevipes</em>) is one of the main pests of pineapple. It sucks sap from the leaves, stems, roots and fruit, making the plant weak and stunted. Mealybugs also produce honeydew, which encourages sooty mould to grow and so reduces photosynthesis. In addition, the pink mealybug carries Pineapple Mealybug Wilt-Associated Virus (PMWaV), which can cause wilt disease in pineapple.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good agricultural practices.</li><li>Use planting material that is free from mealybugs.</li><li>Inspect plants regularly, especially the leaf bases, roots and fruit.</li><li>Destroy badly infested plants or plant parts.</li><li>Keep the farm clean and control weeds that can act as alternative hosts.</li><li>Protect and encourage natural enemies such as the mealybug destroyer (<em>Cryptolaemus montrouzieri</em>), ladybird beetles, lacewings and parasitoid wasps that attack mealybugs.</li><li>Avoid overusing insecticides, to protect natural enemy populations</li></ul><p>Chemical Control (If Needed)</p><ul><li>Use chemicals as recommended on the label, for example malathion and dimethoate.</li><li>Focus the spray on places where mealybugs hide, such as between the leaves, the leaf bases and the base of the fruit.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+  "zh": "<p>黄梨灰粉蚧（<em>Dysmicoccus brevipes</em>）是黄梨的主要害虫之一。它吸食叶、茎、根和果实的汁液，使植株衰弱、生长受阻。粉蚧还会分泌蜜露，诱发煤烟病（煤污霉）生长，从而降低光合作用。此外，黄梨灰粉蚧是黄梨粉蚧萎蔫相关病毒（Pineapple Mealybug Wilt-Associated Virus, PMWaV）的传播媒介，可引起黄梨萎蔫病。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范。</li><li>使用没有粉蚧危害的种植材料。</li><li>定期检查，尤其是叶基、根部和果实。</li><li>销毁受害严重的植株或植株部位。</li><li>保持园地清洁，控制可能成为替代寄主的杂草。</li><li>保护并利用天敌，例如孟氏隐唇瓢虫（<em>Cryptolaemus montrouzieri</em>）、瓢虫、草蛉和寄生蜂，它们会攻击粉蚧。</li><li>避免过量使用杀虫剂，以保护天敌种群</li></ul><p>化学防治（如有需要）</p><ul><li>按照标签建议使用化学农药，例如马拉硫磷 malathion 和乐果 dimethoate。</li><li>喷药应集中在粉蚧藏身的部位，例如叶片缝隙、叶基和果实基部。</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、合适的施药时间，以及采收前的安全间隔期。</li></ul>"
+ },
+ "symptoms": [
+  {"en": "<ul><li>Mealybugs are present at the base of the fruit, together with sooty mould and ants</li></ul>",
+   "zh": "<ul><li>果实基部有粉蚧，并伴有煤烟病（煤污霉）和蚂蚁</li></ul>",
+   "steps": []},
+  {"en": "Pink Mealybug",
+   "zh": "黄梨灰粉蚧",
+   "steps": []},
+  {"en": "<ul><li>Mealybugs can also spread Pineapple Mealybug Wilt disease, which makes the leaves turn reddish, curl downwards and finally wilt.</li></ul>",
+   "zh": "<ul><li>粉蚧还可传播黄梨粉蚧萎蔫病（Pineapple Mealybug Wilt），使叶片变红、向下卷曲，最后萎蔫。</li></ul>",
+   "steps": []}
+ ]},
+{"id": 290,
+ "name": {"ms": "Nematod Pengorek", "en": "Burrowing Nematode", "zh": "穿孔线虫"},
+ "sci": "<em>Radopholus</em> sp.",
+ "desc": {
+  "en": "<ul><li><p>Leaves turn yellowish.</p></li><li><p>Orange lesions appear on the roots, eventually causing root rot.</p></li><li><p>Plant growth is stunted.</p></li><li><p>Yield is reduced.</p></li><li><p>Immature leaves drop.</p></li></ul><p><strong>Disease Management:</strong></p><ul><li><p>Avoid planting bananas in infested areas.</p></li><li><p>Remove the roots outside the husk of the seedling before transplanting to the field.</p></li><li><p>Plant the legume <em>Crotalaria juncea</em> between the crop rows.</p></li><li><p>Use chemical control &mdash; broadcast carbosulfan before planting.</p></li></ul>",
+  "zh": "<ul><li><p>叶片变黄。</p></li><li><p>根部出现橙色伤斑，最终导致根腐烂。</p></li><li><p>植株生长受阻。</p></li><li><p>产量减少。</p></li><li><p>未成熟的叶片脱落。</p></li></ul><p><strong>病害管理：</strong></p><ul><li><p>避免在受感染的地区种植香蕉。</p></li><li><p>幼苗移植到田间之前，剪除椰壳（椰棕）外的根。</p></li><li><p>在作物行间种植豆科植物 <em>Crotalaria juncea</em>（菽麻）。</p></li><li><p>使用药剂防治 &mdash; 种植前撒施丁硫克百威 carbosulfan。</p></li></ul>"
+ },
+ "symptoms": [
+  {"en": "<p>Symptoms:<br>&bull; Leaves turn yellowish.<br>&bull; Orange lesions on the roots, leading to root rot.<br>&bull; Plant growth is stunted.<br>&bull; Yield is reduced.<br>&bull; Immature leaves drop.</p><p>Disease management:<br>&bull; Avoid planting bananas in the area.<br>&bull; Remove the roots outside the husk of the seedling before transplanting to the field.<br>&bull; Plant the legume <strong>Crotalaria juncea</strong> between the crop rows.<br>&bull; Use chemical control &ndash; broadcast <strong>carbosulfan</strong> before planting.</p>",
+   "zh": "<p>症状：<br>&bull; 叶片变黄。<br>&bull; 根部出现橙色伤斑，导致根腐烂。<br>&bull; 植株生长受阻。<br>&bull; 产量减少。<br>&bull; 未成熟的叶片脱落。</p><p>病害管理：<br>&bull; 避免在该地区种植香蕉。<br>&bull; 幼苗移植到田间之前，剪除椰壳（椰棕）外的根。<br>&bull; 在作物行间种植豆科植物 <strong>Crotalaria juncea</strong>（菽麻）。<br>&bull; 使用药剂防治 &ndash; 种植前撒施丁硫克百威 <strong>carbosulfan</strong>。</p>",
+   "steps": []}
+ ]}
+]
