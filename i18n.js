@@ -2,6 +2,7 @@
    Keep ms, en and zh in step: every key must exist in all three. */
 const UI = {
   ms: {
+    change: 'Tukar',
     kind_insect: 'Serangga', kind_fungus: 'Kulat', kind_oomycete: 'Kulapuk air', kind_bacteria: 'Bakteria', kind_virus: 'Virus',
     kind_nematode: 'Nematod', kind_alga: 'Alga', kind_lichen: 'Liken', kind_mammal: 'Haiwan',
     allKinds: 'Semua jenis',
@@ -73,6 +74,7 @@ const UI = {
     pinch: 'Ketik gambar untuk zum'
   },
   en: {
+    change: 'Change',
     kind_insect: 'Insect', kind_fungus: 'Fungus', kind_oomycete: 'Water mould', kind_bacteria: 'Bacteria', kind_virus: 'Virus',
     kind_nematode: 'Nematode', kind_alga: 'Alga', kind_lichen: 'Lichen', kind_mammal: 'Animal',
     allKinds: 'All types',
@@ -144,6 +146,7 @@ const UI = {
     pinch: 'Tap a photo to zoom'
   },
   zh: {
+    change: '更换',
     kind_insect: '昆虫', kind_fungus: '真菌', kind_oomycete: '卵菌', kind_bacteria: '细菌', kind_virus: '病毒',
     kind_nematode: '线虫', kind_alga: '藻类', kind_lichen: '地衣', kind_mammal: '动物',
     allKinds: '全部类型',

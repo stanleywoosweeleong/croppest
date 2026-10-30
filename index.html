@@ -140,7 +140,7 @@ details.steps summary{cursor:pointer;font-weight:700;color:var(--accent)}
 .opt{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:9px 16px;cursor:pointer;font-weight:700;text-decoration:none;color:inherit}
 .opt[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .match{display:flex;flex-direction:column;gap:10px}
-.match img{width:100%;max-height:360px;object-fit:contain;background:#fff;border-radius:10px;display:block;background:var(--line);cursor:zoom-in}
+.match img{width:100%;max-height:360px;object-fit:contain;background:#fff;border-radius:10px;display:block}
 .match .name{font-weight:700;font-size:1.05rem}
 
 /* Search */
@@ -201,6 +201,28 @@ mark{background:var(--warn-soft);color:inherit;border-radius:3px}
 .feedback.good{border-color:var(--accent);background:var(--accent-soft)}
 .feedback.badc{border-color:var(--bad);background:var(--bad-soft)}
 .small{font-size:.9rem}
+
+.syms{display:flex;flex-direction:column;gap:22px}
+.syms > h3{font-size:1.2rem;margin-bottom:-10px}
+.sym .hero{margin-bottom:2px}
+.sym .part{font-size:.85rem;letter-spacing:.06em;text-transform:uppercase}
+.title .chips{margin-top:6px}
+a.kind{text-decoration:none}
+.minis{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.mini{display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px;align-items:center;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:10px;padding:6px 10px 6px 6px;background:var(--surface)}
+.mini img,.mini > span:first-child{width:44px;height:44px;border-radius:6px;object-fit:cover;background:#fff;display:block}
+.mini b{display:block;font-size:.95rem;line-height:1.25}
+.mini small{color:var(--muted);font-size:.8rem}
+.picked{display:flex;justify-content:space-between;align-items:center;background:var(--accent-soft);border-radius:12px;padding:10px 14px;font-weight:700}
+.picked span{font-family:var(--f-display);font-weight:400;font-size:1.2rem;color:var(--accent)}
+a.match{text-decoration:none;color:inherit}
+.mtitle{display:grid;grid-template-columns:minmax(0,1fr) 12px;gap:2px 8px;align-items:center}
+.mtitle .kind{grid-column:1;justify-self:start}
+.mtitle .name{grid-column:1;font-weight:700;font-size:1.1rem}
+.mtitle .chev{grid-column:2;grid-row:1/3;color:var(--muted)}
+.sel{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sel select{font:inherit;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:8px 12px;min-width:0;max-width:60%}
+.prog{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;gap:10px}
 
 /* Tabs */
 .tabs{position:fixed;inset:auto 0 0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);
@@ -273,7 +295,6 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <div class="scrim" id="setSheet" hidden>
   <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="setTitle">
     <div class="sheet-head"><h2 id="setTitle" tabindex="-1" data-t="settings"></h2><button class="xbtn" type="button" data-close aria-label="Close">×</button></div>
-    <div class="blk"><b data-t="language"></b><div class="seg three" id="setLang"><button type="button" data-lang="ms">Bahasa Melayu</button><button type="button" data-lang="en">English</button><button type="button" data-lang="zh">中文</button></div></div>
     <div class="blk"><b data-t="theme"></b><div class="seg three" id="setTheme"><button type="button" data-v="system" data-t="themeSys"></button><button type="button" data-v="light" data-t="themeLight"></button><button type="button" data-v="dark" data-t="themeDark"></button></div></div>
     <div class="blk"><b data-t="textSize"></b><div class="seg four" id="setSize"><button type="button" data-v="0" style="font-size:.85rem">A</button><button type="button" data-v="1">A</button><button type="button" data-v="2" style="font-size:1.15rem">A</button><button type="button" data-v="3" style="font-size:1.3rem">A</button></div></div>
     <div class="blk"><b data-t="offlineTitle"></b><p data-t="offlineLede"></p><button class="ghost" type="button" id="dlBtn" data-t="offlineBtn"></button><p id="dlMsg" hidden></p></div>
@@ -307,7 +328,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '1.1.0';
+const VERSION = '1.2.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -366,36 +387,39 @@ function lookalikes(p) {
   });
   return out;
 }
+/* Word overlap, to drop confirmation steps that only repeat the symptom text */
+const words = h => new Set(plain(h).toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(w => w.length > 2));
+const overlap = (a, b) => { const A = words(a), B = words(b); if (!A.size) return 1; let n = 0; A.forEach(w => B.has(w) && n++); return n / A.size };
+const kindLink = p => p.kind ? `<a class="kind k-${KINDS[p.kind].color}" href="#guide/${p.kind}">${esc(t('kind_' + p.kind))}</a>` : '';
 function vPest(id) {
   const p = PESTS.get(+id); if (!p) return vCrops();
-  const hero = firstImg(p), K = p.kind && KINDS[p.kind];
   const syms = p.symptoms.slice().sort((a, b) => PART_ORDER.indexOf(a.part) - PART_ORDER.indexOf(b.part));
   const look = lookalikes(p);
+  // keep only what a step adds: a new photo, or text that is not a rewording of the symptom
+  const steps = s => s.steps.map(st => ({ img: st.img && st.img !== s.img ? st.img : null, text: L(st.text) && overlap(L(st.text), L(s.text)) < .6 ? L(st.text) : '' }))
+    .filter(st => st.img || st.text);
   return `<div class="bar"><button class="backbtn" type="button" data-back>‹ ${esc(t('back'))}</button><button class="pill" type="button" id="shareBtn">${esc(t('share'))}</button></div>
-  ${hero ? `<div class="hero">${bigImg(hero, '', L(p.name))}</div>` : ''}
-  <div class="title">${kindTag(p)}<h2>${esc(L(p.name))}</h2><p class="alt sci">${p.sci}</p>
-    <p class="alt">${['ms', 'en', 'zh'].filter(l => l !== lang).map(l => esc(p.name[l] || '')).filter(Boolean).join(' · ')}</p></div>
-  <div class="blk"><span class="eyebrow">${esc(t('affected'))}</span><div class="chips">${p.crops.map(c => `<a class="chip" href="#crop/${c}">${esc(L(CROPS.get(c).name))}</a>`).join('')}</div></div>
-  ${L(p.desc) ? `<div class="card"><h3>${esc(t('about'))}</h3><div class="rich">${L(p.desc)}</div></div>` : ''}
-  ${syms.length ? `<div class="card"><h3>${esc(t('symptoms'))}</h3>${syms.map(s => `<div class="sym">
+  <div class="title">${kindLink(p)}<h2>${esc(L(p.name))}</h2><p class="alt sci">${p.sci}</p>
+    <p class="alt">${['ms', 'en', 'zh'].filter(l => l !== lang).map(l => esc(p.name[l] || '')).filter(Boolean).join(' · ')}</p>
+    <div class="chips">${p.crops.map(c => `<a class="chip" href="#crop/${c}">${esc(L(CROPS.get(c).name))}</a>`).join('')}</div></div>
+  ${syms.length ? `<section class="syms"><h3>${esc(t('symptoms'))}</h3>${syms.map(s => { const st = steps(s); return `<div class="sym">
+    ${s.img ? `<div class="hero">${bigImg(s.img, '', L(p.name) + ' · ' + L(DATA.parts[s.part]))}</div>` : ''}
     <span class="part">${esc(L(DATA.parts[s.part]))}</span>
-    ${s.img ? bigImg(s.img, '', L(DATA.parts[s.part])) : ''}
     <div class="rich">${L(s.text)}</div>
-    ${s.steps.some(st => L(st.text) || st.img) ? `<details class="steps"><summary>${esc(t('steps'))}</summary>${s.steps.map((st, i) => `<div class="step${st.img ? '' : ' noimg'}">${img(st.img)}<div><div class="n">${esc(t('stepN', i + 1))}</div><div class="rich">${L(st.text)}</div></div></div>`).join('')}</details>` : ''}
-  </div>`).join('')}</div>` : ''}
-  ${K ? `<details class="card kindcard k-${K.color}"><summary><span class="eyebrow">${esc(t('kindTitle'))}</span><b>${esc(L(K.name))}</b></summary>
-    <div class="kv"><b>${esc(t('kindWhat'))}</b><p>${esc(L(K.what))}</p><b>${esc(t('kindSign'))}</b><p>${esc(L(K.sign))}</p><b>${esc(t('kindControl'))}</b><p>${esc(L(K.control))}</p></div></details>` : ''}
-  ${look.length ? `<div class="card"><h3>${esc(t('lookalike'))}</h3><p class="lede">${esc(t('lookalikeLede'))}</p>
-    <div class="list">${look.map(([o, parts]) => pestRow(o, `<small>${parts.map(x => esc(L(DATA.parts[x]))).join(' · ')}</small>`)).join('')}</div></div>` : ''}
+    ${st.length ? `<details class="steps"><summary>${esc(t('steps'))}</summary>${st.map((x, i) => `<div class="step${x.img ? '' : ' noimg'}">${img(x.img)}<div>${st.length > 1 ? `<div class="n">${esc(t('stepN', i + 1))}</div>` : ''}<div class="rich">${x.text}</div></div></div>`).join('')}</details>` : ''}
+  </div>` }).join('')}</section>` : ''}
+  ${L(p.desc) ? `<div class="card"><h3>${esc(t('about'))}</h3><div class="rich">${L(p.desc)}</div></div>` : ''}
+  ${look.length ? `<div class="blk"><h3>${esc(t('lookalike'))}</h3><p class="lede small">${esc(t('lookalikeLede'))}</p>
+    <div class="minis">${look.map(([o, parts]) => `<a class="mini" href="#pest/${o.id}">${firstImg(o) ? `<img src="${thumb(firstImg(o))}" alt="" loading="lazy">` : '<span></span>'}<span><b>${esc(L(o.name))}</b><small>${esc(t('kind_' + o.kind))} · ${parts.map(x => esc(L(DATA.parts[x]))).join(', ')}</small></span></a>`).join('')}</div></div>` : ''}
   <p class="src">${esc(t('source'))}: <a href="${sourceUrl(p)}" target="_blank" rel="noopener">smarttani.sabah.gov.my</a></p>`;
 }
 
 /* Guide: kinds of cause, then glossary */
-function vGuide() {
+function vGuide(open) {
   const count = k => DATA.pests.filter(p => p.kind === k).length;
   return `<button class="backbtn" type="button" data-back>‹ ${esc(t('back'))}</button>
   <h2>${esc(t('guideKinds'))}</h2><p class="lede">${esc(t('guideKindsLede'))}</p>
-  ${Object.entries(KINDS).map(([k, K]) => `<details class="card kindcard k-${K.color}" id="kind-${k}"><summary><b>${esc(L(K.name))}</b><small>${esc(t('nPests', count(k)))}</small></summary>
+  ${Object.entries(KINDS).map(([k, K]) => `<details class="card kindcard k-${K.color}" id="kind-${k}"${k === open ? ' open' : ''}><summary><b>${esc(L(K.name))}</b><small>${esc(t('nPests', count(k)))}</small></summary>
     <div class="kv"><b>${esc(t('kindWhat'))}</b><p>${esc(L(K.what))}</p><b>${esc(t('kindSign'))}</b><p>${esc(L(K.sign))}</p><b>${esc(t('kindControl'))}</b><p>${esc(L(K.control))}</p></div>
     <div class="chips">${DATA.pests.filter(p => p.kind === k).map(p => `<a class="chip" href="#pest/${p.id}">${esc(L(p.name))}</a>`).join('')}</div></details>`).join('')}
   <h2 id="glossary">${esc(t('glossary'))}</h2><p class="lede">${esc(t('glossaryLede'))}</p>
@@ -410,21 +434,18 @@ function partsFor(code) {
 }
 function vDiag(code, part) {
   const c = code && CROPS.get(code);
-  let h = `<h2>${esc(t('diagTitle'))}</h2><p class="lede">${esc(t('diagLede'))}</p>
-  <div class="blk"><b>${esc(t('diagCrop'))}</b><div class="opts">${DATA.crops.map(x => `<a class="opt" href="#diag/${x.code}" aria-pressed="${x.code === code}">${esc(L(x.name))}</a>`).join('')}</div></div>`;
-  if (c) {
-    const parts = partsFor(code);
-    h += `<div class="blk"><b>${esc(t('diagPart'))}</b><div class="opts">${parts.map(p => `<a class="opt" href="#diag/${code}/${p}" aria-pressed="${p === part}">${esc(L(DATA.parts[p]))}</a>`).join('')}</div></div>`;
-    if (part) {
-      const hits = [];
-      c.pests.forEach(id => { const p = PESTS.get(id); p && p.symptoms.filter(s => s.part === part).forEach(s => hits.push([p, s])) });
-      h += `<p class="eyebrow" id="diagRes">${esc(t('diagMatch', hits.length))}</p>
-      ${hits.map(([p, s]) => `<div class="card match">${s.img ? bigImg(s.img, '', L(p.name)) : ''}
-        <div class="rich">${L(s.text)}</div>
-        <div><div class="name">${esc(L(p.name))}</div><span class="sci">${p.sci}</span></div>
-        <a class="primary" href="#pest/${p.id}">${esc(t('diagOpen'))}</a></div>`).join('')}
-      <p class="note">${esc(t('diagNote'))}</p>`;
-    }
+  let h = `<h2>${esc(t('diagTitle'))}</h2><p class="lede">${esc(t('diagLede'))}</p>`;
+  if (!c) return h + `<b>${esc(t('diagCrop'))}</b><div class="grid">${DATA.crops.map(x => `<a class="crop" href="#diag/${x.code}"><span class="ph">${x.img ? `<img src="${thumb(x.img)}" alt="" loading="lazy">` : ''}</span><span class="t"><b>${esc(L(x.name))}</b></span></a>`).join('')}</div>`;
+  h += `<div class="picked"><span>${esc(L(c.name))}</span><a href="#diag">${esc(t('change'))}</a></div>
+  <div class="blk"><b>${esc(t('diagPart'))}</b><div class="opts">${partsFor(code).map(p => `<a class="opt" href="#diag/${code}/${p}" aria-pressed="${p === part}">${esc(L(DATA.parts[p]))}</a>`).join('')}</div></div>`;
+  if (part) {
+    const hits = [];
+    c.pests.forEach(id => { const p = PESTS.get(id); p && p.symptoms.filter(s => s.part === part).forEach(s => hits.push([p, s])) });
+    h += `<p class="eyebrow" id="diagRes">${esc(t('diagMatch', hits.length))}</p>
+    ${hits.map(([p, s]) => `<a class="card match" href="#pest/${p.id}">${s.img ? `<img src="${full(s.img)}" alt="" loading="lazy">` : ''}
+      <div class="mtitle">${kindTag(p)}<span class="name">${esc(L(p.name))}</span><span class="chev">›</span></div>
+      <div class="rich">${L(s.text)}</div></a>`).join('')}
+    <p class="note">${esc(t('diagNote'))}</p>`;
   }
   return h;
 }
@@ -492,13 +513,12 @@ function vLearn() {
   const m = scope.filter(p => isMastered(p.id)).length;
   let h = `<h2>${esc(t('learnTitle'))}</h2><p class="lede">${esc(t('learnLede'))}</p>
   <div class="seg three" id="lMode">${['quiz', 'type', 'cards'].map(k => `<button type="button" data-v="${k}" aria-pressed="${learn.mode === k}">${esc(t(k === 'type' ? 'quizType' : k))}</button>`).join('')}</div>
-  <div class="opts small" id="lCrop"><button class="opt" type="button" data-v="ALL" aria-pressed="${learn.crop === 'ALL'}">${esc(t('allCrops'))}</button>${DATA.crops.map(c => `<button class="opt" type="button" data-v="${c.code}" aria-pressed="${learn.crop === c.code}">${esc(L(c.name))}</button>`).join('')}</div>
-  <div class="prog"><div class="bar"><span class="eyebrow">${esc(t('progress'))}</span><span class="eyebrow">${esc(t('mastered', m, scope.length))}</span></div>
+  <div class="prog"><label class="sel"><span class="eyebrow">${esc(t('learnCrop'))}</span><select id="lCrop"><option value="ALL">${esc(t('allCrops'))}</option>${DATA.crops.map(c => `<option value="${c.code}"${learn.crop === c.code ? ' selected' : ''}>${esc(L(c.name))}</option>`).join('')}</select></label>
+    <div class="bar"><span class="eyebrow">${esc(t('progress'))}</span><span class="eyebrow">${esc(t('mastered', m, scope.length))}</span></div>
     <div class="progress"><span style="width:${scope.length ? m / scope.length * 100 : 0}%"></span></div></div>`;
   if (!cur) return h + `<div class="card"><p>${esc(t('quizDone', learn.score, n))}</p><button class="primary" type="button" id="lAgain">${esc(t('again'))}</button>
     <p class="lede small">${esc(t('masteredHint'))}</p></div>`;
-  h += `<div class="bar"><span class="eyebrow">${learn.i + 1} / ${n}</span>${learn.mode !== 'cards' ? `<span class="eyebrow">${esc(t('score', learn.score, learn.i + (learn.answered ? 1 : 0)))}</span>` : ''}</div>
-  <div class="progress thin"><span style="width:${(learn.i / n) * 100}%"></span></div>`;
+  h += `<div class="bar qbar"><span class="eyebrow">${learn.i + 1} / ${n}</span>${learn.mode !== 'cards' ? `<span class="eyebrow">${esc(t('score', learn.score, learn.i + (learn.answered ? 1 : 0)))}</span>` : ''}</div>`;
   const pic = bigImg(cur.s.img, 'qimg', '');
   const where = `${cur.p.crops.map(c => esc(L(CROPS.get(c).name))).join(' · ')} · ${esc(L(DATA.parts[cur.s.part]))}`;
   const answerBlock = `<a href="#pest/${cur.p.id}">${esc(t('diagOpen'))} ›</a>`;
@@ -528,19 +548,20 @@ function render(keepScroll) {
   document.title = t('appName');
   $('#appName').textContent = t('appName');
   $$('[data-t]').forEach(e => e.textContent = t(e.dataset.t));
-  $$('.langsw button, #setLang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === lang));
+  $$('.langsw button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === lang));
   $('#offline').textContent = t('offline');
   $('#ver').textContent = t('version', VERSION);
   const [r, a, b] = route, v = $('#view');
   const tab = r === 'crop' || r === 'pest' || r === 'guide' ? 'crops' : (['crops', 'diag', 'learn', 'search'].includes(r) ? r : 'crops');
   $$('.tabs a').forEach(x => x.dataset.tab === tab ? x.setAttribute('aria-current', 'page') : x.removeAttribute('aria-current'));
-  v.innerHTML = r === 'crop' ? vCrop(a) : r === 'pest' ? vPest(a) : r === 'diag' ? vDiag(a, b) : r === 'learn' ? vLearn() : r === 'search' ? vSearch() : r === 'guide' ? vGuide() : vCrops();
+  v.innerHTML = r === 'crop' ? vCrop(a) : r === 'pest' ? vPest(a) : r === 'diag' ? vDiag(a, b) : r === 'learn' ? vLearn() : r === 'search' ? vSearch() : r === 'guide' ? vGuide(a) : vCrops();
   if (r === 'search') { renderSearch(); const i = $('#q'); i.addEventListener('input', () => { q = i.value; renderSearch() }); if (!keepScroll) i.focus({ preventScroll: true }) }
   if (!keepScroll) { window.scrollTo(0, 0); v.focus({ preventScroll: true }) }
 }
 function go() {
   route = location.hash.slice(1).split('/').filter(Boolean);
   render(false);
+  if (route[0] === 'guide' && route[1]) setTimeout(() => $('#kind-' + route[1])?.scrollIntoView({ block: 'start' }), 0);
   if (route[0] === 'diag' && route[2]) setTimeout(() => $('#diagRes')?.scrollIntoView({ block: 'start' }), 0);
 }
 addEventListener('hashchange', go);
@@ -556,7 +577,6 @@ document.addEventListener('click', e => {
   const kf = e.target.closest('#kFilter button'); if (kf) { kindFilter = kf.dataset.v; render(true); return }
   if (e.target.closest('#shareBtn')) { sharePest(); return }
   if (e.target.closest('#resetBtn')) { stats = {}; store.set('stats', stats); toast(t('resetDone')); return }
-  const c = e.target.closest('#lCrop button'); if (c) { learn.crop = c.dataset.v; buildDeck(); render(true); return }
   if (e.target.closest('#lShow')) { learn.shown = true; render(true); return }
   if (e.target.closest('#lNext')) { learn.i++; prepQ(); render(true); window.scrollTo(0, 0); return }
   if (e.target.closest('#lAgain')) { buildDeck(); render(true); return }
@@ -575,6 +595,8 @@ async function sharePest() {
   try { await navigator.clipboard.writeText(title + '\n' + url); toast(t('copied')) } catch {}
 }
 function setLang(l) { lang = l; store.set('lang', l); render(true) }
+
+document.addEventListener('change', e => { if (e.target.id === 'lCrop') { learn.crop = e.target.value; buildDeck(); render(true) } });
 
 /* Settings sheet */
 const sheet = $('#setSheet'), viewer = $('#viewer');
