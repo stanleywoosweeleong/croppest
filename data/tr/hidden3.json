@@ -1,0 +1,431 @@
+[
+ {
+  "id": 7,
+  "kind": "insect",
+  "ai": [
+   "Beauveria bassiana"
+  ],
+  "name": {
+   "ms": "Kumbang Pengorek Batang Pisang",
+   "en": "Banana Stem Borer",
+   "zh": "香蕉假茎象甲"
+  },
+  "sci": "<em>Odoiporus longicollis</em>",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The banana stem borer is one of the pests of banana. Its larvae bore into the corm and the base of the banana stem and feed on the inner tissue, which weakens the structure of the plant. The beetles are active at night, move about mostly in the soil or inside the stem, and hide in the base of the banana stem during the day.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP).</li><li>Use healthy, pest-free planting material</li><li>Destroy banana stems that have been attacked.</li><li>Keep the field clean and avoid leaving rotting crop residues</li><li>Use banana stem traps to catch adult beetles</li><li>Biological control using entomopathogenic nematodes or fungi such as <em>Beauveria bassiana</em>, which can kill the larvae in the soil.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Use chemical pesticides as recommended on the label.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>香蕉假茎象甲是香蕉的害虫之一。幼虫钻入香蕉球茎和茎基部，取食内部组织，使植株结构变弱。成虫在夜间活动，多在土中或茎内移动，白天则躲藏在香蕉茎基部。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范 (GAP)。</li><li>使用健康、无虫害的种植材料</li><li>销毁已受害的香蕉茎。</li><li>保持田园清洁，避免留下腐烂的作物残体</li><li>使用香蕉茎诱捕器捕捉成虫</li><li>生物防治：使用昆虫病原线虫或真菌，例如<em>Beauveria bassiana</em>（球孢白僵菌），可杀死土中的幼虫。</li></ul><p>化学防治（如有需要）</p><ul><li>按照标签建议使用化学农药。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaves wilt or the plant falls over, especially young plants (suckers).</li><li>The pseudostem becomes weak and rots.</li><li>The plant may fall over before the fruit is mature.</li><li>Fruit yield and quality are affected.</li></ul>",
+    "zh": "<ul><li>叶片萎蔫或植株倒伏，尤其是吸芽苗。</li><li>假茎变弱并腐烂。</li><li>植株可能在果实成熟前倒伏。</li><li>果实产量和品质受影响。</li></ul>",
+    "steps": [
+     {
+      "en": "It attacks during flowering and bunch formation. The first sign is slimy sap oozing from the banana stem, which shows that beetles and borer larvae are active inside the stem. Small black holes appear along the stem near the base of the plant. The attacked stem tissue becomes brittle and breaks easily when the wind blows.",
+      "zh": "在开花期和果串形成期发生危害。早期症状是香蕉茎上流出黏液，表示象甲和蛀茎幼虫正在茎内活动。靠近植株基部的茎上沿茎出现许多小黑孔。受害的茎组织变脆，刮风时容易折断。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "kind": "fungus",
+  "ai": [
+   "Malathion",
+   "Benomyl",
+   "Carbendazim",
+   "Mancozeb",
+   "Copper"
+  ],
+  "name": {
+   "ms": "Kulapuk Hitam",
+   "en": "Black Mildew",
+   "zh": "榴莲黑霉病"
+  },
+  "sci": "<em>Meliola durionis</em>",
+  "desc": {
+   "en": "<p>This fungus causes black mildew on the leaves of durian trees.</p><p>Disease Management</p><ul><li>As a preventive measure, do weeding and pruning to improve air flow around the tree and reduce humidity.</li><li>Control insect pests such as mealybugs and scale insects with insecticides such as malathion, because these insects produce a sweet liquid (&lsquo;honeydew&rsquo;) that is a food source for the fungus.</li><li>If the infection is severe, use a systemic fungicide such as benomyl or carbendazim, alternating with a contact fungicide such as mancozeb or copper, every 7&ndash;10 days.</li></ul>",
+   "zh": "<p>这种真菌会在榴莲树叶片上引起黑霉病。</p><p>病害管理</p><ul><li>作为预防措施，进行除草和修剪，以改善树木周围的通风并降低湿度。</li><li>使用杀虫剂如 Malathion（马拉硫磷）防治粉蚧和介壳虫等害虫，因为这些害虫会分泌甜液（&lsquo;蜜露&rsquo;），成为真菌的食物来源。</li><li>如感染严重，使用内吸性杀菌剂如 Benomyl（苯菌灵）或 Carbendazim（多菌灵），并与保护性（接触性）杀菌剂如 Mancozeb（代森锰锌）或铜制剂（Copper）轮换使用，每 7&ndash;10 天一次。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The causal fungus is an obligate parasite whose hyphae penetrate the host tissue on both the lower and upper leaf surfaces. Velvety black spots form on the leaves, branches and twigs.",
+    "zh": "病原真菌是专性寄生菌，其菌丝会穿入叶片上、下表面的寄主组织。叶片、枝条和小枝上会形成天鹅绒状的黑色斑块。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "kind": "oomycete",
+  "ai": [
+   "Metalaxyl",
+   "Fosetyl-aluminium"
+  ],
+  "name": {
+   "ms": "Reput Pangkal Batang",
+   "en": "Basal Stem Rot",
+   "zh": "菠萝蜜茎基腐病"
+  },
+  "sci": "<em>Phytophthora palmivora</em>",
+  "desc": {
+   "en": "<ul><li><p><strong>Basal stem rot of jackfruit</strong> is caused by a fungal infection.</p></li><li><p>The disease spreads easily in <strong>damp or wet conditions</strong>.</p></li><li><p>It causes <strong>significant yield losses to farmers</strong>.</p></li><li><p><strong>Practise Good Agricultural Practices (GAP):</strong></p><ul><li><p><strong>Destroy badly infected trees.</strong></p></li><li><p>Make sure <strong>the field drainage system is in good condition</strong>.</p></li><li><p><strong>Avoid injuring the roots and the base of the tree</strong>, especially near the soil surface.</p></li><li><p>Carry out <strong>weed control around the tree regularly</strong>.</p></li><li><p><strong>Check for the disease at least 2 times a week</strong> for early detection.</p></li></ul></li><li><p><strong>If the attack is severe:</strong></p><ul><li><p>Treat with <strong>metalaxyl or fosetyl-aluminium fungicide</strong> at the recommended rate.</p></li><li><p><strong>Scrape off the infected bark</strong> with a clean knife.</p></li><li><p><strong>Rub fungicide onto the scraped area</strong>.</p></li><li><p><strong>Spray fungicide</strong> around the tree.</p></li></ul></li></ul>",
+   "zh": "<ul><li><p><strong>菠萝蜜茎基腐病</strong>由真菌（疫霉）感染引起。</p></li><li><p>此病在<strong>潮湿或积水的环境下</strong>容易发展。</p></li><li><p>会给农民造成<strong>严重的产量损失</strong>。</p></li><li><p><strong>实行良好农业规范 (GAP)：</strong></p><ul><li><p><strong>销毁严重感染的树。</strong></p></li><li><p>确保<strong>园地排水系统良好</strong>。</p></li><li><p><strong>避免伤及树根和树干基部</strong>，尤其是靠近土表的部位。</p></li><li><p>定期<strong>清除树木周围的杂草</strong>。</p></li><li><p><strong>每周至少巡查 2 次</strong>，以便及早发现病害。</p></li></ul></li><li><p><strong>如发生严重危害：</strong></p><ul><li><p>按建议用量使用<strong>杀菌剂 Metalaxyl（甲霜灵）或 Fosetyl-aluminium（三乙膦酸铝）</strong>处理。</p></li><li><p>用干净的刀<strong>刮除受感染的树皮</strong>。</p></li><li><p><strong>在刮除部位涂抹杀菌剂</strong>。</p></li><li><p>在树木周围<strong>喷洒杀菌剂</strong>。</p></li></ul></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>The attack usually starts at the base of the trunk and spreads to the branches.</p><ul><li>Small reddish-brown, water-soaked spots appear on the trunk. </li><li>The bark of infected jackfruit trees shows dead (necrotic) areas mixed with black patches caused by liquid oozing from the bark. The leaves of the attacked tree turn yellow and fall, the canopy dies back, and finally part or all of the tree dies.</li></ul>",
+    "zh": "<p>危害通常从树干基部开始，然后蔓延到枝条。</p><ul><li>树干上出现红褐色的水渍状小斑点。</li><li>受感染菠萝蜜树的树皮出现坏死，并夹杂由树皮渗出液体造成的黑色斑块。受害树的叶片变黄脱落，树冠逐渐枯死，最终部分或整棵树死亡。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "kind": "virus",
+  "ai": [
+   "Imidacloprid",
+   "Acetamiprid"
+  ],
+  "name": {
+   "ms": "Penyakit Virus Mozek",
+   "en": "Cucumber Mosaic Virus",
+   "zh": "黄瓜花叶病毒病"
+  },
+  "sci": "<em>Cucumber mosaic virus</em> (CMV)",
+  "desc": {
+   "en": "This virus causes a viral disease of chilli. It is the most primitive virus that infects chilli. CMV infection in chilli causes losses in yield and quality. CMV is not spread persistently through the plant and is easily spread by mechanical inoculation and by many aphid species. Host weeds serve as reservoirs of the virus and as the main source of inoculum for the disease to develop and spread. To prevent this, use plastic mulch on the planting beds and destroy all weeds such as <em>Physalis minima</em> and<em> Solanum nigrum</em>, because these weeds become alternative hosts of the virus. Use chilli varieties with an open shape such as Kulai or MC 11, because aphids are less attracted to these varieties and air flow is also better. Spray insecticides such as imidacloprid and acetamiprid at the rate recommended on the label to control aphids.",
+   "zh": "这种病毒会引起辣椒病毒病。它是感染辣椒的最原始的病毒。辣椒感染 CMV 会造成产量和品质损失。CMV 在植株中并非持久性传播，容易通过机械接种以及多种蚜虫传播。寄主杂草是病毒的储存库，也是病害发生和蔓延的主要初侵染源。为预防此病，在种植畦上使用塑料地膜，并清除所有杂草，例如<em>Physalis minima</em>（小酸浆）和<em> Solanum nigrum</em>（龙葵），因为这些杂草会成为病毒的替代寄主。选用株型开展的辣椒品种，例如 Kulai 或 MC 11，因为蚜虫对这些品种兴趣较低，而且通风也较好。按照标签建议用量喷施杀虫剂，例如 Imidacloprid（吡虫啉）和 Acetamiprid（啶虫脒），以防治蚜虫。"
+  },
+  "symptoms": [
+   {
+    "en": "Infected chilli fruits do not ripen evenly, and there are green and red patches on the fruit.",
+    "zh": "受感染的辣椒果实成熟不一致，果实上出现绿色和红色相间的斑块。",
+    "steps": []
+   },
+   {
+    "en": "Diseased leaves show mosaic symptoms, mottling and crinkling.",
+    "zh": "病叶出现花叶、斑驳和皱缩症状。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 74,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Cendawan Angin",
+   "en": "Pink Disease",
+   "zh": "柑橘赤衣病"
+  },
+  "sci": "<em>Corticium salmonicolor</em>",
+  "desc": {
+   "en": "This fungus causes pink disease in citrus. It causes bark necrosis and &#39;gumming&#39; on the stems and branches. The dead bark often looks faded and grey. Stems can die when the fungus forms a &#39;ringbark&#39; (girdles the stem). Although this fungus does not affect the leaves or fruit, economic losses occur because major parts of the tree, or the whole tree, die. To prevent this, make sure the trees have good air flow. Prune infected branches and twigs and burn them. Apply a suitable fungicide to the infected parts.",
+   "zh": "这种真菌会引起柑橘赤衣病。它会造成树干和枝条的树皮坏死和&#39;流胶&#39;。死亡的树皮常呈褪色的灰色。当真菌在枝干上形成&#39;环剥&#39;（环绕枝干一圈）时，枝干会死亡。虽然这种真菌不危害叶片或果实，但由于主要枝干或整棵树死亡，会造成经济损失。为预防此病，确保树木通风良好。剪除已感染的枝条和小枝并烧毁。在感染部位涂抹适合的杀菌剂。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Branches are covered with a pale red (pink) layer</li><li>Leaves on attacked branches dry up and die</li></ul>",
+    "zh": "<ul><li>枝条表面覆盖一层淡红色（粉红色）的菌层</li><li>受害枝条上的叶片干枯死亡</li></ul>",
+    "steps": [
+     {
+      "en": "The branch is covered with a pink layer, then dries out and dies.",
+      "zh": "枝条覆盖一层粉红色菌层，随后干枯死亡。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 88,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Reput Lembut",
+   "en": "Soft Rot",
+   "zh": "椰菜软腐病"
+  },
+  "sci": "<em>Erwinia carotovora</em>",
+  "desc": {
+   "en": "This bacterium causes watery rot / soft rot / foul-smelling rot in cabbage. It can enter the plant through wounds caused by tools, insects or bad weather, or through natural openings, and spreads from plant to plant. The disease often occurs in the field, but rot that appears after harvest, during storage or transport, accounts for most of the losses from this pathogen. Disease development is usually favoured by hot temperatures and humid conditions. To prevent this, practise crop rotation, destroy infected plants and make sure the field has good drainage. Do not use tools such as knives on healthy plants after using them on infected plants. Keep the soil pH between 5.5-5.6. There is no chemical control for this disease.",
+   "zh": "这种细菌会引起椰菜（包菜）水腐病／软腐病／恶臭腐烂。它可通过工具、昆虫或恶劣天气造成的伤口，或通过自然开口侵入植株，并在植株之间传播。此病常在田间发生，但收获后、贮藏或运输期间出现的腐烂造成了此病原菌大部分的损失。高温和潮湿的环境通常有利于病害发展。为预防此病，实行轮作，销毁受感染的植株，并确保田间排水良好。避免把用于受感染植株的工具（如刀具）再用于健康植株。保持土壤 pH 值在 5.5-5.6 之间。此病没有化学防治方法。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small watery rots appear on the infected part.</li><li>The rot then grows larger, and the tissue becomes soft and releases slime.</li><li>The infected part becomes rotten and foul.</li></ul>",
+    "zh": "<ul><li>受感染部位出现小块水渍状腐烂。</li><li>腐烂随后扩大，组织变软并流出黏液。</li><li>受感染部位腐烂发臭。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 114,
+  "kind": "insect",
+  "ai": [
+   "Fosetyl-aluminium",
+   "Metalaxyl-M"
+  ],
+  "name": {
+   "ms": "Kumbang Ambrosia",
+   "en": "Ambrosia Beetle",
+   "zh": "榴莲长小蠹（食菌小蠹）"
+  },
+  "sci": "<em>Platypus</em> sp.",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>A stem-boring pest that attacks durian trees by boring into the trunk or main branches. The adult beetles dig tunnels inside the wood and carry with them an ambrosia fungus, which is the food source for the larvae and adult beetles. This pest bores fine holes 0.5mm in diameter on the trunk surface and pushes out dry, white frass. The attack weakens the tree structure because the inner trunk tissue is damaged, which disrupts the flow of water and nutrients, and can cause branches to dry up or the tree to die if the attack is severe.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP) </li><li>Cut and destroy badly attacked branches to stop the spread.</li><li>Keep the orchard clean of dead wood or rotting material that can become breeding sites.</li><li>Check the trees regularly, especially in the dry season.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Spray or paint a registered insecticide on the attacked trunk according to the label instructions.</li><li>To control the attack, the best way is to first control stem canker disease by spraying the fungicides &lsquo;Fosetyl-aluminium and<br>Metalaxyl-M&rsquo; onto the canopy and fruit.</li><li><p>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</p></li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>一种蛀干害虫，通过钻入树干或主枝危害榴莲树。成虫在木材内挖掘坑道，并携带食菌小蠹共生真菌（ambrosia 真菌），作为幼虫和成虫的食物来源。此害虫在树干表面蛀出直径 0.5mm 的细小孔洞，并排出干燥的白色蛀屑。危害会破坏树干内部组织，阻碍水分和养分的输送，使树体结构变弱；危害严重时可导致枝条干枯甚至整棵树死亡。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范 (GAP) </li><li>砍除并销毁严重受害的枝条，以防止扩散。</li><li>保持果园清洁，清除可能成为繁殖场所的枯木或腐烂物。</li><li>定期巡查树木，尤其是在旱季。</li></ul><p>化学防治（如有需要）</p><ul><li>按照标签说明，在受害树干上喷洒或涂抹已注册的杀虫剂。</li><li>要控制此虫危害，最好的方法是先防治茎干溃疡病（疫病），在树冠和果实上喷洒杀菌剂&lsquo;Fosetyl-aluminium（三乙膦酸铝）和<br>Metalaxyl-M（精甲霜灵）&rsquo;。</li><li><p>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及收获前的安全间隔期。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>This insect bores into the trunk and branches.</li><li>Many piles of white frass are found on the surface of attacked trunks or branches.</li><li>A serious attack causes the leaves to wilt and can kill the tree.</li><li>This pest attacks trees that already have stem canker disease. </li></ul>",
+    "zh": "<ul><li>这种害虫蛀食树干和枝条。</li><li>受害树干或枝条表面有许多堆白色蛀屑。</li><li>严重危害会导致叶片萎蔫，并可能使树木死亡。</li><li>此害虫会危害已患茎干溃疡病的树木。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 152,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Trip",
+   "en": "Bean Flower Thrips",
+   "zh": "豆大蓟马"
+  },
+  "sci": "<em>Megalurothrips usitatus</em>",
+  "desc": {
+   "en": "<p>Thrips are insects that like to attack the flowers. When these insects suck the pollen and sap, the flowers start to drop. According to a study done in India, their life cycle is usually 21 days. Fruit yield will drop sharply. Some fruits become scarred and distorted, because the attack damages the flower parts and causes defects. Signs of attack differ from plant to plant, such as curled or crinkled leaves.</p><p><strong>Recommended control methods</strong></p><p>Spray regularly at the recommended rate, even when there is no damage.</p><p>For prevention and control, organic sprays can be made from wood vinegar, turmeric, onion, semambu (neem), ginger and galangal.</p><p>Using a variety of products is important to stop insects from adapting to or becoming resistant to the same chemical; for fertiliser too, using a variety helps avoid nutrient deficiencies caused by spraying the same fertiliser source.</p>",
+   "zh": "<p>蓟马是一种喜欢危害花朵的昆虫。当这种害虫吸食花粉和汁液时，花朵会开始脱落。根据印度的一项研究，其生活周期通常为 21 天。果实产量会大幅下降。部分果实会出现疤痕和畸形，因为危害损伤了花器，使其变形。受害症状因植株而异，例如叶片卷曲或皱缩。</p><p><strong>建议的防治方法</strong></p><p>即使没有受害，也要按建议用量定期喷药。</p><p>预防和防治时，可使用木醋液、黄姜、洋葱、印楝（semambu）、生姜和南姜等制成的有机药剂。</p><p>轮换使用不同药剂很重要，可避免害虫对同一种药剂产生适应或抗药性；肥料方面，多样化使用也能避免因长期喷施同一种肥料而造成营养缺乏。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "Nymphs and adult thrips suck plant sap from the underside of the leaves, causing the leaves to turn brownish, curl and bend upwards. The eggplant shoots wilt and finally drop. Thrips also attack the fruit by scraping and sucking cell sap from the fruit surface. As a result, the fruit skin has fine brownish scabby patches, which lower fruit quality.",
+    "zh": "若虫和成虫在叶片背面吸食汁液，使叶片变褐、卷曲并向上弯曲。茄子嫩梢萎蔫，最后脱落。蓟马也会危害果实，锉吸果实表面的细胞汁液，导致果皮出现褐色的细小疮痂斑，影响果实品质。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 172,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pelombong Daun",
+   "en": "Leaf Miner",
+   "zh": "潜叶虫"
+  },
+  "sci": "<em>Phyllocnistis citrella</em>",
+  "desc": {
+   "en": "<p>This leaf miner usually attacks legumes, cruciferous vegetables and tomato.</p><p>The adult of this insect is a small fly about 1.7-2.3mm long.</p><p>It has red eyes, a black thorax and a yellow stripe between the thorax and the abdomen.</p><p>Like other insects, this leaf miner goes through the life cycle EGG-LARVA-PUPA-ADULT.</p><p>The insect lays its eggs inside the leaf. The eggs are oval, 0.15-0.22mm in size and creamy white. They hatch in 4-6 days.</p><p>The pupa is golden yellow and is found on the leaf. It has 2 reddish eye-like spots at the front. The pupal period is 7-14 days.</p>",
+   "zh": "<p>这种潜叶虫通常危害豆类、十字花科蔬菜和番茄。</p><p>这种害虫的成虫是一种小蝇，体长约 1.7-2.3mm。</p><p>复眼红色，胸部黑色，胸部与腹部之间有黄色条纹。</p><p>与其他昆虫一样，这种潜叶虫的生活周期为：卵－幼虫－蛹－成虫。</p><p>雌虫将卵产在叶片内。卵为椭圆形，大小 0.15-0.22mm，乳白色，4-6 天孵化。</p><p>蛹为金黄色，位于叶片上。前端有 2 个似眼睛的红色斑点。蛹期为 7-14 天。</p>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 189,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Reput Pangkal",
+   "en": "Southern Blight (Stem Rot)",
+   "zh": "茄子白绢病"
+  },
+  "sci": "<em>Sclerotium rolfsii</em>",
+  "desc": {
+   "en": "Attacked plants wilt, often starting from the young leaves.<br>The stems and branches shrivel, dry up and finally die.",
+   "zh": "受害植株萎蔫，通常从嫩叶开始。<br>茎和枝条皱缩、干枯，最后死亡。"
+  },
+  "symptoms": [
+   {
+    "en": "Attacked plants wilt, often starting from the young leaves.",
+    "zh": "受害植株萎蔫，通常从嫩叶开始。",
+    "steps": []
+   },
+   {
+    "en": "Stem lesions are dark green and water-soaked at first, then dry out and turn brown.",
+    "zh": "茎部病斑起初为深绿色、水渍状，随后干枯并变成褐色。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 207,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pelombong Daun",
+   "en": "Leaf Miner",
+   "zh": "潜叶虫"
+  },
+  "sci": "<em>Acrocercops</em> spp.",
+  "desc": {
+   "en": "The leaf miner is classed as an insect pest because it damages the leaves: the caterpillar <strong>&#39;mines&#39;</strong> the leaf by eating the leaf tissue and leaves behind white trails that are easy to see. The adult insect lays &#39;creamy white&#39; eggs on the leaf surface; they are very small or fine and hard to see with the naked eye. Scientific studies show that one adult insect can lay 100 eggs at a time. The eggs hatch in only 5 days and the larvae eat the inner leaf tissue, which disrupts photosynthesis. At 7 days old the larva turns into a pupa (cocoon), and this stage takes 8 days before the adult insect emerges. The fly-sized adult insects fly and mate before laying eggs again on new leaves to continue the life cycle.",
+   "zh": "潜叶虫被归类为害虫，因为它会破坏叶片：幼虫在叶片内<strong>&#39;潜食&#39;</strong>，取食叶片组织，留下明显易见的白色弯曲虫道。成虫在叶面产下&#39;乳白色&#39;的卵，卵非常细小，肉眼难以看见。科学研究显示，一只成虫一次可产卵 100 粒。卵仅需 5 天孵化，幼虫取食叶肉组织，影响光合作用。幼虫约 7 天后化蛹，蛹期 8 天，之后羽化为成虫。这种如苍蝇般大小的成虫会飞行和交配，然后再次在新叶上产卵，延续其生活周期。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>It feeds on the mustard stems, causing the attacked stems to shrivel and wilt.</li></ul>",
+    "zh": "<ul><li>取食芥菜的茎，使受害的茎皱缩萎蔫。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>It feeds on the leaves, causing winding trails on the leaf surface</li></ul>",
+    "zh": "<ul><li>取食叶片，在叶面形成弯曲的虫道</li></ul>",
+    "steps": [
+     {
+      "en": "<ul><li>The insect lays its eggs on the leaf. When the eggs hatch, the larvae (caterpillars) feed by mining (tunnelling) through the vegetable leaves and sucking the fluid inside the leaf tissue (epidermal sap). This causes white winding trails to appear on the surface of attacked leaves.</li><li>Leaf miner damage makes the leaves damaged/deformed and wrinkled or rolled.</li></ul>",
+      "zh": "<ul><li>成虫在叶片上产卵。卵孵化后，幼虫在菜叶内潜食（钻蛀），并吸食叶片组织内的汁液（表皮汁液），使受害叶片表面出现白色弯曲的虫道。</li><li>潜叶虫危害使叶片受损、畸形，并出现皱缩或卷曲。</li></ul>"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 230,
+  "kind": "weed",
+  "ai": [
+   "Oxyfluorfen",
+   "Paraquat",
+   "Glyphosate",
+   "Diuron"
+  ],
+  "name": {
+   "ms": "Selaput Tunggal",
+   "en": "Bitter Vine (Mile-a-minute)",
+   "zh": "薇甘菊"
+  },
+  "sci": "<em>Mikania micrantha</em>",
+  "desc": {
+   "en": "<p>Bitter Vine <em>(Mikania micrantha) </em></p><p>Bitter vine (selaput tunggal) is classified as an <em>Invasive Alien Species (</em>IAS<em>)</em> weed in many countries because this plant can produce 20 to 40 thousand seeds. </p><p>This weed flowers quickly, and the mature flowers produce seeds that are spread by wind, water and animals. Its other main way of reproducing is vegetative, through roots and stems in areas where it is already growing. The rhizomes and roots multiply quickly in the soil.</p><p>This weed grows and spreads very fast and can reduce the growth of crops. It also uses a lot of nutrients and takes up space, covering our crops by climbing and twining over them.</p><p><strong>Control Methods</strong></p><p><strong>1. Mechanical Method</strong></p><p> This is done by slashing, pulling out and burning the bitter vine. This method is used when the weed grows together with the crop or twines around the crop plants.</p><p><strong>2. Chemical Control</strong></p><p>The most effective way to control this weed is to use systemic and pre-emergence herbicides such as Oxyfluorfen (0.06 kg/ha) and Paraquat (0.4 kg/ha) before the bitter vine flowers. Glyphosate is widely used to control bitter vine at a rate of 0.5-0.45 kg per hectare. It is very effective even when the bitter vine is thick. Other herbicides include Diuron and Garlon 600. Although bitter vine dies after spraying, it often grows back after the rainy season.</p>",
+   "zh": "<p>薇甘菊 <em>(Mikania micrantha) </em></p><p>薇甘菊在许多国家被列为<em>外来入侵物种 (</em>IAS<em>)</em>杂草，因为这种植物可产生 2 万至 4 万粒种子。</p><p>这种杂草开花很快，成熟的花会产生种子，借由风、水和动物传播。薇甘菊的另一种主要繁殖方式是营养繁殖，即通过已生长地区的根和茎繁殖。根状茎在土中繁殖得很快。</p><p>这种杂草生长和蔓延非常迅速，会影响作物的生长。它还大量吸收养分、抢占空间，并通过攀爬和缠绕覆盖我们种植的作物。</p><p><strong>防治方法</strong></p><p><strong>1. 机械防治</strong></p><p>以砍除、拔除和烧毁薇甘菊的方式进行。当杂草与作物一起生长或缠绕在作物上时，使用此方法。</p><p><strong>2. 化学防治</strong></p><p>防治这种杂草最有效的方法，是在薇甘菊开花前使用内吸性和芽前除草剂，例如 Oxyfluorfen（乙氧氟草醚，0.06 kg/ha）和 Paraquat（百草枯，0.4 kg/ha）。Glyphosate（草甘膦）被广泛用于防治薇甘菊，用量为每公顷 0.5-0.45 kg。即使薇甘菊生长茂密，此药仍非常有效。其他除草剂有 Diuron（敌草隆）和 Garlon 600。虽然薇甘菊喷药后会死亡，但雨季过后常会再次长出。</p>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 249,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate"
+  ],
+  "name": {
+   "ms": "Semalu Gergasi",
+   "en": "Giant Mimosa",
+   "zh": "刺轴含羞草（巨含羞草）"
+  },
+  "sci": "<em>Mimosa pigra</em> L.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Fabaceae</p><p><strong>Habitat:</strong> Moist and fertile soil</p><p>Invasive habitat: Because it can grow and spread quickly, <em>Mimosa pigra</em> often becomes a weed that disrupts natural ecosystems, holds back the growth of native plants and changes the soil structure.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Chemical control: Herbicides such as glyphosate are often used to control the spread of <em>Mimosa pigra</em>, especially in large, infested areas.</li><li>Regular cutting or slashing can reduce the number of these plants, but you need to keep at it to stop them regrowing from the roots and rhizomes.</li><li> Restoring the land by planting stronger native plants or ground cover crops can also help overcome <em>Mimosa pigra</em> invasion.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Light seeds: The seeds of <em>Mimosa pigra</em> are easily spread by wind because they are light and can travel far. The seeds can also be spread by water or human activity.</li><li>Spread through rhizomes: This plant can also reproduce vegetatively through rhizomes or creeping roots, which lets it spread faster.</li></ul>",
+   "zh": "<p><strong>科：</strong>豆科 (Fabaceae)</p><p><strong>生境：</strong>潮湿肥沃的土壤</p><p>入侵生境：由于生长和蔓延迅速，<em>Mimosa pigra</em> 常成为破坏自然生态系统的杂草，抑制本地植物生长并改变土壤结构。</p><p><strong>杂草综合管理 (IWM)</strong></p><ul><li>化学防治：常使用除草剂如 Glyphosate（草甘膦）控制 <em>Mimosa pigra</em> 的蔓延，尤其是在大面积受侵染的地区。</li><li>定期砍伐或修剪可减少这种植物的数量，但需要持之以恒，以防止其从根部和根状茎重新长出。</li><li>通过种植较强壮的本地植物或地被覆盖作物来恢复土地，也有助于抑制 <em>Mimosa pigra</em> 的入侵。</li></ul><p><strong>传播方式：</strong></p><ul><li>种子轻：<em>Mimosa pigra</em> 的种子很轻，容易随风飘到远处。此外，种子也可通过水流或人类活动传播。</li><li>通过根状茎传播：这种植物也可通过根状茎或匍匐根进行营养繁殖，使其蔓延更快。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Giant sensitive plant, scientific name <em>Mimosa pigra </em>L., is an upright, thorny shrub that can grow to a height of 5 metres or more. It is commonly known as <strong>&ldquo;Giant Mimosa&rdquo; </strong>or semalu (sensitive plant). If not controlled, this plant can take over an area and is very hard to destroy. This is a burden to farmers in terms of the cost and labour needed to control it. This plant is classified as a dangerous plant under the Plant Quarantine Regulations 1981. This dangerous plant reproduces from seed and can spread through soil, vehicles, water (rivers and during floods), animals and humans, and crop seeds such as cover crop seeds, etc.",
+    "zh": "巨含羞草（刺轴含羞草），学名<em>Mimosa pigra </em>L.，是一种直立、有刺的灌木，可长到 5 米或以上，通常被称为<strong>&ldquo;Giant Mimosa（巨含羞草）&rdquo;</strong>或含羞草。若不加以控制，这种植物会占满整个区域，而且极难根除。这在防治成本和人力上给农民带来负担。这种植物在《1981 年植物检疫条例》(Peraturan Kuarantin Tumbuhan 1981) 下被列为有害植物。这种有害植物以种子繁殖，可通过土壤、车辆、水（河流和洪水期间）、动物和人类，以及作物种子（如地被覆盖作物种子）等传播。",
+    "steps": []
+   },
+   {
+    "en": "<p>Main features of <em>Giant mimosa</em></p><ul><li>Size: This plant can grow very large, reaching 2 to 4 metres tall, or even more in good conditions.</li><li>Stems and branches: It has upright woody stems with many branches. The stems are fairly strong but still flexible.</li><li>Leaves: The leaves are made up of many small leaflets arranged in a feather-like (pinnate) pattern. They are light green and look dense and fine.</li><li>Flowers: <em>Mimosa pigra</em> produces small pale purple or pink flowers in dense clusters. The flowers are shaped like small balls and usually appear in the hot season.</li><li>Pods and seeds: After flowering, the plant produces long hairy pods that contain seeds. The pods release light seeds that can be spread by wind.</li></ul>",
+    "zh": "<p><em>巨含羞草</em>的主要特征</p><ul><li>大小：这种植物可长得非常高大，高 2 至 4 米，在良好条件下甚至更高。</li><li>茎和枝：具直立的木质茎，分枝颇多。茎相当坚硬，但仍有韧性。</li><li>叶：叶由许多小叶组成，呈羽状排列。叶色浅绿，外观密集而细致。</li><li>花：<em>Mimosa pigra</em> 开浅紫色或粉红色的小花，密集成簇。花呈小球状，通常在炎热季节出现。</li><li>荚果和种子：开花后，植株结出长而有毛的荚果，内含种子。荚果会释放出很轻的种子，可随风传播。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 261,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pengorek Batang Kopi",
+   "en": "Coffee Carpenter Moth (Red Branch Borer)",
+   "zh": "咖啡豹蠹蛾"
+  },
+  "sci": "<em>Zeuzera coffeae</em>",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The stem borer caterpillar attacks the stems and branches of coffee plants by boring into the wood tissue. The attack can disrupt the flow of water and nutrients, causing branches to wilt, dry up and break. A severe attack can kill the plant.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Prune and destroy attacked branches.</li><li>Use suitable planting distances to reduce the risk of pest attack.</li><li>Check the stems regularly for holes and frass (wood dust).</li><li>Keep the farm clean at all times and remove infested plant residues.</li><li>Encourage natural enemies such as parasitoids and insect predators.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Use a registered insecticide by injecting or applying it into the attack holes, following the product label and the recommended rate.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>蛀茎幼虫钻入木质组织，危害咖啡树的茎和枝条。危害会阻碍水分和养分的输送，导致枝条萎蔫、干枯和折断。严重危害可导致植株死亡。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>剪除并销毁受害枝条。</li><li>采用适当的种植距离，以降低虫害风险。</li><li>定期检查树干，留意蛀孔和蛀屑（木屑）。</li><li>保持园地清洁，清除受害的作物残体。</li><li>保护和利用天敌，例如寄生性天敌和捕食性昆虫。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按照产品标签和建议用量，以注射或涂抹方式将已注册的杀虫剂施入蛀孔。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Small holes appear on the stem or branches together with fine wood dust (frass). Twigs or branches also start to wilt or die, and the plant becomes stunted.</p><p>Source : https://www.kampustani.com/pengendalian-hama-dan-penyakit-tanaman-kopi/</p>",
+    "zh": "<p>茎或枝条上出现小孔，并伴有细小的木屑（蛀屑）。此外，小枝或枝条开始萎蔫或枯死，植株生长受阻。</p><p>来源：https://www.kampustani.com/pengendalian-hama-dan-penyakit-tanaman-kopi/</p>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 273,
+  "kind": "insect",
+  "ai": [
+   "Beauveria bassiana",
+   "Deltamethrin",
+   "Cyfluthrin"
+  ],
+  "name": {
+   "ms": "Kumbang Pengorek Buah Mangga",
+   "en": "Mango Seed Weevil",
+   "zh": "芒果果核象甲"
+  },
+  "sci": "<em>Sternochetus mangiferae</em>",
+  "desc": {
+   "en": "<ul><li>The beetles are active in the morning and evening.</li><li>They are dark brown or blackish grey, sometimes with silvery spots.</li><li>In hot weather the beetles hide under leaves or in cracks in the stem or fruit.</li><li>The larvae (grubs) live close to the fruit seed.</li></ul><p><strong>Pest management</strong></p><ul><li>Good Agricultural Practices (GAP).</li><li>Collect fallen or infested fruits.</li><li>Use pheromone traps to monitor the adult population.</li><li>Use natural enemies such as egg parasites and entomopathogenic fungi (<em>Beauveria bassiana</em>).</li><li>Use chemical pesticides as recommended on the label, for example deltamethrin and cyfluthrin</li></ul>",
+   "zh": "<ul><li>成虫在早上和傍晚活动。</li><li>体色深褐色或黑灰色，有时带银色斑点。</li><li>天气炎热时，成虫躲在叶片下或树干、果实的裂缝中。</li><li>幼虫生活在果核附近。</li></ul><p><strong>害虫管理</strong></p><ul><li>良好农业规范 (GAP)。</li><li>收集掉落或受害的果实。</li><li>使用性信息素诱捕器监测成虫数量。</li><li>利用天敌，例如卵寄生蜂和昆虫病原真菌（<em>Beauveria bassiana</em>，球孢白僵菌）。</li><li>按照标签建议使用化学农药，例如 Deltamethrin（溴氰菊酯）和 Cyfluthrin（氟氯氰菊酯）</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Eggs are laid on the skin of young fruit.</li><li>The larvae bore into the fruit, eat the flesh and move towards the seed.</li><li>Ripe fruits show small holes and rotten flesh inside.</li><li>Fine powder or larval droppings are seen around the holes</li></ul>",
+    "zh": "<ul><li>卵产在幼果的果皮表面。</li><li>幼虫蛀入果实，取食果肉并向果核移动。</li><li>成熟果实上可见小孔，内部果肉腐烂。</li><li>孔洞周围有细粉末或幼虫粪便</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 287,
+  "kind": "nematode",
+  "ai": [],
+  "name": {
+   "ms": "Nematod Lesi Akar",
+   "en": "Root Lesion Nematode",
+   "zh": "根腐线虫（短体线虫）"
+  },
+  "sci": "<em>Pratylenchus</em> sp.",
+  "desc": {
+   "en": "<ul><li>It weakens the root system and reduces the tree&rsquo;s ability to take up water and nutrients.</li><li>It makes the tree more prone to secondary infection by fungi and bacteria.</li><li>It can kill young trees if the attack is severe.</li><li>It affects fruit production and quality, with an impact on economic returns.</li><li>Nematode management</li><li> Neem &lsquo;oil cakes&rsquo; and nematicides</li><li>Keep the farm area clean and free of weeds</li></ul>",
+   "zh": "<ul><li>削弱根系，降低树木吸收水分和养分的能力。</li><li>使树木更容易受到真菌和细菌的二次感染。</li><li>危害严重时可导致幼树死亡。</li><li>影响果实产量和品质，进而影响经济收益。</li><li>线虫管理</li><li>使用印楝&lsquo;油粕&rsquo;（印楝饼肥）和杀线虫剂</li><li>保持园地清洁并清除杂草</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Symptoms:</p><ul><li>Abnormal leaf colour</li><li>Fewer roots and lesions on the roots</li><li>Stunted plant growth</li></ul>",
+    "zh": "<p>症状：</p><ul><li>叶色异常</li><li>根量减少，根上出现病斑</li><li>植株生长受阻</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 302,
+  "kind": "insect",
+  "ai": [
+   "Bacillus thuringiensis",
+   "Chlorantraniliprole",
+   "Lufenuron"
+  ],
+  "name": {
+   "ms": "Ulat Daun Bawang",
+   "en": "Beet Armyworm",
+   "zh": "甜菜夜蛾"
+  },
+  "sci": "<em>Spodoptera exigua</em>",
+  "desc": {
+   "en": "<p>The larvae eat the leaves and young stems of onion, causing holes and damage to the leaves and stunted plant growth. This insect is active at night and hides in the leaf folds or at the base of the leaves during the day.</p><p><strong>Integrated Pest Management (IPM):</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Destroy crop residues after harvest</li><li>Use <em>Bacillus thuringiensis</em> (Bt) or NPV virus</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Use registered insecticides such as chlorantraniliprole or lufenuron if the infestation is high.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</li></ul>",
+   "zh": "<p>幼虫取食洋葱的叶片和嫩茎，使叶片出现孔洞和损伤，植株生长受阻。此虫在夜间活动，白天躲在叶片缝隙或叶基部。</p><p><strong>综合虫害管理 (IPM)：</strong></p><ul><li>良好农业规范 (GAP)</li><li>收获后销毁作物残体</li><li>使用<em>Bacillus thuringiensis</em>（苏云金杆菌，Bt）或 NPV 病毒（核型多角体病毒）</li></ul><p>化学防治（如有需要）</p><ul><li>虫口密度高时，使用已注册的杀虫剂，例如 Chlorantraniliprole（氯虫苯甲酰胺）或 Lufenuron（虱螨脲）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaves have small holes up to irregular damage</li><li>Leaves dry up and wilt, and growth is stunted (severe attack)</li></ul>",
+    "zh": "<ul><li>叶片出现小孔，甚至不规则的损伤</li><li>叶片干枯、萎蔫，生长受阻（严重危害时）</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

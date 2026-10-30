@@ -1,0 +1,411 @@
+[
+ {
+  "id": 8,
+  "kind": "insect",
+  "ai": [
+   "Bacillus Thuringiensis",
+   "Emamectin Benzoate",
+   "Chlorantraniliprole",
+   "Indoxacarb"
+  ],
+  "name": {
+   "ms": "Ulat Gulung Daun Pisang",
+   "en": "Banana Leafroller (Banana Skipper)",
+   "zh": "香蕉弄蝶（蕉苞虫）"
+  },
+  "sci": "<em>Erionata thrax</em> (Linnaeus)",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The banana leafroller is a pest that rolls banana leaves with silk threads to form a &ldquo;shelter&rdquo;. The larvae live and feed inside the rolled leaf and turn into pupae before leaving the leaf roll and becoming adult butterflies. The caterpillars are pale green or greenish-yellow, active at night and during the day, and hide inside the rolled leaves to avoid predators.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good agricultural practices.</li><li>Destroy rolled leaves to reduce the caterpillar population.</li><li>Avoid excessive humidity and overgrown bushes.</li><li>Use natural enemies such as <em>Trichogramma</em> spp., which attack the eggs and larvae, and predators such as spiders, parasitoid wasps and insect-eating birds.</li><li>Spraying <em>Bacillus thuringiensis</em> is also effective and safe for controlling leaf-eating caterpillars.</li></ul><p>Chemical Control (If Necessary)</p><p>Use chemical pesticides as recommended on the label, such as:</p><ul><li>Emamectin benzoate</li><li>Chlorantraniliprole</li><li>Indoxacarb</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>香蕉卷叶虫是一种用丝把香蕉叶卷起来做成&ldquo;藏身处&rdquo;的害虫。幼虫在卷叶内生活和取食，在卷叶内化蛹，之后钻出卷叶，羽化为成虫（弄蝶）。幼虫呈淡绿色或黄绿色，夜间和白天都会活动，躲在卷叶内以避开天敌。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>实行良好农业规范。</li><li>销毁卷起的叶片，以减少幼虫数量。</li><li>避免园内过于潮湿和杂草灌木过多。</li><li>利用天敌，例如攻击卵和幼虫的赤眼蜂（<em>Trichogramma</em> spp.），以及蜘蛛、寄生蜂和食虫鸟类等捕食性天敌。</li><li>喷洒苏云金杆菌（<em>Bacillus thuringiensis</em>）也很有效，而且安全，可防治食叶幼虫。</li></ul><p>化学防治（必要时）</p><p>按照标签建议使用化学农药，例如：</p><ul><li>Emamectin benzoate（甲氨基阿维菌素苯甲酸盐）</li><li>Chlorantraniliprole（氯虫苯甲酰胺）</li><li>Indoxacarb（茚虫威）</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The caterpillar rolls up banana leaves, damaging them; the leaves then become dry and yellowish.",
+    "zh": "幼虫把香蕉叶卷起来，造成叶片受损，叶片随后变干、发黄。",
+    "steps": [
+     {
+      "en": "Check the banana leaf stalks. Rolled leaves show that leafroller caterpillars are inside the leaf roll. The butterflies fly actively in the late evening or early night and have red eyes. Insect droppings (frass) are clearly seen stuck on the leaves or on the soil surface.",
+      "zh": "检查香蕉叶柄。若发现卷叶痕迹，表示卷叶内有卷叶虫幼虫。成虫在傍晚或入夜时分活跃飞行，眼睛为红色。可明显看到虫粪粘附在叶片上或掉落在地面上。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "kind": "oomycete",
+  "ai": [],
+  "name": {
+   "ms": "Kulapuk Berbulu Jagung",
+   "en": "Maize Downy Mildew",
+   "zh": "玉米霜霉病"
+  },
+  "sci": "<em>Sclerophthora rayssiae</em> var. <em>zeae</em> Payak &amp; Renfro",
+  "desc": {
+   "en": "This fungus causes downy mildew in maize. Its mycelium spreads through the mesophyll (inner leaf tissue) and forms irregular, wavy hyphae. Oogonia develop scattered in the leaf mesophyll or in the substomatal cavities. To prevent this, destroy infected plants and keep water from pooling in the field by building a good drainage system. Use disease-free seed for planting.",
+   "zh": "这种病菌引起玉米霜霉病。其菌丝体侵入叶肉组织，形成不规则、呈波浪状的菌丝。藏卵器分散地在叶肉或气孔下腔内形成。为预防此病，应销毁受感染的植株，并在田间修建良好的排水系统，防止积水。种植时使用无病种子。"
+  },
+  "symptoms": [
+   {
+    "en": "In the early stage, yellowish-white streaks appear on infected leaves. Mildew then forms, and signs of rotting and browning appear. As a result, the plant becomes stunted.",
+    "zh": "初期，受感染的叶片上出现黄白色条纹。随后长出霉层，并出现腐烂和变褐的迹象，植株因此生长受阻、矮化。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "kind": "fungus",
+  "ai": [
+   "Maneb",
+   "Mancozeb",
+   "Copper",
+   "Benomyl",
+   "Carbendazim"
+  ],
+  "name": {
+   "ms": "Antraknos Mangga",
+   "en": "Mango Anthracnose",
+   "zh": "芒果炭疽病"
+  },
+  "sci": "<em>Colletotrichum gloeosporioides</em> (Penz.) Penz. &amp; Sacc.",
+  "desc": {
+   "en": "<p>This fungus causes anthracnose in mango. It has a big impact on mango crops and can cause large economic losses, especially in wet or very humid conditions. The pathogen lives in the host tissue as an endophyte and stays inactive. However, when the rainy, humid season starts, it can cause serious infection.</p><p><strong>Disease management:</strong></p><ul><li>To prevent this, always follow Good Agricultural Practices in the field: keep the field clean at all times and destroy all infected plant parts.</li><li>As a control measure, chemical control can be done with contact fungicides such as maneb, mancozeb or fungicides containing copper every 7-10 days. If the attack is severe, use systemic fungicides such as benomyl or carbendazim, alternating with contact fungicides every 7-10 days.</li></ul>",
+   "zh": "<p>这种真菌引起芒果炭疽病。它对芒果影响很大，可造成严重的经济损失，尤其是在潮湿或非常潮湿的条件下。病原菌以内生菌的形式存在于寄主组织内，处于休眠状态。但当多雨潮湿的季节开始时，它会引起严重的感染。</p><p><strong>病害管理：</strong></p><ul><li>为防止发生此病，应在园内始终实行良好农业规范：保持园地清洁，并销毁所有受感染的植株部分。</li><li>防治方面，可使用触杀性杀菌剂，如 Maneb（代森锰）、Mancozeb（代森锰锌）或含铜杀菌剂，每 7-10 天喷一次。若病害严重，可使用内吸性杀菌剂，如 Benomyl（苯菌灵）、Carbendazim（多菌灵），并与触杀性杀菌剂轮换使用，每 7-10 天喷一次。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>It starts as small spots on young mango shoot leaves. In the dry season, the spots dry up and fall out, leaving holes in the leaves.</li></ul><p>Flowers - Blossom Blight</p><ul><li>It starts as small spots on the flower clusters.</li><li>The spots enlarge and merge, turning the whole flower cluster necrotic (dead and dark).</li></ul>",
+    "zh": "<ul><li>最初在芒果嫩梢叶片上出现小斑点。旱季时，斑点干枯脱落，使叶片出现孔洞。</li></ul><p>花 - 花穗疫病</p><ul><li>最初在花穗上出现小斑点。</li><li>斑点扩大并连成一片，使整个花穗坏死（变黑枯死）。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Small brown spots on green fruit usually do not enlarge until after the fruit is picked.</li><li>Dark brown to blackish lesions of irregular shape appear on the fruit. Lesions can form on any part, but a &#39;teardrop&#39; shape running from the fruit stalk to the tip is the most common.</li><li>Most of the necrosis in fruit attacked by anthracnose is found at the tip of the fruit.</li></ul>",
+    "zh": "<ul><li>青果上的细小褐色斑点通常要到采摘后才会扩大。</li><li>果实上出现形状不规则的深褐色至黑色病斑。病斑可出现在果实任何部位，但最常见的是从果柄向果尖延伸的&ldquo;泪痕状&rdquo;病斑。</li><li>受炭疽病危害的果实，坏死部位大多在果实尖端。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Layu Bakteria Cili",
+   "en": "Chili Bacterial Wilt",
+   "zh": "辣椒青枯病"
+  },
+  "sci": "<em>Ralstonia solanacearum</em> (Smith) Yabuuchi et al.",
+  "desc": {
+   "en": "<p>This bacterium causes bacterial wilt in chili. It is the most aggressive pathogen of crops in the Solanaceae family and has a very wide host range. The disease is very hard to control because it comes from the soil. Controlling it is difficult with the methods available today. There is no effective chemical control for this disease.</p><p>To prevent this disease, practise crop rotation on the farm and destroy infected plants or plant parts. Make sure the soil pH is within 5.5&ndash;6.5, and repair the drainage system so that water can flow away smoothly.</p>",
+   "zh": "<p>这种细菌引起辣椒青枯病。它是危害茄科作物最猖獗的病原菌，寄主范围非常广。此病源自土壤，因此极难防治，以目前现有的方法很难控制。此病没有有效的化学防治方法。</p><p>为预防此病，应在农场实行轮作，并销毁受感染的植株或植株部分。确保土壤 pH 值保持在 5.5&ndash;6.5 之间，并修整排水系统，使水能顺畅排出。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Infected plants wilt, but the wilted leaves do not turn yellow.</li><li>If the base of a diseased plant is split in half, the vascular (water-carrying) tissue is seen to have turned brown.</li><li>If a diseased stem is cut and placed in clear water, a thick white liquid will ooze out, showing a bacterial infection. This liquid contains bacteria and polysaccharides.</li></ul>",
+    "zh": "<ul><li>受感染的植株会萎蔫，但萎蔫的叶片不会变黄。</li><li>把病株基部剖开，可见维管束（输水组织）已变成褐色。</li><li>把病株的茎切下放入清水中，会有浓稠的白色液体流出，表示受细菌感染。这种液体含有细菌和多糖。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "kind": "fungus",
+  "ai": [
+   "Copper Hydroxide",
+   "Copper Oxide",
+   "Thiophanate-methyl",
+   "Carbendazim"
+  ],
+  "name": {
+   "ms": "Keruping Sitrus",
+   "en": "Citrus Scab",
+   "zh": "柑橘疮痂病"
+  },
+  "sci": "<em>Elsinoe fawcettii</em> Bitanc. &amp; Jenkins",
+  "desc": {
+   "en": "This fungus causes scab in citrus. It is the most important fungal leaf pathogen in many citrus-growing areas. Scab attacks the fruit, leaves and twigs of many susceptible citrus varieties, causing blemishes on the surface and lowering the market value of the fruit. Scab seldom reduces yield, but it lowers the value of the fruit if not controlled. To prevent this, keep the farm clean and make sure the trees have good air flow. Use copper hydroxide, copper oxide, thiophanate-methyl or carbendazim at the flowering or harvesting stage.",
+   "zh": "这种真菌引起柑橘疮痂病。在许多柑橘产区，它是最重要的叶部真菌病原菌。疮痂病危害许多易感柑橘品种的果实、叶片和嫩枝，造成外观缺陷，降低果实的市场价值。疮痂病很少降低产量，但若不加以控制，会降低果实的价值。为预防此病，应保持园地清洁，并确保果树通风良好。在开花期或收获期使用氢氧化铜（Copper hydroxide）、氧化铜（Copper oxide）、甲基硫菌灵（Thiophanate-methyl）或多菌灵（Carbendazim）。"
+  },
+  "symptoms": [
+   {
+    "en": "Scab lesions are corky, greyish-brown and raised. Attacked fruit and leaves become deformed.",
+    "zh": "疮痂病斑呈木栓状、灰褐色并隆起。受害的果实和叶片会变形（畸形）。",
+    "steps": [
+     {
+      "en": "Scab lesions are corky, greyish-brown and raised. Attacked fruit and leaves become deformed.",
+      "zh": "疮痂病斑呈木栓状、灰褐色并隆起。受害的果实和叶片会变形（畸形）。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 89,
+  "kind": "fungus",
+  "ai": [
+   "Copper Hydroxide",
+   "Carbendazim"
+  ],
+  "name": {
+   "ms": "Antraknos Kopi",
+   "en": "Coffee Anthracnose",
+   "zh": "咖啡炭疽病"
+  },
+  "sci": "<em>Colletotrichum</em> sp.",
+  "desc": {
+   "en": "This fungus causes anthracnose in coffee. Symptoms can appear on seedlings, flowers, fruit, leaves, nodes and branches. Low humidity and dry weather hold back the development and spread of this disease. When there is high humidity, rain, warm temperatures and diseased plant debris in the field, the spores can spread and become a problem in the farm. To prevent this, prune off infected branches. Spray with a fungicide such as copper hydroxide or carbendazim once every 3-4 weeks, following the recommended rate on the label.",
+   "zh": "这种真菌引起咖啡炭疽病。症状可出现在幼苗、花、果实、叶片、节部和枝条上。湿度低和少雨的天气会抑制此病的发展和传播。当湿度高、下雨、气温高，且田间留有带病植株残体时，孢子便会传播，成为园中的问题。为预防此病，应剪除受感染的枝条。按照标签上的建议用量，每 3-4 周喷洒一次杀菌剂，如氢氧化铜（Copper hydroxide）或多菌灵（Carbendazim）。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attacks green coffee berries at every stage of growth.</li><li>Black spots on the berry skin then spread into the bean. In the end, the berry dries up.</li></ul>",
+    "zh": "<ul><li>在各个生长阶段危害青绿的咖啡果。</li><li>果皮上出现黑色斑点，随后向内扩展至咖啡豆。最后，果实干枯。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 116,
+  "kind": "insect",
+  "ai": [
+   "Dimethoate",
+   "Lambda-cyhalothrin",
+   "Thiamethoxam"
+  ],
+  "name": {
+   "ms": "Pengorek Batang Durian",
+   "en": "Durian Stem Borer (Clearwing Moth)",
+   "zh": "榴莲蛀干透翅蛾"
+  },
+  "sci": "<em>Synanthedon</em> sp.",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>An important pest of durian, attacking young trees through to mature trees. The larvae bore into the bark and trunk, making tunnels under the bark and feeding on the cambium tissue. This insect often attacks parts of the bark already infected by stem canker (<em>Phytophthora palmivora</em>). Attacks usually start on the bark at the base of the trunk and, if they spread, signs such as reddish-brown droppings can be found as high as the upper branches. A long-lasting attack can weaken the tree and cause branches or the whole tree to die.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Check the trunk and branches regularly to spot early signs of attack.</li><li>Prune and destroy badly attacked branches.</li><li>Avoid injuring the trunk during maintenance work, because wounds can attract adult insects to lay eggs.</li><li>Keep the orchard clean and practise balanced fertilising and watering so the trees are more resistant to attack.</li><li>Use pheromone traps to monitor the presence of adult moths.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>If the attack is high, use registered insecticides such as dimethoate, Colam ZC (lambda-cyhalothrin + thiamethoxam), or Prevathon + Endure at the rate recommended on the label to control the larvae or adult insects.</li><li>When using pesticides, always wear personal protective equipment (PPE) and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval (PHI) before harvesting.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>这是危害榴莲的重要害虫，从幼树到成树都会受害。幼虫钻入树皮和树干，在树皮下蛀成隧道，并取食形成层组织。这种害虫常危害已感染茎溃疡病（<em>Phytophthora palmivora</em>）的树皮部位。危害通常从树干基部的树皮开始，若蔓延开来，红褐色虫粪等危害迹象可一直延伸到树冠上部的枝条。长期受害会使树势衰弱，导致枝条甚至整棵树死亡。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期检查树干和枝条，及早发现受害迹象。</li><li>修剪并销毁受害严重的枝条。</li><li>进行园务工作时避免伤及树干，因为伤口会吸引成虫前来产卵。</li><li>保持果园清洁，并做到施肥和灌溉均衡，使果树更能抵抗虫害。</li><li>使用性信息素诱捕器监测成虫（蛾）的出现。</li></ul><p>化学防治（必要时）</p><ul><li>若虫害严重，可按标签建议用量使用已注册的杀虫剂，如 Dimethoate（乐果）、Colam ZC（Lambda-cyhalothrin 高效氯氟氰菊酯 + Thiamethoxam 噻虫嗪）或 Prevathon + Endure，以防治幼虫或成虫。</li><li>使用农药时，务必穿戴个人防护装备（PPE），并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The pest attacks cracked bark or bark already infected with stem canker (patch canker) disease.</li><li>The larvae bore into the trunk and leave clumps of black or reddish-brown frass (droppings).</li></ul>",
+    "zh": "<ul><li>害虫会危害开裂的树皮或已感染茎溃疡病（树干溃疡）的树皮。</li><li>幼虫蛀入树干，并留下一团团黑色或红褐色的虫粪。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 153,
+  "kind": "mite",
+  "ai": [
+   "Abamectin",
+   "Spiromesifen",
+   "Hexythiazox"
+  ],
+  "name": {
+   "ms": "Hama Merah Tomato",
+   "en": "Red Spider Mite",
+   "zh": "截形叶螨（红蜘蛛）"
+  },
+  "sci": "<em>Tetranychus truncatus</em> Ehara",
+  "desc": {
+   "en": "<p>Attacks tomato plants, especially during hot, dry weather. The mite sucks the fluid from leaf cells, causing the leaves to lose chlorophyll and their ability to photosynthesise. This pest usually lives and breeds on the underside of leaves and produces fine silky threads (webbing) when its population is high. Its short life cycle allows the population to increase quickly, causing serious damage if not controlled.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Check the plants regularly, especially the underside of the leaves.</li><li>Remove and destroy badly attacked leaves.</li><li>Control weeds that can act as alternative hosts.</li><li>Make sure plant spacing is suitable to improve air flow.</li><li>Avoid water stress by making sure watering is sufficient, especially in the hot season.</li><li>Protect natural enemies such as ladybird beetles (<em>Stethorus</em> spp.), predatory mites (<em>Phytoseiulus</em> spp. and <em>Neoseiulus</em> spp.) and lacewing larvae, which help reduce the mite population.</li></ul><p>Chemical Control (If Necessary)</p><p>If the mite population exceeds the economic threshold, use a suitable registered pesticide and rotate active ingredients to reduce the risk of resistance. Commonly used active ingredients include:</p><ul><li>Abamectin</li><li>Spiromesifen</li><li>Hexythiazox (more effective against eggs and young stages)</li><li>When using pesticides, always wear suitable personal protective clothing and follow the instructions on the product label, including the recommended dose, time of application and the pre-harvest interval (PHI) before harvesting.</li></ul>",
+   "zh": "<p>危害番茄，尤其在炎热干燥的天气。这种螨类吸食叶片细胞的汁液，使叶片失去叶绿素和光合作用的功能。此害虫通常在叶背生活和繁殖，数量多时会结出细密的丝网。它的生活周期短，数量可迅速增加，若不加以控制会造成严重损害。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期检查植株，尤其是叶背。</li><li>摘除并销毁受害严重的叶片。</li><li>清除可作为替代寄主的杂草。</li><li>确保种植距离适当，以改善通风。</li><li>确保灌溉充足，避免植株缺水，尤其是在炎热季节。</li><li>保护天敌，如食螨瓢虫（<em>Stethorus</em> spp.）、捕食螨（<em>Phytoseiulus</em> spp. 和 <em>Neoseiulus</em> spp.）以及草蛉幼虫，它们有助于减少螨的数量。</li></ul><p>化学防治（必要时）</p><p>若螨的数量超过经济阈值，应使用合适的已注册农药，并轮换使用不同的有效成分，以降低产生抗药性的风险。常用的有效成分包括：</p><ul><li>Abamectin（阿维菌素）</li><li>Spiromesifen（螺甲螨酯）</li><li>Hexythiazox（噻螨酮，对卵和幼期螨更有效）</li><li>使用农药时，务必穿戴合适的个人防护服，并遵守产品标签上的说明，包括建议剂量、施药时间，以及收获前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 174,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Teritip Nanas",
+   "en": "Pineapple Scale",
+   "zh": "菠萝盾蚧"
+  },
+  "sci": "<em>Diaspis bromeliae</em> (Kerner)",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The pineapple scale (<em>Diaspis bromeliae</em>) is a sap-sucking insect that attacks pineapple by sucking sap from the leaves, stem and fruit. This pest is often found on the underside of leaves, the leaf bases and the fruit. Heavy attacks can weaken the plant, reduce photosynthesis, affect fruit growth and lower crop quality and yield.</p><p>The scale insect is a pest that sucks the cells of leaf tissue, causing chlorotic (yellow) spots on the leaves.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices</li><li>Use planting material that is free from scale insects</li><li>Inspect regularly, especially the underside of leaves, the leaf bases and the fruit</li><li>Destroy badly attacked leaves or plant parts</li><li>Keep the farm clean and control weeds that can act as alternative hosts</li><li>Ensure good plant spacing and air flow</li><li>Clean the attacked leaves while the infestation is still low to reduce the scale population.</li><li>Protect and encourage natural enemies such as ladybird beetles, lacewings and parasitoid wasps that attack scale insects.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Use insecticides registered for scale control on pineapple, as recommended on the product label.</li><li>Focus the spray on the underside of leaves, the leaf bases and plant parts with scale colonies.</li><li>When using pesticides, always wear personal protective equipment (PPE) and follow all instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval (PHI) before harvesting.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>菠萝盾蚧（<em>Diaspis bromeliae</em>）是一种刺吸式害虫，吸食黄梨叶片、茎和果实的汁液。此害虫常见于叶背、叶基和果实上。严重危害会使植株衰弱，降低光合作用，影响果实发育，并降低品质和产量。</p><p>介壳虫吸食叶片组织细胞的汁液，使叶片出现褪绿或黄色斑点。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范</li><li>使用无介壳虫的种植材料</li><li>定期检查，尤其是叶背、叶基和果实</li><li>销毁受害严重的叶片或植株部分</li><li>保持园地清洁，并清除可作为替代寄主的杂草</li><li>确保适当的种植距离和良好的通风</li><li>在虫口密度仍低时清洁受害叶片，以减少介壳虫数量。</li><li>保护并鼓励天敌，如瓢虫、草蛉和攻击介壳虫的寄生蜂。</li></ul><p>化学防治（必要时）</p><ul><li>按照产品标签上的建议，使用已注册用于防治黄梨介壳虫的杀虫剂。</li><li>喷药时应集中喷洒叶背、叶基以及有介壳虫群落的植株部位。</li><li>使用农药时，务必穿戴个人防护装备（PPE），并遵守产品标签上的所有说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Feeds on the leaves, fruit and stem, causing chlorotic (yellow) patches to form on the leaves. Attacks are heavy in shaded areas of the crop and where the pest population is high.",
+    "zh": "取食叶片、果实和茎，使叶片上形成褪绿（黄色）斑块。在荫蔽的种植区以及虫口密度高的地方，危害较严重。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 193,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Ratus Keladi",
+   "en": "Taro Armyworm",
+   "zh": "芋头斜纹夜蛾（行军虫）"
+  },
+  "sci": "<em>Spodoptera litura</em> (Fabricius)",
+  "desc": {
+   "en": "The caterpillar has 2 black spots on the sides of its body. When fully grown, the caterpillar is patterned with black spots, one yellow stripe running lengthwise along the back and one stripe along each side. At the pupal stage, it stays in the soil around the base of the plant. The pupal stage lasts 8-10 days.",
+   "zh": "幼虫身体两侧有 2 个黑斑。长大后，幼虫身上有花纹和黑斑，背部有一条纵向的黄色条纹，体侧也各有一条条纹。蛹期在植株基部周围的土中度过，历时 8-10 天。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Young larvae actively feed on the leaves in groups at the first instar and feed separately from the second instar. The attack can leave only the leaf skeleton.</li><li>The moths lay eggs in clusters on the leaves at night.</li><li>The attack can stunt the plants and stop the corms from enlarging, reducing yield.</li></ul>",
+    "zh": "<ul><li>一龄幼虫成群活跃地取食叶片，到二龄后分散取食。危害严重时，叶片只剩叶脉。</li><li>成虫（蛾）在夜间把卵成堆产在叶片上。</li><li>危害会使植株生长受阻，球茎无法长大，从而降低产量。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 208,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Daun Sitrus",
+   "en": "Cotton Aphid (Melon Aphid)",
+   "zh": "棉蚜"
+  },
+  "sci": "<em>Aphis gossypii</em> Glover",
+  "desc": {
+   "en": "<ul><li>Head and antennae shape &ndash; the tubercles look fairly flat</li><li>Body size and shape fairly round and large compared with other species</li><li>Antennae fairly short compared with M. euphorbiae and A. solani</li><li>Cornicles fairly triangular and short</li><li>Tail (cauda) fairly broad</li><li>Body colour can change with the weather: black, green, yellowish-black or yellowish-green</li><li>Lives on the lowest leaves of the plant (close to the ground); transmits Potato Yellow Virus (PYV)</li><li>Number of young produced is on average 7 &ndash; 14.</li></ul>",
+   "zh": "<ul><li>头部和触角形状 &ndash; 额瘤看起来较平</li><li>与其他种类相比，体型较大、较圆</li><li>与 M. euphorbiae 和 A. solani 相比，触角较短</li><li>腹管较短，略呈三角形</li><li>尾片较宽</li><li>体色会随天气变化，有黑色、绿色、黄黑色和黄绿色</li><li>栖息在植株最下部的叶片上（接近地面）；传播马铃薯黄化病毒（PYV）</li><li>每头平均产若蚜 7 &ndash; 14 头。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The insects attack soft parts such as young shoots and leaves, flowers and young fruit.</li><li>Attacked parts become deformed and curled, and their growth is stunted.</li><li>Aphids are vectors (carriers) of citrus tristeza virus disease.</li></ul>",
+    "zh": "<ul><li>蚜虫危害柔嫩部位，如嫩梢、嫩叶、花和幼果。</li><li>受害部位变形、卷曲，生长受阻。</li><li>蚜虫是柑橘衰退病毒病（tristeza）的传播媒介。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 231,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Antraknos Lada Benggala",
+   "en": "Capsicum Anthracnose",
+   "zh": "灯笼椒炭疽病"
+  },
+  "sci": "<em>Colletotrichum capsici</em> (Syd.) E.J. Butler &amp; Bisby",
+  "desc": {
+   "en": "<ul><li>Black spots with concentric rings (swirling spots) on the fruit.</li><li>If the infection is on the leaves, the symptoms are necrotic (dead) spots.</li></ul>",
+   "zh": "<ul><li>果实上出现黑色的同心轮纹状斑点（旋纹斑）。</li><li>若感染发生在叶片上，症状为坏死斑点。</li></ul>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 250,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Gatal",
+   "en": "Itch Grass",
+   "zh": "筒轴茅"
+  },
+  "sci": "<em>Rottboellia cochinchinensis</em> (Lour.) Clayton",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> Grows naturally / wild</p><p><strong>Rottboellia cochinchinensis</strong>, better known as <strong>itch grass</strong>, is a tropical grass native to Asia and Africa that has now spread widely across many tropical and subtropical areas of the world. It is a harmful invasive weed in many farming systems and natural ecosystems.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Using herbicides (weed killers) can help control the spread of <em>Rottboellia cochinchinensis</em>. However, overuse can make this weed resistant to certain chemicals.</li><li>Regular cutting can help reduce its growth, but the weed easily grows back if the root system is not completely destroyed.</li><li>Planting ground cover crops that can compete with itch grass, together with good soil restoration practices, can help reduce the dominance of this weed.</li></ul><p><strong>How It Spreads</strong></p><ul><li><strong>Seeds:</strong> The seeds are light and easily carried by the wind, which helps the weed spread over wider areas.</li><li><strong>Water and human activity:</strong> Besides wind, the seeds can also be spread by running water and human activity, for example farm machinery carrying seeds to other areas.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong>野生 / 自然生长</p><p><strong>Rottboellia cochinchinensis</strong>，俗称<strong>筒轴茅（痒草）</strong>，是一种原产于亚洲和非洲的热带禾草，现已广泛传播到全球许多热带和亚热带地区。它是危害多种农业系统和自然生态系统的入侵性杂草。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>使用除草剂可帮助控制 <em>Rottboellia cochinchinensis</em> 的蔓延。但过度使用可能使这种杂草对某些化学药剂产生抗性。</li><li>定期割除可减缓其生长，但若根系没有被彻底清除，这种杂草很容易再生。</li><li>种植能与筒轴茅竞争的地被作物，并做好土壤改良，有助于减少这种杂草的优势。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>种子：</strong>种子很轻，容易被风吹走，使其更容易传播到更广的地区。</li><li><strong>水流和人为活动：</strong>除了风，种子也可随水流和人为活动传播，例如农业机械把种子带到其他地方。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Rottboellia cochinchinensis</em></p><ul><li>Height: <em>Rottboellia cochinchinensis</em> grows upright and can reach 1 to 1.5 metres (3 to 5 feet), and even taller in some conditions.</li><li>Shape and size: The leaves are long, narrow and lance-shaped. They can be 30 to 60 cm long and about 2 to 4 cm wide.</li><li>Texture: The leaves are rough with fairly sharp edges and a finely hairy surface.</li><li>Irritation: The leaves and stems of <em>itch grass</em> can cause itching and skin irritation on direct contact, which is where the name &quot;itch grass&quot; comes from.</li></ul>",
+    "zh": "<p><em>Rottboellia cochinchinensis</em> 的主要特征</p><ul><li>高度：<em>Rottboellia cochinchinensis</em> 直立生长，可高达 1 至 1.5 米（3 至 5 英尺），在某些条件下甚至更高。</li><li>形状和大小：叶片长而窄，呈披针形。叶长可达 30 至 60 cm，宽约 2 至 4 cm。</li><li>质地：叶片粗糙，叶缘较锋利，表面有细毛。</li><li>刺激性：<em>筒轴茅</em>的叶和茎直接接触皮肤时会引起瘙痒和刺激，&quot;痒草&quot;之名由此而来。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 262,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate",
+   "Paraquat"
+  ],
+  "name": {
+   "ms": "Ketumbit Jantan (Tetambak Merah)",
+   "en": "Lilac Tasselflower",
+   "zh": "一点红"
+  },
+  "sci": "<em>Emilia sonchifolia</em> (L.) DC.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Asteraceae</p><p><strong>Habitat:</strong> Grows wild</p><p><strong>Ketumbit jantan</strong> or <strong>tetambak merah</strong> (lilac tasselflower) is a wild herb often regarded as a weed on farms, gardens and abandoned land. Although the plant has traditional uses, its fast growth and hardiness mean it needs to be controlled in certain areas.</p><p>Integrated Weed Management (IWM)</p><ul><li>Pull the plants out by hand, roots and all, especially before they flower and produce seeds.</li><li>For larger areas, control can be done with a hoe or suitable farm tools.</li><li>Make sure the whole root system is removed to prevent regrowth.</li><li><strong>Glyphosate</strong> &ndash; a systemic herbicide (weed killer) that is absorbed into the plant down to the roots.</li><li><strong>Paraquat</strong> &ndash; a contact herbicide (weed killer) that acts on the plant parts hit by the spray, but is less effective for long-term control because it does not fully kill the roots.</li></ul><p>How It Spreads</p><ul><li><em>Emilia sonchifolia</em> produces small purple flowers that are easily pollinated.</li><li>Each flower produces many small, light seeds.</li><li>The seeds have fine hair-like structures called <strong>pappus</strong>, like dandelion seeds, which let them be easily carried by the wind.</li><li>The seeds can also stick to shoes, clothing or farm tools and be spread to other areas.</li><li>Rainwater or drainage flow can carry the seeds to new places.</li><li>Small animals such as birds and insects moving between plants can also help spread the seeds.</li></ul>",
+   "zh": "<p><strong>科：</strong>菊科（Asteraceae）</p><p><strong>生境：</strong>野生</p><p><strong>一点红</strong>（马来名 <strong>Ketumbit jantan</strong> 或 <strong>Tetambak merah</strong>）是一种野生草本植物，在农地、果园和荒地中常被视为杂草。虽然这种植物有传统用途，但它生长快、适应力强，因此在某些地方需要加以控制。</p><p>杂草综合管理（IWM）</p><ul><li>用手连根拔除，尤其要在开花结籽之前进行。</li><li>面积较大时，可用锄头或合适的农具进行清除。</li><li>确保整个根系都被清除，以防再生。</li><li><strong>Glyphosate（草甘膦）</strong> &ndash; 内吸性除草剂，会被植株吸收并传导到根部。</li><li><strong>Paraquat（百草枯）</strong> &ndash; 触杀性除草剂，只作用于被喷到的植株部分，由于不能彻底杀死根部，长期防除效果较差。</li></ul><p>传播方式</p><ul><li><em>Emilia sonchifolia</em> 开紫色小花，容易授粉。</li><li>每朵花能产生许多细小而轻的种子。</li><li>种子带有细毛状的<strong>冠毛</strong>，与蒲公英相似，因此容易随风飘散。</li><li>此外，种子也会黏附在鞋子、衣服或农具上，被带到其他地方。</li><li>雨水或排水沟的水流可把种子带到新的地点。</li><li>在植株之间活动的鸟类和昆虫等小动物也会帮助传播种子。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Emilia sonchifolia</em> (L.) DC.</p><ul><li>Leaves: Green, arranged alternately. The lower leaves are broad and spoon-shaped, sometimes toothed. The upper leaves are narrower and smaller.</li><li>Flowers: Reddish-purple, light purple or sometimes pink. Arranged in small flower heads that look like a paintbrush (tassel). They stand out at the tips of long stalks.</li><li>Stem: Soft, juicy, greenish-purple. About 20&ndash;80 cm tall.</li></ul>",
+    "zh": "<p><em>Emilia sonchifolia</em> (L.) DC. 的主要特征</p><ul><li>叶：绿色，互生。下部叶片较宽，呈匙形，有时有锯齿。上部叶片较窄、较小。</li><li>花：紫红色、淡紫色，有时为粉红色。排列成形似画笔（流苏）的小头状花序，醒目地长在长花梗的顶端。</li><li>茎：柔软多汁，绿紫色。高约 20&ndash;80 cm。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 274,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Sambau",
+   "en": "Goosegrass",
+   "zh": "牛筋草"
+  },
+  "sci": "<em>Eleusine indica</em> (L.) Gaertn.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p>Habitat: Open areas exposed to sunlight</p><p>Tolerates many soil types: sandy, clay or hard soil. Can grow all year round in the tropics. Multiplies very quickly by seed and is hard to control if not weeded often.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Weed by hand or with a scraper/hoe. Suitable for small areas or home gardens. Make sure the roots are pulled out completely, as this plant grows back quickly.</li><li>Ploughing or machine weeding: For large areas such as paddy fields or farms. Repeat every 2&ndash;3 weeks to stop regrowth.</li><li>Planting cover crops such as <em>Centrosema</em>, <em>Mucuna</em> and <em>Pueraria</em> &mdash; these compete with the weeds and block the light.</li><li>Crop rotation: Planting a different crop each season helps break the weed life cycle.</li><li>Managing plant spacing and density: Closely planted, fast-growing crops can cover the ground and reduce the chance of weeds growing.</li></ul><p><strong>How it spreads:</strong></p><p>By seed: The plant produces very large numbers of seeds that are easily spread by:</p><ul><li>Wind</li><li>Water</li><li>Human and animal activity</li><li>It does not spread vegetatively (it does not creep like para grass)</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p>生境：阳光充足的开阔地</p><p>能适应多种土壤：沙土、黏土或坚硬的土壤。在热带地区全年都能生长。靠种子繁殖得非常快，若不经常除草就很难控制。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>用手或用刮草刀/锄头除草。适合小面积或家庭菜园。确保连根拔除，因为这种植物再生很快。</li><li>犁地或机械除草：适用于稻田或农场等大面积地区。每 2&ndash;3 周重复一次，以防再生。</li><li>种植地被作物，如 <em>Centrosema</em>（距瓣豆）、<em>Mucuna</em>（黎豆）、<em>Pueraria</em>（葛藤）&mdash; 与杂草竞争并遮挡阳光。</li><li>轮作：每季种植不同的作物，有助于打断杂草的生活周期。</li><li>管理种植距离和密度：种得密、长得快的作物能覆盖地面，减少杂草生长的机会。</li></ul><p><strong>传播方式：</strong></p><p>靠种子传播：产生的种子数量非常多，容易通过以下途径传播：</p><ul><li>风</li><li>水</li><li>人类和动物的活动</li><li>不进行营养繁殖（不像巴拉草那样匍匐蔓延）</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>(Eleusine indica)</em></p><ul><li>Annual plant: Lives for only one season but multiplies very quickly by seed. One plant can produce thousands of seeds.</li><li>Stem: Grows upright or creeps slightly at the base. Height: about 15&ndash;90 cm.</li><li>Leaves: Thin, long and narrow (linear), with fairly rough edges and parallel veins. The leaves are dark green and grow alternately on the stem.</li><li>Flowers / Panicle: The inflorescence (flower head) has 2 to 10 spikes arranged like a chicken&#39;s foot or a fork &mdash; hence the Malay name &quot;jari ayam&quot; (chicken fingers). Each spike carries spikelets (small florets) that contain the seeds.</li><li>Seeds: Very small, oval and brown. It spreads mainly by seeds that drop easily and are carried by wind, water, or human/machine activity.</li></ul>",
+    "zh": "<p><em>(Eleusine indica)</em> 的主要特征</p><ul><li>一年生植物：只存活一季，但靠种子繁殖得非常快。一株可产生数千粒种子。</li><li>茎：直立生长，或基部稍匍匐。高约 15&ndash;90 cm。</li><li>叶：薄、长而窄（线形），叶缘较粗糙，叶脉平行。叶片深绿色，在茎上互生。</li><li>花 / 花序：花序由 2 至 10 个穗状分枝组成，排列得像鸡爪或叉子 &mdash; 因此马来语俗称&quot;鸡爪草&quot;（jari ayam）。每个穗上有小穗，内含种子。</li><li>种子：非常细小，椭圆形，褐色。主要靠容易脱落的种子传播，由风、水或人为/机械活动带走。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 291,
+  "kind": "nematode",
+  "ai": [],
+  "name": {
+   "ms": "Nematod Puru Akar Kopi",
+   "en": "Coffee Root-Knot Nematode",
+   "zh": "咖啡根结线虫"
+  },
+  "sci": "<em>Meloidogyne incognita</em> (Kofoid &amp; White) Chitwood",
+  "desc": {
+   "en": "<ul><li><p>Root-knot nematodes are microscopic nematodes (tiny worms) that live in the soil and attack plant roots.</p></li><li><p>The main species attacking coffee:</p><ul><li><p><em>Meloidogyne exigua</em> (most commonly found on coffee)</p></li><li><p><em>Meloidogyne incognita</em></p></li><li><p><em>Meloidogyne hapla</em></p></li></ul></li><li><p>The main infective stage is the second-stage juvenile (J2) &mdash; a fine worm-like form that moves through the soil and enters plant roots.</p></li><li><p>These nematodes cause <strong>giant cells</strong> to form in the roots, which disrupt normal root function.</p></li></ul>",
+   "zh": "<ul><li><p>根结线虫是生活在土壤中、危害植物根部的微小线虫（肉眼看不见）。</p></li><li><p>危害咖啡的主要种类：</p><ul><li><p><em>Meloidogyne exigua</em>（咖啡上最常见）</p></li><li><p><em>Meloidogyne incognita</em>（南方根结线虫）</p></li><li><p><em>Meloidogyne hapla</em>（北方根结线虫）</p></li></ul></li><li><p>主要侵染阶段是二龄幼虫（J2）&mdash; 呈细小的蠕虫状，在土壤中移动并钻入植物根部。</p></li><li><p>这些线虫会使根内形成<strong>巨型细胞</strong>，干扰根的正常功能。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Galls or swellings form</strong> on the fine roots</p><ul><li><p><strong>Deformed roots</strong></p></li><li><p><strong>Root death or rot</strong> after severe attack</p></li><li><p><strong>Poorly developed root system</strong><br><strong>Upper parts (leaves, stem, fruit)</strong> - <strong>Stunted growth</strong></p></li><li><p><strong>Yellowing leaves (chlorosis)</strong></p></li><li><p><strong>Fewer flowers and fruit</strong></p></li><li><p><strong>Wilting</strong>, especially in the dry season</p></li><li><p><strong>Trees look weak and less vigorous</strong></p></li></ul><p><strong>Main targets:</strong></p><ul><li><strong>Fine (feeder) roots</strong> &mdash; where the nematodes enter and settle</li><li><strong>Main roots</strong> &mdash; sometimes also attacked in severe infections</li><li><strong>Indirect effects on tree growth, leaves and yield</strong> because root function is disrupted</li></ul>",
+    "zh": "<p>须根上<strong>形成根结或肿瘤</strong></p><ul><li><p><strong>根部变形</strong></p></li><li><p>严重受害时<strong>根部坏死或腐烂</strong></p></li><li><p><strong>根系发育不良</strong><br><strong>地上部分（叶、茎、果实）</strong> - <strong>生长受阻</strong></p></li><li><p><strong>叶片发黄（黄化）</strong></p></li><li><p><strong>开花结果减少</strong></p></li><li><p><strong>萎蔫</strong>，尤其在旱季</p></li><li><p><strong>植株看起来衰弱、长势差</strong></p></li></ul><p><strong>主要危害部位：</strong></p><ul><li><strong>须根（吸收根）</strong> &mdash; 线虫钻入并定居的部位</li><li><strong>主根</strong> &mdash; 严重感染时有时也会受害</li><li>由于根部功能受干扰，<strong>间接影响植株生长、叶片和产量</strong></li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 303,
+  "kind": "insect",
+  "ai": [
+   "Diazinon"
+  ],
+  "name": {
+   "ms": "Lalat Bawang",
+   "en": "Onion Fly (Onion Maggot)",
+   "zh": "葱地种蝇（葱蝇）"
+  },
+  "sci": "<em>Delia antiqua</em> (Meigen)",
+  "desc": {
+   "en": "<p>Onion fly larvae attack the stem base and roots of onions by boring into the plant tissue, causing the plants to wilt, rot and finally die.</p><p><strong>Pest features:</strong></p><ul><li>Adults are small (3&ndash;5 mm) and grey</li><li>Larvae are yellowish-white, legless and tapered</li><li>Eggs are laid at the base of the plant or in the soil near the crop</li><li>Larvae bore into the stem base, roots and bulbs of onions</li></ul><p><strong>Integrated Pest Management</strong></p><ul><li>Practise crop rotation and avoid planting onions continuously in the same area.</li><li>Use plastic mulch to reduce egg-laying by onion flies.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Spray a recommended insecticide such as diazinon.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>葱蝇幼虫蛀入植株组织，危害洋葱的茎基部和根部，使植株萎蔫、腐烂，最终死亡。</p><p><strong>害虫特征：</strong></p><ul><li>成虫体小（3&ndash;5 mm），灰色</li><li>幼虫黄白色，无足，体形一端尖细</li><li>卵产在植株基部或作物附近的土中</li><li>幼虫蛀食洋葱的茎基部、根部和鳞茎</li></ul><p><strong>综合虫害管理</strong></p><ul><li>实行轮作，避免在同一地块连续种植洋葱。</li><li>使用塑料地膜覆盖，以减少葱蝇产卵。</li></ul><p>化学防治（必要时）</p><ul><li>喷洒建议使用的杀虫剂，如 Diazinon（二嗪磷）。</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaves turn yellow, wilt and are easily pulled out</li><li>Bulbs are soft and damaged inside</li><li>Larvae are found inside the bulbs</li><li>Bulbs rot easily in storage</li></ul>",
+    "zh": "<ul><li>叶片发黄、萎蔫，植株容易被拔起</li><li>鳞茎变软，内部受损</li><li>鳞茎内可见幼虫</li><li>鳞茎在储存期间容易腐烂</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

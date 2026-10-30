@@ -1,0 +1,426 @@
+[
+ {
+  "id": 5,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Kiambang",
+   "en": "Giant Salvinia",
+   "zh": "人厌槐叶萍"
+  },
+  "sci": "<em>Salvinia molesta</em>",
+  "desc": {
+   "en": "<p>Kiambang (<em>S. molesta</em>) is an aquatic weed that floats on the water surface. It comes from South America, such as Argentina, south-eastern Brazil, Colombia and Guyana. This weed is listed among the 100 most dangerous <em>Invasive Alien Species</em> (IAS) because it threatens ecosystems by covering the surface of ponds, lakes and irrigation water sources. As a result, sunlight cannot get into the water, so water animals and plants do not receive enough light and oxygen. In the end, the aquatic life dies. Salvinia is quite hard to control because it grows and multiplies very fast.</p><p>The recommended control method in paddy areas is manual removal by hand, and mechanical control using machinery or equipment, but this is suitable only outside the planting season. Another method is biological control using the <em>Cyrtobagous salviniae</em> weevil. This is the most effective way to control salvinia, but it is suitable only in areas with no farming activity, such as lakes and ponds.</p>",
+   "zh": "<p>人厌槐叶萍（<em>S. molesta</em>）是一种漂浮在水面上的水生杂草，原产于南美洲，如阿根廷、巴西东南部、哥伦比亚和圭亚那。这种杂草被列为100种最危险的<em>外来入侵物种</em>（IAS）之一，因为它会覆盖池塘、湖泊和灌溉水源的水面，威胁生态系统。阳光因此无法射入水中，水中的动植物得不到足够的光和氧气，最终死亡。由于槐叶萍生长和繁殖非常快，防治相当困难。</p><p>在稻田区建议的防治方法是用手人工清除，以及使用机械或设备进行机械防治，但只适合在非种植季节进行。另一种方法是利用<em>Cyrtobagous salviniae</em>象甲进行生物防治。这是防治槐叶萍最有效的方法，但只适用于没有农业活动的地方，如湖泊和池塘。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "The “roots” of <em>Salvinia molesta</em>: long, root-like structures",
+    "zh": "<em>Salvinia molesta</em>的“根”：细长的根状结构",
+    "steps": []
+   },
+   {
+    "en": "<em>Salvinia molesta</em> infestation in a paddy field plot",
+    "zh": "<em>Salvinia molesta</em>（人厌槐叶萍）在稻田地块中蔓延",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "kind": "fungus",
+  "ai": [
+   "Tridemorph",
+   "Triadimefon",
+   "Propiconazole"
+  ],
+  "name": {
+   "ms": "Kulat Akar Putih",
+   "en": "White Root Fungus",
+   "zh": "白根病菌"
+  },
+  "sci": "<em>Rigidoporus lignosus</em>",
+  "desc": {
+   "en": "This fungus is the main cause of White Root Disease in durian. It is a soil-borne disease that occurs in durian farms on land that was previously planted with tapioca or rubber. In the first six years after planting durian trees, this disease can be very serious. To prevent it, make sure all remains of the previous crop are removed completely, especially the roots. In severe attacks, it is advised to uproot and destroy the infected trees. The old planting hole must be treated with a fungicide such as tridemorph, triadimefon or propiconazole. Isolation trenches can be dug around the trees to prevent the disease.",
+   "zh": "这种真菌是榴莲白根病的主要病原。白根病是一种土传病害，常发生在以前种过木薯或橡胶的榴莲园。榴莲树种植后的头六年，此病可能非常严重。为防止发生，务必彻底清除前作的所有残留物，特别是根部。严重受害时，建议把受感染的树连根拔起并销毁。原来的种植穴必须用杀菌剂处理，如 tridemorph（十三吗啉）、triadimefon（三唑酮）或 propiconazole（丙环唑）。可在树的四周挖隔离沟，以防止此病发生。"
+  },
+  "symptoms": [
+   {
+    "en": "The leaves change colour from green to yellow, then brown, and finally dry up.",
+    "zh": "叶片由绿色变黄，然后变褐，最后干枯。",
+    "steps": []
+   },
+   {
+    "en": "Whitish threads (rhizomorphs) can be seen on the roots. These threads attack the whole root and cause the tree to die.",
+    "zh": "根部可见白色线状的菌索。这些菌索侵害整个根部，导致树木死亡。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Jalur Daun Bakteria",
+   "en": "Bacterial Leaf Streak",
+   "zh": "水稻细菌性条斑病"
+  },
+  "sci": "<em>Xanthomonas campestris</em> pv. <em>oryzicola</em>",
+  "desc": {
+   "en": "This bacterium causes Bacterial Leaf Streak by colonising the parenchyma (the tissue between the veins), where it is kept within the bounds of the plant's vascular areas (veins). It can survive in infected seed and straw, and can also infect all wild <em>Oryza</em> species. These wild rice species can act as reservoirs of the disease source (inoculum). To prevent this, use seed that is resistant to this disease and apply only a small amount of nitrogen fertiliser in the field.",
+   "zh": "这种细菌在叶脉之间的薄壁组织中定殖，并被限制在叶脉（维管组织）之间，从而引起水稻细菌性条斑病。它能在带菌的种子和稻草中存活，也能侵染所有野生<em>Oryza</em>（稻属）物种。这些野生稻可成为病原（接种体）的储存来源。为防止发生，请使用抗此病的种子，并在田间只施少量氮肥。"
+  },
+  "symptoms": [
+   {
+    "en": "Clear, water-soaked streaks appear between the leaf veins. They turn yellowish or brownish. Bacterial ooze appears on the streaks, and when the attack becomes severe the leaves dry up.",
+    "zh": "叶脉之间出现透明的水渍状条斑，颜色逐渐变成淡黄色或黄褐色。条斑上有细菌溢脓；病害严重时，叶片干枯。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "kind": "fungus",
+  "ai": [
+   "Mancozeb",
+   "Propineb",
+   "Chlorothalonil",
+   "Tebuconazole",
+   "Trifloxystrobin"
+  ],
+  "name": {
+   "ms": "Bintik Daun Cercospora",
+   "en": "Cercospora Leaf Spot",
+   "zh": "辣椒尾孢叶斑病"
+  },
+  "sci": "<em>Cercospora capsici</em>",
+  "desc": {
+   "en": "<p><em>Cercospora capsici</em> causes Cercospora Leaf Spot in chilli. It can survive from one season to the next in or on seeds, in the soil and on infected crop remains. Leaf infection happens when the fungus enters the leaf directly, and is favoured by leaves staying wet for a long time. This affects yield, especially if infection happens early in the season.</p><p><strong>Disease Management</strong></p><p>To prevent this, practise crop rotation and follow the recommended planting distance of 60cm x 60cm. Use drip irrigation to avoid a humid environment. Spray fungicides such as mancozeb, propineb, chlorothalonil, tebuconazole and trifloxystrobin, following the recommended rate on the label.</p>",
+   "zh": "<p><em>Cercospora capsici</em>（辣椒尾孢菌）引起辣椒尾孢叶斑病。它可以在种子内或种子表面、土壤中以及受感染的作物残体上存活，从一季延续到下一季。病菌直接穿透叶片造成侵染，叶片长时间潮湿有利于发病。这会影响产量，特别是在季节初期就受感染时。</p><p><strong>病害管理</strong></p><p>为防止发生，应实行轮作，并按照建议的种植距离 60cm x 60cm 种植。使用滴灌，避免环境过于潮湿。按照标签上的建议用量喷洒杀菌剂，如 mancozeb（代森锰锌）、propineb（丙森锌）、chlorothalonil（百菌清）、tebuconazole（戊唑醇）和 trifloxystrobin（肟菌酯）。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "Small, round, brown spots like bird's eyes appear on the leaves. Over time the spots grow bigger and turn grey in the centre.",
+    "zh": "叶片上出现像鸟眼一样的褐色小圆斑。病斑逐渐扩大，中央变成灰色。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "kind": "bacteria",
+  "ai": [
+   "Copper"
+  ],
+  "name": {
+   "ms": "Kanker Limau",
+   "en": "Citrus Canker",
+   "zh": "柑橘溃疡病"
+  },
+  "sci": "<em>Xanthomonas axonopodis</em> pv. <em>citri</em>",
+  "desc": {
+   "en": "This bacterium causes Citrus Canker in sweet orange. The pathogen attacks leaves, fruit and stems, producing water-soaked wounds that later form raised pustules, each surrounded by a pale yellow ring. Bacterial cells ooze out of young lesions and are spread by wind and rain. Insects also increase the disease by wounding the leaves, which become entry points for the bacteria. To prevent this, prune the infected parts and destroy them so there is no source of infection in the field. Integrated management, including cultural practices, fungicide use and pest management (leaf miners), can reduce how severe the infection is. If Citrus Canker attack is severe, copper fungicide can be applied after the infected parts have been removed from the tree, to prevent infection. How often the fungicide is applied depends on how severe the infection is.",
+   "zh": "这种细菌引起甜橙的柑橘溃疡病。病原菌侵害叶片、果实和枝干，形成水渍状病斑，之后发展成隆起的疱斑，每个疱斑周围都有淡黄色晕圈。细菌从幼嫩病斑中溢出，借助风雨传播。昆虫在叶片上造成伤口，成为细菌的侵入口，也会加重病害发生。为防止发生，应剪除受感染的部分并销毁，使田间没有侵染源。综合管理，包括栽培措施、施用杀菌剂和害虫管理（潜叶虫），可以减轻病害的严重程度。如果柑橘溃疡病严重，可在把受感染部分从树上清除后施用铜制杀菌剂，以防止侵染。杀菌剂的施用次数视感染的严重程度而定。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small, round, sunken crater-like spots with an oily/water-soaked edge and a yellow ring like a ‘halo’.</li><li>Leaves fall off.</li></ul>",
+    "zh": "<ul><li>小而圆、像火山口一样凹陷的病斑，边缘呈油渍状/水渍状，周围有像“晕圈”一样的黄色环。</li><li>叶片脱落。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Fruit/stems/twigs: symptoms merge and look like ‘scab’</li><li>Severe attack: dieback, lower fruit quality, fruit drops before ripening</li><li>The look of the lesions differs by variety</li></ul>",
+    "zh": "<ul><li>果实/枝干/小枝：病斑连成一片，看起来像“疮痂”</li><li>严重受害：枝梢回枯，果实品质下降，果实未成熟就掉落</li><li>病斑的外观因品种而异</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 86,
+  "kind": "fungus",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Pencycuron"
+  ],
+  "name": {
+   "ms": "Reput Rhizoctonia",
+   "en": "Rhizoctonia Rot",
+   "zh": "包菜丝核菌腐烂病"
+  },
+  "sci": "<em>Rhizoctonia solani</em>",
+  "desc": {
+   "en": "This fungus causes Rhizoctonia Rot in cabbage. The fungus survives for a long time in the soil, even under poor conditions. It germinates in damp weather, spreads through the soil and enters the roots and leaves of susceptible plants that it touches. Enough moisture on the host surface is needed for the fungus to successfully enter through natural openings, wounds or tissue. To prevent this, always practise crop rotation, destroy infected parts and make sure the field has good drainage. Spray with fungicides such as propineb, mancozeb and pencycuron.",
+   "zh": "这种真菌引起包菜的丝核菌腐烂病。病菌可在土壤中长期存活，即使在不良条件下也能存活。它在潮湿天气萌发，在土壤中扩散，并在接触到易感植株时侵入根部和叶片。寄主表面必须有足够的湿度，病菌才能经由自然孔口、伤口或组织成功侵入。为防止发生，应经常实行轮作，销毁受感染部分，并确保田间排水良好。喷洒杀菌剂，如 propineb（丙森锌）、mancozeb（代森锰锌）和 pencycuron（戊菌隆）。"
+  },
+  "symptoms": [
+   {
+    "en": "The leaves turn black and rot. Sometimes sclerotia are found on the leaves.",
+    "zh": "叶片变黑腐烂。有时叶片上可见菌核。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 111,
+  "kind": "insect",
+  "ai": [
+   "Chlorantraniliprole",
+   "Cartap Hydrochloride",
+   "Fipronil"
+  ],
+  "name": {
+   "ms": "Ulat Gulung Daun",
+   "en": "Rice Leaffolder",
+   "zh": "稻纵卷叶螟"
+  },
+  "sci": "<em>Cnaphalocrocis medinalis</em>",
+  "desc": {
+   "en": "<p>The rice leaffolder is a major pest of paddy that attacks from the vegetative stage until panicle formation. The larvae roll up the rice leaves and feed on the green tissue inside the roll. The attack makes the leaves turn yellowish-white and dry, and reduces the plant's photosynthesis.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Monitor the paddy field regularly to detect attacks early.</li><li>Destroy rolled leaves that contain larvae.</li><li>Avoid using too much nitrogen fertiliser, as it encourages pest attack.</li><li>Encourage natural enemies such as spiders and parasitoids.</li><li>Use light traps to monitor the adult insect population.</li></ul><p><strong>Chemical Control (If Needed)</strong></p><ul><li>Spray a suitable insecticide such as chlorantraniliprole, cartap hydrochloride or fipronil at the recommended dose.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>稻纵卷叶螟是水稻的主要害虫，从营养生长期到稻穗形成期都会危害。幼虫把稻叶卷起来，在卷叶内取食绿色组织。受害叶片变成黄白色、干枯，并降低植株的光合作用。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期巡查稻田，及早发现虫害。</li><li>销毁含有幼虫的卷叶。</li><li>避免过量施用氮肥，因为氮肥过多会助长虫害。</li><li>保护和鼓励天敌，如蜘蛛和寄生性天敌。</li><li>使用诱虫灯监测成虫数量。</li></ul><p><strong>化学防治（必要时）</strong></p><ul><li>按照建议剂量喷洒适当的杀虫剂，如 chlorantraniliprole（氯虫苯甲酰胺）、cartap hydrochloride（杀螟丹）或 fipronil（氟虫腈）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The rice leaffolder (<em>Cnaphalocrocis medinalis</em>) is a major pest of paddy that attacks the leaves. The larvae roll the leaves and feed on the leaf tissue inside the roll. This disturbs photosynthesis and in turn affects plant growth and rice yield.",
+    "zh": "稻纵卷叶螟（<em>Cnaphalocrocis medinalis</em>）是危害叶片的水稻主要害虫。幼虫卷起叶片并取食卷叶内的叶片组织，干扰光合作用，进而影响植株生长和稻谷产量。",
+    "steps": []
+   },
+   {
+    "en": "Damage caused by rice leaffolder attack.",
+    "zh": "稻纵卷叶螟危害造成的损害。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 150,
+  "kind": "insect",
+  "ai": [
+   "Deltamethrin"
+  ],
+  "name": {
+   "ms": "Ulat Pengorek Batang dan Buah",
+   "en": "Eggplant Shoot and Fruit Borer",
+   "zh": "茄黄斑螟"
+  },
+  "sci": "<em>Leucinodes orbonalis</em>",
+  "desc": {
+   "en": "<p>The larvae bore into the inside of stems and fruits. Attack on the stem causes the shoots to wilt. Usually there are small holes filled with larval droppings and boring waste on attacked stems. The larvae also bore into and eat the flesh of the fruit. Attacked fruits stop growing properly, rot and drop before ripening. Attacks usually happen at the start of flowering, causing flowers and young fruits to drop.</p><p><strong>Recommended Control Methods</strong></p><p><strong>Cultural practices</strong></p><ul><li>Collect and destroy attacked fruits and shoots</li><li><p>Practise crop rotation, because planting the same type of crop again and again increases the pest population in the field.</p></li><li><p>Use yellow sticky traps to trap pests in the field.</p></li><li><p>Monitor the crop often and carefully at every growth stage.</p></li></ul><p><strong>Chemical Control</strong></p><p>Spray an insecticide such as deltamethrin (pre-harvest interval: 5 days)</p>",
+   "zh": "<p>幼虫钻蛀茎干和果实内部。茎干受害会使嫩梢枯萎。受害茎干上通常有小孔，孔内充满幼虫粪便和蛀屑。幼虫也钻进果实，取食果肉。受害果实生长受阻、腐烂，并在成熟前掉落。危害通常在开花初期发生，造成花朵和幼果掉落。</p><p><strong>建议的防治方法</strong></p><p><strong>栽培措施</strong></p><ul><li>收集并销毁受害的果实和嫩梢</li><li><p>实行轮作，因为重复种植同一种作物会增加田间的害虫数量。</p></li><li><p>使用黄色粘虫板诱捕田间害虫。</p></li><li><p>在每个生长阶段都要经常、仔细地巡查作物。</p></li></ul><p><strong>化学防治</strong></p><p>喷洒杀虫剂，如 溴氰菊酯 Deltamethrin（安全间隔期：5天）</p>"
+  },
+  "symptoms": [
+   {
+    "en": "The larvae bore into the inside of stems and fruits. Attack on the stem causes the shoots to wilt. Usually there are small holes filled with “frass” (droppings and boring waste) on the attacked parts. The larvae also bore into and eat the fruit flesh. The fruit becomes stunted, rots and drops. Attacks usually happen at the start of flowering, causing flowers and young fruits to drop.",
+    "zh": "幼虫钻蛀茎干和果实内部。茎干受害会使嫩梢枯萎。受害部位通常有小孔，孔内充满“虫粪”（粪便和蛀屑）。幼虫也钻进果实取食果肉。果实生长受阻、腐烂并掉落。危害通常在开花初期发生，造成花朵和幼果掉落。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 169,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Koya",
+   "en": "Mealybug",
+   "zh": "粉蚧"
+  },
+  "sci": "<em>Rastrococcus</em> sp.",
+  "desc": {
+   "en": "Female mealybugs have three pairs of legs, each with a claw to grip the plant surface. Adult male mealybugs are pink, especially at the prepupa and pupa stages, but are yellow in the first and second instars. Unlike the females, adult males also have a pair of wings, which makes it easier for them to find a mate. Adult males have antennae with ten segments and well-developed wings. The eggs are greenish-yellow and are laid in an egg sac three to four times as long as the body, fully covered with white wax. Mealybugs have sharp sucking mouthparts that can pierce the surface (epidermis) of leaves and fruits.",
+   "zh": "雌性粉蚧有三对足，每只足都有爪，用来抓住植物表面。成年雄虫呈粉红色，尤其是在前蛹期和蛹期，但在第一龄和第二龄时呈黄色。与雌虫不同，成年雄虫还有一对翅膀，方便寻找配偶交配。成年雄虫的触角有十节，翅膀发育良好。卵呈黄绿色，产在卵囊中，卵囊长度为虫体的三至四倍，完全被白色蜡质覆盖。粉蚧有尖锐的刺吸式口器，能刺穿叶片表皮和果实表面。"
+  },
+  "symptoms": [
+   {
+    "en": "Shoots, leaves and fruits look dirty, with white powder stuck on them because of the mealybugs. Leaves and fruits also turn pale yellow.",
+    "zh": "由于粉蚧聚集，嫩梢、叶片和果实看起来很脏，表面粘着白色粉状物。叶片和果实也会变成淡黄色。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 187,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Lalat Buah",
+   "en": "Fruit Fly",
+   "zh": "果实蝇"
+  },
+  "sci": "<em>Bactrocera</em> spp.",
+  "desc": {
+   "en": "The fruit fly has a segmented body, both the main body and its appendages such as the legs and antennae. These features show that it belongs to the phylum Arthropoda. As a member of the insect class, the fruit fly has three body parts – the head, the chest (thorax) and the belly (abdomen) – and three pairs of legs coming out of the thorax segments. The mouthparts of the adult fruit fly are of the sponging (lapping) type. At a glance, they look like a vacuum cleaner nozzle: a tube that widens at the tip.",
+   "zh": "果实蝇的身体分节，包括躯体主体和附肢（如足和触角）。这些特征表明它属于节肢动物门。作为昆虫纲的一员，果实蝇身体分为三部分：头部、胸部和腹部，并有三对足从胸部各节长出。成虫的口器属于舐吸式。粗看之下，口器的形状像吸尘器的吸嘴，是一条末端变宽的管子。"
+  },
+  "symptoms": [
+   {
+    "en": "Attacked fruits have holes and become rotten. Badly attacked young fruits become deformed and stunted.",
+    "zh": "受害果实上有孔洞并腐烂。严重受害的幼果会变形，生长受阻。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 205,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pangkas",
+   "en": "Black Cutworm",
+   "zh": "小地老虎"
+  },
+  "sci": "<em>Agrotis ipsilon</em>",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "Cuts the stems and leaves of seedlings at ground level at night.",
+    "zh": "夜间在贴近地面处咬断幼苗的茎和叶。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 227,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Reput Lembut",
+   "en": "Soft Rot",
+   "zh": "西兰花软腐病"
+  },
+  "sci": "<em>Erwinia carotovora</em>",
+  "desc": {
+   "en": "<p>Soft rot is caused by <em>Erwinia carotovora</em>, which enters plants through wounds caused by insects, farm tools or weather damage, because the bacterium cannot get through healthy plant tissue. The development and spread of the disease are favoured by hot temperatures, high humidity and plant surfaces that stay wet for a long time.</p><p>Disease Management</p><ul><li><p>Plant on raised beds to improve drainage and avoid standing water.</p></li><li><p>Make sure the soil has good drainage to reduce excess moisture.</p></li><li><p>Use suitable plant spacing to improve air flow between plants.</p></li><li><p>Use drip irrigation or soaker hoses and avoid watering from above (overhead irrigation).</p></li></ul>",
+   "zh": "<p>软腐病由<em>Erwinia carotovora</em>（胡萝卜软腐欧文氏菌）引起。这种细菌无法穿透健康的植物组织，只能经由昆虫、农具或天气造成的伤口侵入植株。高温、高湿以及植株表面长时间潮湿，都有利于病害的发展和蔓延。</p><p>病害管理</p><ul><li><p>在高畦上种植，以改善排水，避免积水。</p></li><li><p>确保土壤排水良好，减少过多的湿气。</p></li><li><p>保持适当的株距，改善植株之间的通风。</p></li><li><p>使用滴灌或渗灌软管，避免从上方淋水（喷灌）。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Larger brown, rotten and sunken areas are seen on the broccoli head a few days after the first symptoms. The disease is favoured by warm, wet conditions.",
+    "zh": "初期症状出现几天后，西兰花花球上可见较大的褐色、腐烂、凹陷区域。温暖潮湿的环境有利于此病发生。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 247,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Kiambang Salvinia",
+   "en": "Giant Salvinia",
+   "zh": "人厌槐叶萍"
+  },
+  "sci": "<em>Salvinia molesta</em>",
+  "desc": {
+   "en": "<p><strong>Family </strong>: Salviniaceae</p><p><strong>Habitat :</strong> freshwater areas (ponds, rivers, lakes)</p><p><em>Salvinia molesta</em> is a floating water plant that comes from South America. It multiplies quickly and can cover the whole water surface. This plant stops sunlight and oxygen from reaching the water, making it an invasive species that often disrupts human activities such as fishing and irrigation.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Remove by hand or with machinery (suitable for small areas)</li><li>Use salvinia-eating insects, namely the <em>Cyrtobagous salviniae</em> weevil.</li><li>Monitor areas that could become infested with<em> S. molesta</em></li></ul><p><strong>How it spreads :</strong></p><ul><li>Selling <em>S. molesta</em> as an ornamental pond plant</li><li>Animals such as otters, buffaloes and crocodiles carry <em>S. molesta </em>stuck on their bodies when they move to other water bodies</li><li>Water flow or floods</li><li>Machinery that is not cleaned after maintenance work in areas infested with<em> S. molesta.</em></li></ul>",
+   "zh": "<p><strong>科 </strong>：槐叶萍科（Salviniaceae）</p><p><strong>生境：</strong>淡水区域（池塘、河流、湖泊）</p><p><em>Salvinia molesta</em>（人厌槐叶萍）是一种原产于南美洲的漂浮水生植物。它繁殖迅速，能覆盖整个水面。这种植物阻挡阳光和氧气进入水中，因此成为入侵物种，经常干扰捕鱼和灌溉等人类活动。</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>用手或机械清除（适合小面积）</li><li>利用取食槐叶萍的昆虫，即<em>Cyrtobagous salviniae</em>象甲</li><li>监测可能受<em> S. molesta</em>侵染的地区</li></ul><p><strong>传播方式：</strong></p><ul><li>把<em>S. molesta</em>当作池塘观赏植物出售</li><li>水獭、水牛和鳄鱼等动物身上粘附<em>S. molesta </em>，转移到其他水体时把它带去</li><li>水流或水灾</li><li>在<em> S. molesta</em>侵染区进行维护工作后没有清洗干净的机械</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Main features of <em>Salvinia molesta</em> :</strong></p><ul><li>Floating leaves: the plant has oval leaves that float on the water surface. The leaves are covered with fine hairs that stop the surface from getting wet.</li><li>Fast growth: it multiplies quickly and can cover the whole water surface in a short time</li><li>Not rooted: it does not root at the bottom of the water, but floats completely.</li><li>Vegetative reproduction: it multiplies when pieces of the plant break off (fragmentation), not through seeds.</li></ul>",
+    "zh": "<p><strong><em>Salvinia molesta</em>的主要特征：</strong></p><ul><li>浮叶：植株有椭圆形的叶片漂浮在水面上。叶片覆盖细毛，使叶面不会被沾湿。</li><li>生长快速：它繁殖迅速，能在短时间内覆盖整个水面</li><li>不扎根：它不在水底扎根，而是完全漂浮。</li><li>营养繁殖：它靠植株断裂成碎片（断片繁殖）来繁殖，而不是靠种子。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 259,
+  "kind": "weed",
+  "ai": [
+   "Bispyribac-sodium",
+   "Penoxsulam"
+  ],
+  "name": {
+   "ms": "Keladi Agas",
+   "en": "Monochoria",
+   "zh": "鸭舌草"
+  },
+  "sci": "<em>Monochoria vaginalis</em>",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Pontederiaceae</p><p><strong>Habitat:</strong> A well-known water weed in paddy fields and drains</p><p>This weed is native to tropical Asia, especially India, Sri Lanka and Southeast Asia (including Malaysia, Indonesia, Thailand and Vietnam). It is a major weed in paddy fields and competes with rice for light, water and nutrients. It is hard to wipe out once it has spread widely.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Plough and dry the soil before planting to reduce weed growth.</li><li>Use suitable herbicides (weed killers) such as <strong>bispyribac-sodium</strong> and <strong>penoxsulam</strong> to control the weed.</li><li>Practise controlled irrigation and avoid leaving water standing too long, to reduce weed germination.</li><li>In small areas, the weed can be controlled by hand by pulling it out.</li></ul><p><strong>How it spreads</strong></p><ul><li><strong>Seeds and stem pieces:</strong> This weed can spread through seeds and broken pieces of stem.</li><li><strong>Seeds last long in soil:</strong> The seeds can survive in the soil for a long time before germinating.</li><li><strong>Germination in standing water:</strong> When water stands in the field, the seeds germinate easily and the weed becomes dominant in that area.</li></ul>",
+   "zh": "<p><strong>科：</strong>雨久花科（Pontederiaceae）</p><p><strong>生境：</strong>稻田和水沟中常见的著名水生杂草</p><p>这种杂草原产于热带亚洲，特别是印度、斯里兰卡和东南亚（包括马来西亚、印尼、泰国、越南）。它是稻田的主要杂草，与水稻争夺阳光、水分和养分。一旦大面积繁殖，就很难根除。</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>种植前犁地并晒干土壤，以减少杂草生长。</li><li>使用适当的除草剂，如 <strong>bispyribac-sodium（双草醚）</strong>和 <strong>penoxsulam（五氟磺草胺）</strong>来防治杂草。</li><li>实行有控制的灌溉，避免长时间积水，以减少杂草发芽。</li><li>小面积时，可用手拔除来防治杂草。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>种子和茎段：</strong>这种杂草可通过种子和断裂的茎段传播。</li><li><strong>种子在土中存活久：</strong>种子能在土壤中存活很长时间才发芽。</li><li><strong>积水中发芽：</strong>田间积水时，种子容易发芽，使这种杂草在该地区占优势。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Monochoria vaginalis</em></p><ul><li>Plant form: an annual or semi-annual water weed, about 20–60 cm tall. It has fibrous roots and watery stems</li><li>Leaves: heart-shaped or oval, sometimes broad like a small keladi (taro) leaf; bright green with a smooth surface; the leaves float or stand slightly above the water</li><li>Flowers: small, bluish-purple and very pretty when open, growing in clusters of 3–6 flowers. Key feature: 6 petals and 6 stamens, one stamen longer and bright yellow</li></ul>",
+    "zh": "<p><em>Monochoria vaginalis</em>的主要特征</p><ul><li>植株形态：一年生或半年生水生杂草，高约20–60 cm，有须根和多汁的茎</li><li>叶片：心形或椭圆形，有时宽大如小芋头叶；鲜绿色，叶面光滑；叶片浮在水面或稍高出水面</li><li>花：小花，蓝紫色，开花时非常美丽，3–6朵簇生。重要特征：6片花被、6枚雄蕊，其中一枚雄蕊较长，呈鲜黄色</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 271,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate"
+  ],
+  "name": {
+   "ms": "Rumput Minyak",
+   "en": "Bermuda Grass",
+   "zh": "狗牙根"
+  },
+  "sci": "<em>Cynodon dactylon</em> (L.) Pers.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> hot and tropical areas</p><p>Rumput Minyak or Bermuda grass (<em>Cynodon dactylon</em> (L.) Pers.) is a very well-known and widely used grass, whether as lawn grass, grazing pasture, or as a troublesome weed in farm areas.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Mechanical control: deep ploughing to destroy the rhizomes. Repeated cutting can help reduce its dominance, but is not enough to get rid of it.</li><li>Chemical control: systemic herbicides such as glyphosate – effective against stolons and rhizomes. Control must be repeated because it can regrow from the roots. Use carefully so as not to harm the main crop</li><li>Cultural control: cover crops or competing crops can stop it regrowing. Avoid disturbing the soil, which lets rhizome pieces spread</li></ul><p><strong>How it spreads:</strong></p><ul><li>Mainly: through stolons and rhizomes</li><li>Also through seeds, though this is less common. It can spread quickly if not controlled, making it a serious weed in farms</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong>炎热和热带地区</p><p>狗牙根，又称百慕大草（<em>Cynodon dactylon</em> (L.) Pers.），是一种非常著名、用途广泛的草，可用作草坪草、放牧草场，也是农业区中令人头痛的杂草。</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>机械防治：深耕以破坏根状茎。反复割草可帮助降低其优势，但不足以根除。</li><li>化学防治：内吸性除草剂，如 glyphosate（草甘膦）——对匍匐茎和根状茎有效。由于它能从根部重新长出，必须重复防治。使用时要小心，以免伤害主要作物</li><li>栽培防治：种植覆盖作物或竞争性作物可阻止其重新生长。避免翻动土壤，以免根状茎碎片扩散</li></ul><p><strong>传播方式：</strong></p><ul><li>主要：通过匍匐茎和根状茎</li><li>也通过种子传播，但较不常见。如不防治，可迅速蔓延，成为农田中的严重杂草</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Cynodon dactylon</em> (L.) Pers.</p><ul><li>Stem: has stolons (stems that creep over the ground) and rhizomes (underground stems), which let it spread quickly and form a dense carpet.</li><li>Leaves: narrow, short and fine. The plant grows dense like a carpet. The leaves are bright green and grow close together.</li><li>Flowers / inflorescence: the flower head has 3–7 finger-like spikes (like a bird's toes). Similar to <em>Dactyloctenium aegyptium</em> but finer and smaller</li><li>Roots: fibrous roots and very deep, strong rhizomes. This makes the grass very hardy and hard to wipe out completely.</li></ul>",
+    "zh": "<p><em>Cynodon dactylon</em> (L.) Pers. 的主要特征</p><ul><li>茎：有匍匐茎（在地面上蔓延的茎）和根状茎（地下茎），使它能迅速蔓延，形成浓密的地毯状。</li><li>叶：叶片窄、短而细。植株密集如地毯。叶片鲜绿色，生长紧密。</li><li>花/花序：花序由3–7个像手指的穗组成（像鸟爪）。与<em>Dactyloctenium aegyptium</em>（龙爪茅）相似，但更细更小</li><li>根：有须根和非常深而强壮的根状茎，使这种草非常耐旱耐踩，难以彻底根除。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 284,
+  "kind": "fungus",
+  "ai": [
+   "Sulphur",
+   "Cyproconazole"
+  ],
+  "name": {
+   "ms": "Penyakit Akar",
+   "en": "Root Diseases",
+   "zh": "椰子根病"
+  },
+  "sci": "<em>Rigidoporus lignosus</em>, <em>Ganoderma lucidum</em>",
+  "desc": {
+   "en": "<p>• The part attacked is the root</p><p>• The tree looks wilted, the leaves turn yellow and over time the tree dies</p><p>• White mycelium covers the roots</p><p>Disease management:</p><p>• Destroy badly attacked trees.</p><p>• Treat the planting hole with sulphur to avoid conditions suitable for fungal growth.</p><p>• Dig a small trench around the tree so the disease does not spread to other trees.</p><p>• Chemical control – pour a fungicide such as cyproconazole at the base of the tree</p>",
+   "zh": "<p>• 受害部位是根部</p><p>• 树看起来萎蔫，叶片变黄，久而久之会死亡</p><p>• 根部覆盖着白色菌丝</p><p>病害管理：</p><p>• 销毁严重受害的树。</p><p>• 用硫磺处理种植穴，以免形成适合真菌生长的条件。</p><p>• 在树的四周挖小沟，防止病害传染给其他树。</p><p>• 化学防治——把杀菌剂如 cyproconazole（环丙唑醇）淋在树基部</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The part attacked is the root</li><li>The tree looks wilted, the leaves turn yellow and over time the tree dies</li><li>White mycelium covers the roots</li></ul>",
+    "zh": "<ul><li>受害部位是根部</li><li>树看起来萎蔫，叶片变黄，久而久之会死亡</li><li>根部覆盖着白色菌丝</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 300,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Thrips",
+   "en": "Thrips",
+   "zh": "蓟马"
+  },
+  "sci": "<em>Thrips</em> spp.",
+  "desc": {
+   "en": "<p>Thrips are tiny, slender, elongated insects, pale yellow to dark brown in colour. This pest is active on the surface of young leaves and shoots, and sucks plant cell sap using piercing-sucking mouthparts. They breed quickly in hot, dry conditions.</p><p><strong>Pest Management</strong></p><ul><li>Good Agricultural Practice (GAP)</li><li>Weed control and field cleanliness</li><li>Regular monitoring, especially in the hot, dry season</li><li>Encourage natural enemies (predatory beetles and small dragonflies)</li><li>Avoid using too much pesticide</li><li>Use insecticide following the label recommendation if the attack is heavy</li></ul>",
+   "zh": "<p>蓟马是细小、纤细而狭长的昆虫，颜色从淡黄色到深褐色。这种害虫活跃于嫩叶和嫩梢表面，用刺吸式口器吸食植物细胞汁液。在炎热干燥的条件下繁殖迅速。</p><p><strong>害虫管理</strong></p><ul><li>良好农业规范（APB/GAP）</li><li>防除杂草，保持田间清洁</li><li>定期巡查，特别是在炎热干燥的季节</li><li>保护和鼓励天敌（捕食性甲虫和小型蜻蜓）</li><li>避免过量使用农药</li><li>虫害严重时，按照标签建议使用杀虫剂</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaf surface turns silvery or yellowish</li><li>Leaves curl, wrinkle or roll up</li><li>Brown or dry patches on the leaves</li><li>Leaves dry up if the attack is severe</li></ul>",
+    "zh": "<ul><li>叶面呈银白色或淡黄色</li><li>叶片卷曲、皱缩或卷起</li><li>叶片上有褐色或干枯的斑块</li><li>受害严重时叶片干枯</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

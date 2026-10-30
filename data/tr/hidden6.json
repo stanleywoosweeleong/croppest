@@ -1,0 +1,412 @@
+[
+ {
+  "id": 10,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Rama-rama Kudis Pisang",
+   "en": "Banana Scab Moth",
+   "zh": "香蕉疮痂螟"
+  },
+  "sci": "<em>Nacoleia octasema</em>",
+  "desc": {
+   "en": "The banana scab moth (BSM) is small (wingspan 25 mm) and light brown, with small black spots on the wings. Eggs are laid on or near young bunches. Young larvae move under the tightly closed bracts and feed on the young fruit. The larva has five instars and the larval stage lasts 14 days on average. The pupal stage lasts 8-10 days and stays inside the bunch or at the base of old leaf stalks. The life cycle of BSM is about 28 days. The moths live only a short time (4-5 days) and are active in the late evening. During the day, the moths hide in sheltered places and under old leaf stalks. Attack on the fruit bunch damages the banana fruit and can lower the yield and quality of the bananas.",
+   "zh": "香蕉疮痂螟（BSM）体型细小（翅展25 mm），呈浅褐色，翅上有黑色小斑点。卵产在幼嫩果串上或其附近。幼龄幼虫钻到紧闭的苞片下取食幼果。幼虫共有五龄，幼虫期平均14天。蛹期为8-10天，蛹留在果串内或老叶柄基部。香蕉疮痂螟的生活史约为28天。成蛾寿命短（4-5天），在傍晚活动。白天，成蛾躲藏在隐蔽处及老叶柄下。果串受害会使香蕉果实受损，并可能导致产量和果实品质下降。"
+  },
+  "symptoms": [
+   {
+    "en": "?",
+    "zh": "?",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Reput Batang Bakteria",
+   "en": "Bacterial Stalk Rot",
+   "zh": "玉米细菌性茎腐病"
+  },
+  "sci": "<em>Erwinia carotovora</em>",
+  "desc": {
+   "en": "This bacterium causes Bacterial Stalk Rot in maize. The bacterium lives in maize stalks and crop residue. It enters the plant through natural openings and through wounds from hail, strong wind or insect feeding, which give it extra ways into the plant. To prevent this, destroy infected plants, make sure the field has good drainage and practise crop rotation.",
+   "zh": "这种细菌会引起玉米细菌性茎腐病。病菌存活在玉米茎秆和残株中。它通过自然孔口，以及冰雹、强风或昆虫取食造成的伤口侵入植株，这些伤口成为病菌进入作物的额外途径。为防止发生，应销毁受感染的植株，确保良好的排水系统，并实行轮作。"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 52,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Carbendazim",
+   "Tridemorph",
+   "Copper"
+  ],
+  "name": {
+   "ms": "Cendawan Angin",
+   "en": "Pink Disease",
+   "zh": "粉红病"
+  },
+  "sci": "<em>Corticium salmonicolor</em>",
+  "desc": {
+   "en": "<p>This fungus causes Pink Disease on mango trees. The fungus survives from one season to the next as inactive mycelium in the bark, and the canker tissues act as a possible source of infection every season.</p><p><strong>Disease management:</strong></p><p>1. To prevent this, always practise Good Agricultural Practices by removing and destroying infected parts of the tree to keep good air flow and to stop the disease from spreading.</p><p>2. For new plantings, make sure the planting distance follows the recommendation.</p><p>3. Apply systemic fungicides such as benomyl, carbendazim or tridemorph, alternating with contact fungicides such as copper, every 7-10 days until the disease is under control.</p>",
+   "zh": "<p>这种真菌会引起芒果树粉红病。真菌以休眠菌丝体在树皮内越季存活，溃疡组织每季都可能成为病害的侵染源。</p><p><strong>病害管理：</strong></p><p>1. 为防止发生，应始终实行良好农业规范（APB/GAP），剪除并销毁受感染的部位，以保持良好通风并防止病害蔓延。</p><p>2. 新种植时，确保按照建议的种植距离种植。</p><p>3. 施用内吸性杀菌剂如苯菌灵 benomyl、多菌灵 carbendazim、十三吗啉 tridemorph，并与接触性杀菌剂如铜制剂交替使用，每7-10天施用一次，直到病害受控。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attacks the trunk, branches and twigs of the tree.</li><li>White threads stick to the bark of twigs or the base of branches and finally form a pink crust-like layer.</li><li>If not controlled, the attacked part will die.</li><li>Can reduce the tree's ability to bear fruit.</li></ul>",
+    "zh": "<ul><li>侵害树干、枝条和小枝。</li><li>小枝树皮或枝条基部附着白色菌丝，最终形成一层粉红色的痂状层。</li><li>若不加以防治，受害部位会枯死。</li><li>可降低果树的结果能力。</li></ul>",
+    "steps": [
+     {
+      "en": "White threads stuck to the bark of twigs or the base of branches, which finally form a pink crust-like layer.",
+      "zh": "小枝树皮或枝条基部附着白色菌丝，最终形成一层粉红色的痂状层。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 64,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Layu Fusarium",
+   "en": "Fusarium Wilt",
+   "zh": "辣椒枯萎病"
+  },
+  "sci": "<em>Fusarium capsici</em>",
+  "desc": {
+   "en": "This fungus causes Fusarium Wilt in chilli. The disease enters through the roots and affects the plant from the roots to the leaves. It moves inside the stem through the plant's food-carrying vessels. These vessels become blocked and turn yellow. After that, the leaves and fruits also start to turn yellow and wilt. There is no chemical control for this disease. Practise crop rotation and destroy all infected plants. Use drip or furrow irrigation. Avoid sprinkler irrigation because it can make conditions damp.",
+   "zh": "这种真菌会引起辣椒枯萎病。病菌从根部侵入，从根到叶影响整株植物。它通过植株的输导组织在茎内移动。输导组织被堵塞并变黄。之后，叶片和果实也开始变黄、萎蔫。此病没有化学防治方法。应实行轮作，并销毁所有受感染的植株。采用滴灌或沟灌，避免使用喷灌，因为喷灌会造成潮湿环境。"
+  },
+  "symptoms": [
+   {
+    "en": "<p>The symptoms on the plant are:</p><ul><li>The plant wilts on hot, sunny days</li><li>Over time the plant will drop all its leaves</li><li>The area around the base of the stem looks white</li></ul>",
+    "zh": "<p>植株上的症状为：</p><ul><li>天气炎热时植株会萎蔫</li><li>久而久之，植株叶片会全部脱落</li><li>茎基部周围呈白色</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 78,
+  "kind": "virus",
+  "ai": [],
+  "name": {
+   "ms": "Virus Bintik Cecincin Betik",
+   "en": "Papaya Ringspot Virus",
+   "zh": "木瓜环斑病毒病"
+  },
+  "sci": "<em>Papaya ringspot virus</em> (PRSV)",
+  "desc": {
+   "en": "This virus causes Papaya Ringspot. Aphids spread the virus to papaya in a non-persistent way within a very short time. Papaya plants of all ages are easily attacked by this disease, and symptoms are usually more severe in cool weather. To prevent this, cut down and destroy whole infected plants and other host plants such as watermelon, cucurbits and melon in nearby areas. Infected plants must be cut down to the base and the stumps must be sprayed straight away with Roundup to stop the trees from growing back. Always monitor the field closely if infection is reported in nearby areas. Use disease-free planting material for new plantings. There is no chemical control that can treat plants already infected with PRSV.",
+   "zh": "这种病毒会引起木瓜环斑病。蚜虫以非持久性方式在极短时间内将病毒传给木瓜。各个树龄的木瓜都容易感染此病，天气凉爽时症状通常更严重。为防止发生，应砍伐并销毁整株受感染的植株，以及附近的其他寄主植物，如西瓜、瓜类和甜瓜。受感染的植株必须齐基部砍倒，并立即在树桩上喷施Roundup，以防再生。若附近地区有感染报告，应在田间密切监测。新种植时使用无病种植材料。对于已感染PRSV的植株，没有任何化学方法可以治疗。"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Leaf stalks and stem</p><ul><li>The leaf stalks and stem have dark green, oily, water-soaked streaks.</li></ul>",
+    "zh": "<p>叶柄和茎</p><ul><li>叶柄和茎上出现深绿色、油渍状的水渍状条纹。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Plants attacked when young become stunted. Plants attacked when mature look as if they lack nutrients.</li></ul>",
+    "zh": "<ul><li>幼龄期受害的植株会生长矮缩。成熟期受害的植株看起来像缺乏养分。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>The fruit becomes deformed and lumpy, as if it lacks boron. Ring spots appear on the fruit surface. The flesh is pale orange.</li></ul>",
+    "zh": "<ul><li>果实变畸形、表面凹凸不平，类似缺硼。果实表面出现环状斑点。果肉呈淡橙色。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Yellowing (chlorosis) and mosaic symptoms on the leaves. The underside of the leaves shows wet, water-soaked marks. Young leaves become deformed. Old leaves become wrinkled, with dark green and light green patches.</li></ul>",
+    "zh": "<ul><li>叶片出现黄化（褪绿）和花叶症状。叶背有水渍状斑痕。嫩叶变畸形。老叶皱缩，呈深绿与浅绿相间的斑块。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 94,
+  "kind": "oomycete",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Propamocarb",
+   "Fosetyl"
+  ],
+  "name": {
+   "ms": "Hawar Phytophthora",
+   "en": "Late Blight",
+   "zh": "番茄晚疫病"
+  },
+  "sci": "<em>Phytophthora infestans</em>",
+  "desc": {
+   "en": "This fungus causes a serious tomato disease known as Late Blight (Phytophthora blight). The pathogen is strongly favoured by damp and cool conditions. It can infect plants at any stage of growth, and under suitable conditions it will infect the crop several times during the growing season. Yield drops when the whole plant is attacked by the disease. Total crop loss can happen when infection is severe. To prevent this, practise crop rotation, destroy infected plants and make sure the field has good drainage. If infection is severe, spray fungicides such as propineb, mancozeb, propamocarb or fosetyl at the rate recommended on the label.",
+   "zh": "这种病菌会引起番茄的一种严重病害，称为晚疫病（疫霉疫病）。潮湿凉爽的环境非常有利于病原菌发生。它可在作物的任何生长阶段侵染，在适宜条件下，病原菌会在整个种植季节多次侵染作物。整株受害时产量会下降。感染严重时可能造成全部失收。为防止发生，应实行轮作，销毁受感染的植株，并确保田间排水良好。若感染严重，可按标签推荐用量喷施杀菌剂，如甲基代森锌 propineb、代森锰锌 Mancozeb、霜霉威 propamocarb 或三乙膦酸铝 fosetyl。"
+  },
+  "symptoms": [
+   {
+    "en": "Brown or black spots on the leaves, fruit and stems. Brown or black water-soaked spots on the leaves usually appear at the tips and edges of older leaves.",
+    "zh": "叶片、果实和茎上出现褐色或黑色斑点。叶片上的褐色或黑色水渍状斑点通常出现在老叶的叶尖和叶缘。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 121,
+  "kind": "insect",
+  "ai": [
+   "Mineral Oil",
+   "Malathion",
+   "Dimethoate"
+  ],
+  "name": {
+   "ms": "Teritip Daun",
+   "en": "Durian Leaf Scale",
+   "zh": "榴莲叶盾蚧"
+  },
+  "sci": "<em>Phenacaspis hedyoticlis</em> Green",
+  "desc": {
+   "en": "<p>A sap-sucking insect that attacks durian trees by sucking sap from the leaves, leaf stalks and sometimes twigs. This insect is small and usually sticks firmly to the leaf surface, forming whitish-brown crusts or hard spots. Scale attack weakens the tree because of sap loss, and when the population is high it can affect growth and yield. The honeydew it produces can also encourage sooty mould, which interferes with photosynthesis.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Check the orchard regularly, especially the underside of leaves and young twigs.</li><li>Prune and destroy badly attacked parts of the tree.</li><li>Encourage natural enemies such as parasitoids and predatory beetles that control scale populations.</li><li>Avoid using too much nitrogen fertiliser, which can encourage young shoots that are easily attacked.</li></ul><p>Chemical Control (If Needed)</p><ul><li>Use insecticides such as white oil (horticultural oil), malathion or dimethoate at the rate recommended on the product label.</li><li>The spray must cover the underside of the leaves and the affected twigs.</li><li>Always wear personal protective equipment (PPE) and follow all instructions on the pesticide label, including the dose, spraying time and pre-harvest interval (PHI).</li></ul>",
+   "zh": "<p>一种刺吸式害虫，通过吸食叶片、叶柄，有时也吸食小枝的汁液来危害榴莲树。此虫体型细小，通常紧紧附着在叶面上，形成白褐色的痂状物或硬斑点。介壳虫危害会使树体因失去汁液而衰弱，虫口密度高时会影响生长和产量。它分泌的蜜露还会诱发煤烟病（sooty mould），妨碍光合作用。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范（APB/GAP）</li><li>定期巡查果园，特别是叶背和嫩枝。</li><li>剪除并销毁受害严重的部位。</li><li>保护和利用天敌，如寄生蜂和捕食性甲虫，以控制介壳虫数量。</li><li>避免过量施用氮肥，以免促发容易受害的嫩梢。</li></ul><p>化学防治（如有需要）</p><ul><li>按产品标签推荐用量使用杀虫剂，如白油（园艺用矿物油）、马拉硫磷 malathion 或乐果 dimethoate。</li><li>喷药必须覆盖叶背及受害的小枝。</li><li>务必穿戴个人防护装备（PPE），并遵守农药标签上的所有指示，包括剂量、喷药时间和安全采收间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attack on the fruit damages the fruit, while the insects' secretions encourage sooty mould and black mould infection.</li></ul>",
+    "zh": "<ul><li>果实受害后会受损，而此虫的分泌物会诱发煤烟病和黑霉病。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Adults and nymphs suck the sap of leaf and stem cells.</li><li>Severe attack makes the tree dry and stunted.</li></ul>",
+    "zh": "<ul><li>成虫和若虫吸食叶片和茎的细胞汁液。</li><li>严重危害会使树体干枯、生长矮缩。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 155,
+  "kind": "weed",
+  "ai": [
+   "Glufosinate Ammonium",
+   "Atrazine",
+   "Glyphosate",
+   "Pretilachlor",
+   "Propanil"
+  ],
+  "name": {
+   "ms": "Padi Angin",
+   "en": "Weedy Rice",
+   "zh": "杂草稻"
+  },
+  "sci": "<em>Oryza sativa</em>",
+  "desc": {
+   "en": "<p>WEEDY RICE (<em>Oryza sativa</em>)</p><p>Weedy rice (padi angin), scientific name <em>Oryza sativa</em>, looks like the rice crop and is a serious threat in rice fields. Weedy rice grains shatter easily and fall to the ground. An infestation of more than 30 panicles/m2 can cut yield by 50%-60%, because the grains fall to the ground before the rice crop can be harvested. Weedy rice ripens 10 - 25 days earlier than the planted rice. The shattered weedy rice grains then grow together with the rice seed sown in the next season. This makes weedy rice infestation increase from season to season.</p><p>Features of weedy rice: plants taller than or the same height as rice, grains with tails (awns)/beards, pigmented grains coloured red/dark brown, grains with lines and an oval shape, open panicles, and a flag leaf that may be horizontal, bent or upright.</p><p><strong>How to control weedy rice</strong></p><p>1. Practise transplanting.</p><p>2. Cultural methods (for direct-seeded rice)</p><p><strong>Methods to control weedy rice in direct-seeded rice</strong></p><p><strong>A. Cultural methods</strong></p><p>1. Cut the straw stubble and leave it to dry.</p><p>2. Burn the straw and stubble to destroy weedy rice seeds.</p><p><strong>B. During proper land preparation</strong></p><p>1. Do the first rotary tilling/ploughing in dry conditions to make the weedy rice seeds in the soil germinate.</p><p>2. Spray a glufosinate ammonium herbicide 7 - 10 days after the first tilling to kill weedy rice seedlings, grasses and volunteer rice (padi batat) that have come up. Leave for 7 - 10 days so that all the plants die.</p><p>3. After spraying, do the second rotary tilling in wet conditions.</p><p>4. After the second tilling, level the field properly.</p><p><strong>C. Good water management</strong></p><p>1. Good water management - make proper drainage.</p><p>2. Flood the field with more than 5cm (2 inch) of water 5 - 7 days after sowing.</p><p><strong>D. Use quality rice seed</strong></p><p>1. Use certified, quality rice seed that is free from weedy rice seeds.</p><p><strong>E. Manual control (roguing)</strong></p><p>1. Manual control - pull out and destroy weedy rice plants when they can be told apart from the planted rice, at 20 - 40 days after sowing.</p><p>2. Cut off weedy rice panicles that come out before they ripen.</p><p><strong>F. Chemical control</strong></p><p>Use systemic and contact herbicides. Rotate the types of herbicide used to avoid resistance. Make sure the water in the field is controlled when spraying chemicals. Herbicides that can be used include Atrazine, Glyphosate (isopropylamine), Pretilachlor and Propanil. Make sure chemicals are used according to the label instructions.</p>",
+   "zh": "<p>杂草稻（<em>Oryza sativa</em>）</p><p>杂草稻（padi angin），学名<em>Oryza sativa</em>，外形与水稻相似，是稻田中的严重威胁。杂草稻的谷粒容易脱落掉到地上。当杂草稻超过每平方米30穗（30穗/m2）时，可使产量下降50%-60%，因为谷粒在水稻收割前就已掉落地面。杂草稻比种植的水稻早10 - 25天成熟。脱落的杂草稻谷粒会与下一季播下的稻种一起生长，使杂草稻的危害一季比一季严重。</p><p>杂草稻的特征：植株比水稻高或与水稻同高，谷粒带芒（尾须），谷粒有色素、呈红色/深褐色，谷粒有纹路、呈椭圆形，稻穗松散，剑叶平展、弯曲或直立。</p><p><strong>杂草稻的防治方法</strong></p><p>1. 采用插秧（移栽）种植。</p><p>2. 栽培措施（直播稻）</p><p><strong>直播稻田杂草稻的防治方法</strong></p><p><strong>A. 栽培措施</strong></p><p>1. 割下稻茬并让其晒干。</p><p>2. 焚烧稻草和稻茬，以销毁杂草稻种子。</p><p><strong>B. 做好整地工作</strong></p><p>1. 在干燥状态下进行第一次旋耕/犁田，促使土中的杂草稻种子发芽。</p><p>2. 第一次旋耕后7 - 10天喷施草铵膦 glufosinate ammonium 类除草剂，杀死已长出的杂草稻幼苗、杂草和自生稻（padi batat）。放置7 - 10天，让所有植物死亡。</p><p>3. 喷药后，在湿润状态下进行第二次旋耕。</p><p>4. 第二次旋耕后，把田块彻底耙平。</p><p><strong>C. 良好的水分管理</strong></p><p>1. 良好的水分管理 - 做好完善的排灌渠道。</p><p>2. 播种后5 - 7天，向稻田灌水，水深超过5cm（2英寸）。</p><p><strong>D. 使用优质稻种</strong></p><p>1. 使用经认证、优质且不含杂草稻种子的稻种。</p><p><strong>E. 人工防治（拔除杂株）</strong></p><p>1. 人工防治 - 在播种后20 - 40天，当杂草稻能与种植的水稻区分时，将其拔除并销毁。</p><p>2. 在杂草稻抽出的稻穗成熟前将其割除。</p><p><strong>F. 化学防治</strong></p><p>使用内吸性和触杀性除草剂。建议轮换使用不同类型的除草剂，以避免产生抗药性。喷施化学药剂时，要控制好稻田中的水。可使用的除草剂包括莠去津 Atrazine、草甘膦 Glyphosate（异丙胺盐 isopropylamine）、丙草胺 Pretilachlor 和敌稗 Propanil。务必按照标签指示使用化学药剂。</p>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 178,
+  "kind": "mite",
+  "ai": [
+   "Malathion"
+  ],
+  "name": {
+   "ms": "Hama Merah",
+   "en": "Red Spider Mite",
+   "zh": "红蜘蛛"
+  },
+  "sci": "<em>Tetranychus</em> sp.",
+  "desc": {
+   "en": "<p>Red spider mites attack pineapple. They breed fastest in hot, dry weather and sometimes attack the underside of leaves in groups. Fine silky threads (webbing) can be seen on the leaf surface. The leaves become dull and yellowish, then turn brown and dry, which stunts plant growth and can reduce fruit yield.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices.</li><li>Always monitor by checking the underside of pineapple leaves, especially during the dry season.</li><li>Destroy attacked leaves.</li><li>Reduce drought stress with suitable watering.</li><li>Control weeds that can act as alternative hosts.</li></ul><p><strong>Chemical Control (If Needed)</strong></p><ul><li>Use pesticides as recommended on the label, for example: malathion.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>红蜘蛛危害黄梨，在炎热干燥的天气中繁殖最快，有时成群危害叶背。叶面上可见细丝网（结网）。叶片变得暗淡发黄，然后转为褐色并干枯，导致植株生长受阻，果实产量可能下降。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范。</li><li>经常检查黄梨叶背进行监测，特别是在旱季。</li><li>销毁受害叶片。</li><li>适当灌溉，减轻干旱胁迫。</li><li>清除可能成为替代寄主的杂草。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按标签建议使用农药，例如：马拉硫磷 malathion。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的指示，包括推荐剂量、适当的施药时间，以及采收前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Yellow or brown spots appear on the leaves; the leaves become dry or thin and work less well in photosynthesis, which stunts plant growth.</li></ul>",
+    "zh": "<ul><li>叶片出现黄色或褐色斑点，叶片变干或变薄，光合作用能力下降，导致植株生长受阻。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 196,
+  "kind": "insect",
+  "ai": [
+   "Cypermethrin",
+   "Lambda-cyhalothrin"
+  ],
+  "name": {
+   "ms": "Pengorek Buah Nangka",
+   "en": "Jackfruit Fruit Borer",
+   "zh": "菠萝蜜果螟"
+  },
+  "sci": "<em>Margaronia caesalis</em>",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p><em>Margaronia caesalis</em> is an insect pest that attacks jackfruit, mainly from the young fruit stage until the fruit is almost ripe. Its larvae (caterpillars) enter and bore into the inside of the fruit. It is the caterpillar of a small moth in the family Crambidae, which is active in the morning and evening. It attacks jackfruit, especially when the fruit is growing and nearly mature, causing serious damage and lowering the quality of the harvest.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices.</li><li>Collect and destroy fallen and damaged fruits.</li><li>Wrap the fruits with plastic or paper to stop the moths from laying eggs</li><li>Always monitor to detect early signs of attack.</li><li>Monitor regularly, especially during the fruiting season</li><li>Use light traps to reduce the adult population</li></ul><p>Chemical Control (If Needed)</p><ul><li>Use pesticides as recommended on the label, for example: Cypermethrin and Lambda-cyhalothrin.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p><strong>说明</strong></p><p><em>Margaronia caesalis</em>是一种危害菠萝蜜的害虫，主要在幼果期至接近成熟期危害。其幼虫钻入果实内部蛀食。它是草螟科（Crambidae）一种小型蛾类的幼虫，在早晨和傍晚活动。它危害菠萝蜜，尤其是在果实膨大和接近成熟时，造成严重损害并影响收成品质。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范。</li><li>收集并销毁掉落和受损的果实。</li><li>用塑料袋或纸袋套果，防止蛾子产卵</li><li>经常监测，及早发现受害迹象。</li><li>定期监测，特别是在结果季节</li><li>使用诱虫灯减少成虫数量</li></ul><p>化学防治（如有需要）</p><ul><li>按标签建议使用农药，例如：氯氰菊酯 Cypermethrin 和高效氯氟氰菊酯 Lambda-cyhalothrin。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的指示，包括推荐剂量、适当的施药时间，以及采收前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small holes appear on the fruit surface near the stalk.</li><li>Rotten liquid or larval waste comes out of the bored holes.</li><li>Attacked fruits fall before they ripen.</li></ul>",
+    "zh": "<ul><li>果实表面靠近果柄处出现小孔。</li><li>蛀孔中流出腐烂的汁液或幼虫粪便。</li><li>受害果实未成熟就掉落。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 213,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Hawar Pucuk Choanephora",
+   "en": "Choanephora Shoot Blight",
+   "zh": "笄霉枯梢病"
+  },
+  "sci": "<em>Choanephora cucurbitarum</em>",
+  "desc": {
+   "en": "<ul><li>Infection usually occurs on the shoots. Infected shoots turn black.</li><li>Infection usually starts at the shoots and spreads downwards.</li><li>If infection is serious, black hair-like structures grow on the infected parts, whether on the shoots, leaves or fruit.</li></ul>",
+   "zh": "<ul><li>感染通常发生在嫩梢。受感染的嫩梢变黑。</li><li>感染通常从嫩梢开始，向下部蔓延。</li><li>感染严重时，受感染部位（无论是嫩梢、叶片或果实）会长出黑色毛状结构。</li></ul>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 240,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Lipat Daun",
+   "en": "Leaf Roller",
+   "zh": "卷叶蛾"
+  },
+  "sci": "<em>Adoxophyes privatana</em>",
+  "desc": {
+   "en": "<ul><li>The wingspan is 15-19 mm. In China this species has several generations each year.</li><li>The larvae feed on many kinds of trees. Young larvae spin silk threads and are easily blown by the wind to different parts of the leaves and young shoots. They then attack several leaves or fruits and make a nest. The larvae feed on the plant parts enclosed by their nest.</li><li>Pupation takes place in the last larval nest or between two leaves, where the larva spins several protective silk layers and a thin cocoon around its body. The pupal stage lasts 4-27 days.</li></ul>",
+   "zh": "<ul><li>翅展15-19 mm。在中国，此虫每年发生数代。</li><li>幼虫取食多种树木。幼龄幼虫吐丝，容易随风飘到叶片和嫩芽的各个部位。之后侵害几片叶子或果实，并结成虫巢。幼虫取食被虫巢包住的植物部位。</li><li>化蛹在最后的幼虫巢内或两片叶子之间进行，幼虫在身体周围吐出几层保护性丝膜和一层薄茧。蛹期为4-27天。</li></ul>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 252,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Petai Belalang",
+   "en": "Leucaena",
+   "zh": "银合欢"
+  },
+  "sci": "<em>Leucaena leucocephala</em>",
+  "desc": {
+   "en": "<p><strong>Family: </strong>Fabaceae (legume family)</p><p><strong>Habitat: </strong>Grows naturally / wild</p><p><strong>Petai belalang (</strong><em><strong>Leucaena leucocephala</strong></em><strong>)</strong> is a tropical legume tree that comes from Central America and Mexico. It grows very fast and is widely used in farming and livestock rearing. However, if not controlled, petai belalang can harm the local ecosystem because it can suppress the growth of native plants and reduce biodiversity.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Pull out seedlings by hand, especially while they are still small.</li><li>For large areas, control can be done with a grass-cutting machine (brush cutter)</li><li><strong><em>Zygogramma bicolorata</em></strong> - a leaf-eating beetle.</li><li><strong><em>Acanthoscelides macrophthalmus</em></strong> - a seed-eating insect.</li><li>Check the farm area regularly so that the trees do not have time to mature and produce fruit.</li><li>Do not leave land idle or empty for too long, because this makes it easy for petai belalang to grow and spread.</li></ul><p><strong>How It Spreads</strong></p><ul><li>The fruit of petai belalang is a <strong>long pod</strong> like a bean. When ripe and dry, the pod <strong>splits open by itself</strong> (<em>dehiscent</em>) and releases the seeds.</li><li>The seeds are light and hard, and spread easily to other areas.</li><li>Seeds can be spread by <strong>rainwater</strong> or <strong>drainage flow</strong></li></ul>",
+   "zh": "<p><strong>科：</strong>豆科 Fabaceae</p><p><strong>生境：</strong>自然生长 / 野生</p><p><strong>银合欢（</strong><em><strong>Leucaena leucocephala</strong></em><strong>）</strong>是一种热带豆科树木，原产于中美洲和墨西哥。它生长非常快，广泛用于农业和畜牧业。然而，如果不加以控制，银合欢会抑制本地植物生长并减少生物多样性，对当地生态系统造成不良影响。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>用手拔除幼苗，特别是在幼苗还小的时候。</li><li>面积较大时，可使用割草机进行防治</li><li><strong><em>Zygogramma bicolorata</em></strong> - 一种取食叶片的甲虫。</li><li><strong><em>Acanthoscelides macrophthalmus</em></strong> - 一种取食种子的昆虫。</li><li>定期巡查农场，不让植株有机会长大并结果。</li><li>避免让土地长期荒废或空置，因为这种情况容易让银合欢生长和扩散。</li></ul><p><strong>传播方式</strong></p><ul><li>银合欢的果实为<strong>长荚果</strong>，形似豆荚。成熟干燥后，荚果会<strong>自行裂开</strong>（<em>开裂果</em>），释放出种子。</li><li>种子轻而坚硬，容易传播到其他地方。</li><li>种子可通过<strong>雨水</strong>或<strong>排水水流</strong>传播</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Leucaena leucocephala</em></p><ul><li>Plant form: A shrub or small tree</li><li>Leaves: Compound and bipinnate (divided twice); they fold up at night or when touched firmly</li><li>Flowers: Round like a small ball (~1.5 cm diameter), yellowish-white; they grow in clusters at the tips of branches and attract pollinating insects such as bees</li><li>Fruit: Long, flat and thin (about 10-20 cm). When ripe, it dries and splits to spread its seeds. One pod can hold 10-20 seeds</li><li>Seeds: Small, oval, hard and blackish-brown; they can last a long time in the soil and germinate easily when the soil is moist enough.</li></ul>",
+    "zh": "<p><em>Leucaena leucocephala</em>的主要特征</p><ul><li>株型：灌木或小乔木</li><li>叶：二回羽状复叶（分叉两次），夜间或被用力触碰时会合拢</li><li>花：圆球形，如小球（直径约1.5 cm），黄白色；簇生于枝条顶端，吸引蜜蜂等传粉昆虫</li><li>果：长、扁而薄（约10-20 cm）。成熟时变干并裂开，散播种子。一个荚果可含10-20粒种子</li><li>种子：小、椭圆形、坚硬，黑褐色；可在土中长期存活，土壤足够湿润时容易发芽。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 264,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Padi Burung",
+   "en": "Jungle Rice",
+   "zh": "芒稷"
+  },
+  "sci": "<em>Echinochloa colona</em> (L.) Link",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> Flood-tolerant and can grow in muddy or wet soil</p><p>Padi burung is the common name of a tropical grass weed, <em>Echinochloa colona</em> (L.) Link. It is well known because it looks like rice and is often a big problem in rice fields and in cereal crops such as maize and wheat.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Use weed-free rice seed: Use clean, certified rice seed (free of weed seeds). Do not use rice seed from fields already infested with padi burung.</li><li>Crop rotation: Change to other crops (maize, legumes) after a few seasons to break the life cycle of padi burung.</li><li>Pull out the weed by hand before it flowers and produces seeds.</li><li>Use a rotavator or hoe before planting rice to destroy weeds on the soil surface.</li><li>Clean farm tools and machinery of weed seeds before using them in other fields.</li></ul><p><strong>How it spreads:</strong></p><ul><li>By seed: Each mature padi burung plant can produce up to thousands of seeds. The seeds fall to the ground easily when ripe. In damp or flooded conditions (such as in rice fields), the seeds germinate quickly.</li><li>By water: In rice field systems, flowing or standing water can carry the seeds across the whole area. The seeds easily float or drift into nearby fields or farm drains.</li><li>By human (farming) activity: Seeds left on machinery, shoes or farm tools are carried to new areas. Rice field soil contaminated with seeds can spread this weed if moved to other fields. <em>Contamination</em> can also happen through rice seed that is not certified weed-free.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科 Poaceae</p><p><strong>生境：</strong>耐水淹，可在泥泞或潮湿的土壤中生长</p><p>Padi burung（芒稷）是一种热带禾草类杂草<em>Echinochloa colona</em> (L.) Link的俗名。它因外形酷似水稻而广为人知，常是稻田以及玉米、小麦等谷类作物田中的一大问题。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>使用不含杂草种子的稻种：使用干净、经认证的稻种（不含杂草种子）。避免使用来自已受芒稷侵染稻田的稻种。</li><li>轮作：种植几季后改种其他作物（玉米、豆类），以打断芒稷的生活周期。</li><li>在杂草开花结籽前用手拔除。</li><li>种稻前使用旋耕机或锄头，清除土表的杂草。</li><li>在其他稻田使用前，清除农具和农机上的杂草种子。</li></ul><p><strong>传播方式：</strong></p><ul><li>种子传播：每株成熟的芒稷可产生多达数千粒种子。种子成熟后很容易掉落地面。在潮湿或水淹条件下（如稻田），种子会迅速发芽。</li><li>水流传播：在稻田系统中，流动或积聚的水可把种子带到整个区域。种子容易漂浮或随水流到附近的稻田或农场排水沟。</li><li>人类（农业）活动传播：残留在农机、鞋子或农具上的种子会被带到新的地方。混有种子的稻田泥土若被搬到其他稻田，也会传播这种杂草。使用未经认证不含杂草的稻种也可能造成<em>污染</em>。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Echinochloa colona</em> (L.) Link.</p><ul><li>Stem: Upright, 30-100 cm tall. Branched and juicy at the base. Green or purplish-green in colour.</li><li>Leaves: Long and pointed, without a ligule (a small membrane at the base of the leaf, unlike real rice). The surface is slightly rough with fine hairs.</li><li>Flowers: The flower cluster (panicle) looks like a rice panicle. Green or purplish-brown, hanging at the tip of the stalk. Produces small brown/black seeds.</li></ul>",
+    "zh": "<p><em>Echinochloa colona</em> (L.) Link的主要特征</p><ul><li>茎：直立，高30-100 cm。基部分枝且多汁。呈绿色或带紫的绿色。</li><li>叶：细长而尖，没有叶舌（叶基部的小膜片，与真正的水稻不同）。叶面略粗糙，有细毛。</li><li>花：花序（圆锥花序）与稻穗相似。绿色或紫褐色，垂挂在茎秆顶端。结出褐色/黑色的小种子。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 276,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Siku-siku",
+   "en": "Diamond Flower",
+   "zh": "伞房花耳草"
+  },
+  "sci": "<em>Hedyotis corymbosa</em> (L.) Lamk",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Rubiaceae</p><p><strong>Habitat:</strong> Open and damp areas</p><p><em>Hedyotis corymbosa</em>, also known as siku-siku, is a small herb that spreads quickly, especially in damp, open areas. Although it has traditional medicinal uses, it can also become a weed that disturbs farm crops, especially low-growing crops such as rice, vegetables and small farms</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Hand pulling: Suitable for small areas or gardens.</li><li>Plough or loosen the soil before planting to remove weeds together with their roots.</li><li>Cut regularly before flowering to stop the seeds from spreading.</li><li>Control early in the planting season to stop seeds from spreading.</li><li>Do not let it flower and fruit.</li><li>Clean farm tools after using them in areas infested with this weed.</li></ul><p><strong>How it spreads:</strong></p><p>By seed (main way): It produces many small seeds in capsule-shaped fruits, and the seeds are spread by:</p><ul><li>Rainwater - easily washed along the soil surface or in drains.</li><li>Wind - the light seeds can spread across open areas.</li><li>Animals &amp; people - seeds can stick to shoes, clothes, animal fur or farm tools.</li><li>Contaminated soil - weed seeds mixed in soil or compost.</li></ul>",
+   "zh": "<p><strong>科：</strong>茜草科 Rubiaceae</p><p><strong>生境：</strong>开阔潮湿的地方</p><p><em>Hedyotis corymbosa</em>，又称siku-siku（伞房花耳草），是一种蔓延很快的小型草本植物，尤其在潮湿开阔的地方。虽然它有传统药用价值，但也可能成为干扰农作物的杂草，特别是对稻米、蔬菜等低矮作物及小型农场</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>人工拔除：适用于小面积地区或菜园。</li><li>种植前犁地或松土，连根清除杂草。</li><li>在开花前定期割除，防止种子散播。</li><li>在种植季节初期及早防治，防止种子散播。</li><li>不要让它开花结果。</li><li>在受此杂草侵染的地方使用农具后，要清洗干净。</li></ul><p><strong>传播方式：</strong></p><p>主要通过种子传播：在蒴果中产生大量细小种子，种子通过以下途径传播：</p><ul><li>雨水 - 容易被冲到土表各处或沟渠中。</li><li>风 - 种子轻，可在开阔地区散播。</li><li>动物和人 - 种子可黏附在鞋子、衣服、动物皮毛或农具上。</li><li>受污染的泥土 - 杂草种子混在泥土或堆肥中。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Main features of <em>Hedyotis corymbosa</em>:<ul><li>Stem: Four-sided (quadrangular), which is why it is called <em>siku-siku</em>. Fine, small and soft. Can grow upright or slightly creeping.</li><li>Leaves: Arranged in pairs (opposite). Small, narrow and sharp at the tip - linear-lanceolate shape. Leaves about 1-3 cm long and less than 1 cm wide. Bright green.</li><li>Flowers: Very small, bluish-purple, light purple or sometimes white. They grow in clusters at the stem tips or in the leaf axils. Usually shaped like a small trumpet (tube-shaped corolla).</li></ul>",
+    "zh": "<em>Hedyotis corymbosa</em>的主要特征：<ul><li>茎：四棱形，因此被称为<em>siku-siku</em>。纤细、细小、柔软。可直立生长或略呈匍匐状。</li><li>叶：成对排列（对生）。小而窄，叶尖锐 - 呈线状披针形。叶长约1-3 cm，宽不到1 cm。鲜绿色。</li><li>花：非常小，蓝紫色、淡紫色，有时为白色。簇生于茎顶端或叶腋。通常呈小喇叭状（花冠管状）。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 293,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Carbendazim",
+   "Mancozeb",
+   "Maneb"
+  ],
+  "name": {
+   "ms": "Bintik Daun Kelabu",
+   "en": "Grey Leaf Spot",
+   "zh": "芒果灰斑病"
+  },
+  "sci": "<em>Pestalotiopsis mangiferae</em>",
+  "desc": {
+   "en": "<p>This disease often infects mango leaves, stunting tree growth and reducing fruit yield.</p><p><strong>Control Management:</strong></p><ul><li><p><strong>Good Agricultural Practices (GAP): </strong>Prune infected leaves to reduce the spread of the disease. Make sure there is enough space between trees to improve air flow and reduce humidity.</p></li><li><p><strong>Cultural Control:</strong> Collect and destroy fallen leaves to remove sources of infection.</p></li><li><p><strong>Good Drainage:</strong> Make sure there is a good drainage system to avoid too much moisture.</p></li><li><p><strong>Chemical Control:</strong> If infection is severe, spray systemic fungicides (for example benomyl, carbendazim) in rotation with contact fungicides (for example mancozeb, maneb) every 7-10 days until the disease is under control.</p></li></ul>",
+   "zh": "<p>此病经常感染芒果叶片，导致树体生长受阻并影响果实产量。</p><p><strong>防治管理：</strong></p><ul><li><p><strong>良好农业规范（GAP）：</strong>剪除受感染的叶片，以减少病害传播。确保树与树之间有足够距离，以改善通风并降低湿度。</p></li><li><p><strong>栽培防治：</strong>收集并销毁落叶，以清除侵染源。</p></li><li><p><strong>良好排水：</strong>确保排水系统良好，避免湿度过高。</p></li><li><p><strong>化学防治：</strong>若感染严重，喷施内吸性杀菌剂（如苯菌灵 benomyl、多菌灵 carbendazim），并与接触性杀菌剂（如代森锰锌 mancozeb、代森锰 maneb）轮换使用，每7-10天一次，直到病害受控。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small round or angular spots, blackish-brown, with a clear yellow (chlorotic) halo around the edge.</li><li>These spots grow larger and join together into irregular patches.</li><li>Badly infected leaves become dry and brittle and fall off early.</li></ul>",
+    "zh": "<ul><li>出现圆形或多角形的黑褐色小斑点，边缘有明显的黄色（褪绿）晕圈。</li><li>这些斑点会扩大并汇合成不规则的病斑。</li><li>严重感染的叶片变干、变脆，并提早脱落。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 306,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Reput Pangkal Fusarium",
+   "en": "Fusarium Basal Rot",
+   "zh": "洋葱镰刀菌基腐病"
+  },
+  "sci": "<em>Fusarium</em> spp.",
+  "desc": {
+   "en": "<p>Fusarium Basal Rot is caused by <em>Fusarium</em> spp. This fungus lives in the soil and can stay in the soil for a long time by forming tough survival structures called chlamydospores. The disease develops well at a soil temperature of about 25&deg;C. Infection can occur in onion at any growth stage, from seedling to mature plant.</p><p>Disease Management </p><ul><li>Use disease-free planting material.</li><li>Practise crop rotation with non-host crops.</li><li>Make sure drainage is good and avoid standing water.</li><li>Avoid injuring the roots and bulbs during planting, crop care and harvesting.</li><li>Remove and destroy infected crop residue.</li><li>Improve the soil by using organic matter and biological control agents.</li></ul>",
+   "zh": "<p>镰刀菌基腐病由<em>Fusarium</em> spp.（镰刀菌）引起。这种真菌存在于土壤中，能形成称为厚垣孢子的耐久结构，在土壤中长期存活。土温约25&deg;C时，病害发展最快。洋葱在任何生长阶段都可能受感染，从幼苗期到成熟期。</p><p>病害管理 </p><ul><li>使用无病种植材料。</li><li>与非寄主作物轮作。</li><li>确保排水良好，避免积水。</li><li>在种植、管理和收获时，避免伤及根部和鳞茎。</li><li>清除并销毁受感染的作物残体。</li><li>施用有机质和生物防治制剂，改善土壤。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The leaves turn yellowish, curl and die back (necrosis) at the leaf tips. </li></ul>",
+    "zh": "<ul><li>叶片变黄、卷曲，叶尖坏死。 </li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>The lower part of the onion layers looks watery and pale grey.</li></ul>",
+    "zh": "<ul><li>洋葱鳞片下部呈水渍状，淡灰色。</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

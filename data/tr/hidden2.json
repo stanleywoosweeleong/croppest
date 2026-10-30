@@ -1,0 +1,429 @@
+[
+ {
+  "id": 6,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Pengorek Umbisi Pisang",
+   "en": "Banana Weevil",
+   "zh": "香蕉球茎象甲"
+  },
+  "sci": "<em>Cosmopolites sordidus</em>",
+  "desc": {
+   "en": "<p>The banana weevil (banana corm borer) is a pest that attacks the corm and the base of the banana stem. Its larvae bore into the corm tissue and feed on it from the inside. Adult weevils feed on the stem surface; they are active at night and hide between the banana leaf sheaths during the day. It is considered the most serious pest of banana cultivation in Malaysia.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP).</li><li>Use healthy, pest-free banana planting material</li><li>Destroy old banana stumps and stems after harvest</li><li>Use banana stem traps to catch adult weevils</li><li>Remove and destroy infested crop residues to reduce sources of the pest.</li><li>Place traps such as banana stems split in half to trap the weevils, then destroy them</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Use chemical pesticides as recommended on the label.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</li></ul>",
+   "zh": "<p>香蕉球茎象甲（香蕉球茎钻蛀虫）是危害香蕉球茎和茎基部的害虫。幼虫钻入球茎组织内，从内部取食。成虫取食茎的表面，夜间活动，白天躲藏在香蕉叶鞘之间的缝隙里。它被视为马来西亚香蕉种植中最严重的害虫。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范 (APB/GAP)。</li><li>使用健康、无虫害的香蕉种苗</li><li>收获后销毁旧的香蕉树头和茎秆</li><li>使用香蕉茎陷阱诱捕成虫</li><li>清除并销毁受害的作物残体，以减少虫源。</li><li>放置陷阱，例如对半剖开的香蕉茎，诱捕象甲后加以销毁</li></ul><p><strong>化学防治（如有必要）</strong></p><ul><li>按照标签上的建议使用化学农药。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The larvae bore into the corm and the base of the stem near the ground. They do not attack the roots. The tissue around the bored holes turns brown and rots. As a result, new roots do not grow.",
+    "zh": "幼虫钻蛀靠近地面的球茎和茎基部，但不危害根部。蛀孔周围的组织会变褐腐烂，导致新根无法长出。",
+    "steps": [
+     {
+      "en": "Check the corm and the base of the stem near the ground. If the pest is present, the tissue around the bored holes will be brown and rotten. The banana weevil does not attack the roots, but it can stop the plant from producing new roots because the corm has been damaged by this pest.",
+      "zh": "检查靠近地面的球茎和茎基部。如有虫害，蛀孔周围的组织会变褐腐烂。香蕉球茎象甲不危害根部，但由于球茎已被这种害虫破坏，植株可能无法长出新根。"
+     }
+    ]
+   },
+   {
+    "en": "The larvae bore into the corm and the base of the stem near the ground. They do not attack the roots. The tissue around the bored holes turns brown and rots. As a result, new roots do not grow. Severe attacks cause the leaves to turn yellow and the plant to topple over easily. The central shoot is stunted. Infested young plants will die if the attack spreads up to the shoot. Infested plants produce fruit bunches smaller than normal.",
+    "zh": "幼虫钻蛀靠近地面的球茎和茎基部，但不危害根部。蛀孔周围的组织会变褐腐烂，导致新根无法长出。严重受害时，叶片变黄，植株容易倒伏。中央嫩芽生长受阻。若危害蔓延到顶芽，受害的幼株会死亡。受害植株结出的果串比正常的小。",
+    "steps": [
+     {
+      "en": "Severe attacks cause the leaves to turn yellow and the plant to topple over easily. The central shoot is stunted. Infested plants produce fruit bunches smaller than normal, and infested young plants will die if the attack spreads up to the shoot.",
+      "zh": "严重受害时，叶片变黄，植株容易倒伏。中央嫩芽生长受阻。受害植株结出的果串比正常的小；若危害蔓延到顶芽，受害的幼株会死亡。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Carbendazim",
+   "Mancozeb",
+   "Propineb"
+  ],
+  "name": {
+   "ms": "Bintik Daun Phomopsis",
+   "en": "Phomopsis Leaf Spot",
+   "zh": "榴莲拟茎点霉叶斑病"
+  },
+  "sci": "<em>Phomopsis durionis</em>",
+  "desc": {
+   "en": "<p>This fungus causes Phomopsis leaf spot on durian trees. Infected young leaves tend to drop before they mature. The disease readily attacks durian trees at the seedling stage. It is classed as a minor disease.</p><p><strong>Disease Management</strong></p><ul><li>For mature durian trees, no control measures are needed.</li><li>For seedlings in the nursery, destroy infected leaves.</li><li>If necessary, especially for seedlings in the nursery, use a systemic fungicide such as benomyl or carbendazim, alternating with a contact fungicide such as mancozeb or propineb every 7&ndash;10 days.</li></ul>",
+   "zh": "<p>这种真菌会引起榴莲树的拟茎点霉叶斑病。受感染的嫩叶往往在成熟前脱落。此病容易危害幼苗期的榴莲树，属于次要病害。</p><p><strong>病害管理</strong></p><ul><li>成年榴莲树不需要采取防治措施。</li><li>苗圃中的幼苗，应销毁受感染的叶片。</li><li>如有必要，特别是苗圃中的幼苗，可使用内吸性杀菌剂如苯菌灵 Benomyl 或多菌灵 Carbendazim，并与保护性（触杀性）杀菌剂如代森锰锌 Mancozeb 或丙森锌 Propineb 交替使用，每 7&ndash;10 天一次。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "This is a minor disease. Tiny fine spots appear, surrounded by a yellowish halo. These small spots enlarge and become whitish-brown or light brown, up to 1 mm in size, with a dark brown necrotic border and a yellowish halo.",
+    "zh": "这是一种次要病害。叶上出现细小的斑点，周围有黄色晕圈。小斑点会扩大，变成灰白褐色或浅褐色，大小可达 1 mm，边缘为深褐色坏死带，并有黄色晕圈环绕。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Mati Rosot Bakteria",
+   "en": "Bacterial Dieback",
+   "zh": "菠萝蜜细菌性枯死病"
+  },
+  "sci": "<em>Erwinia carotovora</em>",
+  "desc": {
+   "en": "<ul><li><p><strong>Dieback disease of jackfruit</strong> is caused by a bacterial infection.</p></li><li><p>The disease spreads easily and can cause <strong>large economic losses to farmers</strong>.</p></li><li><p><strong>Practise Good Agricultural Practices (GAP):</strong></p><ul><li><p><strong>Destroy or burn</strong> infected jackfruit trees.</p></li><li><p><strong>Always clean farm tools</strong> with a disinfectant (example: <strong>Clorox 3%</strong>).</p></li><li><p>Carry out a <strong>good fertilizer programme</strong> that is balanced.</p></li><li><p>Carry out <strong>effective weed management</strong> to reduce the risk of infection.</p></li></ul></li><li><p><strong>If more than 1 acre of jackfruit is planted</strong>, it is advisable to <strong>intercrop</strong> with crops such as durian, mango or rambutan to reduce the risk of the disease spreading.</p></li></ul>",
+   "zh": "<ul><li><p><strong>菠萝蜜枯死病</strong>是由细菌感染引起的。</p></li><li><p>此病容易传播，可能给农民<strong>造成巨大的经济损失</strong>。</p></li><li><p><strong>实行良好农业规范 (APB/GAP)：</strong></p><ul><li><p><strong>销毁或焚烧</strong>已受感染的菠萝蜜树。</p></li><li><p><strong>经常用消毒剂清洁农具</strong>（例如：<strong>Clorox 3%</strong>）。</p></li><li><p>实行<strong>良好</strong>且均衡的<strong>施肥计划</strong>。</p></li><li><p>进行<strong>有效的杂草管理</strong>，以降低感染风险。</p></li></ul></li><li><p><strong>如果菠萝蜜种植面积超过 1 英亩</strong>，建议<strong>间种</strong>榴莲、芒果或红毛丹等作物，以降低病害传播的风险。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "In the early stage of infection, the leaves turn yellowish. The yellowing occurs on almost the whole tree.",
+    "zh": "感染初期，叶片会变黄。几乎整棵树的叶片都会发黄。",
+    "steps": []
+   },
+   {
+    "en": "White resin oozing can be seen on the bark. The inside of the trunk turns brown. In the final stage, the bark becomes soft with a wet rot and gives off a foul smell, and the branches dry up and die, starting from the top.",
+    "zh": "树皮上可见白色树脂渗出。树干内部变成褐色。到了后期，树皮变软并出现湿腐，散发恶臭，枝条从顶部开始干枯死亡。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "kind": "fungus",
+  "ai": [
+   "Mancozeb",
+   "Propineb",
+   "Chlorothalonil",
+   "Tebuconazole",
+   "Trifloxystrobin"
+  ],
+  "name": {
+   "ms": "Hawar Pucuk Choanephora",
+   "en": "Choanephora Blight",
+   "zh": "辣椒笄霉疫病"
+  },
+  "sci": "<em>Choanephora cucurbitarum</em>",
+  "desc": {
+   "en": "This fungus causes Choanephora blight on chilli. It is a plant-pathogenic fungus that does best in humid conditions and grows well at a temperature of 25 degrees Celsius and relative humidity of about 100%. To prevent this, practise crop rotation and follow the recommended planting distance. Use drip irrigation to avoid a humid environment and remove all fallen diseased leaves. Spray fungicides such as mancozeb, propineb, chlorothalonil, tebuconazole and trifloxystrobin at the rate recommended on the label.",
+   "zh": "这种真菌会引起辣椒笄霉疫病（枝枯病）。它是一种植物病原真菌，在潮湿条件下最容易发病，在 25 摄氏度、相对湿度约 100% 的环境下生长旺盛。为了预防此病，应实行轮作，并遵守建议的种植距离。使用滴灌系统以避免环境过于潮湿，并清除所有掉落的病叶。按照标签上的建议用量喷洒杀菌剂，如代森锰锌 Mancozeb、丙森锌 Propineb、百菌清 Chlorothalonil、戊唑醇 Tebuconazole 和肟菌酯 Trifloxystrobin。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Infection usually occurs on the shoots. Infected shoots turn black.</li><li>Infection usually starts at the shoots and spreads downwards.</li><li>In serious infections, black hair-like growth appears on the infected parts, whether on the shoots, leaves or fruit.</li></ul>",
+    "zh": "<ul><li>感染通常发生在嫩梢。受感染的嫩梢会变黑。</li><li>感染通常从嫩梢开始，然后向下蔓延。</li><li>感染严重时，受感染部位（嫩梢、叶片或果实）会长出黑色毛状物。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 73,
+  "kind": "virus",
+  "ai": [
+   "Diafenthiuron",
+   "Triazophos"
+  ],
+  "name": {
+   "ms": "Virus Tristeza Sitrus",
+   "en": "Citrus Tristeza Virus (CTV)",
+   "zh": "柑橘衰退病毒"
+  },
+  "sci": "<em>Citrus tristeza virus</em> (CTV)",
+  "desc": {
+   "en": "CTV (citrus tristeza virus) is the most economically important virus disease of citrus. CTV is spread by several species of aphids. It can also be transmitted through grafting and through plant sap on farm tools, but not through seed. Aphids pick up the virus after feeding on infected plants for 5-60 minutes, but lose the ability to spread the virus after 24 hours. To prevent this, when propagating trees, use scions from disease-free mother trees and rootstocks that are resistant to various diseases. Control the vectors by spraying pesticides such as diafenthiuron and triazophos.",
+   "zh": "CTV（柑橘衰退病毒）是柑橘最具经济重要性的病毒病。CTV 由几种蚜虫传播，也可通过嫁接以及沾在农具上的植物汁液传播，但不会通过种子传播。蚜虫在受感染植株上取食 5-60 分钟后便会带毒，但 24 小时后就会失去传毒能力。为了预防此病，繁殖树苗时应使用来自无病母树的接穗，以及抗多种病害的砧木。喷洒农药如丁醚脲 Diafenthiuron 和三唑磷 Triazophos 来防治传病媒介。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>&quot;Stem pitting&quot; (pitted wood) &ndash; sunken grooves on the cambium of the stem; visible only when the bark is peeled off.</li><li>Leaf veins become chlorotic (yellow), the tree is stunted and the fruit becomes small</li><li>Yellowing and dieback on citrus trees infected with a severe &#39;stem pitting&#39; <em>strain</em> of CTV.</li></ul>",
+    "zh": "<ul><li>&quot;茎陷点&quot;（木质部凹陷）&ndash; 茎的形成层上出现凹陷的条纹，只有剥开树皮时才看得见。</li><li>叶脉褪绿（变黄），植株矮化，果实变小</li><li>感染严重的&#39;茎陷点&#39;型 CTV <em>株系</em>的柑橘树会出现黄化和枯死症状。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 87,
+  "kind": "bacteria",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Pencycuron"
+  ],
+  "name": {
+   "ms": "Reput Hitam",
+   "en": "Black Rot",
+   "zh": "甘蓝黑腐病"
+  },
+  "sci": "<em>Xanthomonas campestris</em>",
+  "desc": {
+   "en": "This bacterium causes black rot on cabbage. It is the most serious disease in cabbage cultivation. It causes big problems in areas with high humidity and reduces crop yield. The bacteria that cause black rot can survive and spread through wild host plants, soil, water droplets or infected seed. To prevent this, use disease-free seed, practise crop rotation, destroy infected parts and make sure the field has good drainage. Spray with fungicides such as propineb, mancozeb and pencycuron.",
+   "zh": "这种细菌会引起甘蓝（包菜）黑腐病。这是甘蓝种植中最严重的病害，在湿度高的地区造成很大问题，并降低作物产量。引起黑腐病的细菌可通过野生寄主、土壤、水滴或带病种子存活和传播。为了预防此病，应使用无病种子，实行轮作，销毁受感染部位，并确保田间排水良好。喷洒杀菌剂，如丙森锌 Propineb、代森锰锌 Mancozeb 和戊菌隆 Pencycuron。"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 113,
+  "kind": "insect",
+  "ai": [
+   "Deltamethrin",
+   "Cypermethrin",
+   "Dimethoate"
+  ],
+  "name": {
+   "ms": "Pengorek Kulit Buah Durian",
+   "en": "Durian Fruit Borer",
+   "zh": "桃蛀螟"
+  },
+  "sci": "<em>Conogethes punctiferalis</em> Guenée",
+  "desc": {
+   "en": "<p>An important pest that attacks the fruit, with its larvae boring in through the fruit skin. The adult moth lays eggs on the fruit surface, and after hatching the larvae bore through the skin and feed on the tissue underneath. Attacks usually occur from the young fruit stage until the fruit is nearly mature. This damage lowers fruit quality and can cause the fruit to rot before it ripens. Tiny entry holes and fine black frass can be seen on the fruit skin; the flesh is not affected, but fruit quality is reduced.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Bag the fruit (fruit bagging) at the early stage of fruit formation to prevent egg laying.</li><li>Collect and destroy damaged or fallen fruit to reduce breeding sources.</li><li>Monitor the orchard regularly, especially during the fruiting season.</li><li>Control weeds and keep the orchard clean to reduce pest breeding places.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Spray pesticides such as Deltamethrin / Cypermethrin / Dimethoate at the rate recommended on the label.</li><li><p>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</p></li></ul>",
+   "zh": "<p>一种重要害虫，其幼虫从果皮钻入危害果实。成虫（蛾）在果实表面产卵，幼虫孵化后钻入果皮，取食下面的组织。危害通常发生在幼果期至接近成熟期。这种危害会降低果实品质，并可能导致果实在成熟前腐烂。果皮上可见细小的蛀孔和黑色细粒状虫粪；果肉不受影响，但果实品质下降。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范 (APB/GAP)</li><li>在果实形成初期进行套袋 (fruit bagging)，防止害虫产卵。</li><li>收集并销毁受害或掉落的果实，以减少繁殖来源。</li><li>定期巡查果园，特别是在结果季节。</li><li>控制杂草并保持果园清洁，以减少害虫的繁殖场所。</li></ul><p>化学防治（如有必要）</p><ul><li>按照标签上的建议用量喷洒杀虫剂，如溴氰菊酯 Deltamethrin／氯氰菊酯 Cypermethrin／乐果 Dimethoate。</li><li><p>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The larvae damage the flowers, buds and skin of durian fruit.</li><li>Attacks are more common where two fruits touch each other. This gives the female moth a protected place to lay eggs.</li><li>The attacked part is covered with frass.</li><li>The durian flesh is not affected, but fruit quality is damaged.</li></ul>",
+    "zh": "<ul><li>幼虫危害榴莲的花、花蕾和果皮。</li><li>两个果实互相接触的地方受害较多，这为雌虫产卵提供了遮蔽。</li><li>受害部位覆盖着虫粪。</li><li>榴莲果肉不受影响，但果实品质受损。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 151,
+  "kind": "insect",
+  "ai": [
+   "Methyl Eugenol"
+  ],
+  "name": {
+   "ms": "Lalat Buah",
+   "en": "Fruit Fly",
+   "zh": "果实蝇"
+  },
+  "sci": "<em>Bactrocera</em> sp.",
+  "desc": {
+   "en": "Attacks the fruit while the plant is fruiting. The fruit has holes and rots. Fruits drop or rot before ripening. Collect the attacked fruits and destroy them by burying or burning. Use an attractant poison such as methyl eugenol.<br>",
+   "zh": "在植株结果期危害果实。果实出现孔洞并腐烂，果实在成熟前掉落或腐烂。收集受害果实，以掩埋或焚烧的方式销毁。使用引诱毒饵，如甲基丁香酚 Methyl Eugenol。<br>"
+  },
+  "symptoms": [
+   {
+    "en": "-",
+    "zh": "-",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 170,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Reput Hitam",
+   "en": "Black Rot",
+   "zh": "西兰花黑腐病"
+  },
+  "sci": "<em>Xanthomonas campestris</em> Dowson",
+  "desc": {
+   "en": "<p>Black rot is caused by a seed-borne bacterium (<em>Xanthomonas campestris</em> Dows) that spreads easily to the soil or to other healthy plants.</p><p><strong>Disease Management</strong></p><ul><li>The recommended control is to treat the seed in hot water (50 degrees C for 25 minutes) before planting. Destroy diseased plants and make sure the farm area has good drainage.</li></ul>",
+   "zh": "<p>黑腐病由种子带菌的细菌（<em>Xanthomonas campestris</em> Dows）引起，容易传染到土壤或其他健康植株。</p><p><strong>病害管理</strong></p><ul><li>建议的防治方法是在播种前用热水处理种子（50 摄氏度，25 分钟）。销毁病株，并确保园地排水良好。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Seedlings collapse when early infection occurs on the cotyledons (seed leaves) and then spreads systemically through the whole plant.",
+    "zh": "早期感染发生在子叶上，随后通过系统性扩散蔓延至整株，导致幼苗倒伏。",
+    "steps": []
+   },
+   {
+    "en": "The most typical symptom of this disease is yellowing to browning of the leaves in a &ldquo;V&rdquo; shape, which then dries up.",
+    "zh": "此病最典型的症状是叶片出现&ldquo;V&rdquo;字形的黄褐色病斑，随后干枯。",
+    "steps": []
+   },
+   {
+    "en": "Infected stems or flower heads usually rot and turn black or brown, making them unfit for harvest.",
+    "zh": "受感染的茎或花球通常会腐烂，变成黑色或褐色，因而不适合收获。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 188,
+  "kind": "weed",
+  "ai": [
+   "Glufosinate-ammonium",
+   "Glyphosate",
+   "2,4-D"
+  ],
+  "name": {
+   "ms": "Keladi Agas",
+   "en": "Monochoria",
+   "zh": "鸭舌草"
+  },
+  "sci": "<em>Monochoria vaginalis</em>",
+  "desc": {
+   "en": "<p>Monochoria <em>(Monochoria vaginalis)</em></p><p>Scientific name <em>Monochoria vaginalis</em>, a broadleaf weed. It reproduces by seed or by shoots. It grows actively from 20 - 30 days after transplanting or sowing rice. 5 monochoria plants growing together with 1 rice hill can reduce rice yield by 37%. Monochoria is best controlled or destroyed while still small. Chemical control after the weed has flowered is not effective, and it must then be removed by hand, that is, pulled out and thrown away. Successful control of monochoria comes from using the right herbicide and good water management.</p><p>Control methods</p><p>A. Land preparation stage</p><p>1. Spray with glufosinate ammonium (Tepat) or glyphosate ammonium (Roundup).</p><p>2. After 10 days, do the first ploughing in dry conditions.</p><p>3. Let water in after 2-3 days. Then do the second (wet) rotavation. Make sure the water depth is more than 5cm (2 inches).</p><p>4. Harrow or level the soil (in water-saturated conditions). Make sure the soil level is even.</p><p>B. Pre-emergence stage (5 &ndash; 10 days)</p><p>1. Spray Sofit/Solito/Lesplo/Satunil/Abime/Londax/Loyant 5 - 10 days after sowing the rice seed. </p><p>2. Raise the water in the field to more than 5cm (2 inches) 10 days after sowing.</p><p>C. Post-emergence spraying</p><p>1. Drain water from the field until the monochoria leaves are exposed above the water surface. Do not let the field dry out.</p><p>2. Spray a post-emergence herbicide 14-21 days after sowing, using Loyant + Basagran M60/Amine 480/2,4-D (Rumputox)/Nominee M.</p><p>3. Let water back into the field 48 hours (2 days) after spraying.</p><p><em>Source: </em></p><p><em>Dilipkumar Masilamany</em></p><p><em>Senior Research Officer</em></p><p><em>MARDI - Seberang Perai</em></p>",
+   "zh": "<p>鸭舌草 <em>(Monochoria vaginalis)</em></p><p>学名 <em>Monochoria vaginalis</em>，属阔叶杂草。通过种子或芽繁殖。在插秧或撒播稻种后 20 - 30 天开始旺盛生长。与 1 丛稻株一起生长的 5 株鸭舌草，可使稻米产量减少 37%。鸭舌草最好在幼小时就加以防除或消灭。开花后使用化学防治效果不佳，只能用人工方法拔除丢弃。正确使用除草剂并做好水分管理，是成功防除鸭舌草的关键。</p><p>防除方法</p><p>A. 整地阶段</p><p>1. 喷洒草铵膦 Glufosinate ammonium (Tepat) 或草甘膦 Glyphosate ammonium (Roundup)。</p><p>2. 10 天后，在干燥状态下进行第一次犁田。</p><p>3. 2-3 天后放水入田。然后进行第二次湿耙（旋耕）。确保水深超过 5cm（2 英寸）。</p><p>4. 进行耙田或平整土壤（在水饱和状态下）。确保田面平整。</p><p>B. 芽前阶段（5 &ndash; 10 天）</p><p>1. 在撒播稻种后 5 - 10 天喷洒 Sofit/Solito/Lesplo/Satunil/Abime/Londax/Loyant 除草剂。</p><p>2. 撒播后第 10 天，将稻田水位提高到超过 5cm（2 英寸）。</p><p>C. 芽后喷药</p><p>1. 排出田水，直到鸭舌草叶片露出水面。不要让稻田干涸。</p><p>2. 在撒播后 14-21 天喷洒芽后除草剂：Loyant + Basagran M60/Amine 480/2,4-D (Rumputox)/Nominee M。</p><p>3. 喷药后 48 小时（2 天）再放水入田。</p><p><em>资料来源：</em></p><p><em>Dilipkumar Masilamany</em></p><p><em>高级研究员</em></p><p><em>MARDI - Seberang Perai</em></p>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 206,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Daun",
+   "en": "Cotton Aphid",
+   "zh": "棉蚜"
+  },
+  "sci": "<em>Aphis gossypii</em>",
+  "desc": {
+   "en": "This small insect measures 0.6 &ndash; 3 mm and lives in colonies made up of various stages (from young to adult). It reproduces by parthenogenesis (without mating). Its body is green or pale green, sometimes orange or yellow. The antennae are as long as the body. Adults may be winged (alatae) or wingless (apterae). Winged adults have blackish-brown patches on the back. Aphids live on the underside of leaves, on flower stalks and flower buds, and inside the folds of curled leaves.",
+   "zh": "这种昆虫体型细小，约 0.6 &ndash; 3 mm，各龄期（从幼虫到成虫）群集生活。它们行孤雌生殖（无需交配）。虫体呈绿色或淡绿色，有时为橙色或黄色。触角与身体等长。成虫有有翅型（alatae）和无翅型（apterae）。有翅成虫背部有黑褐色斑块。蚜虫栖息在叶背、花梗、花芽以及卷曲叶片的褶缝中。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Sucks sap from the leaves, causing the leaves to wrinkle and shrivel</li><li>Leaves drop and growth of the vegetable is stunted</li><li>The sticky sweet liquid (honeydew) excreted by aphids leads to sooty mould, a black fungal growth that disrupts photosynthesis.</li></ul>",
+    "zh": "<ul><li>吸食叶片汁液，导致叶片皱缩萎缩</li><li>叶片脱落，蔬菜生长受阻</li><li>蚜虫分泌的甜性液体（蜜露）会引发煤烟病（黑色霉层），妨碍光合作用。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 228,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate"
+  ],
+  "name": {
+   "ms": "Lalang",
+   "en": "Cogon Grass (Lalang)",
+   "zh": "白茅"
+  },
+  "sci": "<em>Imperata cylindrica</em>",
+  "desc": {
+   "en": "<p><strong>Lalang grass <em>(Imperata cylindrica)</em></strong></p><p><strong>Lalang </strong>belongs to the family <strong>Poaceae</strong> and grows 0.6 - 3.0 metres tall. Lalang has light, white <strong> flowers </strong>. When mature, they fall from the stalk and are blown by the wind for several kilometres before landing on the ground. When conditions are suitable, lalang seeds grow in clumps, and the roots have rhizomes that multiply quickly in the soil, especially when the soil is soft after rain. Even though it is burnt every dry season, the lalang rhizomes in the soil keep growing even more vigorously when the rains come. Because the roots or rhizomes are deep in the soil, lalang is hard to destroy. </p><p>Lalang growing in crop areas is a problem for farmers because it spreads quickly and takes up planting space. Lalang also takes up nutrients from the soil and reduces crop yield.</p><p>Control Methods</p><p>Chemical method</p><p>A systemic herbicide, glyphosate (Roundup), is the most effective for controlling lalang growing in mature coconut areas. Avoid spray drift onto the coconut palms when spraying. </p><p>Note :</p><p>Lalang also grows in other food crop areas such as fruit orchards, pineapple, maize and vegetables.</p>",
+   "zh": "<p><strong>白茅 <em>(Imperata cylindrica)</em></strong></p><p><strong>白茅（lalang）</strong>属<strong>禾本科 (Poaceae)</strong>，高 0.6 - 3.0 米。白茅的<strong>花</strong>呈白色且轻盈。成熟后会从花梗上脱落，被风吹送数公里后才落到地面。在条件适宜时，白茅种子成丛生长，其根部有根状茎，在土壤中迅速繁殖，特别是在雨后土壤松软时。即使每逢旱季都被烧毁，土中的白茅根状茎在雨季来临时会长得更加茂盛。由于根或根状茎深藏土中，白茅很难被消灭。</p><p>在作物区生长的白茅是农民的一大问题，因为它繁殖迅速并占据种植空间。此外，白茅会吸收土壤中的养分，影响作物产量。</p><p>防除方法</p><p>化学方法</p><p>使用内吸性除草剂草甘膦 Glyphosate (Roundup)，对防除成龄椰子园中生长的白茅最为有效。喷药时避免药液飘溅到椰子树上。</p><p>注：</p><p>白茅也生长在其他粮食作物区，如果园、黄梨、玉米和蔬菜种植区。</p>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 248,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Selaput Tunggal",
+   "en": "Bitter Vine (Mile-a-minute)",
+   "zh": "薇甘菊"
+  },
+  "sci": "<em>Mikania micrantha</em>",
+  "desc": {
+   "en": "<p><strong>Family: </strong>Asteraceae</p><p><strong>Habitat:</strong> Moist, fertile soil</p><p>Bitter vine, also known as <em>Mikania micrantha</em>, is an invasive climbing plant that comes from Central and South America. It can easily take over farms, especially neglected food crops or commercial crops. <em>Mikania micrantha</em> can damage crop yields by covering the main crop, blocking sunlight and reducing crop quality.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Cut the stems and branches of <em>Mikania micrantha</em> regularly to reduce its growth. Regular cutting can stop this plant from covering the crops.</li><li>In larger areas, farm machinery such as grass cutters or soil tillers can help control this plant by cutting or damaging the plant tissue.</li><li>Regular monitoring of farm areas to detect <em>Mikania micrantha</em> is very important. This plant grows very fast, so control action must be taken quickly once it is detected.</li></ul><p><strong>How it spreads:</strong></p><ul><li><em>Mikania micrantha</em> produces many small, light seeds that are easily carried by the wind.</li><li>Human activities, such as trading seedlings or using contaminated farm equipment, can speed up the spread of <em>Mikania micrantha</em>.</li></ul>",
+   "zh": "<p><strong>科：</strong>菊科 (Asteraceae)</p><p><strong>生境：</strong>潮湿肥沃的土壤</p><p>薇甘菊（Bitter vine），学名 <em>Mikania micrantha</em>，是一种原产于中美洲和南美洲的入侵性攀援植物。它很容易侵占农田，特别是疏于管理的粮食作物或经济作物。<em>Mikania micrantha</em> 会覆盖主要作物、遮挡阳光并降低作物品质，从而损害农作物产量。</p><p><strong>杂草综合管理 (IWM)</strong></p><ul><li>定期割除 <em>Mikania micrantha</em> 的茎和枝条，以减少其生长。定期修剪可防止它覆盖农作物。</li><li>在面积较大的地区，可使用割草机或松土机等农业机械，通过割断或破坏其植物组织来控制这种植物。</li><li>定期巡查农地以发现 <em>Mikania micrantha</em> 非常重要。这种植物生长极快，一旦发现必须迅速采取防除措施。</li></ul><p><strong>传播方式：</strong></p><ul><li><em>Mikania micrantha</em> 会产生大量细小轻盈、容易随风飘散的种子。</li><li>人类活动，例如买卖种苗或使用受污染的农具，会加速 <em>Mikania micrantha</em> 的传播。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Mikania micrantha</em>:</p><ul><li>Climbing stems: <em>Mikania micrantha</em> is a climbing plant with long, flexible stems that grow quickly. The stems can grow more than 20 metres long in a year under good conditions.</li><li>Leaf shape: The leaves are heart-shaped (cordate) or egg-shaped, with a pointed tip and toothed edges. <em>Mikania micrantha</em> leaves can grow up to 10&ndash;15 cm long.</li><li>Vegetative reproduction: Besides seed, <em>Mikania micrantha</em> can also reproduce from vegetative parts such as cut pieces of stem or root, which allow new plants to grow from those pieces.</li></ul>",
+    "zh": "<p><em>Mikania micrantha</em> 的主要特征：</p><ul><li>攀援茎：<em>Mikania micrantha</em> 是攀援植物，茎细长、柔韧，生长迅速。在生长良好的情况下，茎一年可长超过 20 米。</li><li>叶形：叶片呈心形 (cordate) 或卵形，叶尖渐尖，叶缘有锯齿。<em>Mikania micrantha</em> 的叶片可长达 10&ndash;15 cm。</li><li>营养繁殖：除了种子，<em>Mikania micrantha</em> 也能通过营养器官繁殖，如被切断的茎段或根段，新植株可从这些部分长出。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 260,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Keladi Bunting",
+   "en": "Water Hyacinth",
+   "zh": "凤眼莲（水葫芦）"
+  },
+  "sci": "<em>Eichhornia crassipes</em> (Mart.) Solms",
+  "desc": {
+   "en": "<p><strong>Family</strong>: Pontederiaceae</p><p><strong>Habitat and Impact</strong></p><p>The main habitat of this weed is <strong>fresh water</strong> such as ponds, lakes and slow-flowing rivers. The plant <strong>floats on the water surface</strong> and has <strong>round, glossy leaves</strong>, <strong>leaf stalks swollen like a sponge</strong>, and <strong>bluish-purple flowers with a yellow pattern on the upper petal</strong>.</p><p>This weed can cause <strong>clogged drains or waterways</strong> and lowers the <strong>dissolved oxygen in the water</strong>, which harms aquatic life. It can also affect <strong>fishing</strong> activities as well as <strong>irrigation and paddy field water</strong> systems.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Remove the plants manually by hand, with nets or with pulling rafts.</li><li>For larger areas, control can be done using cutting machines or aquatic weed harvesters (<em>aquatic weed harvester</em>).</li><li>Booms or floating barriers are used to limit the movement of the plants so they do not spread to other areas.</li></ul><p><strong>How it spreads</strong></p><ul><li><strong>Through stolons:</strong> This weed spreads through stolons, which are creeping stems that grow from the parent plant.</li><li><strong>Formation of new plants:</strong> Each stolon can form a complete new plant.</li><li><strong>Fast reproduction:</strong> One parent plant can produce dozens of young plants within a few weeks.</li></ul><p><strong>STOLON : </strong>A stolon is a <strong>creeping stem</strong> that grows horizontally from the parent plant, either <strong>on the soil surface</strong> or <strong>on the water surface</strong>, and can produce <strong>roots and new plants</strong> at certain points</p>",
+   "zh": "<p><strong>科</strong>：雨久花科 (Pontederiaceae)</p><p><strong>生境与危害</strong></p><p>这种杂草的主要生境是<strong>淡水水域</strong>，如池塘、湖泊和水流平缓的河流。植株<strong>漂浮在水面</strong>，具有<strong>圆形、有光泽的叶片</strong>，<strong>叶柄膨大如海绵</strong>，以及<strong>蓝紫色的花，上方花瓣有黄色斑纹</strong>。</p><p>这种杂草会导致<strong>沟渠或水道堵塞</strong>，降低<strong>水中的溶解氧含量</strong>，从而干扰水生生物的生存。此外，它也会影响<strong>渔民</strong>的作业以及<strong>灌溉和稻田供水</strong>系统。</p><p><strong>杂草综合管理 (IWM)</strong></p><ul><li>用手、网或拖拉筏以人工方式清除植株。</li><li>在面积较大的地区，可使用割草机械或水草收割机（<em>aquatic weed harvester</em>）进行防除。</li><li>使用拦截索或浮式屏障限制植株移动，防止其蔓延到其他地区。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>通过匍匐茎：</strong>这种杂草通过匍匐茎（从母株长出的匍匐蔓延的茎）传播。</li><li><strong>形成新植株：</strong>每条匍匐茎都能形成一棵完整的新植株。</li><li><strong>繁殖迅速：</strong>一棵母株可在几周内繁殖出数十棵幼株。</li></ul><p><strong>匍匐茎（STOLON）：</strong>匍匐茎是从母株水平生长的<strong>匍匐蔓延的茎</strong>，可生长在<strong>地面上</strong>或<strong>水面上</strong>，并能在特定部位长出<strong>根和新植株</strong></p>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Eichhornia crassipes</em> (Mart.) Solms</p><ul><li>Leaves: Egg-shaped, glossy, floating on the water surface.</li><li>Leaf stalks: Swollen like a float (filled with air).</li><li>Roots: Fibrous, purplish-black, hanging downwards.</li><li>Flowers: Purple or light blue, shaped like small orchids, usually appearing in clusters.</li><li>Growth: Very fast; the population can double in a short time.</li></ul>",
+    "zh": "<p><em>Eichhornia crassipes</em> (Mart.) Solms 的主要特征</p><ul><li>叶：卵圆形，有光泽，漂浮在水面上。</li><li>叶柄：膨大如浮球（内充空气）。</li><li>根：须根，紫黑色，向下悬垂。</li><li>花：紫色或浅蓝色，形似小兰花，通常成串开放。</li><li>生长：极快；可在短时间内使数量倍增。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 272,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Para",
+   "en": "Para Grass",
+   "zh": "巴拉草"
+  },
+  "sci": "<em>Brachiaria mutica</em> (Forssk.) Stapf",
+  "desc": {
+   "en": "<p>Family: Poaceae</p><p>Habitat: Wet areas / swamps</p><p>Because it can grow fast and cover large areas, <em>Brachiaria mutica</em> can become invasive and crowd out local plant species if it is not well controlled, especially in natural habitats such as national parks, swamp forests or conservation areas.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Routine cutting: Cut before flowering to prevent the seeds from spreading.</li><li>Ploughing / uprooting: Pull out the roots and stolons (creeping stems) thoroughly.</li><li>Flooding: In paddy fields, prolonged flooding can help stop its growth.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Vegetatively (main way)<br>Creeping stems (stolons): This is the main way it spreads. The grass produces creeping stems along the ground, and new roots grow at every node of the stem when it touches moist soil. One small piece of stolon can grow into a new clump. It spreads very fast in wet areas, swamps or riverbanks.</li><li>Through human activities:<br>Accidental spread through:<ul><li>Farm tools (leftover soil/mud containing stolons)</li><li>Uneaten livestock feed left on the ground</li><li>Transport of organic material (compost, fill soil)</li><li>Moving seedlings to new places without control</li></ul></li></ul>",
+   "zh": "<p>科：禾本科 (Poaceae)</p><p>生境：多水地区／沼泽</p><p>由于生长快速并能覆盖大片地区，<em>Brachiaria mutica</em> 若不妥善控制，可能成为入侵植物，排挤本地植物物种，特别是在国家公园、沼泽森林或保育区等自然生境中。</p><p><strong>杂草综合管理 (IWM)</strong></p><ul><li>定期割除：在开花前割除，以防止种子传播。</li><li>犁地／拔除：彻底拔除根部和匍匐茎（匍匐蔓延的茎）。</li><li>淹水：在稻田中，长时间淹水有助于抑制其生长。</li></ul><p><strong>传播方式：</strong></p><ul><li>营养繁殖（主要方式）<br>匍匐茎：这是它最主要的传播方式。这种草会在地面上长出匍匐茎，茎的每个节接触到湿润土壤时都会长出新根。一小段匍匐茎就能长成新的草丛。它在潮湿地区、沼泽或河岸蔓延得非常快。</li><li>通过人类活动：<br>无意中通过以下途径传播：<ul><li>农具（残留着含有匍匐茎的泥土／淤泥）</li><li>吃剩并留在地上的牲畜饲料</li><li>运送有机物料（堆肥、填土）</li><li>在无管控的情况下将种苗移到新地点</li></ul></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Brachiaria mutica</em> (Forssk.) Stapf</p><ul><li>Creeping growth (stoloniferous), with trailing stems that spread quickly.</li><li>The plant can grow 1 to 1.5 metres tall.</li><li>The leaves are broad, bright green and rough to the touch.</li><li>It grows well on wet land, in swamps or in well-irrigated areas.</li></ul>",
+    "zh": "<p><em>Brachiaria mutica</em> (Forssk.) Stapf 的主要特征</p><ul><li>匍匐生长（具匍匐茎），茎蔓延伸并迅速扩散。</li><li>植株高度可达 1 至 1.5 米。</li><li>叶片宽，呈鲜绿色，表面粗糙。</li><li>在潮湿地、沼泽或灌溉良好的地区生长良好。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 285,
+  "kind": "nematode",
+  "ai": [
+   "Fenamiphos"
+  ],
+  "name": {
+   "ms": "Nematod Reniform",
+   "en": "Reniform Nematode",
+   "zh": "肾形线虫"
+  },
+  "sci": "<em>Rotylenchulus reniformis</em>",
+  "desc": {
+   "en": "<ul><li>Attacks the root system &rarr; Roots are damaged and work poorly.</li><li>Stunted growth &rarr; The plant does not grow well.</li><li>Chlorosis &rarr; Leaves turn yellow due to lack of nutrients.</li><li>Lower yield &rarr; Fruits are smaller or fewer.</li><li>Higher risk in infested soil &rarr; Especially if other host crops were grown there before.</li></ul>",
+   "zh": "<ul><li>危害根系 &rarr; 根部受损，功能减弱。</li><li>生长受阻 &rarr; 植株无法正常生长。</li><li>褪绿黄化 &rarr; 因养分不足，叶片变黄。</li><li>产量下降 &rarr; 果实变小或数量减少。</li><li>在受污染的土壤中风险更高 &rarr; 特别是之前曾种植其他寄主作物的土地。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attacks the root system &rarr; Roots are damaged and work poorly.</li><li>Stunted growth &rarr; The plant does not grow well.</li><li>Chlorosis &rarr; Leaves turn yellow due to lack of nutrients.</li><li>Lower yield &rarr; Fruits are smaller or fewer.</li><li>Higher risk in infested soil &rarr; Especially if other host crops were grown there before.</li></ul>",
+    "zh": "<ul><li>危害根系 &rarr; 根部受损，功能减弱。</li><li>生长受阻 &rarr; 植株无法正常生长。</li><li>褪绿黄化 &rarr; 因养分不足，叶片变黄。</li><li>产量下降 &rarr; 果实变小或数量减少。</li><li>在受污染的土壤中风险更高 &rarr; 特别是之前曾种植其他寄主作物的土地。</li></ul>",
+    "steps": [
+     {
+      "en": "<p>Symptoms:</p><ul><li>Limits fruit production and shortens the life of the tree</li><li>Stunted seedlings, chlorotic (yellow) leaves and dark roots</li></ul><p>Nematode management:</p>Treat with fenamiphos",
+      "zh": "<p>症状：</p><ul><li>限制果实产量，缩短树的寿命</li><li>幼苗矮化，叶片褪绿（变黄），根部发黑</li></ul><p>线虫管理：</p>使用苯线磷 Fenamiphos 处理"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 301,
+  "kind": "insect",
+  "ai": [
+   "Abamectin",
+   "Spinosad",
+   "Imidacloprid"
+  ],
+  "name": {
+   "ms": "Kutu Trip Bawang",
+   "en": "Onion Thrips",
+   "zh": "葱蓟马"
+  },
+  "sci": "<em>Thrips tabaci</em>",
+  "desc": {
+   "en": "<p>Thrips suck sap from onion leaves, making the leaves silvery and shiny, curled and wrinkled. Severe attacks can stunt growth and reduce crop yield.</p><ul><li>Small, slender insect (&plusmn;1&ndash;1.5 mm)</li><li>Pale yellow to brown in colour</li><li>Actively sucks sap from leaves, especially between the young leaves</li><li>Attacks increase in hot, dry weather</li></ul><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Avoid planting too close together</li><li>Use natural predators such as <em>Orius</em> spp.</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Spray registered pesticides such as abamectin, spinosad or imidacloprid in rotation</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval before the crop is harvested.</li></ul>",
+   "zh": "<p>蓟马吸食葱（洋葱）叶片的汁液，使叶片出现银白色光泽、卷曲和皱缩。严重危害会导致生长受阻和作物减产。</p><ul><li>细小纤细的昆虫（&plusmn;1&ndash;1.5 mm）</li><li>体色淡黄至褐色</li><li>积极吸食叶片汁液，尤其在嫩叶之间的缝隙</li><li>天气炎热干燥时危害加剧</li></ul><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范 (APB/GAP)</li><li>避免种植过密</li><li>利用天敌，如花蝽 <em>Orius</em> spp.</li></ul><p>化学防治（如有必要）</p><ul><li>轮换喷洒已注册的农药，如阿维菌素 Abamectin、多杀菌素 Spinosad 或吡虫啉 Imidacloprid</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaves look silvery and shiny</li><li>Leaves curl or wrinkle</li><li>Brown or dry patches on the leaves</li><li>Stunted growth in severe attacks</li></ul>",
+    "zh": "<ul><li>叶片呈银白色光泽</li><li>叶片卷曲或皱缩</li><li>叶片上出现褐色或干枯斑块</li><li>危害严重时生长受阻</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

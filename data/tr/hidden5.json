@@ -1,0 +1,435 @@
+[
+ {
+  "id": 9,
+  "kind": "insect",
+  "ai": [
+   "Bacillus thuringiensis",
+   "Beauveria bassiana",
+   "Metarhizium anisopliae"
+  ],
+  "name": {
+   "ms": "Ulat Ratus",
+   "en": "Armyworm (Common Cutworm)",
+   "zh": "斜纹夜蛾"
+  },
+  "sci": "<em>Spodoptera litura</em>",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The armyworm is a caterpillar of a moth and is a pest of many kinds of crops. The larvae feed actively on the leaves and can cause a large loss of green leaf area, which reduces photosynthesis and plant growth. Armyworms breed and spread easily.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Check the crop regularly, especially the young leaves.</li><li>Destroy any egg masses and caterpillars you find.</li><li>Clear weeds in the farm, because they can act as alternative hosts.</li><li>Protect natural enemies such as:<ul><li>Parasitoid wasps</li><li>Spiders</li><li>Predatory beetles</li></ul></li><li>Use bioinsecticides based on <em>Bacillus thuringiensis</em> (Bt) at the young larva stage.</li><li>Applying entomopathogenic (insect-killing) fungi such as <em>Beauveria bassiana</em> or <em>Metarhizium anisopliae</em> can also help reduce the population.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before the crop is harvested.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>斜纹夜蛾的幼虫是一种蛾类毛虫，危害多种作物。幼虫积极取食叶片，可造成大量绿叶面积损失，从而降低光合作用和植株生长。斜纹夜蛾容易繁殖和扩散。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期检查作物，尤其是嫩叶。</li><li>发现卵块和幼虫时立即销毁。</li><li>清除园内杂草，因为杂草可成为其替代寄主。</li><li>保护天敌，例如：<ul><li>寄生蜂</li><li>蜘蛛</li><li>捕食性甲虫</li></ul></li><li>在幼虫早期使用以<em>Bacillus thuringiensis</em>（Bt，苏云金杆菌）为基础的生物杀虫剂。</li><li>施用昆虫病原真菌，如<em>Beauveria bassiana</em>（球孢白僵菌）或<em>Metarhizium anisopliae</em>（金龟子绿僵菌），也有助于减少虫口数量。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的指示，包括建议剂量、适当的施药时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Young larvae attack the leaves in groups and feed greedily at the first instar stage, then feed separately at the second instar stage. In severe attacks only the leaf skeleton is left. Adult moths lay eggs in clusters on the leaves at night. Attacks can stunt the plant and stop it from fruiting, which lowers the yield.",
+    "zh": "幼龄幼虫成群危害叶片，在一龄期大量取食，到二龄期则分散取食。严重时叶片只剩下叶脉骨架。成虫在夜间把卵成堆产在叶片上。危害可导致植株生长受阻、不结果，造成减产。",
+    "steps": [
+     {
+      "en": "Look at the young shoot and leaf stalks and check for holes arranged in rows. Many small caterpillars can be seen gathered on the leaf, eating the outer skin of the banana leaf.",
+      "zh": "观察嫩梢和叶柄部位，检查是否有排列成行的小孔。可见许多小幼虫聚集在叶片上，啃食香蕉叶表皮。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "kind": "fungus",
+  "ai": [
+   "Tebuconazole"
+  ],
+  "name": {
+   "ms": "Hawar Daun",
+   "en": "Southern Corn Leaf Blight",
+   "zh": "玉米小斑病"
+  },
+  "sci": "<em>Drechslera maydis</em>",
+  "desc": {
+   "en": "This fungus causes leaf blight in maize. The spores and mycelium of the pathogen can survive on plant debris, and wind and water splashes can spread the spores until the next season. The disease and its symptoms develop at temperatures between 22-30 degrees Celsius with high humidity. Spores can germinate within six hours in free water on the leaves when the temperature is suitable. To prevent this, destroy infected plants and use disease-free seed, practise crop rotation and make sure the field has good drainage. Use a fungicide such as tebuconazole at the rate recommended on the label.",
+   "zh": "这种真菌引起玉米叶枯病（小斑病）。病原菌的孢子和菌丝可在植物残体上存活，风和水滴飞溅可把孢子传播到下一季。在22-30摄氏度、湿度高的条件下，病害和症状会发展。在适宜温度下，孢子在叶面游离水中六小时内即可萌发。为预防此病，应销毁受感染的植株，使用无病种子，实行轮作，并确保田间排水良好。按照标签上的建议用量使用杀菌剂，如戊唑醇 Tebuconazole。"
+  },
+  "symptoms": [
+   {
+    "en": "Light brown oval or elongated spots up to 2.5 cm long appear between the leaf veins.",
+    "zh": "叶脉之间会出现长达2.5 cm的浅褐色椭圆形或长条形病斑。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "kind": "fungus",
+  "ai": [
+   "Malathion",
+   "Benomyl",
+   "Carbendazim"
+  ],
+  "name": {
+   "ms": "Kulapuk Hitam",
+   "en": "Black Mildew",
+   "zh": "芒果黑霉病"
+  },
+  "sci": "<em>Meliola mangiferae</em>",
+  "desc": {
+   "en": "<p>This fungus causes black mildew in mango. It is a disease that usually occurs in orchards where mealybugs, scale insects and hoppers are not controlled well. The honeydew secreted by these insects sticks to the leaf surface and provides a medium for the fungus to grow. The fungus is basically saprophytic and not pathogenic, as it obtains its nutrients from the host tissue. The photosynthesis of the leaves is affected because the stomata are blocked by the fungal growth.</p><p><strong>Disease management:</strong></p><ul><li>To prevent this, always practise <strong>Good Agricultural Practices</strong> in the field.</li><li>Weed and prune regularly to improve air flow and reduce humidity in the canopy and around the trees.</li><li>Control mealybugs and scale insects with pesticides such as malathion, because these insects produce honeydew, which becomes a food source for the fungus.</li><li>If the attack is severe, use systemic fungicides such as benomyl or carbendazim, alternating with contact fungicides, every 7-10 days.</li></ul>",
+   "zh": "<p>这种真菌引起芒果黑霉病。此病通常发生在粉蚧、介壳虫和叶蝉未被有效控制的果园。这些昆虫分泌的蜜露粘附在叶面，为真菌提供生长的介质。该真菌基本上是腐生性的，并不致病，因为它从寄主组织获取养分。由于气孔被真菌生长物堵塞，叶片的光合作用受到影响。</p><p><strong>病害管理：</strong></p><ul><li>为预防此病，田间应始终实行<strong>良好农业规范</strong>。</li><li>定期除草和修剪，以改善通风，降低树冠内及树木周围的湿度。</li><li>用马拉硫磷 Malathion 等农药防治粉蚧和介壳虫，因为这些昆虫分泌的蜜露会成为真菌的食物来源。</li><li>如果危害严重，使用内吸性杀菌剂，如苯菌灵 Benomyl、多菌灵 Carbendazim，并与接触性杀菌剂轮换使用，每隔7-10天喷一次。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The black mildew fungus attacks the leaves and fruit.</li><li>Black, velvet-like colonies of uneven shape and size appear.</li><li>The black colonies can grow up to 1cm in diameter. They are found on the upper and lower leaf surfaces and can cover the whole leaf surface.</li></ul>",
+    "zh": "<ul><li>黑霉病真菌危害叶片和果实。</li><li>出现形状和大小不一、像天鹅绒般的黑色菌落。</li><li>黑色菌落直径可扩大至1cm，分布于叶片正反两面，可覆盖整个叶面。</li></ul>",
+    "steps": [
+     {
+      "en": "Look for black, velvet-like colonies of uneven shape and size on the upper and lower leaf surfaces and on the fruit.",
+      "zh": "叶片正反两面及果实上出现形状和大小不一、像天鹅绒般的黑色菌落。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "kind": "bacteria",
+  "ai": [
+   "Chlorine"
+  ],
+  "name": {
+   "ms": "Reput Lembut",
+   "en": "Bacterial Soft Rot",
+   "zh": "辣椒细菌性软腐病"
+  },
+  "sci": "<em>Erwinia carotovora</em> subsp. <em>carotovora</em>",
+  "desc": {
+   "en": "This bacterium causes soft rot in chilli. The bacterium can survive in the field when chilli is rotated with other susceptible crops. It can spread through drains, irrigation water or sprinklers, but wounds make infection more likely. High rates of N fertiliser together with warm, humid weather favour infection. There is no chemical control for this disease, but always keep the drainage system in good condition so that water does not stagnate. Because this is a post-harvest disease, it is best to wash the fruit with chlorinated water to kill the germs.",
+   "zh": "这种细菌引起辣椒软腐病。当辣椒与其他易感作物轮作时，这种细菌可在田间存活。它可通过排水沟、灌溉水或喷灌传播，而伤口会使感染更容易发生。氮肥用量过高，加上温暖潮湿的天气，会促进感染。此病没有化学防治方法，但应始终保持排水系统良好，避免积水。由于这是一种采后病害，最好用含氯的水清洗果实以消毒杀菌。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Infected parts of the fruit become watery, rotten and foul-smelling.</li></ul>",
+    "zh": "<ul><li>果实受感染部位变得水渍状、腐烂并发臭。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 77,
+  "kind": "fungus",
+  "ai": [
+   "Mancozeb",
+   "Propineb",
+   "Chlorothalonil",
+   "Tebuconazole",
+   "Trifloxystrobin"
+  ],
+  "name": {
+   "ms": "Bintik Berpusar",
+   "en": "Chilli Anthracnose",
+   "zh": "辣椒炭疽病"
+  },
+  "sci": "<em>Colletotrichum capsici</em>, <em>Colletotrichum gloeosporioides</em>",
+  "desc": {
+   "en": "<p>This fungus causes anthracnose in chilli. It is the most economically important disease, reducing marketable yield by up to 50%. Anthracnose causes pre- and post-harvest damage to the fruit, leaves and stems of chilli, producing anthracnose lesions. Infection can occur at any stage of fruit development, but symptoms usually appear when the fruit is about to ripen. Over short distances the fungus spreads by spores in wind-driven rain. The fungus can survive in crop debris and chilli seeds.</p><p><strong>Disease Management</strong></p><p>To prevent this, practise crop rotation and destroy all infected plants. Spray fungicides such as mancozeb, propineb, chlorothalonil, tebuconazole and trifloxystrobin at the rates recommended on the label.</p>",
+   "zh": "<p>这种真菌引起辣椒炭疽病。它是经济上最重要的病害，可使可上市的产量减少多达50%。炭疽病对辣椒的果实、叶片和茎造成采前和采后损害，形成炭疽病斑。果实发育的任何阶段都可能受感染，但症状通常在果实即将成熟时出现。在短距离内，真菌通过随风雨飘散的孢子传播。真菌可在作物残体和辣椒种子中存活。</p><p><strong>病害管理</strong></p><p>为预防此病，应实行轮作并销毁所有受感染的植株。按照标签上的建议用量喷施杀菌剂，如代森锰锌 Mancozeb、丙森锌 Propineb、百菌清 Chlorothalonil、戊唑醇 Tebuconazole 和肟菌酯 Trifloxystrobin。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ol><li><strong>Small brown or black spots</strong> start to appear on young stems, usually near the soil surface.</li><li>The spots become <strong>sunken (sunken lesions)</strong> and can <strong>lengthen</strong> along the stem.</li><li>The centre of the lesion may look <strong>dry or light grey</strong> with a darker edge.</li><li>In high humidity, the lesions may produce a <strong>layer of orange or salmon-coloured spores</strong>.</li><li><strong>The stem becomes brittle</strong> and breaks easily, especially if the infection is at the base.</li><li>In severe infection, <strong>the flow of water and nutrients is disrupted</strong>, causing the leaves to <strong>wilt and die gradually</strong>.</li></ol>",
+    "zh": "<ol><li>嫩茎上开始出现<strong>褐色或黑色小斑点</strong>，通常靠近土面。</li><li>斑点变成<strong>凹陷病斑</strong>，并可沿茎<strong>纵向扩大</strong>。</li><li>病斑中央可能呈<strong>干枯或浅灰色</strong>，边缘颜色较深。</li><li>湿度高时，病斑上可能产生<strong>一层橙色或鲑红色的孢子</strong>。</li><li><strong>茎变脆</strong>，容易折断，尤其是感染发生在茎基部时。</li><li>严重感染时，<strong>水分和养分的输送受阻</strong>，导致叶片<strong>逐渐萎蔫并枯死</strong>。</li></ol>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Black spots with circular rings on the fruit</li></ul>",
+    "zh": "<ul><li>果实上出现带同心轮纹的黑色斑点</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Necrotic (dead tissue) spots</li></ul>",
+    "zh": "<ul><li>坏死斑点</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 93,
+  "kind": "fungus",
+  "ai": [
+   "Mancozeb",
+   "Propineb",
+   "Chlorothalonil",
+   "Tebuconazole",
+   "Trifloxystrobin"
+  ],
+  "name": {
+   "ms": "Hawar Awal",
+   "en": "Early Blight",
+   "zh": "番茄早疫病"
+  },
+  "sci": "<em>Alternaria solani</em>",
+  "desc": {
+   "en": "This fungus causes early blight in tomato. Both green and ripe tomato fruits are infected through the calyx, with lesions. Infected fruits often drop before they are mature. The pathogen survives until the next season mainly on infected crop debris. Wet conditions during harvest encourage spore germination. To prevent this, destroy all infected plants and use planting material that is resistant to this disease. Practise crop rotation and make sure the field has good drainage. Spray fungicides such as mancozeb, propineb, chlorothalonil, tebuconazole and trifloxystrobin at the rates recommended on the label.",
+   "zh": "这种真菌引起番茄早疫病。青果和熟果都会经由萼片受感染并出现病斑。受感染的果实常在成熟前掉落。病原菌主要在受感染的作物残体上存活至下一季。收获期间潮湿的条件会促进孢子萌发。为预防此病，应销毁所有受感染的植株，并使用抗此病的种植材料。实行轮作，并确保田间排水良好。按照标签上的建议用量喷施杀菌剂，如代森锰锌 Mancozeb、丙森锌 Propineb、百菌清 Chlorothalonil、戊唑醇 Tebuconazole 和肟菌酯 Trifloxystrobin。"
+  },
+  "symptoms": [
+   {
+    "en": "Brown or black spots on the leaves.",
+    "zh": "叶片上出现褐色或黑色斑点。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 119,
+  "kind": "insect",
+  "ai": [
+   "Cypermethrin",
+   "Deltamethrin",
+   "Lambda-cyhalothrin"
+  ],
+  "name": {
+   "ms": "Kumbang Koboi",
+   "en": "Leaf-eating Chafer Beetle",
+   "zh": "食叶金龟子"
+  },
+  "sci": "<em>Adoretus compressus</em> / <em>Apogonia</em> sp.",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>This pest attacks young shoots and soft leaves, leaving uneven holes in the foliage. These leaf beetles feed at night, often in large numbers, and can cause serious damage, especially to young durian trees. The level of attack in the field is usually low to moderate. During the day, the beetles hide under dry leaf litter.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices</li><li>Check the orchard regularly, especially when new shoots are coming out.</li><li>Clear weeds and dry leaves where the beetles hide.</li><li>Use light traps if the beetle population is high</li></ul><p>Chemical Control (If Needed)</p><ul><li><p>If the attack goes above the economic threshold level, use an insecticide registered for durian and the target pest, following the product label. Commonly used active ingredients include:</p></li><li>Cypermethrin</li><li>Deltamethrin</li><li>Lambda-cyhalothrin</li><li>When using pesticides, always wear personal protective equipment (PPE) and follow the instructions on the product label, including the recommended dose, the right time to apply and the pre-harvest interval (PHI) before the crop is harvested.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>这种害虫危害嫩梢和嫩叶，在叶片上造成不规则的孔洞。这类食叶甲虫在夜间取食，往往数量很多，可造成严重损害，尤其是对幼龄榴莲树。田间的危害程度通常为低至中等。白天，这些甲虫躲在干枯的落叶下面。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范</li><li>定期检查果园，尤其是在抽新梢期间。</li><li>清除杂草和干枯落叶，因为那是甲虫藏身的地方。</li><li>如果甲虫数量多，可使用诱虫灯</li></ul><p>化学防治（必要时）</p><ul><li><p>如果危害超过经济阈值，按照产品标签使用已登记用于榴莲及目标害虫的杀虫剂。常用的有效成分包括：</p></li><li>氯氰菊酯 Cypermethrin</li><li>溴氰菊酯 Deltamethrin</li><li>高效氯氟氰菊酯 Lambda-cyhalothrin</li><li>使用农药时，务必穿戴个人防护装备（PPE），并遵守产品标签上的指示，包括建议剂量、适当的施药时间，以及收获前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Durian shoots and young leaves are full of holes from the chafer beetle attack</li><li>The beetles are active at night</li></ul>",
+    "zh": "<ul><li>榴莲嫩梢和嫩叶因金龟子危害而出现许多孔洞</li><li>甲虫在夜间活动</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 154,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Lalat Buah",
+   "en": "Fruit Fly",
+   "zh": "果实蝇"
+  },
+  "sci": "<em>Bactrocera</em> spp.",
+  "desc": {
+   "en": "<p>The fly attacks by stinging the fruit and injecting its eggs into it. The larvae that hatch then eat the fruit flesh from the inside.</p><p>Signs of attack include fruit that looks bruised, soft and watery, and if you look at the outside of the fruit you will see marks like needle pricks on the skin. If you check the inside of the fruit, you will find maggots, called larvae. If fruit flies are not controlled, more than 50% of your farm's yield can be destroyed.</p>",
+   "zh": "<p>果实蝇以产卵器刺入果实并把卵产在果实内。孵化出的幼虫随后从内部取食果肉。</p><p>受害的迹象包括果实看起来有瘀伤、变软并出水；仔细观察果实外表，可见像针刺一样的小孔痕迹。如果检查果实内部，会发现蛆虫，也就是幼虫。果实蝇如果不加以防治，可使您果园超过50%的收成被毁。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "The fruit looks bruised, soft and watery, and on the outside of the fruit there are marks like needle pricks on the skin.",
+    "zh": "果实看起来有瘀伤、变软并出水，果实外表可见像针刺一样的小孔痕迹。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 177,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Jalur",
+   "en": "Cabbage Webworm",
+   "zh": "菜心野螟"
+  },
+  "sci": "<em>Hellula undalis</em>",
+  "desc": {
+   "en": "<em>Hellula undalis</em>, the cabbage webworm, is a moth of the family Crambidae. The wingspan is about 18mm. Adult moths have fawn forewings, each with wavy pale lines and a kidney-shaped mark. The hindwings are grey, becoming darker at the edges.",
+   "zh": "<em>Hellula undalis</em>（菜心野螟）是草螟科的一种蛾。翅展约18mm。成虫前翅为浅黄褐色，每片前翅上有波浪状的浅色线纹和一个肾形斑。后翅为灰色，边缘颜色较深。"
+  },
+  "symptoms": [
+   {
+    "en": "The inner part of the leaf blade is eaten, making the leaf see-through. Older larvae bore into and eat the buds or shoots.",
+    "zh": "叶片内部叶肉被取食，使叶片变成半透明。较大的幼虫钻蛀并取食芽或嫩梢。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 194,
+  "kind": "bacteria",
+  "ai": [],
+  "name": {
+   "ms": "Layu Bakteria",
+   "en": "Bacterial Wilt",
+   "zh": "茄子青枯病"
+  },
+  "sci": "<em>Ralstonia solanacearum</em>",
+  "desc": {
+   "en": "The infected plant wilts.<br>This disease occurs at the flowering stage.<br>The stems and branches shrivel and dry up.<br>In the end the plant dies.",
+   "zh": "受害植株萎蔫。<br>此病发生在开花期。<br>茎和枝条皱缩干枯。<br>最终植株死亡。"
+  },
+  "symptoms": [
+   {
+    "en": "The first symptom is wilting of the top leaves. After 2 - 3 days the wilting becomes permanent as the whole plant wilts while the disease develops actively.",
+    "zh": "最初的症状是顶部叶片萎蔫，2 - 3天后随着病害迅速发展，整株萎蔫，并且不再恢复。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 210,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Bintik Daun Cercospora",
+   "en": "Cercospora Leaf Spot",
+   "zh": "辣椒尾孢叶斑病"
+  },
+  "sci": "<em>Cercospora capsici</em>",
+  "desc": {
+   "en": "<ul><li>Small round brown spots like bird's eyes on the leaves.</li><li>Over time the spots grow bigger and turn grey in the centre.</li></ul>",
+   "zh": "<ul><li>叶片上出现像鸟眼一样的褐色小圆斑。</li><li>随着时间推移，斑点逐渐扩大，中央变成灰色。</li></ul>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 237,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Anai-anai",
+   "en": "Termite",
+   "zh": "白蚁"
+  },
+  "sci": "<em>Coptotermes curvignathus</em>",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The termite (<em>Coptotermes curvignathus</em>) is an insect pest that can attack jackfruit. It lives in colonies in the soil and attacks the roots, the base of the trunk and the woody tissue. Attacks usually start at the lower trunk or the root system and are hard to detect at an early stage. Attacked trees become weak, growth is stunted, leaves wilt and the tree may finally die if the attack is not controlled.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good agricultural practices.</li><li>Check the orchard regularly, especially the base of the trunk and the root area, to spot early signs of attack.</li><li>Destroy tree stumps, rotten wood and crop residues that can become termite breeding sites.</li><li>Keep the orchard clean and make sure it has good drainage.</li><li>Avoid planting too closely.</li></ul><p>Chemical Control (If Needed)</p><ul><li>Use chemical pesticides as recommended on the label.</li><li>When using pesticides, always wear personal protective equipment (PPE) and follow the instructions on the product label, including the recommended dose, the right time to apply and the pre-harvest interval (PHI) before the crop is harvested.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>白蚁（<em>Coptotermes curvignathus</em>）是一种可危害菠萝蜜的害虫。它在土壤中群居，危害根部、树干基部和木质组织。危害通常从树干下部或根系开始，早期很难发现。受害树木变得衰弱，生长受阻，叶片萎蔫，如果不加以防治，最终可能死亡。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范。</li><li>定期检查果园，尤其是树干基部和根部区域，以便及早发现危害迹象。</li><li>销毁可能成为白蚁繁殖场所的树桩、朽木和作物残体。</li><li>保持果园清洁，并确保排水良好。</li><li>避免种植过密。</li></ul><p>化学防治（必要时）</p><ul><li>按照标签上的建议使用化学农药。</li><li>使用农药时，务必穿戴个人防护装备（PPE），并遵守产品标签上的指示，包括建议剂量、适当的施药时间，以及收获前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaves wilt quickly.</li><li>The tree dies suddenly.</li><li>Mud tunnels appear on the trunk and the trunk is damaged.</li></ul>",
+    "zh": "<ul><li>叶片迅速萎蔫。</li><li>树木突然死亡。</li><li>树干上出现泥道，树干受损。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 251,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Parthenium",
+   "en": "Parthenium Weed",
+   "zh": "银胶菊"
+  },
+  "sci": "<em>Parthenium hysterophorus</em>",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Asteraceae</p><p><strong>Habitat: </strong>Grows naturally / wild</p><p>Parthenium hysterophorus is often found on disturbed open land, such as farming areas, plantations, roadsides, irrigation channels and newly cleared sites for development or farming. It can grow in many soil types, including sandy, loamy or clay soils. It can survive in dry or moist soil, and grows better when there is enough moisture</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Pulling or uprooting the plants by hand can be an effective way to reduce their numbers, especially in small areas.</li><li>Cutting the plants regularly also reduces the number of flowers and seeds produced, which lowers the chance of spreading.</li><li>Covering the soil with mulch or cover crops that block sunlight will hold back the growth of <em>Parthenium hysterophorus</em>. This is a good way to reduce regrowth in infested areas.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Light, small seeds: The seeds of <em>Parthenium hysterophorus</em> are very light and small, so they can be carried by the wind over long distances. The plant can produce very many seeds (one plant can produce thousands of seeds), which increases its ability to spread to new areas.</li><li>Farm equipment: Farm machines such as tractors and harvesters often carry <em>Parthenium</em> seeds from one place to another. Seeds can get stuck on vehicle wheels or farm tools and be carried to other fields or areas, spreading the plant.</li></ul>",
+   "zh": "<p><strong>科：</strong>菊科（Asteraceae）</p><p><strong>生境：</strong>自然生长／野生</p><p>Parthenium hysterophorus（银胶菊）常见于受干扰的空旷土地，如农业区、种植园、路边、灌溉渠以及为开发或耕作而新开垦的地方。它能在多种土壤中生长，包括沙土、壤土或黏土。它在干燥或潮湿的土壤中都能存活，水分充足时生长更旺盛</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>人工拔除植株可以有效减少其数量，特别是在小面积地区。</li><li>定期割除也能减少开花和结籽的数量，从而降低扩散的可能。</li><li>用覆盖物或能遮挡阳光的覆盖作物盖住土壤，可抑制<em>Parthenium hysterophorus</em>的生长。这是减少受侵染地区再生的好方法。</li></ul><p><strong>传播方式：</strong></p><ul><li>种子轻而小：<em>Parthenium hysterophorus</em>的种子非常轻小，可随风传播到很远的地方。这种植物能产生大量种子（一株可产生数千粒种子），提高了它向新地区扩散的能力。</li><li>农业机械：拖拉机和收割机等农业机械常把<em>Parthenium</em>种子从一个地方带到另一个地方。种子可能卡在车轮或农具上，被带到其他田地或地区，造成这种植物的扩散。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Parthenium weed is a very invasive and poisonous annual herb. It comes from Central and South America but is now widespread in many tropical and subtropical areas &mdash; including India, Pakistan and Africa, and has started to appear in Southeast Asia. Parthenium weed (<em>Parthenium hysterophorus</em>) is a poisonous, highly invasive weed that can harm health, agriculture and ecosystems. It needs continuous and systematic control to stop it spreading further.",
+    "zh": "银胶菊是一种入侵性很强且有毒的一年生草本植物。它原产于中美洲和南美洲，现已广泛分布于许多热带和亚热带地区——包括印度、巴基斯坦和非洲，并已开始出现在东南亚。银胶菊（<em>Parthenium hysterophorus</em>）是一种有毒、高度入侵的杂草，会对健康、农业和生态系统造成不良影响。必须持续而有系统地防治，以防止它进一步扩散。",
+    "steps": []
+   },
+   {
+    "en": "<p>Main features of <em>Parthenium hysterophorus</em></p><ul><li>Plant height: The plant can grow 1 to 2 metres (3 to 6 feet) tall, and taller in some places.</li><li>Leaf size: Leaves can reach about 10 to 25 cm long and about 4 to 10 cm wide.</li><li>Leaf edge: The edges of <em>Parthenium</em> leaves are often toothed or coarsely toothed, giving the leaf a rough texture.</li><li>Small flowers in clusters: The flowers of <em>Parthenium hysterophorus</em> are small and arranged in umbrella-shaped clusters (umbels). Each flower is white with a little yellow in the centre.</li></ul>",
+    "zh": "<p><em>Parthenium hysterophorus</em>的主要特征</p><ul><li>株高：植株可长到1至2米（3至6英尺），在某些地方会更高。</li><li>叶片大小：叶片长约10至25 cm，宽约4至10 cm。</li><li>叶缘：<em>Parthenium</em>的叶缘常有锯齿或粗锯齿，使叶片质地粗糙。</li><li>小花成簇：<em>Parthenium hysterophorus</em>的花很小，排列成伞状花序。每朵花为白色，中央略带黄色。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 263,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate",
+   "2,4-D Amine",
+   "Paraquat"
+  ],
+  "name": {
+   "ms": "Maman",
+   "en": "Fringed Spider Flower",
+   "zh": "皱子白花菜"
+  },
+  "sci": "<em>Cleome rutidosperma</em> DC.",
+  "desc": {
+   "en": "<p><strong>Family: </strong>Cleomaceae</p><p><strong>Habitat:</strong></p><p>Grows wild in: abandoned land, roadsides, farming areas, untended parks or gardens</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Manual (physical) control: Pull out the plant with its roots by hand while it is still young. Use a hoe or spade for larger areas. Throw the weeds away from the crop area; do not leave them to dry and set seed in the field.</li><li>Chemical control (herbicides): Glyphosate (systemic &ndash; absorbed down to the roots, effective for long-term control). 2,4-D Amine (selective herbicide &ndash; effective against broadleaf weeds such as maman). Paraquat (contact herbicide &ndash; kills the top parts but does not reach the roots).</li></ul><p><strong>How it spreads:</strong></p><ul><li>After flowering, <em>Cleome rutidosperma</em> produces pod-shaped fruits.</li><li>The pods contain many small dark seeds.</li><li>When ripe, the pods burst open mechanically (explosive dehiscence), scattering the seeds around.</li></ul>",
+   "zh": "<p><strong>科：</strong>白花菜科（Cleomaceae）</p><p><strong>生境：</strong></p><p>野生于：荒地、路边、农业区、无人打理的公园或园地</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>人工（物理）防治：趁植株还小时连根拔除。面积较大时可用锄头或铲子。把拔出的杂草丢到远离作物的地方，不要让它们留在田里干枯并结籽。</li><li>化学防治（除草剂）：草甘膦 Glyphosate（内吸性——可传导至根部，适合长期防治）。2,4-D Amine 2,4-滴胺盐（选择性除草剂——对付皱子白花菜等阔叶杂草有效）。百草枯 Paraquat（触杀性除草剂——杀死地上部分，但无法到达根部）。</li></ul><p><strong>传播方式：</strong></p><ul><li>开花后，<em>Cleome rutidosperma</em>结出荚果状的果实。</li><li>荚果内含许多深色的细小种子。</li><li>成熟时，荚果会机械性地爆裂开（弹裂），把种子散布到四周。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Cleome rutidosperma</em> DC.</p><ul><li>Leaves: Trifoliate compound leaves (3 leaflets). Oval or oblong with a pointed tip. Dark green with a smooth surface.</li><li>Flowers: Small, bluish-purple or purplish. Made up of 4 petals and long, protruding stamens. Stand out at the tips of the stalks.</li><li>Stem: Soft, with fine hairs, green or light purple.</li><li>Fruit: Small and long like a bean pod, containing many small black seeds.</li></ul>",
+    "zh": "<p><em>Cleome rutidosperma</em> DC.的主要特征</p><ul><li>叶：三出复叶（3片小叶）。椭圆形或长椭圆形，叶尖尖锐。深绿色，表面光滑。</li><li>花：小型，蓝紫色或紫色。由4片花瓣和突出的长雄蕊组成。着生于花梗顶端，十分显眼。</li><li>茎：柔软，有细毛，绿色或浅紫色。</li><li>果：小而长，像豆荚，内含许多黑色小种子。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 275,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Telur Belalang",
+   "en": "Indian Dropseed",
+   "zh": "双蕊鼠尾粟"
+  },
+  "sci": "<em>Sporobolus diander</em> P. Beauv.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> open, dry and sandy areas.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Pull out by hand (for small areas).</li><li>Plough or loosen the soil to remove the roots and rhizomes.</li><li>Cut the grass regularly before it flowers and spreads its seeds.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Wind &ndash; because the seeds are fine and easily blown away.</li><li>Rainwater or running water &ndash; especially on slopes or in farm drainage systems.</li><li>Animals &ndash; seeds can stick to animal fur (epizoochory) or be eaten and passed out again (endozoochory).</li><li>Broken or uprooted roots or stems can grow into new plants if they touch moist soil.</li><li>Movement of farm machines or vehicles carrying soil contaminated with the seeds of this grass to other places.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong>空旷、干燥和沙质的地方。</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>用手拔除（适用于小面积）。</li><li>犁地或松土，以清除根和根茎。</li><li>在开花和散播种子之前定期割草。</li></ul><p><strong>传播方式：</strong></p><ul><li>风——因为种子细小，容易被风吹走。</li><li>雨水或水流——尤其是在斜坡或农场排水系统中。</li><li>动物——种子可粘附在动物毛皮上（体外传播），或被吃下后再随粪便排出（体内传播）。</li><li>折断或被拔起的根或茎接触到湿润土壤时，可长成新的植株。</li><li>农业机械或车辆移动时，把混有这种草种子的泥土带到其他地方。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Sporobolus diander</em>:</p><ul><li>Stem: Slender, upright or slightly creeping. About 30&ndash;100 cm tall. Cylindrical and hollow (like most grasses).</li><li>Leaves: Long and narrow (linear). Leaves can reach 15&ndash;30 cm long and about 2&ndash;5 mm wide. The leaf surface is smooth or slightly hairy, sometimes shiny. Light green to dark green.</li><li>Flowers (inflorescence): The inflorescence is a fine, light panicle (a branched flower cluster).</li><li>The panicle is about 5&ndash;20 cm long, very branched and fine.</li><li>The spikelets (small flower units) are very small and loosely spread, making the panicle look &#39;blurry&#39; or &#39;misty&#39;. Usually light green to silvery.</li><li>Seeds: Very small, light and easily spread by wind. Elliptical or oval. Light brown to silvery. It produces very many seeds &ndash; this makes the grass multiply quickly.</li><li>Roots: A wide-spreading fibrous root system that lets it grow well in shallow or dry soil.</li></ul>",
+    "zh": "<p><em>Sporobolus diander</em>的主要特征：</p><ul><li>茎：细长，直立或稍匍匐。高约30&ndash;100 cm。圆柱形，中空（与大多数禾草一样）。</li><li>叶：长而窄（线形）。叶长可达15&ndash;30 cm，宽约2&ndash;5 mm。叶面光滑或略有毛，有时有光泽。颜色由浅绿至深绿。</li><li>花（花序）：花序为纤细轻盈的圆锥花序（多分枝的花簇）。</li><li>圆锥花序长约5&ndash;20 cm，分枝多而纤细。</li><li>小穗（细小的花单位）非常小，稀疏散布，使圆锥花序看起来&ldquo;模糊&rdquo;或&ldquo;如烟雾一般&rdquo;。通常为浅绿至银白色。</li><li>种子：非常小而轻，容易随风传播。椭圆形或长圆形。浅褐至银白色。结籽量非常大——这使这种草繁殖得很快。</li><li>根：广泛伸展的须根系，使它能在浅薄或干燥的土壤中良好生长。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 292,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Carbendazim",
+   "Mancozeb",
+   "Maneb"
+  ],
+  "name": {
+   "ms": "Bintik Daun Stigmina",
+   "en": "Stigmina Leaf Spot",
+   "zh": "芒果叶斑病"
+  },
+  "sci": "<em>Scolecostigmina mangiferae</em>",
+  "desc": {
+   "en": "<ol><li>Small dark brown or black spots with a lighter centre.</li><li>The spots can merge into larger patches and cause the leaves to drop early.</li><li>Severe infection can weaken the tree and reduce fruit yield.</li></ol><p><strong>Disease management:</strong></p><ul><li>For disease management, always practise <strong>Good Agricultural Practices (GAP)</strong>. Infected leaves that have fallen around the tree must be destroyed to stop the disease spreading.</li><li>Carry out <strong>pruning</strong> of branches to improve air flow in the canopy and reduce humidity around the tree, to lower disease incidence.</li><li>If the attack is severe, spray a <strong>systemic</strong> fungicide (e.g. benomyl, carbendazim), alternating with a contact fungicide (e.g. mancozeb and maneb), every 7 &ndash; 10 days until the disease is under control.</li></ul>",
+   "zh": "<ol><li>深褐色或黑色小斑点，中央颜色较浅。</li><li>斑点可合并成较大的病斑，导致叶片提早脱落。</li><li>严重感染会使树势衰弱，降低果实产量。</li></ol><p><strong>病害管理：</strong></p><ul><li>病害管理方面，应始终实行<strong>良好农业规范（APB/GAP）</strong>。必须销毁树下已受感染并掉落的叶片，以防止病害传播。</li><li>进行枝条<strong>修剪</strong>，以改善树冠内的通风，降低树木周围的湿度，减少病害发生。</li><li>如果危害严重，喷施<strong>内吸性</strong>杀菌剂（例如苯菌灵 Benomyl、多菌灵 Carbendazim），并与接触性杀菌剂（例如代森锰锌 Mancozeb 和代森锰 Maneb）轮换使用，每7 &ndash; 10天喷一次，直到病害得到控制。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small, round or angular dark brown to black spots surrounded by a clear yellow chlorotic halo.</li><li>These spots grow larger and merge into irregular shapes.</li></ul>",
+    "zh": "<ul><li>圆形或多角形的深褐色至黑色小斑点，周围有明显的黄色褪绿晕圈。</li><li>这些斑点逐渐扩大并合并成不规则形状。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 305,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Mancozeb"
+  ],
+  "name": {
+   "ms": "Antraknos",
+   "en": "Onion Anthracnose",
+   "zh": "洋葱炭疽病"
+  },
+  "sci": "<em>Colletotrichum</em> spp.",
+  "desc": {
+   "en": "<p>Anthracnose is caused by the fungus <em>Colletotrichum</em> spp. The disease develops easily in the rainy season because high humidity encourages the fungus to form spores and the spores to germinate. The spores are spread by wind and water splashes, which then infect the crop.</p><p><strong>Disease Management</strong></p><ul><li><p>Use disease-free seed.</p></li><li><p>Apply balanced fertiliser according to the crop's needs.</p></li><li><p>Make sure there is good drainage so that water does not collect in the planting area.</p></li><li><p>Plant on raised beds and avoid the soil being too wet.</p></li><li><p>Practise good field sanitation by removing diseased plants, weeds and crop residues.</p></li><li><p>Avoid sprinkler irrigation, which can spread the disease spores.</p></li><li><p>Practise crop rotation with non-host crops for 2&ndash;3 years.</p></li><li><p>Use fungicides containing the active ingredient benomyl or mancozeb, following the rate and instructions on the product label.</p></li></ul>",
+   "zh": "<p>炭疽病由<em>Colletotrichum</em> spp.（炭疽菌）引起。此病在雨季容易发展，因为高湿度会促进真菌孢子的形成和萌发。孢子通过风和水滴飞溅传播，进而感染作物。</p><p><strong>病害管理</strong></p><ul><li><p>使用无病种子。</p></li><li><p>根据作物需要均衡施肥。</p></li><li><p>确保排水良好，避免种植区积水。</p></li><li><p>在高畦上种植，避免土壤过湿。</p></li><li><p>做好田间卫生，清除病株、杂草和作物残体。</p></li><li><p>避免喷灌，因为它会传播病菌孢子。</p></li><li><p>与非寄主作物轮作2&ndash;3年。</p></li><li><p>按照产品标签上的用量和指示，使用含有效成分苯菌灵 Benomyl 或代森锰锌 Mancozeb 的杀菌剂。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Water-soaked lesions appear on the leaf surface. The lesions turn into white spots and over time become sunken spots on older leaves. Within a week, these spots merge and turn dark brown, forming larger spots.",
+    "zh": "叶面上出现水渍状病斑，病斑转变为白色斑点，日久在老叶上形成凹陷斑。一周内，这些斑点合并并变成深褐色，形成较大的病斑。",
+    "steps": []
+   }
+  ]
+ }
+]
