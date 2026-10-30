@@ -25,6 +25,8 @@
   --bg:#f2eee5; --surface:#fbf8f1; --ink:#2b2822; --muted:#615b50; --line:#ddd5c6;
   --accent:#2a7149; --accent-soft:#dcefe2; --bad:#a3392f; --bad-soft:#f6dfdb;
   --warn:#8a5e08; --warn-soft:#f6ead0; --bar:#24432f; --bar-ink:#eef5ef;
+  --c-insect:#94590a; --c-insect-soft:#f6e6c9; --c-fungus:#7a4a8c; --c-fungus-soft:#efe2f3; --c-bact:#2f6596; --c-bact-soft:#dde9f4;
+  --c-virus:#a3392f; --c-virus-soft:#f6dfdb; --c-nema:#6b5a3a; --c-nema-soft:#ece4d4; --c-alga:#2f7a70; --c-alga-soft:#d8eeea;
   --f-display:"Young Serif", Georgia, serif;
   --f-body:"Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --tabbar:64px; --topbar:56px; color-scheme:light;
@@ -32,11 +34,17 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#121a15; --surface:#1a241e; --ink:#dcd6c8; --muted:#a29c8f; --line:#2e3c34;
   --accent:#72c693; --accent-soft:#1f3628; --bad:#ef8f84; --bad-soft:#3d2320;
-  --warn:#e2b14e; --warn-soft:#3a2f17; --bar:#2f5a3e; --bar-ink:#eef5ef; color-scheme:dark}}
+  --warn:#e2b14e; --warn-soft:#3a2f17; --bar:#2f5a3e; --bar-ink:#eef5ef;
+  --c-insect:#e2b14e; --c-insect-soft:#3a2f17; --c-fungus:#cfa1e0; --c-fungus-soft:#33263a; --c-bact:#8fbce6; --c-bact-soft:#1e2d3b;
+  --c-virus:#ef8f84; --c-virus-soft:#3d2320; --c-nema:#cdb88e; --c-nema-soft:#352d20; --c-alga:#7fd0c3; --c-alga-soft:#1b3330;
+  color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#121a15; --surface:#1a241e; --ink:#dcd6c8; --muted:#a29c8f; --line:#2e3c34;
   --accent:#72c693; --accent-soft:#1f3628; --bad:#ef8f84; --bad-soft:#3d2320;
-  --warn:#e2b14e; --warn-soft:#3a2f17; --bar:#2f5a3e; --bar-ink:#eef5ef; color-scheme:dark}
+  --warn:#e2b14e; --warn-soft:#3a2f17; --bar:#2f5a3e; --bar-ink:#eef5ef;
+  --c-insect:#e2b14e; --c-insect-soft:#3a2f17; --c-fungus:#cfa1e0; --c-fungus-soft:#33263a; --c-bact:#8fbce6; --c-bact-soft:#1e2d3b;
+  --c-virus:#ef8f84; --c-virus-soft:#3d2320; --c-nema:#cdb88e; --c-nema-soft:#352d20; --c-alga:#7fd0c3; --c-alga-soft:#1b3330;
+  color-scheme:dark}
 :lang(zh){--f-display:"Noto Serif SC","Source Han Serif SC","Songti SC",serif;
   --f-body:system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
 :lang(zh) body{font-size:1.1rem;font-weight:500;line-height:1.7}
@@ -100,11 +108,11 @@ main{padding-top:calc(var(--topbar) + env(safe-area-inset-top,0px));
 .sci{color:var(--muted);font-size:.9rem;display:block}
 .row .t small{color:var(--muted);font-size:.82rem}
 .row .chev{color:var(--muted)}
-.kind{display:inline-block;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;font-weight:700;border-radius:999px;padding:1px 8px;align-self:flex-start}
 
 /* Pest detail */
 .hero{border-radius:14px;overflow:hidden;background:#fff;cursor:zoom-in}
 .hero img{width:100%;max-height:440px;object-fit:contain;display:block}
+.title{display:flex;flex-direction:column;gap:4px}
 .title h2{font-size:1.5rem}
 .title .alt{color:var(--muted);font-size:.95rem;margin-top:4px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
@@ -160,6 +168,39 @@ mark{background:var(--warn-soft);color:inherit;border-radius:3px}
 .ghost{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 16px;font-weight:700;cursor:pointer}
 .progress{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
 .progress span{display:block;height:100%;background:var(--accent);transition:width .3s}
+
+/* Kind tags, guide, progress */
+.kind{display:inline-block;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;font-weight:700;border-radius:999px;padding:1px 8px;align-self:flex-start;background:var(--kc-soft);color:var(--kc)}
+.k-insect{--kc:var(--c-insect);--kc-soft:var(--c-insect-soft)} .k-fungus{--kc:var(--c-fungus);--kc-soft:var(--c-fungus-soft)}
+.k-bacteria{--kc:var(--c-bact);--kc-soft:var(--c-bact-soft)} .k-virus{--kc:var(--c-virus);--kc-soft:var(--c-virus-soft)}
+.k-nematode{--kc:var(--c-nema);--kc-soft:var(--c-nema-soft)} .k-alga{--kc:var(--c-alga);--kc-soft:var(--c-alga-soft)}
+.k-mammal{--kc:var(--muted);--kc-soft:var(--line)}
+.kindcard{border-left:4px solid var(--kc)}
+.kindcard summary{cursor:pointer;display:flex;flex-direction:column;gap:2px;list-style:none}
+.kindcard summary::-webkit-details-marker{display:none}
+.kindcard summary b{font-family:var(--f-display);font-weight:400;font-size:1.15rem;color:var(--kc)}
+:lang(zh) .kindcard summary b{font-weight:700}
+.kindcard summary small{color:var(--muted);font-size:.85rem}
+.kindcard[open] summary{margin-bottom:4px}
+.kv{display:grid;gap:4px 0}
+.kv b{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:6px}
+.gloss{margin:0;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.gloss div{padding:12px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.gloss dt{font-weight:700;display:flex;flex-direction:column}
+.gloss dt small{font-weight:400;color:var(--muted);font-size:.85rem}
+.gloss dd{margin:0}
+.guidelink{display:grid;grid-template-columns:minmax(0,1fr) 12px;gap:2px 10px;align-items:center;text-decoration:none;color:inherit;background:var(--accent-soft);border-radius:14px;padding:14px 16px}
+.guidelink b{color:var(--accent)} .guidelink span:not(.chev){grid-column:1;color:var(--muted);font-size:.9rem} .guidelink .chev{grid-row:1/3;grid-column:2;color:var(--accent)}
+.mbar{display:block;height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-top:6px}
+.mbar span{display:block;height:100%;background:var(--accent)}
+.opts.small .opt{padding:6px 12px;font-size:.9rem}
+.opt small{color:var(--muted);font-weight:400}
+.prog{display:flex;flex-direction:column;gap:6px}
+.progress.thin{height:4px}
+.feedback{gap:8px}
+.feedback.good{border-color:var(--accent);background:var(--accent-soft)}
+.feedback.badc{border-color:var(--bad);background:var(--bad-soft)}
+.small{font-size:.9rem}
 
 /* Tabs */
 .tabs{position:fixed;inset:auto 0 0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);
@@ -236,6 +277,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
     <div class="blk"><b data-t="theme"></b><div class="seg three" id="setTheme"><button type="button" data-v="system" data-t="themeSys"></button><button type="button" data-v="light" data-t="themeLight"></button><button type="button" data-v="dark" data-t="themeDark"></button></div></div>
     <div class="blk"><b data-t="textSize"></b><div class="seg four" id="setSize"><button type="button" data-v="0" style="font-size:.85rem">A</button><button type="button" data-v="1">A</button><button type="button" data-v="2" style="font-size:1.15rem">A</button><button type="button" data-v="3" style="font-size:1.3rem">A</button></div></div>
     <div class="blk"><b data-t="offlineTitle"></b><p data-t="offlineLede"></p><button class="ghost" type="button" id="dlBtn" data-t="offlineBtn"></button><p id="dlMsg" hidden></p></div>
+    <div class="blk"><b data-t="progress"></b><p data-t="masteredHint"></p><button class="ghost" type="button" id="resetBtn" data-t="resetProgress"></button></div>
     <div class="blk"><b data-t="aboutTitle"></b><p data-t="aboutBody"></p><p data-t="aboutDisclaimer"></p><a href="https://smarttani.sabah.gov.my/ALUS/Pest/" target="_blank" rel="noopener" data-t="aboutLink"></a></div>
     <p class="ver" id="ver"></p>
   </div>
@@ -263,8 +305,9 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 
 <script src="i18n.js"></script>
 <script src="data.js"></script>
+<script src="guide.js"></script>
 <script>
-const VERSION = '1.0.0';
+const VERSION = '1.1.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -288,30 +331,49 @@ const img = (f, cls = '', alt = '') => f ? `<img src="${thumb(f)}" data-full="${
 const bigImg = (f, cls = '', alt = '') => f ? `<img src="${full(f)}" data-full="${full(f)}" class="${cls}" alt="${esc(alt)}" loading="lazy" decoding="async">` : '';
 
 /* ---------- Views ---------- */
+const kindTag = p => p.kind ? `<span class="kind k-${KINDS[p.kind].color}">${esc(t('kind_' + p.kind))}</span>` : '';
 function pestRow(p, extra = '') {
   const f = firstImg(p);
   return `<a class="row" href="#pest/${p.id}">${f ? img(f, '', '') : '<span class="noimg"></span>'}
-    <span class="t"><b>${esc(L(p.name))}</b><span class="sci">${p.sci}</span>${extra}</span><span class="chev">›</span></a>`;
+    <span class="t">${kindTag(p)}<b>${esc(L(p.name))}</b><span class="sci">${p.sci}</span>${extra}</span><span class="chev">›</span></a>`;
 }
 function vCrops() {
   return `<p class="eyebrow">${esc(t('appSub'))}</p><h2>${esc(t('cropsTitle'))}</h2><p class="lede">${esc(t('cropsLede'))}</p>
   <div class="grid">${DATA.crops.map(c => `<a class="crop" href="#crop/${c.code}"><span class="ph">${c.img ? `<img src="${thumb(c.img)}" alt="" loading="lazy">` : ''}</span>
-    <span class="t"><b>${esc(L(c.name))}</b><small>${esc(t('nPests', c.pests.length))}</small></span></a>`).join('')}</div>`;
+    <span class="t"><b>${esc(L(c.name))}</b><small>${esc(t('nPests', c.pests.length))}</small>${masteryBar(c)}</span></a>`).join('')}</div>
+  <a class="guidelink" href="#guide"><b>${esc(t('openGuide'))}</b><span>${esc(t('guideKinds'))} · ${esc(t('glossary'))}</span><span class="chev">›</span></a>`;
 }
+let kindFilter = 'ALL';
 function vCrop(code) {
   const c = CROPS.get(code); if (!c) return vCrops();
-  const ps = c.pests.map(id => PESTS.get(id)).filter(Boolean).sort((a, b) => L(a.name).localeCompare(L(b.name), lang));
+  const all = c.pests.map(id => PESTS.get(id)).filter(Boolean).sort((a, b) => L(a.name).localeCompare(L(b.name), lang));
+  const kinds = [...new Set(all.map(p => p.kind))];
+  if (kindFilter !== 'ALL' && !kinds.includes(kindFilter)) kindFilter = 'ALL';
+  const ps = all.filter(p => kindFilter === 'ALL' || p.kind === kindFilter);
   return `<button class="backbtn" type="button" data-back>‹ ${esc(t('back'))}</button>
-  <h2>${esc(L(c.name))}</h2><p class="lede">${esc(t('nPests', ps.length))}</p>
+  <h2>${esc(L(c.name))}</h2><p class="lede">${esc(t('nPests', all.length))}</p>
+  ${kinds.length > 1 ? `<div class="opts small" id="kFilter"><button class="opt" type="button" data-v="ALL" aria-pressed="${kindFilter === 'ALL'}">${esc(t('allKinds'))}</button>${kinds.map(k => `<button class="opt" type="button" data-v="${k}" aria-pressed="${kindFilter === k}">${esc(t('kind_' + k))} <small>${all.filter(p => p.kind === k).length}</small></button>`).join('')}</div>` : ''}
   <div class="list">${ps.map(p => pestRow(p)).join('')}</div>`;
+}
+/* Other pests on the same crop that show symptoms on the same plant part */
+function lookalikes(p) {
+  const parts = new Set(p.symptoms.map(s => s.part).filter(x => !['PEST', 'MORFOLOGI', 'LC'].includes(x)));
+  const out = [];
+  DATA.pests.forEach(o => {
+    if (o === p || !o.crops.some(c => p.crops.includes(c))) return;
+    const shared = o.symptoms.filter(s => parts.has(s.part)).map(s => s.part);
+    if (shared.length) out.push([o, [...new Set(shared)]]);
+  });
+  return out;
 }
 function vPest(id) {
   const p = PESTS.get(+id); if (!p) return vCrops();
-  const hero = firstImg(p);
+  const hero = firstImg(p), K = p.kind && KINDS[p.kind];
   const syms = p.symptoms.slice().sort((a, b) => PART_ORDER.indexOf(a.part) - PART_ORDER.indexOf(b.part));
-  return `<button class="backbtn" type="button" data-back>‹ ${esc(t('back'))}</button>
+  const look = lookalikes(p);
+  return `<div class="bar"><button class="backbtn" type="button" data-back>‹ ${esc(t('back'))}</button><button class="pill" type="button" id="shareBtn">${esc(t('share'))}</button></div>
   ${hero ? `<div class="hero">${bigImg(hero, '', L(p.name))}</div>` : ''}
-  <div class="title"><h2>${esc(L(p.name))}</h2><p class="alt sci">${p.sci}</p>
+  <div class="title">${kindTag(p)}<h2>${esc(L(p.name))}</h2><p class="alt sci">${p.sci}</p>
     <p class="alt">${['ms', 'en', 'zh'].filter(l => l !== lang).map(l => esc(p.name[l] || '')).filter(Boolean).join(' · ')}</p></div>
   <div class="blk"><span class="eyebrow">${esc(t('affected'))}</span><div class="chips">${p.crops.map(c => `<a class="chip" href="#crop/${c}">${esc(L(CROPS.get(c).name))}</a>`).join('')}</div></div>
   ${L(p.desc) ? `<div class="card"><h3>${esc(t('about'))}</h3><div class="rich">${L(p.desc)}</div></div>` : ''}
@@ -321,7 +383,23 @@ function vPest(id) {
     <div class="rich">${L(s.text)}</div>
     ${s.steps.some(st => L(st.text) || st.img) ? `<details class="steps"><summary>${esc(t('steps'))}</summary>${s.steps.map((st, i) => `<div class="step${st.img ? '' : ' noimg'}">${img(st.img)}<div><div class="n">${esc(t('stepN', i + 1))}</div><div class="rich">${L(st.text)}</div></div></div>`).join('')}</details>` : ''}
   </div>`).join('')}</div>` : ''}
+  ${K ? `<details class="card kindcard k-${K.color}"><summary><span class="eyebrow">${esc(t('kindTitle'))}</span><b>${esc(L(K.name))}</b></summary>
+    <div class="kv"><b>${esc(t('kindWhat'))}</b><p>${esc(L(K.what))}</p><b>${esc(t('kindSign'))}</b><p>${esc(L(K.sign))}</p><b>${esc(t('kindControl'))}</b><p>${esc(L(K.control))}</p></div></details>` : ''}
+  ${look.length ? `<div class="card"><h3>${esc(t('lookalike'))}</h3><p class="lede">${esc(t('lookalikeLede'))}</p>
+    <div class="list">${look.map(([o, parts]) => pestRow(o, `<small>${parts.map(x => esc(L(DATA.parts[x]))).join(' · ')}</small>`)).join('')}</div></div>` : ''}
   <p class="src">${esc(t('source'))}: <a href="${sourceUrl(p)}" target="_blank" rel="noopener">smarttani.sabah.gov.my</a></p>`;
+}
+
+/* Guide: kinds of cause, then glossary */
+function vGuide() {
+  const count = k => DATA.pests.filter(p => p.kind === k).length;
+  return `<button class="backbtn" type="button" data-back>‹ ${esc(t('back'))}</button>
+  <h2>${esc(t('guideKinds'))}</h2><p class="lede">${esc(t('guideKindsLede'))}</p>
+  ${Object.entries(KINDS).map(([k, K]) => `<details class="card kindcard k-${K.color}" id="kind-${k}"><summary><b>${esc(L(K.name))}</b><small>${esc(t('nPests', count(k)))}</small></summary>
+    <div class="kv"><b>${esc(t('kindWhat'))}</b><p>${esc(L(K.what))}</p><b>${esc(t('kindSign'))}</b><p>${esc(L(K.sign))}</p><b>${esc(t('kindControl'))}</b><p>${esc(L(K.control))}</p></div>
+    <div class="chips">${DATA.pests.filter(p => p.kind === k).map(p => `<a class="chip" href="#pest/${p.id}">${esc(L(p.name))}</a>`).join('')}</div></details>`).join('')}
+  <h2 id="glossary">${esc(t('glossary'))}</h2><p class="lede">${esc(t('glossaryLede'))}</p>
+  <dl class="gloss">${GLOSSARY.map(g => `<div><dt>${esc(L(g.t))}<small>${['ms', 'en', 'zh'].filter(l => l !== lang).map(l => esc(g.t[l])).join(' · ')}</small></dt><dd>${esc(L(g.d))}</dd></div>`).join('')}</dl>`;
 }
 
 /* Diagnose: crop -> part -> matching symptoms */
@@ -367,45 +445,78 @@ function renderSearch() {
   el.innerHTML = hits == null ? `<p class="lede">${esc(t('searchHint'))}</p>` : hits.length ? hits.map(p => pestRow(p, `<small>${p.crops.map(c => esc(L(CROPS.get(c).name))).join(' · ')}</small>`)).join('') : `<p class="lede">${esc(t('searchNone'))}</p>`;
 }
 
-/* Learn: flashcards and quiz built from every symptom photo */
+/* Learn: photo quiz (name or type) and flashcards, built from every symptom photo.
+   Progress per pest is kept on this phone; weak and unseen pests come up more often. */
+let stats = store.get('stats', {});
+const isMastered = id => { const s = stats[id]; return !!s && s.r >= 2 && s.last };
+function record(id, ok) { const s = stats[id] || { r: 0, w: 0, last: false }; ok ? s.r++ : s.w++; s.last = ok; stats[id] = s; store.set('stats', stats) }
+function masteryBar(c) {
+  const n = c.pests.length, m = c.pests.filter(isMastered).length;
+  if (!Object.keys(stats).length) return '';
+  return `<span class="mbar" title="${esc(t('mastered', m, n))}"><span style="width:${n ? m / n * 100 : 0}%"></span></span>`;
+}
 let learn = { mode: store.get('learnMode', 'quiz'), crop: 'ALL', deck: [], i: 0, score: 0, answered: false, shown: false, opts: [] };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]] } return a };
 function buildDeck() {
-  const cards = [];
+  const byPest = new Map();
   DATA.pests.forEach(p => {
     if (learn.crop !== 'ALL' && !p.crops.includes(learn.crop)) return;
-    p.symptoms.forEach(s => { if (s.img) cards.push({ p, s }) });
+    const ss = p.symptoms.filter(s => s.img); if (ss.length) byPest.set(p, ss);
   });
-  learn.deck = shuffle(cards).slice(0, 10); learn.i = 0; learn.score = 0; learn.answered = false; learn.shown = false; prepQ();
+  // weighted draw without replacement: missed last time 5, unseen 3, seen 2, mastered 1
+  const pool = [...byPest.keys()].map(p => { const s = stats[p.id]; return { p, w: !s ? 3 : !s.last ? 5 : isMastered(p.id) ? 1 : 2 } });
+  const deck = [];
+  while (deck.length < 10 && pool.length) {
+    let r = Math.random() * pool.reduce((a, x) => a + x.w, 0), k = 0;
+    while ((r -= pool[k].w) > 0) k++;
+    const { p } = pool.splice(k, 1)[0], ss = byPest.get(p);
+    deck.push({ p, s: ss[Math.random() * ss.length | 0] });
+  }
+  learn.deck = deck; learn.i = 0; learn.score = 0; prepQ();
 }
 function prepQ() {
-  const cur = learn.deck[learn.i]; if (!cur) return;
-  const pool = DATA.pests.filter(p => p !== cur.p && (learn.crop === 'ALL' ? p.crops.some(c => cur.p.crops.includes(c)) : p.crops.includes(learn.crop)));
-  const extra = shuffle(pool.length >= 3 ? pool : DATA.pests.filter(p => p !== cur.p)).slice(0, 3);
-  learn.opts = shuffle([cur.p, ...extra]); learn.answered = false; learn.shown = false;
+  const cur = learn.deck[learn.i]; learn.answered = false; learn.shown = false; if (!cur) return;
+  if (learn.mode === 'type') {
+    const others = shuffle(Object.keys(KINDS).filter(k => k !== cur.p.kind && k !== 'lichen')).slice(0, 3);
+    learn.opts = shuffle([cur.p.kind, ...others]); return;
+  }
+  const same = DATA.pests.filter(p => p !== cur.p && p.crops.some(c => cur.p.crops.includes(c)));
+  const extra = shuffle(same).slice(0, 3);
+  if (extra.length < 3) extra.push(...shuffle(DATA.pests.filter(p => p !== cur.p && !extra.includes(p))).slice(0, 3 - extra.length));
+  learn.opts = shuffle([cur.p, ...extra]);
 }
 function vLearn() {
   if (!learn.deck.length) buildDeck();
   const n = learn.deck.length, cur = learn.deck[learn.i];
+  const scope = learn.crop === 'ALL' ? DATA.pests : DATA.pests.filter(p => p.crops.includes(learn.crop));
+  const m = scope.filter(p => isMastered(p.id)).length;
   let h = `<h2>${esc(t('learnTitle'))}</h2><p class="lede">${esc(t('learnLede'))}</p>
-  <div class="seg" id="lMode"><button type="button" data-v="quiz" aria-pressed="${learn.mode === 'quiz'}">${esc(t('quiz'))}</button><button type="button" data-v="cards" aria-pressed="${learn.mode === 'cards'}">${esc(t('cards'))}</button></div>
-  <div class="opts" id="lCrop"><button class="opt" type="button" data-v="ALL" aria-pressed="${learn.crop === 'ALL'}">${esc(t('allCrops'))}</button>${DATA.crops.map(c => `<button class="opt" type="button" data-v="${c.code}" aria-pressed="${learn.crop === c.code}">${esc(L(c.name))}</button>`).join('')}</div>`;
-  if (!cur) return h + `<div class="card"><p>${esc(t('quizDone', learn.score, n))}</p><button class="primary" type="button" id="lAgain">${esc(t('again'))}</button></div>`;
-  h += `<div class="bar"><span class="eyebrow">${learn.i + 1} / ${n}</span>${learn.mode === 'quiz' ? `<span class="eyebrow">${esc(t('score', learn.score, learn.i + (learn.answered ? 1 : 0)))}</span>` : ''}</div>
-  <div class="progress"><span style="width:${(learn.i / n) * 100}%"></span></div>`;
+  <div class="seg three" id="lMode">${['quiz', 'type', 'cards'].map(k => `<button type="button" data-v="${k}" aria-pressed="${learn.mode === k}">${esc(t(k === 'type' ? 'quizType' : k))}</button>`).join('')}</div>
+  <div class="opts small" id="lCrop"><button class="opt" type="button" data-v="ALL" aria-pressed="${learn.crop === 'ALL'}">${esc(t('allCrops'))}</button>${DATA.crops.map(c => `<button class="opt" type="button" data-v="${c.code}" aria-pressed="${learn.crop === c.code}">${esc(L(c.name))}</button>`).join('')}</div>
+  <div class="prog"><div class="bar"><span class="eyebrow">${esc(t('progress'))}</span><span class="eyebrow">${esc(t('mastered', m, scope.length))}</span></div>
+    <div class="progress"><span style="width:${scope.length ? m / scope.length * 100 : 0}%"></span></div></div>`;
+  if (!cur) return h + `<div class="card"><p>${esc(t('quizDone', learn.score, n))}</p><button class="primary" type="button" id="lAgain">${esc(t('again'))}</button>
+    <p class="lede small">${esc(t('masteredHint'))}</p></div>`;
+  h += `<div class="bar"><span class="eyebrow">${learn.i + 1} / ${n}</span>${learn.mode !== 'cards' ? `<span class="eyebrow">${esc(t('score', learn.score, learn.i + (learn.answered ? 1 : 0)))}</span>` : ''}</div>
+  <div class="progress thin"><span style="width:${(learn.i / n) * 100}%"></span></div>`;
   const pic = bigImg(cur.s.img, 'qimg', '');
-  const crops = cur.p.crops.map(c => L(CROPS.get(c).name)).join(' · ');
+  const where = `${cur.p.crops.map(c => esc(L(CROPS.get(c).name))).join(' · ')} · ${esc(L(DATA.parts[cur.s.part]))}`;
+  const answerBlock = `<a href="#pest/${cur.p.id}">${esc(t('diagOpen'))} ›</a>`;
   if (learn.mode === 'cards') {
-    h += `<div class="flash">${pic}<div class="a"><span class="qpart">${esc(crops)} · ${esc(L(DATA.parts[cur.s.part]))}</span>
-      ${learn.shown ? `<b>${esc(L(cur.p.name))}</b><span class="sci">${cur.p.sci}</span><div class="rich">${L(cur.s.text)}</div><a href="#pest/${cur.p.id}">${esc(t('diagOpen'))}</a>`
+    return h + `<div class="flash">${pic}<div class="a"><span class="qpart">${where}</span>
+      ${learn.shown ? `${kindTag(cur.p)}<b>${esc(L(cur.p.name))}</b><span class="sci">${cur.p.sci}</span><div class="rich">${L(cur.s.text)}</div>${answerBlock}`
         : `<p class="lede">${esc(t('cardsHint'))}</p>`}</div></div>
       <button class="primary" type="button" id="${learn.shown ? 'lNext' : 'lShow'}">${esc(learn.shown ? t('next') : t('reveal'))}</button>`;
-  } else {
-    h += `${pic}<span class="qpart">${esc(crops)} · ${esc(L(DATA.parts[cur.s.part]))}</span><b>${esc(t('quizQ'))}</b>
-      <div class="answers">${learn.opts.map((p, i) => `<button type="button" data-i="${i}" ${learn.answered ? 'disabled' : ''} class="${learn.answered ? (p === cur.p ? 'ok' : (learn.pick === i ? 'no' : '')) : ''}">${esc(L(p.name))}<span class="sci">${p.sci}</span></button>`).join('')}</div>
-      ${learn.answered ? `<p role="status"><b>${learn.opts[learn.pick] === cur.p ? esc(t('right')) : esc(t('wrong')) + ' ' + esc(L(cur.p.name))}</b></p>
-        <div class="rich">${L(cur.s.text)}</div>
-        <button class="primary" type="button" id="lNext">${esc(t('next'))}</button>` : ''}`;
+  }
+  const isType = learn.mode === 'type', correct = isType ? cur.p.kind : cur.p;
+  const label = o => isType ? esc(t('kind_' + o)) : `${esc(L(o.name))}<span class="sci">${o.sci}</span>`;
+  h += `${pic}<span class="qpart">${where}</span><b>${esc(t(isType ? 'quizTypeQ' : 'quizQ'))}</b>
+    <div class="answers">${learn.opts.map((o, i) => `<button type="button" data-i="${i}" ${learn.answered ? 'disabled' : ''} class="${learn.answered ? (o === correct ? 'ok' : (learn.pick === i ? 'no' : '')) : ''}">${label(o)}</button>`).join('')}</div>`;
+  if (learn.answered) {
+    const ok = learn.opts[learn.pick] === correct;
+    h += `<div class="card feedback ${ok ? 'good' : 'badc'}" role="status"><b>${ok ? esc(t('right')) : esc(t('wrong')) + ' ' + (isType ? esc(t('kind_' + correct)) : esc(L(cur.p.name)))}</b>
+      ${isType ? `<p>${kindTag(cur.p)} ${esc(L(cur.p.name))}</p><p class="small">${esc(L(KINDS[cur.p.kind].sign))}</p>` : `<div class="rich">${L(cur.s.text)}</div>`}${answerBlock}</div>
+      <button class="primary" type="button" id="lNext">${esc(t('next'))}</button>`;
   }
   return h;
 }
@@ -421,9 +532,9 @@ function render(keepScroll) {
   $('#offline').textContent = t('offline');
   $('#ver').textContent = t('version', VERSION);
   const [r, a, b] = route, v = $('#view');
-  const tab = r === 'crop' || r === 'pest' ? 'crops' : (['crops', 'diag', 'learn', 'search'].includes(r) ? r : 'crops');
+  const tab = r === 'crop' || r === 'pest' || r === 'guide' ? 'crops' : (['crops', 'diag', 'learn', 'search'].includes(r) ? r : 'crops');
   $$('.tabs a').forEach(x => x.dataset.tab === tab ? x.setAttribute('aria-current', 'page') : x.removeAttribute('aria-current'));
-  v.innerHTML = r === 'crop' ? vCrop(a) : r === 'pest' ? vPest(a) : r === 'diag' ? vDiag(a, b) : r === 'learn' ? vLearn() : r === 'search' ? vSearch() : vCrops();
+  v.innerHTML = r === 'crop' ? vCrop(a) : r === 'pest' ? vPest(a) : r === 'diag' ? vDiag(a, b) : r === 'learn' ? vLearn() : r === 'search' ? vSearch() : r === 'guide' ? vGuide() : vCrops();
   if (r === 'search') { renderSearch(); const i = $('#q'); i.addEventListener('input', () => { q = i.value; renderSearch() }); if (!keepScroll) i.focus({ preventScroll: true }) }
   if (!keepScroll) { window.scrollTo(0, 0); v.focus({ preventScroll: true }) }
 }
@@ -442,13 +553,27 @@ document.addEventListener('click', e => {
   const im = e.target.closest('img[data-full]');
   if (im && !e.target.closest('a')) { openViewer(im.dataset.full, im.alt); return }
   const m = e.target.closest('#lMode button'); if (m) { learn.mode = m.dataset.v; store.set('learnMode', learn.mode); buildDeck(); render(true); return }
+  const kf = e.target.closest('#kFilter button'); if (kf) { kindFilter = kf.dataset.v; render(true); return }
+  if (e.target.closest('#shareBtn')) { sharePest(); return }
+  if (e.target.closest('#resetBtn')) { stats = {}; store.set('stats', stats); toast(t('resetDone')); return }
   const c = e.target.closest('#lCrop button'); if (c) { learn.crop = c.dataset.v; buildDeck(); render(true); return }
   if (e.target.closest('#lShow')) { learn.shown = true; render(true); return }
   if (e.target.closest('#lNext')) { learn.i++; prepQ(); render(true); window.scrollTo(0, 0); return }
   if (e.target.closest('#lAgain')) { buildDeck(); render(true); return }
   const ans = e.target.closest('.answers button');
-  if (ans && !learn.answered) { learn.pick = +ans.dataset.i; learn.answered = true; if (learn.opts[learn.pick] === learn.deck[learn.i].p) learn.score++; render(true); return }
+  if (ans && !learn.answered) {
+    const cur = learn.deck[learn.i]; learn.pick = +ans.dataset.i; learn.answered = true;
+    const ok = learn.opts[learn.pick] === (learn.mode === 'type' ? cur.p.kind : cur.p);
+    if (ok) learn.score++;
+    if (learn.mode === 'quiz') record(cur.p.id, ok);
+    render(true); $('.feedback')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); return
+  }
 });
+async function sharePest() {
+  const url = location.href, title = $('.title h2')?.textContent || t('appName');
+  try { if (navigator.share) { await navigator.share({ title, url }); return } } catch { return }
+  try { await navigator.clipboard.writeText(title + '\n' + url); toast(t('copied')) } catch {}
+}
 function setLang(l) { lang = l; store.set('lang', l); render(true) }
 
 /* Settings sheet */

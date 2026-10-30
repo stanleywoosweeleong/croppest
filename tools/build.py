@@ -54,6 +54,15 @@ for c in data["crops"]:
     c["pests"] = [i for i in c["pests"] if any(p["id"] == i for p in data["pests"])]
     first = next((s["img"] for i in c["pests"] for p in data["pests"] if p["id"] == i for s in p["symptoms"] if s["img"]), None)
     c["img"] = first
+KIND = {  # what kind of organism causes it: decides which control works
+ "bacteria": [1, 38, 71, 79, 97, 159, 288],
+ "fungus": [2, 4, 20, 22, 29, 41, 42, 43, 44, 47, 90, 92, 100, 102, 128, 129, 182, 183, 283],
+ "oomycete": [16, 132, 171], "virus": [45], "nematode": [3, 286, 290], "alga": [25, 27, 126], "lichen": [26],
+ "insect": [104, 105, 106, 109, 110, 112, 117, 118, 120, 122, 124, 125, 127, 131, 134, 156, 157, 173, 310],
+ "mammal": [309]}
+for p in data["pests"]:
+    p["kind"] = next((k for k, ids in KIND.items() if p["id"] in ids), None)
+    if not p["kind"]: print("no kind for", p["id"])
 for p in data["pests"]: p.pop("affected", None)
 for k, v in data["parts"].items(): v["zh"] = PARTS.get(k, v.get("en", k))
 # only pests attached to some crop are reachable; keep the rest too (search finds them)

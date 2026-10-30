@@ -11,7 +11,10 @@ What's inside:
 
 - **Crops:** 14 crops with their pests and diseases (photos, description, management advice, symptoms by plant part, confirmation steps).
 - **Diagnose:** choose the crop and the damaged part, then compare the photos and symptoms.
-- **Learn:** a photo quiz and flashcards, for all crops or one crop.
+- **Type tags:** each problem is marked insect, fungus, water mould, bacteria, virus, nematode, alga, lichen or animal, with a filter on each crop.
+- **Look-alikes:** each pest page lists other problems on the same crop and plant part, to practise telling them apart.
+- **Learn:** a photo quiz (name the cause), a type quiz (what kind of organism), and flashcards. Progress is saved on the phone; pests you miss come back more often.
+- **Guide:** what each type of cause is, how to recognise it and how it is controlled, plus a glossary of terms, in all three languages (`guide.js`).
 - **Search:** finds any pest in any of the three languages.
 - **Offline:** Settings → *Download all photos* saves everything on the phone for use in the field.
 

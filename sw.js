@@ -2,7 +2,7 @@
 // the cache is only an offline fallback. Photos are cache-first: they never change at a given name.
 // Other apps share this address (stanleywoosweeleong.github.io) and its Cache Storage,
 // so this worker only touches caches whose names start with 'croppest'.
-const CACHE = 'croppest-v1';
+const CACHE = 'croppest-v2';
 const IMG = 'croppest-img';
 const MINE = k => k.startsWith('croppest');
 const SHELL = [
@@ -10,6 +10,7 @@ const SHELL = [
   './index.html',
   './i18n.js',
   './data.js',
+  './guide.js',
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
