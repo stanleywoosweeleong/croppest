@@ -362,7 +362,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '2.4.0';
+const VERSION = '2.5.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -438,14 +438,64 @@ const aiChip = a => { const r = regOf(a);
 function regNotes(ais) {
   return ais.map(a => { const r = regOf(a); if (!r) return '';
     return r.level === 'banned' ? `<p class="regwarn">${esc(t('regBan', a, r.since))}</p>` : r.level === 'unreg' ? `<p class="regwarn">${esc(t('regUnreg', a))}</p>`
-      : r.level === 'phaseout' ? `<p class="regwarn soft">${esc(t('regPhase', a))}</p>` : '' }).join('');
+      : r.note ? `<p class="regwarn soft">${esc(t('regLimit', a, L(r.note)))}</p>` : '' }).join('');
+}
+/* Groups of similar problems: [fine group, broad group]. Used to borrow the active ingredients Smart Tani
+   names for the same kind of problem on other crops when a page names none. */
+function groupOf(p) {
+  const n = (p.name.en || '').toLowerCase(), k = p.kind;
+  if (['virus', 'bird', 'mammal', 'weed', 'nematode', 'bacteria', 'oomycete', 'mite'].includes(k)) return [k, k];
+  if (k === 'alga' || k === 'lichen') return ['alga', 'alga'];
+  if (k === 'insect') {
+    const fine = /mealybug|scale/.test(n) ? 'mealybug' : /thrips/.test(n) ? 'thrips' : /fruit fly/.test(n) ? 'fruitfly'
+      : /aphid|whitefly/.test(n) ? 'aphid' : /psyllid/.test(n) ? 'psyllid' : /hopper/.test(n) ? 'hopper'
+      : /miner|bean fly/.test(n) ? 'miner' : /termite/.test(n) ? 'termite'
+      : /(stem|branch|shoot|tuber|trunk) borer|banana weevil|longhorn/.test(n) ? 'borer'
+      : /worm|moth|caterpillar|roller|folder|borer/.test(n) ? 'caterpillar' : /beetle|weevil|chafer/.test(n) ? 'beetle' : 'insect';
+    return [fine, ['mealybug', 'thrips', 'aphid', 'psyllid', 'hopper', 'fruitfly'].includes(fine) || /bug/.test(n) ? 'sucking' : 'chewing'];
+  }
+  const fine = /anthracnose/.test(n) ? 'anthracnose' : /rust/.test(n) ? 'rust' : /mildew/.test(n) ? 'mildew'
+    : /wilt|fusarium/.test(n) ? 'wilt' : /rot|smut|thread|pink disease/.test(n) ? 'rot' : 'leafspot';
+  return [fine, 'fungus'];
+}
+/* What each kind of problem may borrow: fungicides for fungi, copper only for bacteria, insecticides for insects, etc. */
+const FUNGICIDE = /mancozeb|maneb|propineb|carbendazim|thiophanate|chlorothalonil|captan|thiram|conazole|myclobutanil|triadimefon|triforine|strobin|tricyclazole|isoprothiolane|pencycuron|tridemorph|metalaxyl|propamocarb|fosetyl|phosphonate|copper|bordeaux|sulphur|trichoderma/i;
+const HERBICIDE = /glyphosate|glufosinate|2,4-d|mcpa|atrazine|diuron|bispyribac|cyhalofop|metsulfuron|oxadiazon|oxyfluorfen|penoxsulam|picloram|pretilachlor|propanil|triclopyr|paraquat/i;
+const NOT_INSECTICIDE = /naphthalene|chlorine|borax|lime|methyl eugenol/i;
+function fits(group, broad, a) {
+  if (group === 'bacteria') return /copper|bordeaux/i.test(a);
+  if (group === 'weed') return /glyphosate|glufosinate/i.test(a);   // broad-spectrum only; selective ones depend on the crop
+  if (['fungus', 'oomycete', 'alga'].includes(broad)) return FUNGICIDE.test(a) && !/borax/i.test(a);
+  if (['sucking', 'chewing', 'mite', 'nematode'].includes(broad))
+    return !FUNGICIDE.test(a) && !HERBICIDE.test(a) && (!NOT_INSECTICIDE.test(a) || (group === 'fruitfly' && /methyl eugenol/i.test(a)));
+  return true;
+}
+function similarAI(p) {
+  if (p.ai.length || ['virus', 'bird', 'mammal'].includes(p.kind)) return null;
+  const [fine, broad] = groupOf(p);
+  if (fine === 'wilt') return null;   // Fusarium wilt: no spray cures it; Smart Tani names none for it either
+  for (const level of [0, 1]) {
+    const want = level ? broad : fine;
+    const peers = DATA.pests.filter(o => o !== p && o.ai.length && groupOf(o)[level] === want);
+    const count = {};
+    peers.forEach(o => o.ai.forEach(a => { if (!regOf(a) && fits(fine, broad, a) && !(level && /thuringiensis/i.test(a))) count[a] = (count[a] || 0) + 1 }));
+    const ai = Object.keys(count).sort((a, b) => count[b] - count[a] || a.localeCompare(b)).slice(0, 6);
+    if (ai.length) return { ai, from: peers.filter(o => o.ai.some(a => ai.includes(a))).slice(0, 4) };
+  }
+  return null;
+}
+function simBox(p, noCure) {
+  const sim = similarAI(p), cure = noCure ? `<p class="small"><a href="#guide/${p.kind}">${esc(t('ctlNoCure'))} ›</a></p>` : '';
+  if (!sim) return `<p>${esc(t('ctlNone'))}</p>${cure}`;
+  return `<span class="eyebrow">${esc(t('simTitle'))}</span><div class="chips">${sim.ai.map(aiChip).join('')}</div>
+    <p class="small muted">${esc(t('simNote'))} ${esc(t('simFrom'))} ${sim.from.map(o => `<a href="#pest/${o.id}">${esc(L(o.name))}</a> (${o.crops.map(c => esc(L(CROPS.get(c).name))).join(', ')})`).join(', ')}.</p>${cure}`;
 }
 function ctlBox(p) {
   const noCure = ['bacteria', 'virus', 'nematode'].includes(p.kind);
   // the full description and control advice open inline here, closed by default
   return `<div class="card ctl"><h3>${esc(t('ctlTitle'))}</h3>
     ${p.ai.length ? `<span class="eyebrow">${esc(t('ctlAI'))}</span><div class="chips">${p.ai.map(aiChip).join('')}</div>${regNotes(p.ai)}<p class="small muted">${esc(t('ctlCheck'))}</p>`
-      : `<p>${esc(t('ctlNone'))}${noCure ? ` <a href="#guide/${p.kind}">${esc(t('ctlNoCure'))} ›</a>` : ''}</p>`}
+      : simBox(p, noCure)}
     ${L(p.desc) ? `<details class="more" id="ctl"><summary>${esc(t('ctlMore'))}</summary><div class="rich">${L(p.desc)}</div></details>` : ''}</div>`;
 }
 function vPest(id) {

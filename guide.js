@@ -332,13 +332,23 @@ const GLOSSARY = [
          zh: '清除并销毁病残体、落果和杂物，不让病虫繁殖。' } }
 ];
 
-/* Status in Malaysia of active ingredients the source texts name. Only entries confirmed by a source
-   are listed; anything absent is not checked. Checked 30 Oct 2026; the DOA list itself should be
-   re-read when doa.gov.my is reachable. level: banned > unreg > phaseout > restricted */
+/* Status in Malaysia of the active ingredients the source texts name, from the Department of Agriculture list
+   "Senarai racun makhluk perosak yang telah diharamkan / bakal ditamatkan pendaftaran / telah dihadkan penggunaan"
+   (BKRPB, Jabatan Pertanian, updated 26 Aug 2025). Benomyl alone is not on that list (only its mixture with
+   carbofuran and thiram, banned 2008); the DOA residue database shows no current registration for it.
+   level: banned > unreg > phaseout (registration ending) > restricted */
+const REG_SRC = 'Jabatan Pertanian (BKRPB), senarai dikemas kini 26 Ogos 2025';
 const REG = {
-  Paraquat:      { level: 'banned', since: '2020', src: 'Jabatan Pertanian: Senarai racun makhluk perosak yang telah diharamkan (Ogos 2025)' },
-  Carbofuran:    { level: 'banned', since: '2023', src: 'Jabatan Pertanian: Senarai racun makhluk perosak yang telah diharamkan (Ogos 2025)' },
-  Benomyl:       { level: 'unreg', since: '', src: 'Jabatan Pertanian, pangkalan data MRL: 0 pendaftaran (lihat carbendazim)' },
-  Methamidophos: { level: 'phaseout', since: '2025–2030', src: 'KPKM, dilaporkan The Star (4 Nov 2025)' },
-  Triazophos:    { level: 'restricted', since: '2004', src: 'IPPC Plant Protection Profile Malaysia' }
+  Paraquat:      { level: 'banned', since: '2020' },
+  Carbofuran:    { level: 'banned', since: '2023' },
+  Triazophos:    { level: 'banned', since: '2015' },
+  Benomyl:       { level: 'unreg', since: '' },
+  Methamidophos: { level: 'phaseout', since: '2027',
+    note: { ms: 'Hanya suntikan batang pada kelapa dan sawit; pendaftaran tamat 31 Dis 2027.',
+            en: 'Only trunk injection in coconut and oil palm; registration ends 31 Dec 2027.',
+            zh: '仅限椰子和油棕的树干注射；注册于 2027 年 12 月 31 日结束。' } },
+  Acephate:      { level: 'restricted', since: '2005',
+    note: { ms: 'Hanya untuk serangga pada kelapa dan sawit.',
+            en: 'Only for insects on coconut and oil palm.',
+            zh: '仅限用于椰子和油棕的害虫。' } }
 };

@@ -79,7 +79,10 @@ for p in data["pests"]:
     txt = txt.replace("phosphorous acid", "phosphonate").replace("copper-based", "copper").replace("copper oxychloride", "copper")
     found = [a for a in AI if re.search(r"(?<![a-z-])" + re.escape(a.lower()) + r"(?![a-z])", txt)]
     extra = [a[:1].upper() + a[1:] for a in tr.get(p["id"], {}).get("ai", []) if a.lower() not in {x.lower() for x in found}]
-    p["ai"] = sorted(found + extra, key=str.lower)
+    SAME = {"glufosinate ammonium": "Glufosinate-ammonium", "glyphosate isopropylamine": "Glyphosate", "glyphosate potassium": "Glyphosate",
+            "2,4-d amine": "2,4-D", "fosetyl": "Fosetyl-aluminium", "copper hydroxide": "Copper", "copper oxychloride": "Copper",
+            "copper oxide": "Copper", "mineral oil": "White oil"}  # one name per ingredient
+    p["ai"] = sorted({SAME.get(a.lower(), a) for a in found + extra}, key=str.lower)
     if "Gamma-cyhalothrin" in p["ai"] or "Lambda-cyhalothrin" in p["ai"]: pass
 for p in data["pests"]: p.pop("affected", None)
 for k, v in data["parts"].items(): v["zh"] = PARTS.get(k, v.get("en", k))
