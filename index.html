@@ -104,6 +104,7 @@ main{padding-top:calc(var(--topbar) + env(safe-area-inset-top,0px));
 .row{display:grid;grid-template-columns:76px minmax(0,1fr) 12px;gap:12px;align-items:center;text-decoration:none;color:inherit;
   background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 12px 8px 8px}
 .row img,.row .noimg{width:76px;height:76px;object-fit:cover;border-radius:8px;display:block;background:#fff}
+.row .noimg{display:grid;place-items:center;background:var(--kc-soft);color:var(--kc);font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;text-align:center;padding:4px}
 .row .t{display:flex;flex-direction:column;gap:2px;min-width:0}
 .row .t b{font-weight:700;line-height:1.3}
 .sci{color:var(--muted);font-size:.9rem;display:block}
@@ -339,7 +340,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '1.4.0';
+const VERSION = '2.0.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -366,7 +367,7 @@ const bigImg = (f, cls = '', alt = '') => f ? `<img src="${full(f)}" data-full="
 const kindTag = p => p.kind ? `<span class="kind k-${KINDS[p.kind].color}">${esc(t('kind_' + p.kind))}</span>` : '';
 function pestRow(p, extra = '') {
   const f = firstImg(p);
-  return `<a class="row" href="#pest/${p.id}">${f ? img(f, '', '') : '<span class="noimg"></span>'}
+  return `<a class="row" href="#pest/${p.id}">${f ? img(f, '', '') : `<span class="noimg k-${p.kind ? KINDS[p.kind].color : 'mammal'}">${esc(t('kind_' + p.kind) || '')}</span>`}
     <span class="t">${kindTag(p)}<b>${esc(L(p.name))}</b><span class="sci">${p.sci}</span>${extra}</span><span class="chev">›</span></a>`;
 }
 const cropCard = c => `<a class="crop" href="#crop/${c.code}"><span class="ph">${c.img ? `<img src="${thumb(c.img)}" alt="" loading="lazy">` : `<span class="noph">${esc([...L(c.name)][0] || '')}</span>`}</span>

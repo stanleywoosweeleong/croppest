@@ -1,0 +1,409 @@
+[
+ {
+  "id": 18,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Carbendazim",
+   "Mancozeb",
+   "Thiram"
+  ],
+  "name": {
+   "ms": "Kulat Rhizoctonia",
+   "en": "Rhizoctonia Fungus",
+   "zh": "立枯丝核菌"
+  },
+  "sci": "<em>Rhizoctonia solani</em> Kühn",
+  "desc": {
+   "en": "The fungus <em>Rhizoctonia solani</em> grows well and produces large numbers of sclerotia at temperatures above 24°C, with an optimum temperature of 28°C. It grows poorly at 35°C and does not grow at 10°C. This fungus causes Rhizoctonia Leaf Blight. It can be prevented by practising Good Agricultural Practices (GAP) in the field and by using systemic fungicides such as benomyl and carbendazim, alternated with fungicides such as mancozeb and thiram. Apply by spraying or by drenching around the base of the tree, following the rate recommended on the label.",
+   "zh": "立枯丝核菌（<em>Rhizoctonia solani</em>）在24°C以上的温度下生长良好，并产生大量菌核，最适温度为28°C。在35°C时生长不良，在10°C时则不能生长。这种真菌会引起丝核菌叶枯病。可在田间实行良好农业规范（APB/GAP）来预防，并使用内吸性杀菌剂如苯菌灵 Benomyl、多菌灵 Carbendazim，与杀菌剂如代森锰锌 Mancozeb、福美双 Thiram 轮换使用。按照标签上的建议用量，以喷洒或在树基周围淋灌的方式施用。"
+  },
+  "symptoms": [
+   {
+    "en": "The attack begins as small, water-soaked, greyish-green spots surrounded by a purplish-brown area. These <em>lesions</em> merge into large patches and change colour from dark brown to light brown when they dry. Whitish-brown mycelium (fungal threads) on the leaf surface makes the leaves stick to one another. Sometimes the canopy of mature trees does not form properly because many leaves fall and branches die.",
+    "zh": "侵染初期出现水渍状、灰绿色的小斑点，周围有紫褐色区域。这些<em>病斑</em>会合并成大斑块，干燥后由深褐色变为浅褐色。叶面上的白褐色菌丝（菌丝线）会使叶片互相粘连。有时成年树的树冠因大量落叶和枝条枯死而无法正常形成。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "kind": "nematode",
+  "ai": [
+   "Carbofuran"
+  ],
+  "name": {
+   "ms": "Nematod Lesi Akar",
+   "en": "Root Lesion Nematode",
+   "zh": "根腐线虫"
+  },
+  "sci": "<em>Pratylenchus</em> sp.",
+  "desc": {
+   "en": "It is also known as the Lesion Nematode. It is one of the nematode species that cause serious damage to crops. This nematode enters the root in a radial direction by thrusting its stylet and head, which softens and breaks the cell walls. When the nematode starts feeding, the cell walls and cytoplasm turn light brown. As it continues feeding, the cell walls break down and cavities appear in the cortex. To prevent this, always practise field sanitation and crop rotation. Apply carbofuran before planting.",
+   "zh": "它也被称为根腐线虫（短体线虫）。这是对农作物造成严重危害的线虫种类之一。这种线虫以口针和头部刺入，沿径向进入根部，使细胞壁软化并破裂。线虫开始取食时，细胞壁和细胞质会变成浅褐色。随着线虫继续取食，细胞壁破裂，皮层中出现空洞。为防止这种情况发生，应经常保持田园卫生并实行轮作。种植前施用克百威 Carbofuran。"
+  },
+  "symptoms": [
+   {
+    "en": "The attack causes necrosis (tissue death) of the roots. The roots become scorched and damaged.",
+    "zh": "侵害会导致根部坏死（组织死亡）。根部出现灼伤状并受损。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "kind": "virus",
+  "ai": [
+   "Malathion",
+   "Diazinon"
+  ],
+  "name": {
+   "ms": "Penyakit Layu Koya Nanas",
+   "en": "Pineapple Mealybug Wilt",
+   "zh": "黄梨粉蚧凋萎病"
+  },
+  "sci": "<em>Pineapple mealybug wilt-associated virus</em> (PMWaV-1 &amp; PMWaV-2)",
+  "desc": {
+   "en": "This virus causes a viral disease in pineapple. The disease is not well understood, but it involves a link between the virus, the mealybug vector and the ants that spread the mealybugs. To prevent this, control the insects and ants in the field because they are the vectors of this disease. Treat planting material with Malathion (0.1% a.i.) and Diazinon (0.05% a.i.).",
+   "zh": "这种病毒会引起黄梨的病毒病。人们对这种病还了解不多，但它与病毒、作为传播媒介的粉蚧，以及传播粉蚧的蚂蚁有关。为防止发生，应防治田间的昆虫和蚂蚁，因为它们是这种病的传播媒介。用马拉硫磷 Malathion（0.1% 有效成分）和二嗪磷 Diazinon（0.05% 有效成分）处理种植材料。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The disease is caused by a complex of 2 viruses (PMWaV-1 and PMWaV-2), with mealybugs as the disease vector.</li><li>Leaves curl downwards, and the leaf tips die back and wilt.</li></ul>",
+    "zh": "<ul><li>此病由2种病毒（PMWaV-1和PMWaV-2）复合引起，粉蚧是传病媒介。</li><li>叶片向下卷曲，叶尖枯死并萎蔫。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 70,
+  "kind": "fungus",
+  "ai": [
+   "Chlorothalonil",
+   "Propineb",
+   "Trifloxystrobin",
+   "Tebuconazole"
+  ],
+  "name": {
+   "ms": "Reput Buah Terung",
+   "en": "Eggplant Fruit Rot",
+   "zh": "茄子褐纹病"
+  },
+  "sci": "<em>Phomopsis vexans</em>",
+  "desc": {
+   "en": "This fungus causes Fruit Rot disease in eggplant (brinjal). It is a major disease of eggplant. The disease occurs when spores are released from the fungal fruiting body and spread by splashing rain, insects and contaminated tools. The fungus survives between eggplant crops in crop debris, seeds and soil. To prevent this, do not use seeds from infected fruits and destroy all infected fruits. Use varieties resistant to this disease and practise crop rotation. Spray fungicides such as chlorothalonil, propineb, trifloxystrobin or tebuconazole, following the rate recommended on the label.",
+   "zh": "这种真菌引起茄子的果腐病（褐纹病），是茄子的主要病害。当孢子从真菌的子实体释放出来，并通过雨水飞溅、昆虫和被污染的工具传播时，就会发病。真菌在两季茄子之间存活于作物残体、种子和土壤中。为防止发生，不要使用来自病果的种子，并销毁所有病果。使用抗病品种并实行轮作。按照标签上的建议用量喷洒杀菌剂，如百菌清 Chlorothalonil、丙森锌 Propineb、肟菌酯 Trifloxystrobin 或戊唑醇 Tebuconazole。"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 85,
+  "kind": "fungus",
+  "ai": [
+   "Pencycuron"
+  ],
+  "name": {
+   "ms": "Reput Akar Kobis",
+   "en": "Cabbage Root Rot",
+   "zh": "包菜根腐病"
+  },
+  "sci": "<em>Rhizoctonia</em> spp.",
+  "desc": {
+   "en": "This fungus causes Root Rot in cabbage. It attacks the root system of the cabbage. Root rot stops the roots from taking up the nutrients the plant needs from the soil and, over time, it kills the whole plant. It spreads through contaminated water or soil and through infected seeds or seedlings. To prevent this, use disease-free seeds, practise crop rotation and destroy infected parts. Drench with pencycuron.",
+   "zh": "这种真菌引起包菜（椰菜）的根腐病，侵害包菜的根系。根腐病使根部无法从土壤中吸收所需的养分，久而久之会使整株植物死亡。它通过被污染的水或土壤，以及带病的种子或移植苗传播。为防止发生，应使用无病种子，实行轮作，并销毁受感染的部分。用戊菌隆 Pencycuron 淋灌。"
+  },
+  "symptoms": [
+   {
+    "en": "Rot at the base of the plant. As a result, the plant wilts and dies.",
+    "zh": "植株基部腐烂，导致植株萎蔫并死亡。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 108,
+  "kind": "oomycete",
+  "ai": [
+   "Metalaxyl"
+  ],
+  "name": {
+   "ms": "Hawar Daun Keladi",
+   "en": "Taro Leaf Blight",
+   "zh": "芋疫病"
+  },
+  "sci": "<em>Phytophthora colocasiae</em> Racib.",
+  "desc": {
+   "en": "This fungus causes taro leaf blight disease. The fungal spores can spread through water. When it rains, splashing rainwater from infected plants carries the spores to other plants. Wilted leaves should be pulled off and burned. If the attack is severe, control the disease with the fungicide metalaxyl.",
+   "zh": "这种真菌会引起芋头叶疫病。病菌孢子可通过水传播。下雨时，病株上飞溅的雨水会把孢子带到其他植株上。萎蔫的叶片应拔除并烧毁。如果危害严重，使用杀菌剂甲霜灵 Metalaxyl 防治。"
+  },
+  "symptoms": [
+   {
+    "en": "Small dark brown spots or light brown spots appear on the upper surface of the leaf. These early spots often appear at the leaf tips and edges, where water collects. The spots enlarge quickly, becoming round, zoned (with rings) and purplish-brown to brown in colour. On the lower leaf surface, the spots look grey and water-soaked or dry. As the spots grow larger, they merge and quickly destroy the leaf.",
+    "zh": "叶片正面出现深褐色小斑点或浅褐色斑点。这些早期病斑常出现在积水的叶尖和叶缘。病斑迅速扩大，变成圆形，有同心轮纹，颜色为紫褐色至褐色。在叶背，病斑呈灰色，水渍状或干枯状。病斑扩大后会互相合并，迅速毁坏整片叶子。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 149,
+  "kind": "insect",
+  "ai": [
+   "Bacillus thuringiensis",
+   "Lambda-cyhalothrin",
+   "Spinosad",
+   "Deltamethrin"
+  ],
+  "name": {
+   "ms": "Ulat Pengorek Buah Cili",
+   "en": "Chili Fruit Borer",
+   "zh": "棉铃虫（辣椒蛀果虫）"
+  },
+  "sci": "<em>Helicoverpa armigera</em> (Hübner)",
+  "desc": {
+   "en": "<p>The chili fruit borer is a major pest of chili that attacks flowers and fruits. The larvae bore into the fruit and eat the flesh, leaving holes on the fruit surface with caterpillar droppings (frass) around them. A severe attack can cause fruits to be damaged, rot and drop before they ripen, reducing both the yield and the quality of the chili crop.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Monitor the crop regularly</li><li>Collect and destroy the larvae</li><li>Clear weeds and alternative host plants in the planting area</li><li>Encourage natural enemies</li><li>Spray biopesticides based on <em>Bacillus thuringiensis</em> (Bt) at the early larval stage</li></ul><p>Chemical Control (If Needed)</p><ul><li>Spray insecticides such as Lambda-cyhalothrin, Spinosad or Deltamethrin</li><li>Rotate insecticides with different modes of action to avoid resistance</li><li>When using pesticides, always wear protective clothing and follow the product label instructions, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>辣椒蛀果虫是辣椒的主要害虫，危害花和果实。幼虫蛀入果实内取食果肉，在果实表面形成蛀孔，孔口周围有虫粪。严重危害会使果实受损、腐烂，并在成熟前脱落，从而降低辣椒的产量和品质。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期巡查监测</li><li>捕捉并销毁幼虫</li><li>清除种植区内的杂草和其他寄主植物</li><li>保护和利用天敌</li><li>在幼虫初期喷洒以<em>苏云金杆菌</em>（Bt，<em>Bacillus thuringiensis</em>）为主的生物农药</li></ul><p>化学防治（如有需要）</p><ul><li>喷洒杀虫剂，如高效氯氟氰菊酯 Lambda-cyhalothrin、多杀菌素 Spinosad 或溴氰菊酯 Deltamethrin</li><li>轮换使用不同作用机理的农药，以避免产生抗药性</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间，以及收成前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The fruit becomes damaged and has holes. Damage can also be seen on the plant stem. If the borer gets into the stem, the plant wilts because it cannot get enough water and nutrients.",
+    "zh": "果实受损并出现蛀孔。在植株茎干上也可看到危害痕迹。如果蛀虫钻入茎干，植株会因无法获得足够的水分和养分而萎蔫。",
+    "steps": [
+     {
+      "en": "The fruit becomes damaged and has holes. Damage can also be seen on the plant stem. If the borer gets into the stem, the plant wilts because it cannot get enough water and nutrients.",
+      "zh": "果实受损并出现蛀孔。在植株茎干上也可看到危害痕迹。如果蛀虫钻入茎干，植株会因无法获得足够的水分和养分而萎蔫。"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 166,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Bintik Daun Alternaria",
+   "en": "Alternaria Leaf Spot",
+   "zh": "十字花科黑斑病"
+  },
+  "sci": "<em>Alternaria brassicae</em> (Berk.) Sacc.",
+  "desc": {
+   "en": "<p>Alternaria Leaf Spot is caused by the fungus <em>Alternaria brassicae</em>. Its spores spread easily through wind, splashing rainwater and farm tools. When the spores land on healthy plants, new infections occur, and the disease cycle continues whenever the weather and surroundings favour the disease.</p><p><strong>Disease Management</strong></p><ul><li>Use disease-free seeds and seedlings.</li><li>Practise crop rotation with crops not from the crucifer family (Brassicaceae) for at least 2–3 years.</li><li>Remove and destroy infected crop residues after harvest.</li><li>Control crucifer-family weeds, which can act as alternative hosts for the pathogen.</li><li>Keep proper plant spacing to improve air flow between plants.</li><li>Avoid overhead sprinkler irrigation and leaves that stay wet all the time.</li><li>Make sure drainage is good and avoid standing water in the planting area.</li></ul>",
+   "zh": "<p>链格孢叶斑病（黑斑病）由真菌<em>Alternaria brassicae</em>（芸薹链格孢）引起。其孢子容易通过风、雨水飞溅和农具传播。孢子落到健康植株上就会造成新的感染，只要环境条件适合，病害循环就会持续下去。</p><p><strong>病害管理</strong></p><ul><li>使用无病的种子和种苗。</li><li>与非十字花科（Brassicaceae）作物轮作至少2–3年。</li><li>收成后清除并销毁带病的作物残体。</li><li>防除十字花科杂草，因为它们可成为病原菌的其他寄主。</li><li>保持适当的株距，以改善植株间的通风。</li><li>避免使用顶上喷淋灌溉，避免叶片长期潮湿。</li><li>确保排水良好，避免种植区积水。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Brown leaf spots with concentric rings appear; the leaves later turn yellow and fall off.",
+    "zh": "叶片出现带同心轮纹的褐色斑点，之后叶片变黄并脱落。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 186,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Reput Buah Terung",
+   "en": "Eggplant Fruit Rot",
+   "zh": "茄子褐纹病"
+  },
+  "sci": "<em>Phomopsis vexans</em>",
+  "desc": {
+   "en": "The affected part turns brown. Over time, the fruit becomes soft and rots.",
+   "zh": "受害部位呈褐色。久而久之，果实会变软并腐烂。"
+  },
+  "symptoms": [
+   {
+    "en": "The affected part turns brown. Over time, the fruit becomes soft and rots.",
+    "zh": "受害部位呈褐色。久而久之，果实会变软并腐烂。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 203,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Plutella",
+   "en": "Diamondback Moth",
+   "zh": "小菜蛾"
+  },
+  "sci": "<em>Plutella xylostella</em> (L.)",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Feeds on the leaves at all stages</li><li>Attacked leaves show see-through (window-like) holes</li></ul>",
+    "zh": "<ul><li>在各个阶段都取食叶片</li><li>受害叶片出现透明的孔洞（呈“开天窗”状）</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 225,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Pelombong Daun",
+   "en": "Leaf Miner",
+   "zh": "潜叶蝇"
+  },
+  "sci": "<em>Chromatomyia</em> sp.",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The larvae damage the leaves by tunnelling (mining) inside the leaf, under the epidermis.</li><li>Winding mines (trails) can be seen on the upper surface of the leaf.</li><li>A severe attack makes the leaves dry up.</li></ul>",
+    "zh": "<ul><li>幼虫在叶片表皮下潜食叶肉，造成危害。</li><li>叶片正面可见弯曲的虫道。</li><li>严重危害时叶片会干枯。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 246,
+  "kind": "insect",
+  "ai": [
+   "White Oil",
+   "Malathion"
+  ],
+  "name": {
+   "ms": "Koya Betik",
+   "en": "Papaya Mealybug",
+   "zh": "木瓜粉蚧"
+  },
+  "sci": "<em>Paracoccus marginatus</em> Williams &amp; Granara de Willink",
+  "desc": {
+   "en": "<ul><li>Mealybugs are active and multiply quickly in hot or humid weather</li><li>They attack young leaves, leaf stalks, young stems and also the surface of young papaya fruits.</li></ul><p>Pest Management</p><ul><li>Good Agricultural Practices</li><li>Remove and destroy infested plant parts.</li><li>Use chemical pesticides as recommended on the label (e.g. white oil, malathion)</li></ul>",
+   "zh": "<ul><li>粉蚧在炎热或潮湿的天气里活跃，繁殖迅速</li><li>危害木瓜的嫩叶、叶柄、嫩茎以及幼果表面。</li></ul><p>害虫管理</p><ul><li>良好农业规范（APB/GAP）</li><li>清除并销毁受害的植株部位。</li><li>按照标签建议使用化学农药（例如：白油（矿物油）White oil、马拉硫磷 Malathion）</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>The fruit looks dirty, with sticky white powder caused by a mealybug attack.</p><p><strong>Source</strong>: MARDI Technology Bulletin</p>",
+    "zh": "<p>果实因粉蚧危害而附着白色粉状物，看起来很脏。</p><p><strong>来源</strong>：MARDI 技术简报（Buletin Teknologi MARDI）</p>",
+    "steps": []
+   },
+   {
+    "en": "Shoots and leaves look dirty, with sticky white powder caused by a mealybug attack. The leaves turn yellow, wilt and curl, and plant growth is stunted.",
+    "zh": "嫩梢和叶片因粉蚧危害而附着白色粉状物，看起来很脏。叶片变黄、萎蔫并卷曲，植株生长也因此受阻。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 258,
+  "kind": "weed",
+  "ai": [
+   "Atrazine"
+  ],
+  "name": {
+   "ms": "Jelamparan",
+   "en": "Crabgrass (Finger Grass)",
+   "zh": "毛马唐"
+  },
+  "sci": "<em>Digitaria adscendens</em> (Kunth) Henrard",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong></p><p>Native to the tropics of West Africa and Central/South America, this weed has spread naturally and through people all over the world — including Southeast Asia and Malaysia — through farming, trade and soil disturbance. Jelamparan is a very hardy, fast-growing tropical annual weed found in:</p><p>· Open, sunny areas</p><p>· Fertile to moderately fertile soil</p><p>· Farming areas</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Pull out or hoe the weeds while they are still young to prevent faster growth.</li><li>Use mulch or ground cover to reduce germination of weed seeds.</li><li>If needed, use a pre-emergence herbicide (weed killer) such as atrazine to control weed germination.</li><li>Do not let the weeds flower and produce seeds, because this is when they spread the most.</li></ul><p><strong>How It Spreads</strong></p><ul><li><strong>Seeds:</strong> This weed produces very many small seeds, which makes it spread easily.</li><li><strong>Vegetative reproduction:</strong> Besides seeds, this weed can also multiply from stem shoots.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong></p><p>原产于西非及中美洲/南美洲的热带地区，这种杂草通过自然传播和人类活动（农业、贸易和土壤扰动）扩散到世界各地，包括东南亚和马来西亚。毛马唐是一种非常耐旱耐粗放、生长迅速的热带一年生杂草，常见于：</p><p>· 开阔、阳光充足的地方</p><p>· 肥沃至中等肥沃的土壤</p><p>· 农业种植区</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>在杂草还小的时候拔除或用锄头锄掉，以免其更快生长。</li><li>使用覆盖物或地面覆盖植物，减少杂草种子发芽。</li><li>如有需要，使用芽前除草剂如莠去津 Atrazine 来控制杂草发芽。</li><li>不要让杂草开花结籽，因为这个阶段的扩散能力最强。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>种子：</strong>这种杂草产生大量细小的种子，因此很容易传播。</li><li><strong>营养繁殖：</strong>除了种子，这种杂草也能通过茎上的芽繁殖。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Digitaria adscendens</em></p><ul><li>Plant form: An annual creeping grass of the Poaceae (grass) family. It grows low and creeps along the ground. Stems can reach 30–100 cm long if not controlled.</li><li>Leaves: Long, narrow and pointed at the tip. Green, with a slightly rough surface. They grow alternately on the stem, usually close to the ground.</li><li>Flowers and stalks: Small flowers arranged in long, thin “spikelets”. The flower spikes usually spread out from one central point – like open fingers (which is why it is sometimes called “finger grass”). The flower stalks are usually green or greenish-purple.</li></ul>",
+    "zh": "<p><em>Digitaria adscendens</em>（毛马唐）的主要特征</p><ul><li>植株形态：禾本科（Poaceae）的一年生匍匐草。植株矮，贴地蔓生。若不加控制，茎长可达30–100 cm。</li><li>叶片：细长而窄，叶尖尖锐。绿色，叶面略粗糙。在茎上互生，通常靠近地面。</li><li>花和花梗：小花排列在细长的“小穗”上。花穗通常从一个中心点散开，像张开的手指（因此有时被称为“指状草”）。花梗通常为绿色或带紫的绿色。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 270,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate",
+   "2,4-D",
+   "MCPA"
+  ],
+  "name": {
+   "ms": "Rumput Mesir",
+   "en": "Crowfoot Grass",
+   "zh": "龙爪茅"
+  },
+  "sci": "<em>Dactyloctenium aegyptium</em> (L.) Richt.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> Thrives in open, hot and dry areas</p><p>Crowfoot grass (Rumput Mesir, <em>Dactyloctenium aegyptium</em> (L.) Richt.) is a wild annual grass or weed commonly found in tropical and subtropical regions, including Southeast Asia.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Cultural control: Plough and clear the soil before planting. Plant cover crops to reduce the space for weeds to grow</li><li>Mechanical control: Pull out or cut the weed before it flowers. Do not let it flower, to prevent seeding</li><li>Chemical control: Glyphosate (for non-cropped areas). 2,4-D or MCPA (if used in certain crop fields)</li></ul><p><strong>How it spreads:</strong></p><ul><li>By seeds – produced in very large numbers and easily spread by wind, water, animals or farm tools</li><li>It does not creep by rhizomes like <em>Leersia hexandra</em>, so it is easier to control</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong>在开阔、炎热和干燥的地方生长旺盛</p><p>龙爪茅（<em>Dactyloctenium aegyptium</em> (L.) Richt.）是一种一年生野草或杂草，常见于热带和亚热带地区，包括东南亚。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>栽培防治：种植前犁地并清理土地。种植覆盖作物，减少杂草生长的空间</li><li>机械防治：在开花前拔除或割除。不要让它开花，以免结籽</li><li>化学防治：草甘膦 Glyphosate（用于非种植区）。2,4-D 或 MCPA（如在某些作物田中使用）</li></ul><p><strong>传播方式：</strong></p><ul><li>通过种子——种子数量极多，容易被风、水、动物或农具传播</li><li>不像<em>Leersia hexandra</em>（李氏禾）那样通过根状茎蔓延，所以较容易控制</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Dactyloctenium aegyptium</em> (L.) Richt.</p><ul><li>Stem: Upright or creeping stems, can reach 30–50 cm tall. Can branch and form clumps</li><li>Leaves: Narrow, long and light green. The leaf surface is usually rough, with a clear midrib</li><li>Flowers / inflorescence: The flower head is very distinctive and looks like a bird’s foot. It has 3–7 finger-like branches (spikes) arranged like a fan, with small flowers packed densely along each spike</li><li>Roots: Fibrous roots. It is an annual plant – it dies after its life cycle and grows again from seed</li></ul>",
+    "zh": "<p><em>Dactyloctenium aegyptium</em> (L.) Richt.（龙爪茅）的主要特征</p><ul><li>茎：直立或匍匐，高可达30–50 cm。可分枝并形成草丛</li><li>叶片：窄长，浅绿色。叶面通常粗糙，中脉明显</li><li>花／花序：花序非常独特，形似鸟爪。由3–7个指状分枝（穗）组成，像扇子一样排列，小花密集着生于每个穗上</li><li>根：须根系。属一年生植物——完成生命周期后死亡，再由种子重新长出</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 282,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Hawar Bebenang Putih",
+   "en": "White Thread Blight",
+   "zh": "椰子白丝枯病"
+  },
+  "sci": "<em>Marasmiellus semiustus</em> (Berk. &amp; M.A. Curtis) Singer",
+  "desc": {
+   "en": "<ul><li>Attacks coconut seedlings, causing the shoot to die before it emerges from the husk</li><li>If the attack happens after the shoot has emerged, the plant looks wilted and white mycelium is found at the base of the plant</li></ul><p><strong>Disease management:</strong></p><ul><li>Keep the nursery clean and well drained</li><li>Destroy badly infected seedlings</li></ul>",
+   "zh": "<ul><li>危害椰子幼苗，使嫩芽在长出椰壳纤维之前就死亡</li><li>如果在嫩芽长出后才受害，植株会呈萎蔫状，植株基部可见白色菌丝</li></ul><p><strong>病害管理：</strong></p><ul><li>保持苗圃清洁和排水良好</li><li>销毁严重受害的幼苗</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Thin, fine white mycelium (fungal threads) can be seen at the base of the seedling, especially in damp or shaded areas.</li><li>Badly infected seedlings die and rot, causing seedling losses in the nursery</li></ul>",
+    "zh": "<ul><li>幼苗基部可见细薄的白色菌丝（真菌丝线），在潮湿或荫蔽处尤其明显。</li><li>严重受害的幼苗会死亡腐烂，造成苗圃中幼苗损失</li></ul>",
+    "steps": [
+     {
+      "en": "<p>White Thread Blight<br>Scientific name: <em>Marasmiellus semiustus</em></p><p>• Attacks coconut seedlings, causing the shoot to die before it emerges from the husk.<br>• If the attack happens after the shoot has emerged, the seedling looks wilted and white mycelium can be seen at the base of the plant.</p><p>Disease Management:<br>• Keep the nursery clean and well drained.<br>• Destroy badly infected seedlings.</p>",
+      "zh": "<p>白丝枯病<br>学名：<em>Marasmiellus semiustus</em></p><p>• 危害椰子幼苗，使嫩芽在长出椰壳纤维之前就死亡。<br>• 如果在嫩芽长出后才受害，幼苗会呈萎蔫状，并可在植株基部看到白色菌丝。</p><p>病害管理：<br>• 保持苗圃清洁和排水良好。<br>• 销毁严重受害的幼苗。</p>"
+     },
+     {
+      "en": "<p>White Thread Blight (Hawar Bebenang Putih)</p><p>Scientific name: <em>Marasmiellus semiustus</em></p><p>· Attacks coconut seedlings, causing the shoot to die before it emerges from the husk</p><p>· If the attack happens after the shoot has emerged, the plant looks wilted and white mycelium is found at the base of the plant</p><p>Disease management:</p><p>· Keep the nursery clean and well drained</p><p>· Destroy badly infected seedlings</p>",
+      "zh": "<p>白丝枯病（Hawar Bebenang Putih）</p><p>学名：<em>Marasmiellus semiustus</em></p><p>· 危害椰子幼苗，使嫩芽在长出椰壳纤维之前就死亡</p><p>· 如果在嫩芽长出后才受害，植株会呈萎蔫状，植株基部可见白色菌丝</p><p>病害管理：</p><p>· 保持苗圃清洁和排水良好</p><p>· 销毁严重受害的幼苗</p>"
+     },
+     {
+      "en": "<p>White Thread Blight (Hawar Bebenang Putih)</p><p>Scientific name: <em>Marasmiellus semiustus</em></p><p>· Attacks coconut seedlings, causing the shoot to die before it emerges from the husk</p><p>· If the attack happens after the shoot has emerged, the plant looks wilted and white mycelium is found at the base of the plant</p><p>Disease management:</p><p>· Keep the nursery clean and well drained</p><p>· Destroy badly infected seedlings</p>",
+      "zh": "<p>白丝枯病（Hawar Bebenang Putih）</p><p>学名：<em>Marasmiellus semiustus</em></p><p>· 危害椰子幼苗，使嫩芽在长出椰壳纤维之前就死亡</p><p>· 如果在嫩芽长出后才受害，植株会呈萎蔫状，植株基部可见白色菌丝</p><p>病害管理：</p><p>· 保持苗圃清洁和排水良好</p><p>· 销毁严重受害的幼苗</p>"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 299,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pengorek Pucuk Halia",
+   "en": "Ginger Shoot Borer",
+   "zh": "桃蛀螟（姜蛀茎螟）"
+  },
+  "sci": "<em>Conogethes punctiferalis</em> (Guenée)",
+  "desc": {
+   "en": "<p>The adult is a small yellow moth with black spots on its wings. The larvae are yellowish to pink with soft bodies, and they bore into shoots and young stems to feed on the plant tissue. This pest actively attacks young shoots and soft stems.</p><p><strong>Pest Management</strong></p><ul><li>Practise Good Agricultural Practices (GAP)</li><li>Cut off and destroy attacked shoots/stems</li><li>Monitor the field regularly</li><li>Use pheromone traps to monitor the pest population</li><li>Encourage natural enemies (parasitoids and predators)</li><li>Use insecticides as recommended on the label</li></ul>",
+   "zh": "<p>成虫是一种小型黄色蛾子，翅上有黑色斑点。幼虫呈淡黄色至粉红色，身体柔软，会蛀入嫩芽和幼茎内取食植物组织。这种害虫主要危害嫩芽和柔嫩的茎。</p><p><strong>害虫管理</strong></p><ul><li>实行良好农业规范（APB/GAP）</li><li>剪除并销毁受害的嫩芽／茎</li><li>定期巡查田间</li><li>使用性信息素诱捕器监测虫口数量</li><li>保护和利用天敌（寄生蜂和捕食性天敌）</li><li>按照标签建议使用杀虫剂</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Shoots wilt, die or rot</li><li>Small holes appear on the shoots, with caterpillar droppings (frass)</li><li>Shoots are damaged because the larvae bore into the inner tissue</li></ul>",
+    "zh": "<ul><li>嫩芽萎蔫、枯死或腐烂</li><li>嫩芽上有小蛀孔，并伴有虫粪</li><li>幼虫蛀食内部组织，使嫩芽受损</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Holes in the stem from larval boring</li><li>Flow of water and nutrients is disrupted</li><li>Stunted growth, or plant death if the attack is severe</li><li>Lower yield and poorer rhizome quality</li></ul>",
+    "zh": "<ul><li>茎干因幼虫蛀食而出现蛀孔</li><li>水分和养分的输送受阻</li><li>生长受阻，严重时植株死亡</li><li>产量下降，姜块（根茎）品质变差</li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]

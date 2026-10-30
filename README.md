@@ -9,7 +9,9 @@ This is an unofficial learning app.
 
 What's inside:
 
-- **Crops:** 14 crops with their pests and diseases (photos, description, management advice, symptoms by plant part, confirmation steps).
+- **Crops:** 25 crops plus weeds, 258 pests, diseases and weeds (photos, description, management advice, symptoms by plant part, confirmation steps).
+  Smart Tani's own lists show only 57 of its pages; the other ~200 exist but are not linked from the site, so `tools/fetch.py` probes every page number.
+- **Control box:** the active ingredients the source names for each pest, with a reminder to check the label and registration.
 - **Diagnose:** choose the crop and the damaged part, then compare the photos and symptoms.
 - **Type tags:** each problem is marked insect, fungus, water mould, bacteria, virus, nematode, alga, lichen or animal, with a filter on each crop.
 - **Look-alikes:** each pest page lists other problems on the same crop and plant part, to practise telling them apart.

@@ -31,7 +31,8 @@ for p in data["pests"]:
     if not T: missing.append(p["id"]); T = {}
     p["name"] = T.get("name") or {"ms": p["name"]["ms"], "en": p["name"].get("en", "")}
     p["sci"] = T.get("sci", "")
-    p["desc"] = {"ms": p["desc"]["ms"], "en": T.get("desc", {}).get("en", p["desc"].get("en", "")), "zh": T.get("desc", {}).get("zh", "")}
+    if re.fullmatch(r"[\s\-–—?.]*", re.sub(r"<[^>]+>", "", p["desc"]["ms"])): p["desc"]["ms"] = ""  # site placeholder "--"
+    p["desc"] = {"ms": p["desc"]["ms"], "en": T.get("desc", {}).get("en", p["desc"].get("en", "")) if p["desc"]["ms"] else "", "zh": T.get("desc", {}).get("zh", "") if p["desc"]["ms"] else ""}
     for i, s in enumerate(p["symptoms"]):
         ts = (T.get("symptoms") or [{}] * len(p["symptoms"]))[i] if i < len(T.get("symptoms") or []) else {}
         s["text"] = {"ms": s["text"]["ms"], "en": ts.get("en", s["text"].get("en", "")), "zh": ts.get("zh", "")}

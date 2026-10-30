@@ -1,0 +1,418 @@
+[
+ {
+  "id": 15,
+  "kind": "oomycete",
+  "ai": [],
+  "name": {
+   "ms": "Kulat Pythium",
+   "en": "Pythium Root Rot Fungus",
+   "zh": "腐霉菌（榴莲腐霉根腐病）"
+  },
+  "sci": "<em>Pythium vexans</em>",
+  "desc": {
+   "en": "The fungus <em>Pythium vexans</em> is a potential pathogen of mature durian trees and of seedlings in the nursery. <em>Pythium vexans</em> causes durian trees to decline. This fungus can cause Pythium Root Rot in durian trees.",
+   "zh": "<em>Pythium vexans</em>（腐霉菌）是成年榴莲树和苗圃幼苗的潜在病原菌。<em>Pythium vexans</em>会导致榴莲树衰退，并可引起榴莲腐霉根腐病。"
+  },
+  "symptoms": [
+   {
+    "en": "The infection spreads to the base of the trunk, and dieback symptoms appear on the tree, especially on the branches.",
+    "zh": "感染会蔓延到树干基部，树上出现枯死（回枯）症状，尤其在枝条上明显。",
+    "steps": []
+   },
+   {
+    "en": "The tree will die if the attack is severe.",
+    "zh": "如果受害严重，树会死亡。",
+    "steps": []
+   },
+   {
+    "en": "The fungus <em>Pythium vexans</em> attacks trees in the field and seedlings in the nursery. Infected roots rot, especially on the inside, where the cortex tissue turns dark brown and the wood turns reddish brown. The infection spreads to the base of the trunk.",
+    "zh": "<em>Pythium vexans</em>会侵害田间的果树和苗圃阶段的幼苗。受害的根部会腐烂，尤其是内部：皮层组织变成深褐色，木质部变成红褐色。感染会蔓延到树干基部。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "kind": "nematode",
+  "ai": [
+   "Carbofuran"
+  ],
+  "name": {
+   "ms": "Nematod Puru Akar",
+   "en": "Root-knot Nematode",
+   "zh": "根结线虫"
+  },
+  "sci": "<em>Meloidogyne</em> sp.",
+  "desc": {
+   "en": "This is known as the Root-knot Nematode. It is an obligate endoparasite that spends most of its life cycle inside the host plant. The life cycle takes 17-57 days, depending on the host and on environmental conditions such as enough moisture and warm temperature. To prevent this problem, always keep the farm clean and practise crop rotation. Apply carbofuran before planting.",
+   "zh": "这就是根结线虫。它是一种专性内寄生虫，生命周期的大部分时间都在寄主植物体内度过。生命周期需要17-57天，取决于寄主以及环境条件，例如充足的湿度和适宜的温度。为了避免发生，应经常保持田园清洁并实行轮作。种植前施用克百威（Carbofuran）。"
+  },
+  "symptoms": [
+   {
+    "en": "Chlorosis (yellowing) occurs on the leaves.",
+    "zh": "叶片出现黄化（失绿）。",
+    "steps": []
+   },
+   {
+    "en": "Galls (knots) appear on the roots.",
+    "zh": "根部出现根结（瘤）。",
+    "steps": []
+   },
+   {
+    "en": "Plant growth is stunted.",
+    "zh": "植株生长受阻、矮小。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "kind": "oomycete",
+  "ai": [
+   "Metalaxyl",
+   "Fosetyl-aluminium"
+  ],
+  "name": {
+   "ms": "Penyakit Reput Teras Phytophthora",
+   "en": "Phytophthora Heart Rot",
+   "zh": "黄梨疫霉心腐病"
+  },
+  "sci": "<em>Phytophthora parasitica</em>",
+  "desc": {
+   "en": "This fungus causes Phytophthora Heart Rot in pineapple. The fungus comes into contact with the leaf or root surface, germinates and enters the plant tissue. The spores formed can stay dormant and survive in the soil for many years. Spore germination and movement are limited to wet, poorly drained soil and low temperatures. To prevent this, always follow Good Agricultural Practices (GAP), especially farm hygiene, and destroy infected plants. Apply metalaxyl (Ridomil) and fosetyl-aluminium (Aliette) as a soil drench or spray.",
+   "zh": "这种病菌会引起黄梨疫霉心腐病。病菌接触叶片或根部表面后萌发，并侵入植物组织。形成的孢子可以休眠，并在土壤中存活多年。孢子的萌发和移动只限于排水不良的潮湿土壤和低温条件。为防止发生，应始终遵守良好农业规范（GAP），尤其是保持田园清洁，并销毁受感染的植株。以淋灌（drenching）或喷洒方式施用甲霜灵 Metalaxyl（Ridomil）和三乙膦酸铝 Fosetyl-aluminium（Aliette）。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Rot symptoms appear at the base of the leaves and in the centre of the plant crown before flowering.</li><li>The leaves turn reddish brown and are easily pulled out.</li><li>At the base of infected leaves there is a dark brown to blackish zone.</li></ul>",
+    "zh": "<ul><li>腐烂症状出现在叶基部以及尚未开花植株的株心。</li><li>叶片变成红褐色，很容易被拔出。</li><li>受感染叶片的基部有一段深褐色至黑色的区域。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 69,
+  "kind": "fungus",
+  "ai": [
+   "Mancozeb",
+   "Propineb",
+   "Tebuconazole",
+   "Chlorothalonil",
+   "Propiconazole"
+  ],
+  "name": {
+   "ms": "Antraknos",
+   "en": "Anthracnose",
+   "zh": "茄子炭疽病"
+  },
+  "sci": "<em>Colletotrichum</em> spp.",
+  "desc": {
+   "en": "This fungus causes Anthracnose in eggplant. Infection happens while the fruit is developing, but symptoms usually appear on the fruit when it is about to ripen. Warm temperatures and high relative humidity strongly favour the disease. Over short distances, the fungal spores are spread by wind and rain. The fungus can also survive between seasons in crop debris and seeds. To prevent this, destroy all infected fruits and practise crop rotation. Spray fungicides such as mancozeb, propineb, tebuconazole, chlorothalonil or propiconazole at the rate recommended on the label.",
+   "zh": "这种真菌会引起茄子炭疽病。感染发生在果实发育期间，但症状通常在果实快成熟时才出现。温暖的气温和高相对湿度非常有利于病害发展。真菌孢子靠风和雨水在短距离内传播。病菌也可以在作物残株和种子中越季存活。为防止发生，应销毁所有受感染的果实，并实行轮作。按照标签上的建议用量喷洒杀菌剂，如代森锰锌 Mancozeb、丙森锌 Propineb、戊唑醇 Tebuconazole、百菌清 Chlorothalonil 或丙环唑 Propiconazole。"
+  },
+  "symptoms": [
+   {
+    "en": "The attacked part turns brown. Over time the fruit becomes soft and rots.",
+    "zh": "受害部位变成褐色。时间一长，果实会变软并腐烂。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 84,
+  "kind": "fungus",
+  "ai": [
+   "Propamocarb",
+   "Fosetyl"
+  ],
+  "name": {
+   "ms": "Akar Tongkol",
+   "en": "Clubroot",
+   "zh": "根肿病"
+  },
+  "sci": "<em>Plasmodiophora brassicae</em>",
+  "desc": {
+   "en": "This fungus causes Clubroot in cabbage. It infects susceptible plants through the root hairs. Infected plants have difficulty absorbing water and nutrients properly. Clubroot reduces yield and can cause complete crop failure. To prevent this, destroy infected plants, use disease-free planting material, practise crop rotation and make sure the field has good drainage. Drench propamocarb and fosetyl in the nursery, and apply lime to raise the soil pH to 6.5.",
+   "zh": "这种病菌会引起包菜根肿病。它通过根毛感染易感的植物。受感染的植株难以正常吸收水分和养分。根肿病会降低产量，甚至导致作物完全失收。为防止发生，应销毁受感染的植株，使用无病种植材料，实行轮作，并确保田间排水良好。在苗圃淋灌霜霉威 Propamocarb 和三乙膦酸铝 Fosetyl，并施石灰把土壤pH提高到6.5。"
+  },
+  "symptoms": [
+   {
+    "en": "Infected roots look unhealthy, rotten and swollen.",
+    "zh": "受感染的根部看起来不健康、腐烂并肿大。",
+    "steps": []
+   },
+   {
+    "en": "Plants are stunted, and the leaves turn yellow and wilt.",
+    "zh": "植株矮小，叶片变黄并萎蔫。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 103,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate Potassium",
+   "Glyphosate Isopropylamine",
+   "2,4-D"
+  ],
+  "name": {
+   "ms": "Rumput Tahi Ayam",
+   "en": "Billygoat Weed",
+   "zh": "胜红蓟"
+  },
+  "sci": "<em>Ageratum conyzoides</em> L.",
+  "desc": {
+   "en": "<p>Integrated weed control, which combines manual control, mechanical control, cultural practices and herbicides, is recommended. Use the following herbicides at the rates recommended on the label:</p><p>a. Glyphosate potassium</p><p>b. Glyphosate isopropylamine</p><p>c. 2,4-D</p>",
+   "zh": "<p>建议采用综合杂草管理，包括人工除草、机械除草、栽培措施和使用除草剂。按照标签上的建议用量使用以下除草剂：</p><p>a. 草甘膦钾盐 Glyphosate potassium</p><p>b. 草甘膦异丙胺盐 Glyphosate isopropylamine</p><p>c. 2,4-滴 2,4-D</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><em>A. conyzoides</em> grows in grasslands, forests, wasteland, open clearings, roadsides, riverbanks (riparian zones), wetlands, coastal sand dunes and degraded pastures, and quickly colonises cultivated land on both light and heavy soils (BioNET-EAFRINET, 2016; PIER, 2016; PROTA, 2016). It is a major to moderate weed of frequently disturbed areas, such as vegetables and other cultivated crops, pastures (especially when overgrazed), plantations, orchards and roadsides. It is found in widely spaced annual row crops and in permanent tree crops. In the United States it has the status of a facultative wetland and facultative upland wetland indicator (USDA-NRCS, 2016), which shows that the species can grow in both wetland and non-wetland areas.</p><p><em>Ageratum conyzoides</em> (billy goat weed) Toolbox</p>",
+    "zh": "<p><em>A. conyzoides</em>生长在草地、森林、荒地、空旷地、路边、河岸带、湿地、沿海沙丘和退化牧场，并能在轻质和黏重土壤的耕地上迅速蔓延（BioNET-EAFRINET, 2016；PIER, 2016；PROTA, 2016）。它是经常受到干扰的地方的主要至中等程度杂草，例如蔬菜和其他栽培作物、牧场（尤其是过度放牧时）、种植园、果园和路边。它可见于株行距宽的一年生行栽作物和多年生果树作物中。在美国，它被列为兼性湿地及兼性旱地湿地指示植物（USDA-NRCS, 2016），说明这个物种既可生长在湿地，也可生长在非湿地地区。</p><p><em>Ageratum conyzoides</em>（胜红蓟）资料工具箱（Toolbox）</p>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 148,
+  "kind": "weed",
+  "ai": [
+   "Metsulfuron-methyl",
+   "Diuron"
+  ],
+  "name": {
+   "ms": "Rumput Sambau",
+   "en": "Goosegrass",
+   "zh": "牛筋草"
+  },
+  "sci": "<em>Eleusine indica</em> (L.) Gaertn.",
+  "desc": {
+   "en": "<p><strong>Goosegrass (<em>Eleusine indica</em>)</strong></p><p>Goosegrass (rumput sambau), scientific name <em>Eleusine indica</em>, is a narrow-leaved weed and one of the invasive weeds commonly found throughout Malaysia. It is known as a grass that is hard to kill and very tough. It grows well in hot, humid climates, and in open areas such as abandoned land, farmland and roadsides.</p><p>Morphology</p><p>The grass has soft, smooth, tough and branched stems, 5-60 centimetres tall. The leaves are shiny bluish-green and grow thickly at the base. The leaf blades are 5-20 cm long and narrow, with fine hairs scattered on the upper and lower leaf surfaces; the junction between leaf blade and leaf sheath has fine hairs along the edges. The flower head has one to six spikes. The spikelets are arranged in two rows, attached alternately along one axis; they are bisexual, with feathery purple stigmas, and have 3-5 florets covered by dull white husk scales (glumes). The seeds are reddish brown or black, oblong-oval and ridged (Soerjani et al. 1987).</p><p>Mature plants produce many flowers and spread seeds that grow into new grass plants. If not controlled, the farm will become full of goosegrass. This is a problem for farmers because killing goosegrass is costly.</p><br> Control methods<p>1. Mechanical method: use a hoe at the early growth stage.</p><p>2. Chemical method: a herbicide containing MSM (metsulfuron-methyl) + diuron, sold under the trade name MONEX HC, is the most effective herbicide for controlling goosegrass. The best time to control the weed is before it flowers.</p><p>Note:</p><p>This weed is also found in other crop areas such as fruits, vegetables, tuber crops, and along roadsides in rice-growing areas.</p>",
+   "zh": "<p><strong>牛筋草（<em>Eleusine indica</em>）</strong></p><p>牛筋草（马来文 rumput sambau），学名<em>Eleusine indica</em>，属于窄叶类杂草，是马来西亚各地常见的入侵杂草之一，以难以除灭、生命力顽强而出名。它在炎热潮湿的气候中生长良好，常见于荒地、农地和路边等空旷地方。</p><p>形态特征</p><p>这种草的茎柔软、光滑、坚韧并有分枝，高5-60厘米。叶片呈有光泽的蓝绿色，在基部丛生；叶片长5-20厘米，狭窄，上下表面散生细毛；叶片与叶鞘的交界处边缘有细毛。花序由一至六个穗状花序组成。小穗排成两行，交互着生于同一轴上；为两性花，柱头羽毛状、紫色，有3-5朵小花，外被暗白色的颖片。种子红褐色或黑色，长卵形，表面有棱纹（Soerjani et al. 1987）。</p><p>成熟的植株会开大量的花并散播种子，长出新的植株。如果不加以控制，田地会长满牛筋草。这对农民是个问题，因为清除牛筋草的成本很高。</p><br> 防治方法<p>1. 机械方法：在生长初期用锄头除草。</p><p>2. 化学方法：使用含 MSM（甲磺隆 Metsulfuron-methyl）+ 敌草隆 Diuron 的除草剂，商品名 MONEX HC，是防治牛筋草最有效的除草剂。最适合防治的时间是在植株开花之前。</p><p>注：</p><p>这种杂草也见于其他作物区，如果树、蔬菜、块根作物，以及稻区的路边。</p>"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 165,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Teritip",
+   "en": "Oriental Scale",
+   "zh": "东方肾圆盾蚧"
+  },
+  "sci": "<em>Aspidiotus orientalis</em>",
+  "desc": {
+   "en": "Adult scales and nymphs attack the stems, fruits and leaves of papaya by sucking sap from these parts, which makes the plant dry out and stunts its growth. As a result, the leaves cannot develop properly, the fruits are stunted and the stem may break at its base. Attacks on papaya fruit also make it easier for fungal infections, such as ring spot disease, to develop when the fruit ripens. The honeydew produced by this pest also encourages black sooty mould to grow on the fruit surface and spoils the fruit's appearance. Scale attacks on papaya farms are usually at a low to moderate level.",
+   "zh": "成虫和若虫会吸食木瓜树茎、果实和叶片的汁液，使植株干枯并抑制生长。在这种情况下，叶片无法正常发育，果实发育不良，茎干也可能在基部折断。果实受害后，到成熟时更容易受到真菌感染，如轮纹斑病。这种害虫分泌的蜜露也会促使果实表面长出黑色煤烟霉，影响果实外观。木瓜园中介壳虫的危害程度通常为低至中等。"
+  },
+  "symptoms": [
+   {
+    "en": "The fruit looks dirty because of scales on its surface, which encourage black sooty mould. The leaves turn yellowish. In serious attacks, the stem can rot, and the plant becomes dry and stunted.",
+    "zh": "果实表面附着介壳虫，看起来不干净，并会引发黑色煤烟霉；叶片变黄。严重受害时，茎干可能腐烂，植株干枯并生长受阻。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 185,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Daun",
+   "en": "Leaf Beetle",
+   "zh": "守瓜（叶甲）"
+  },
+  "sci": "<em>Aulacophora</em> spp.",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "The leaves are badly eaten by adult beetles, and the roots are eaten by the larvae.",
+    "zh": "叶片被成虫严重啃食，根部则被幼虫取食。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 202,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Kutu",
+   "en": "Flea Beetle",
+   "zh": "黄曲条跳甲"
+  },
+  "sci": "<em>Phyllotreta sinuata</em>",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Feeds on the leaves at all stages, leaving small holes in the leaves</li><li>Feeds on the roots and the base of the plant</li></ul>",
+    "zh": "<ul><li>在各个阶段取食叶片，使叶片布满小孔</li><li>取食根部和植株基部</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 224,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Jantung Kobis",
+   "en": "Cabbage Head Caterpillar",
+   "zh": "菜心野螟"
+  },
+  "sci": "<em>Crocidolomia binotalis</em>",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The larvae feed on the lower layer of the leaf until only the leaf skeleton (veins) is left.</li><li>The larvae can bore into and feed right into the centre of the broccoli head.</li></ul>",
+    "zh": "<ul><li>幼虫取食叶片下表层，直到只剩下叶脉骨架。</li><li>幼虫可以钻蛀并一直吃到西兰花花球的中心。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 245,
+  "kind": "mite",
+  "ai": [
+   "Fenpyroximate"
+  ],
+  "name": {
+   "ms": "Hama Merah",
+   "en": "Red Spider Mite (Persea Mite)",
+   "zh": "鳄梨小爪螨（红蜘蛛）"
+  },
+  "sci": "<em>Oligonychus perseae</em>",
+  "desc": {
+   "en": "<p>Red spider mites are a serious threat to avocado trees and can cause leaf drop and lower fruit yield.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Make sure avocado trees get enough water and nutrients to improve their resistance to mite attack.</li><li>Remove alternative host plants, such as weeds, that can become breeding places for mites.</li><li>Prune and destroy infested plant parts to prevent spread.</li><li><strong>Natural predators:</strong> Encourage natural predators such as the <em>Stethorus picipes</em> beetle, which is known to be effective in controlling mite populations on avocado trees.</li></ul><p>Chemical control (if needed)</p><ul><li>Use a suitable pesticide to control red spider mite populations. For example, products containing the active ingredient fenpyroximate can be used at the recommended dose.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>红蜘蛛对鳄梨（牛油果）树构成严重威胁，会导致落叶和果实减产。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>确保鳄梨树获得充足的灌溉和养分，以提高对螨害的抵抗力。</li><li>清除杂草等可成为螨类繁殖场所的替代寄主植物。</li><li>修剪并销毁受害的植株部位，防止扩散。</li><li><strong>天敌：</strong>鼓励天敌的存在，例如<em>Stethorus picipes</em>瓢虫，已知它能有效控制鳄梨树上的螨类数量。</li></ul><p>化学防治（如有需要）</p><ul><li>使用合适的农药控制红蜘蛛数量。例如，可按建议剂量使用含有效成分唑螨酯 Fenpyroximate 的产品。</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、适当的施用时间，以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Red Spider Mite - <em>Oligonychus perseae</em>",
+    "zh": "红蜘蛛 - <em>Oligonychus perseae</em>",
+    "steps": []
+   },
+   {
+    "en": "<p><strong>Symptoms:</strong></p><ul><li>Small dark brown to blackish spots are scattered over the whole leaf surface.</li><li>The leaf turns yellow unevenly, starting around the spots.</li><li>The leaf looks dry around the spots and sometimes starts to curl.</li><li>Checking the underside of the leaf shows that the main leaf veins are often where the mites breed.</li></ul>",
+    "zh": "<p><strong>症状：</strong></p><ul><li>叶片整个表面散布深褐色至黑色的小斑点。</li><li>叶片从斑点周围开始不均匀地变黄。</li><li>斑点处的叶片显得干枯，有时开始卷曲。</li><li>检查叶背时，可发现主叶脉一带常是螨类繁殖的地方。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 257,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Tahi Ayam",
+   "en": "Billygoat Weed",
+   "zh": "胜红蓟"
+  },
+  "sci": "<em>Ageratum conyzoides</em> L.",
+  "desc": {
+   "en": "<p><strong>Family: </strong>Asteraceae</p><p><strong>Habitat: </strong>Farmland, gardens and wet or damp areas</p><p><strong>Ageratum conyzoides</strong>, better known as <strong>Billygoat Weed</strong> (Rumput Tahi Ayam), comes from <strong>Central America</strong> and <strong>South America</strong>. The plant has spread to other tropical and subtropical regions around the world, including Asia, Africa and parts of <strong>Oceania</strong>.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li><strong>Hand pulling</strong> – suitable for small areas or at the early growth stage.</li><li><strong>Hoeing / cutting</strong> – make sure the roots are pulled out, because the weed can regrow from root pieces.</li><li><strong>Plant cover crops</strong> such as legumes, tubers or ground covers like <em>Mucuna</em> or <em>Centrosema</em> → they block sunlight from reaching the weeds.</li><li><strong>Crop rotation</strong> – avoid growing the same crop for too long; this helps break the weed's life cycle.</li><li><strong>Close planting</strong> – plant the main crop close together so it covers the soil and <strong>leaves less space for weeds to grow</strong>.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Through <strong>small &amp; light seeds</strong> – easily spread by wind and water</li><li>Multiplies very quickly &amp; <strong>easily takes over new areas</strong></li><li>Through <strong>animals</strong> or <strong>people</strong>, when seeds stick to clothing or animal fur.</li></ul>",
+   "zh": "<p><strong>科：</strong>菊科（Asteraceae）</p><p><strong>生境：</strong>农业区、园地以及积水或潮湿的地方</p><p><strong>Ageratum conyzoides</strong>，俗称<strong>胜红蓟</strong>（马来文 Rumput Tahi Ayam），原产于<strong>中美洲</strong>和<strong>南美洲</strong>。这种植物已传播到世界其他热带和亚热带地区，包括亚洲、非洲和<strong>大洋洲</strong>部分地区。</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li><strong>人工拔除</strong>——适合小面积或生长初期。</li><li><strong>锄除／割除</strong>——务必把根拔出，因为它能从残根重新长出。</li><li><strong>种植覆盖作物</strong>，如豆类、薯类，或<em>Mucuna</em>（黎豆）、<em>Centrosema</em>（距瓣豆）等地被植物 → 阻挡阳光照到杂草。</li><li><strong>轮作</strong>——避免长期种植同一种作物；这有助于打断杂草的生命周期。</li><li><strong>密植</strong>——主要作物种得密一些，覆盖地面，<strong>减少杂草生长的空间</strong>。</li></ul><p><strong>传播方式：</strong></p><ul><li>通过<strong>细小轻盈的种子</strong>——容易随风和水传播</li><li>繁殖非常快，<strong>容易占领新的地方</strong></li><li>通过<strong>动物</strong>或<strong>人</strong>传播：种子会粘附在衣服或动物毛上。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Main features of </strong><em>Ageratum conyzoides</em></p><ul><li><strong>Plant form: </strong>An annual herb (lives for one season but easily regrows). Height: <strong>30–80 cm</strong><strong><em>. </em></strong>Grows upright or creeping, with many branches from the base</li><li><strong>Leaves: </strong>Oval (egg-shaped) with slightly toothed edges<strong>. </strong>Arranged opposite each other<strong>, </strong>with fine hairs on the leaf surface, light green, and when crushed they give off a strong smell – a typical smell like chicken droppings</li><li><strong>Flowers: </strong>Many small, “fluffy” (tufted) flowers, bluish-purple (sometimes white or pink)<strong>. </strong>Clustered at the stem tips in dense bunches; they attract insects but can also act as a vector of plant viruses.</li><li>Invasive weed – <strong>competes with the main crop</strong> (rice, vegetables, etc.)</li><li>Acts as a <strong>host for crop pests &amp; diseases</strong> (such as mosaic virus)</li></ul>",
+    "zh": "<p><strong>主要特征：</strong><em>Ageratum conyzoides</em></p><ul><li><strong>植株形态：</strong>一年生草本（只活一季，但容易重新长出）。高度：<strong>30–80厘米</strong><strong><em>。</em></strong>直立或匍匐生长，从基部长出许多分枝</li><li><strong>叶：</strong>卵形（椭圆形），边缘有细锯齿<strong>。</strong>对生<strong>，</strong>叶面有细毛，浅绿色，揉碎后有强烈气味——像鸡粪的特殊气味</li><li><strong>花：</strong>花小而多，呈“毛绒状”（流苏状），蓝紫色（有时白色或粉红色）<strong>。</strong>密集簇生于茎顶，能吸引昆虫，但也可能成为植物病毒的传播媒介。</li><li>入侵性杂草——<strong>与主要作物</strong>（稻米、蔬菜等）<strong>争夺养分</strong></li><li>是作物<strong>害虫和病害的寄主</strong>（如花叶病毒）</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 269,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate",
+   "MCPA",
+   "2,4-D"
+  ],
+  "name": {
+   "ms": "Rumput Lidah Rimau",
+   "en": "Southern Cutgrass",
+   "zh": "李氏禾"
+  },
+  "sci": "<em>Leersia hexandra</em> Sw.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat: </strong>This plant is a water grass commonly found in wet areas such as swamps, riverbanks and rice fields. It is a hard weed to control because it grows quickly in damp and waterlogged areas.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Manual pulling: suitable for small areas, but difficult because the roots are strong and creeping.</li><li>Ploughing / rotovation: in rice fields, ploughing the soil before planting helps destroy the rhizomes (creeping roots) of this grass.</li><li>Chemical method (herbicides)<br>(example: Roundup) – effective against <em>Leersia hexandra</em>, but non-selective and can kill other crops if sprayed on them.</li><li>Glyphosate</li><li>MCPA or 2,4-D – more selective in rice fields, but less effective against creeping-root weeds such as <em>Leersia</em>.<br> </li></ul><p><strong>How it spreads:</strong></p><ul><li>Through rhizomes (creeping roots). This is the main way it spreads.</li><li>Rhizomes (underground roots) creep into new areas and grow into new plants.</li><li>Very hard to control, because even a small piece of root left behind can regrow.</li><li>Through stolons (stems creeping on the surface)</li><li>Stems creeping over the water or soil surface form new roots and shoots at the nodes. This makes it spread very fast in wet or damp areas.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong>这种植物是一种水生禾草，常见于沼泽、河岸和稻田等潮湿地区。它在潮湿和积水的地方生长迅速，因此是难以防治的杂草。</p><p><strong>综合杂草管理（IWM）</strong></p><ul><li>人工拔除：适合小面积，但由于根系强壮且匍匐蔓延，拔除较困难。</li><li>犁地／旋耕：在稻田中，种植前犁地有助于破坏这种草的根状茎（匍匐根）。</li><li>化学方法（除草剂）<br>（例如：Roundup）——对<em>Leersia hexandra</em>有效，但属于非选择性除草剂，喷到其他作物也会把作物杀死。</li><li>草甘膦 Glyphosate</li><li>2甲4氯 MCPA 或 2,4-滴 2,4-D——在稻田中选择性较高，但对<em>Leersia</em>这类根茎匍匐的杂草效果较差。<br> </li></ul><p><strong>传播方式：</strong></p><ul><li>通过根状茎（匍匐根）传播，这是主要的传播方式。</li><li>根状茎（地下根）蔓延到新的地方，并长成新的植株。</li><li>非常难以防治，因为即使留下一小段根，也能重新长出。</li><li>通过匍匐茎（在地表蔓延的茎）传播</li><li>在水面或地面蔓延的茎会在节上长出新根和新芽，使它在潮湿或积水的地方蔓延得非常快。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Leersia hexandra</em> Sw.</p><ul><li>Stem: Creeping and hollow, can reach 1 metre long or more</li><li>Creeping stolons and rhizomes allow it to form dense colonies</li><li>Leaves: Narrow and long, bright green. The leaf edges are very sharp and toothed – they can cut your hands (that is why it is called <em>cutgrass</em> in English). The leaf surface is rough</li><li>Roots: Has fibrous roots and creeping rhizomes. Roots can grow from the nodes of stolons that touch the soil/water</li></ul>",
+    "zh": "<p><em>Leersia hexandra</em> Sw.的主要特征</p><ul><li>茎：匍匐、中空，长度可达1米或以上</li><li>匍匐茎和根状茎使它能形成密集的群落</li><li>叶：狭长，鲜绿色。叶缘非常锋利并有锯齿——可割伤手（因此英文称为<em>cutgrass</em>，即“割草”）。叶面粗糙</li><li>根：有须根和匍匐的根状茎。接触土壤或水面的匍匐茎节上可长出根</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 281,
+  "kind": "fungus",
+  "ai": [
+   "Captan",
+   "Benomyl",
+   "Mancozeb",
+   "Maneb"
+  ],
+  "name": {
+   "ms": "Bintik Daun",
+   "en": "Leaf Spot",
+   "zh": "椰子叶斑病"
+  },
+  "sci": "<em>Curvularia maculans</em>, <em>Helminthosporium incurvatum</em>, <em>Pestalotiopsis palmarum</em>",
+  "desc": {
+   "en": "<ul><li>This disease tends to occur in <strong>damp, shaded and poorly ventilated</strong> conditions, such as in nurseries or overcrowded fields. Early detection is very important to prevent wide spread.</li><li>In seedlings or young palms, infection can cause <strong>stunted growth</strong> and weaken the palm.</li><li>In severe cases, <strong>the number of healthy leaves falls</strong>, which affects photosynthesis and the overall growth of the palm.</li></ul><p><strong>Disease management:</strong></p><p><strong>1. Cultural practices:</strong></p><ul><li><strong>Space out (thin) seedlings</strong> in the nursery to ensure good airflow and reduce humidity.</li><li><strong>Avoid overwatering</strong> that keeps the leaves wet all the time.</li><li>Remove and <strong>destroy infected leaves</strong> to prevent spread.</li></ul><p><strong>2. Chemical control:</strong></p><ul><li>Spray <strong>registered fungicides</strong> such as:<ul><li><strong>Captan</strong></li><li><strong>Benomyl</strong></li><li><strong>Mancozeb</strong></li><li><strong>Maneb</strong></li></ul></li><li>Spray regularly, especially in the wet or rainy season.</li></ul><p><strong>3. Regular monitoring:</strong></p><ul><li>Check nurseries and fields routinely to detect early symptoms.</li></ul>",
+   "zh": "<ul><li>这种病害容易发生在<strong>潮湿、荫蔽和通风不良</strong>的环境，如苗圃或种植过密的园地。及早发现非常重要，可避免大范围传播。</li><li>在幼苗或幼龄椰树上，感染会导致<strong>生长受阻</strong>，使植株衰弱。</li><li>严重时，<strong>健康叶片数量减少</strong>，影响光合作用和植株的整体生长。</li></ul><p><strong>病害管理：</strong></p><p><strong>1. 栽培措施：</strong></p><ul><li>在苗圃中<strong>疏苗</strong>，确保通风良好并降低湿度。</li><li><strong>避免过度浇水</strong>，以免叶片一直潮湿。</li><li>摘除并<strong>销毁受感染的叶片</strong>，防止传播。</li></ul><p><strong>2. 化学防治：</strong></p><ul><li>喷洒<strong>已注册的杀菌剂</strong>，如：<ul><li><strong>克菌丹 Captan</strong></li><li><strong>苯菌灵 Benomyl</strong></li><li><strong>代森锰锌 Mancozeb</strong></li><li><strong>代森锰 Maneb</strong></li></ul></li><li>定期喷药，尤其在潮湿或雨季期间。</li></ul><p><strong>3. 定期监测：</strong></p><ul><li>定期检查苗圃和园地，以便及早发现症状。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ol><li><strong>Small brown spots appear</strong> on the leaf surface, especially on older leaves.</li><li>The spots are <strong>round or oval</strong> and surrounded by a <strong>yellow ring (yellow halo)</strong>.</li><li>Over time, the spots <strong>enlarge and join together</strong>, causing larger areas to become necrotic (dead).</li><li>Infected leaves show <strong>yellowing, drying at the tips</strong>, and <strong>fall off easily</strong>.</li></ol>",
+    "zh": "<ol><li>叶面<strong>出现褐色小斑点</strong>，尤其在较老的叶片上。</li><li>斑点呈<strong>圆形或椭圆形</strong>，周围有<strong>黄色晕圈（黄晕）</strong>。</li><li>随着时间推移，斑点会<strong>扩大并连成一片</strong>，使更大面积的组织坏死。</li><li>受感染的叶片会<strong>变黄、叶尖干枯</strong>，并<strong>容易脱落</strong>。</li></ol>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 298,
+  "kind": "fungus",
+  "ai": [
+   "Mineral Oil",
+   "Malathion"
+  ],
+  "name": {
+   "ms": "Jelaga Hitam",
+   "en": "Sooty Mould",
+   "zh": "芒果煤烟病"
+  },
+  "sci": "<em>Tripospermum</em> sp., <em>Limacinula</em> sp., <em>Trichopeltheca</em> sp.",
+  "desc": {
+   "en": "<ul><li><p>Black sooty mould covers the leaf surface and reduces photosynthesis, so the mango tree produces fewer fruits and looks unhealthy.</p></li><li><p>In addition, the black sooty mould absorbs water and keeps the leaf surface damp all the time, which encourages other diseases to spread.</p></li></ul><p>Control management:</p><ul><li><p>Always follow Good Agricultural Practices (GAP). Control weeds and prune the trees to improve airflow and reduce humidity in the canopy and around the tree.</p></li><li><p>Control insect pests such as mealybugs and scale insects with insecticides such as white oil or malathion, because these insects produce a sweet liquid, ‘honeydew’, which is food for the fungus.</p></li><li><p>Be careful when using white oil, because it is phytotoxic (harmful) to mango flowers. So avoid spraying during the flowering period.</p></li></ul>",
+   "zh": "<ul><li><p>黑色煤烟霉覆盖叶面，降低光合作用，使芒果树结果减少，看起来不健康。</p></li><li><p>此外，煤烟霉会吸收水分，使叶面一直保持潮湿，从而促使其他病害传播。</p></li></ul><p>防治管理：</p><ul><li><p>始终遵守良好农业规范（GAP）。控制杂草并修剪果树，以改善通风，降低树冠内和果树周围的湿度。</p></li><li><p>使用白油（矿物油，white oil）或马拉硫磷 Malathion 等杀虫剂防治粉蚧和介壳虫等害虫，因为这些昆虫会分泌甜液“蜜露”（honeydew），成为真菌的食物来源。</p></li><li><p>使用白油时要小心，因为它对芒果花有药害。因此，开花期间应避免喷洒。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ol><li>A black, soot-like layer appears on the surface of the fruit skin.</li><li><p>The fruit looks dirty or blackened, but the flesh is not affected.</p></li><li><p>It spoils the appearance and market quality of the mango.</p></li><li><p>In severe cases, the whole fruit surface is covered with the fungus.</p></li><li><p>It often happens because of the sweet liquid (honeydew) produced by insects such as mealybugs and scale insects.</p></li></ol>",
+    "zh": "<ol><li>果皮表面出现一层像煤烟的黑色物质。</li><li><p>果实看起来很脏或发黑，但果肉不受影响。</p></li><li><p>影响芒果的外观和市场品质。</p></li><li><p>严重时，整个果实表面都被霉菌覆盖。</p></li><li><p>常因粉蚧和介壳虫等昆虫分泌的甜液（蜜露）而引起。</p></li></ol>",
+    "steps": []
+   },
+   {
+    "en": "<ol><li><p>A black, sooty layer on the upper and/or lower surface of the leaves.</p></li><li><p>The leaves look dirty and blackened, as if covered with charcoal powder.</p></li><li><p>Photosynthesis is disturbed because the leaf surface is covered by the fungus.</p></li><li><p>Tree growth is stunted and leaves may drop early.</p></li><li><p>It usually occurs together with attacks by sap-sucking insects such as mealybugs, scale insects and hoppers.</p></li></ol>",
+    "zh": "<ol><li><p>叶片上表面和／或下表面有一层黑色煤烟状物。</p></li><li><p>叶片看起来很脏、发黑，好像覆盖了一层炭粉。</p></li><li><p>叶面被霉菌覆盖，光合作用受到干扰。</p></li><li><p>果树生长受阻，叶片可能提早脱落。</p></li><li><p>通常与粉蚧、介壳虫和叶蝉等刺吸式害虫的危害同时发生。</p></li></ol>",
+    "steps": []
+   }
+  ]
+ }
+]
