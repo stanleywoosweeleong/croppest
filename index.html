@@ -93,6 +93,7 @@ main{padding-top:calc(var(--topbar) + env(safe-area-inset-top,0px));
 .crop .ph{display:block;aspect-ratio:4/3;background:#fff}
 .crop .ph img{width:100%;height:100%;object-fit:cover;display:block}
 .crop .t{flex:1}
+.noph{display:grid;place-items:center;width:100%;height:100%;background:var(--accent-soft);color:var(--accent);font-family:var(--f-display);font-size:3rem}
 .crop .t{padding:10px 12px 12px;display:flex;flex-direction:column;gap:2px}
 .crop .t b{font-family:var(--f-display);font-weight:400;font-size:1.15rem}
 .crop .t small{color:var(--muted);font-size:.85rem}
@@ -368,7 +369,7 @@ function pestRow(p, extra = '') {
   return `<a class="row" href="#pest/${p.id}">${f ? img(f, '', '') : '<span class="noimg"></span>'}
     <span class="t">${kindTag(p)}<b>${esc(L(p.name))}</b><span class="sci">${p.sci}</span>${extra}</span><span class="chev">›</span></a>`;
 }
-const cropCard = c => `<a class="crop" href="#crop/${c.code}"><span class="ph">${c.img ? `<img src="${thumb(c.img)}" alt="" loading="lazy">` : ''}</span>
+const cropCard = c => `<a class="crop" href="#crop/${c.code}"><span class="ph">${c.img ? `<img src="${thumb(c.img)}" alt="" loading="lazy">` : `<span class="noph">${esc([...L(c.name)][0] || '')}</span>`}</span>
     <span class="t"><b>${esc(L(c.name))}</b><small>${esc(t('nPests', c.pests.length))}</small>${masteryBar(c)}</span></a>`;
 const isWeeds = c => c.code === 'WEED' || c.code === 'WEEDS';
 function vCrops() {

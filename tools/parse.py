@@ -39,7 +39,9 @@ listed = {p for c in out["crops"] for p in c["pests"]} | {int(x) for x in re.fin
 # every detail page that was downloaded, including those the site's lists leave out
 ids = sorted({int(m.group(1)) for f in glob.glob(D + "/raw/ms/ALUS_Pest_library_pest_detail_*_view.html")
               for m in [re.search(r"detail_(\d+)_view", f)] if os.path.exists(f.replace("/raw/ms/", "/raw/en/"))})
+SKIP = {229}  # same weed page as 230 with a shorter text
 for pid in ids:
+    if pid in SKIP: continue
     P = {"id": pid, "listed": pid in listed, "crops": [c["code"] for c in out["crops"] if pid in c["pests"]], "name": {}, "affected": {}, "desc": {}, "symptoms": []}
     for L in ("ms", "en"):
         m = main(rd(L, "/ALUS/Pest/library/pest/detail/%d/view/" % pid))

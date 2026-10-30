@@ -8,7 +8,7 @@ for f in glob.glob(D + "/tr/*.json"):
     for x in (lambda j: j if isinstance(j, list) else [j])(json.load(open(f, encoding="utf-8"))): tr[x["id"]] = x
 PARTS = {  # crop-part labels; ms/en from the site, zh added here
  "LEAF": "叶子", "STEM": "茎/树干", "FR": "果实", "PLANT": "整株", "PEST": "虫体（害虫本身）", "MORFOLOGI": "形态特征",
- "ROOT": "根部", "TREE": "树", "BEAN": "咖啡豆", "F": "椰叶", "LC": "生活史", "FLOWER": "花", "PANICLE": "稻穗", "SEED": "种子", "SHOOT": "嫩梢", "BUNCH": "果串", "TILLER": "分蘖"}
+ "ROOT": "根部", "TREE": "树", "BEAN": "咖啡豆", "F": "椰叶", "LC": "生活史", "CORM": "球茎", "T": "卵", "RUMPAI": "杂草", "FLOWER": "花", "PANICLE": "稻穗", "SEED": "种子", "SHOOT": "嫩梢", "BUNCH": "果串", "TILLER": "分蘖"}
 CROPZH = {"BUAH": "牛油果", "DURIAN": "榴莲", "COCONUT": "椰子", "KOPI": "咖啡", "PINEAPPLE": "黄梨（菠萝）", "JACKFRUIT": "菠萝蜜", "PADDY": "稻米", "BANANA": "香蕉"}
 os.makedirs(APP + "/img/t", exist_ok=True)
 def conv(name):
@@ -46,12 +46,13 @@ EXTRA_ZH = {"Halia": "姜", "Betik": "木瓜", "Jagung": "玉米", "Sitrus": "�
             "Rumpai": "杂草"}
 for p in data["pests"]:  # pests the site lists without a crop page: group them under their affected crop
     if not p["crops"] and p.get("affected", {}).get("ms"):
-        a = p["affected"]; code = re.sub(r"[^A-Z]", "", a["en"].upper())
+        a = dict(p["affected"]); a["en"] = re.sub(r"\s*\(.*?\)\s*", "", a["en"]).strip()  # "Broccoli (Brassica ...)" -> "Broccoli"
+        code = re.sub(r"[^A-Z]", "", a["en"].upper())
         c = next((x for x in data["crops"] if x["code"] == code or x["name"]["ms"].lower() == a["ms"].strip().lower()), None)
         if not c:
             c = {"code": code, "name": {"ms": a["ms"].strip(), "en": a["en"].strip()}, "pests": [], "extra": True}; data["crops"].append(c)
             CROPZH[code] = EXTRA_ZH.get(a["ms"].strip(), a["ms"].strip())
-        c["pests"].append(p["id"]); p["crops"] = [code]
+        c["pests"].append(p["id"]); p["crops"] = [c["code"]]
 for c in data["crops"]:
     c["name"]["zh"] = CROPZH.get(c["code"], c["name"]["ms"])
     c["pests"] = [i for i in c["pests"] if any(p["id"] == i for p in data["pests"])]

@@ -44,6 +44,7 @@ def exists(i):
     try: return O["ms"].open(B + "/ALUS/Pest/library/pest/detail/%d/view/" % i, timeout=60).status == 200
     except Exception: return False
 MAXID = int(os.environ.get("MAXID", "600"))
+pests |= set(os.environ.get("IDS", "").split())  # extra page numbers to fetch
 with cf.ThreadPoolExecutor(6) as ex:
     pests |= {str(i) for i, ok in zip(range(1, MAXID), ex.map(exists, range(1, MAXID))) if ok}
 print(len(codes), "crops", len(pests), "pests")
