@@ -171,9 +171,84 @@ const KINDS = {
       en: 'Traps, physical barriers, a clean farm, harvesting on time.',
       zh: '诱捕、物理阻隔、保持园区清洁、及时采收。'
     }
+  },
+  mite: {
+    color: 'insect',
+    name: { ms: 'Hama (mit)', en: 'Mite', zh: '螨类' },
+    what: {
+      ms: 'Haiwan sangat kecil berkaki lapan, saudara labah-labah, contohnya hama merah. Ia menghisap cecair sel daun dan membiak cepat dalam cuaca panas dan kering.',
+      en: 'Tiny eight-legged animals related to spiders, such as red spider mites. They suck the contents of leaf cells and multiply fast in hot, dry weather.',
+      zh: '八只脚的微小动物，与蜘蛛同类，例如红蜘蛛。吸食叶片细胞汁液，炎热干燥时繁殖很快。'
+    },
+    sign: {
+      ms: 'Bintik halus kekuningan atau keperangan pada daun, sarang halus seperti sutera, titik merah kecil yang bergerak di bawah daun.',
+      en: 'Fine yellowish or bronze speckling on leaves, fine silky webbing, tiny moving red dots under the leaf.',
+      zh: '叶面出现细密的黄色或铜褐色斑点，有细丝网，叶背有会动的小红点。'
+    },
+    control: {
+      ms: 'Pantau bahagian bawah daun, jaga kelembapan, lindungi pemangsa semula jadi. Racun serangga biasa selalunya tidak berkesan; guna akarisid (racun hama) yang disyorkan.',
+      en: 'Check leaf undersides, keep plants watered, protect natural predators. Ordinary insecticides often fail; use a recommended acaricide (miticide).',
+      zh: '检查叶背，保持水分，保护天敌。普通杀虫剂往往无效，要用推荐的杀螨剂。'
+    }
+  },
+  mollusc: {
+    color: 'nematode',
+    name: { ms: 'Siput', en: 'Snail', zh: '螺类' },
+    what: {
+      ms: 'Siput gondang emas memakan anak padi muda di sawah yang bertakung air, terutama dalam dua minggu pertama selepas menanam.',
+      en: 'Golden apple snails eat young rice seedlings in flooded fields, especially in the first two weeks after planting.',
+      zh: '福寿螺在积水稻田中啃食幼嫩秧苗，插秧后头两周危害最重。'
+    },
+    sign: {
+      ms: 'Anak padi hilang atau terpotong di paras air, telur merah jambu terang pada batang dan tebing.',
+      en: 'Seedlings missing or cut at water level, bright pink egg clusters on stems and bunds.',
+      zh: '秧苗在水面处被咬断或消失，茎秆和田埂上有鲜粉红色卵块。'
+    },
+    control: {
+      ms: 'Kutip siput dan telur, pasang penapis di saluran air masuk, keringkan sawah sekejap selepas menanam, guna itik di sawah.',
+      en: 'Hand-pick snails and eggs, screen water inlets, drain the field briefly after planting, use ducks in the field.',
+      zh: '人工捡螺和卵块，在进水口装滤网，插秧后短暂排干田水，稻田放鸭。'
+    }
+  },
+  bird: {
+    color: 'mammal',
+    name: { ms: 'Burung', en: 'Bird', zh: '鸟类' },
+    what: {
+      ms: 'Burung pipit dan burung lain memakan bijirin padi yang sedang masak.',
+      en: 'Munias and other birds eat ripening rice grain.',
+      zh: '文鸟等鸟类啄食即将成熟的稻谷。'
+    },
+    sign: {
+      ms: 'Tangkai padi kosong atau patah, kumpulan burung di sawah pada waktu pagi dan petang.',
+      en: 'Empty or broken panicles, flocks in the field in the morning and evening.',
+      zh: '稻穗空瘪或折断，早晚有成群的鸟在田里。'
+    },
+    control: {
+      ms: 'Tanam serentak dengan jiran, halau burung, guna jaring atau pita pemantul, bersihkan tempat bersarang.',
+      en: 'Plant at the same time as neighbours, scare birds, use nets or reflective tape, clear nesting sites.',
+      zh: '与邻田同期种植，驱赶鸟群，使用防鸟网或反光带，清除筑巢处。'
+    }
+  },
+  weed: {
+    color: 'alga',
+    name: { ms: 'Rumpai', en: 'Weed', zh: '杂草' },
+    what: {
+      ms: 'Tumbuhan yang tumbuh di tempat yang tidak dikehendaki dan bersaing dengan tanaman untuk air, nutrien dan cahaya. Ada yang menjadi perumah perosak.',
+      en: 'Plants growing where they are not wanted, competing with the crop for water, nutrients and light. Some also host pests.',
+      zh: '长在不该长的地方，与作物争夺水分、养分和阳光的植物，有些还是病虫的寄主。'
+    },
+    sign: {
+      ms: 'Kenal pasti dari daun, batang dan bunga. Rumput (daun panjang sempit), rumpai daun lebar, atau rusiga (batang segi tiga).',
+      en: 'Identify by leaf, stem and flower: grasses (long narrow leaves), broadleaf weeds, or sedges (triangular stems).',
+      zh: '从叶、茎、花辨认：禾草（叶狭长）、阔叶杂草，或莎草（茎呈三角形）。'
+    },
+    control: {
+      ms: 'Kawal sebelum berbunga, potong atau tutup tanah dengan sungkupan atau tanaman penutup bumi. Racun rumpai hanya mengikut label.',
+      en: 'Control before flowering; cut, or cover the ground with mulch or a cover crop. Herbicide only according to the label.',
+      zh: '在开花前防治；割草，或用覆盖物、覆盖作物遮住地面。除草剂须按标签使用。'
+    }
   }
 };
-
 const GLOSSARY = [
   { t: { ms: 'Fras', en: 'Frass', zh: '虫粪' },
     d: { ms: 'Najis dan serbuk kayu yang ditinggalkan serangga pengorek di lubang gerekan. Fras basah bermakna larva masih hidup di dalam.',

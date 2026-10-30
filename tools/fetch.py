@@ -38,12 +38,24 @@ for c in codes:
 for L in ("ms", "en"):
     t = get(L, "/ALUS/Pest/library/pest/")
     pests |= set(re.findall(r"/ALUS/Pest/library/pest/detail/(\d+)/view/", t))
+# The site's lists show only some pages (57 of ~260 in Oct 2026); probe every page number as well
+import concurrent.futures as cf
+def exists(i):
+    try: return O["ms"].open(B + "/ALUS/Pest/library/pest/detail/%d/view/" % i, timeout=60).status == 200
+    except Exception: return False
+MAXID = int(os.environ.get("MAXID", "600"))
+with cf.ThreadPoolExecutor(6) as ex:
+    pests |= {str(i) for i, ok in zip(range(1, MAXID), ex.map(exists, range(1, MAXID))) if ok}
 print(len(codes), "crops", len(pests), "pests")
-for p in sorted(pests, key=int):
+def one(p):
     for L in ("ms", "en"):
         t = get(L, "/ALUS/Pest/library/pest/detail/%s/view/" % p)
         for d in set(re.findall(r"(/ALUS/Pest/library/pest/detail/\d+/symptom/detail/[^\"']+/diagnosis/)", t)):
             dt = get(L, d)
             for im in re.findall(r"src=\"(/ALUS/images/[^\"]+)\"", dt): img(im); img(im.replace(".TH.", "."))
         for im in re.findall(r"src=\"(/ALUS/images/[^\"]+)\"", t): img(im); img(im.replace(".TH.", "."))
+    return p
+with cf.ThreadPoolExecutor(6) as ex:
+    for n, p in enumerate(ex.map(one, sorted(pests, key=int)), 1):
+        if n % 20 == 0: print(n, "of", len(pests), flush=True)
 print("done")

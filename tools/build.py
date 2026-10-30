@@ -40,14 +40,17 @@ for p in data["pests"]:
             tst = (ts.get("steps") or [])[j] if j < len(ts.get("steps") or []) else {}
             st["text"] = {"ms": st["text"]["ms"], "en": tst.get("en", st["text"].get("en", "")), "zh": tst.get("zh", "")}
             st["img"] = conv(st["img"])
-EXTRA_ZH = {"Halia": "姜", "Betik": "木瓜", "Jagung": "玉米", "Sitrus": "柑橘", "Mangga": "芒果", "Kobis": "包菜"}
+EXTRA_ZH = {"Halia": "姜", "Betik": "木瓜", "Jagung": "玉米", "Sitrus": "柑橘", "Mangga": "芒果", "Kobis": "包菜",
+            "Brokoli": "西兰花", "Cili": "辣椒", "Terung": "茄子", "Sawi": "菜心（芥菜）", "Tomato": "番茄", "Bawang": "葱蒜类",
+            "Kacang Buncis": "四季豆", "Rambutan": "红毛丹", "Petola": "丝瓜", "Lada Benggala Hijau": "青椒（甜椒）", "Keladi": "芋头",
+            "Rumpai": "杂草"}
 for p in data["pests"]:  # pests the site lists without a crop page: group them under their affected crop
     if not p["crops"] and p.get("affected", {}).get("ms"):
         a = p["affected"]; code = re.sub(r"[^A-Z]", "", a["en"].upper())
-        c = next((x for x in data["crops"] if x["code"] == code), None)
+        c = next((x for x in data["crops"] if x["code"] == code or x["name"]["ms"].lower() == a["ms"].strip().lower()), None)
         if not c:
-            c = {"code": code, "name": {"ms": a["ms"], "en": a["en"]}, "pests": [], "extra": True}; data["crops"].append(c)
-            CROPZH[code] = EXTRA_ZH.get(a["ms"], a["ms"])
+            c = {"code": code, "name": {"ms": a["ms"].strip(), "en": a["en"].strip()}, "pests": [], "extra": True}; data["crops"].append(c)
+            CROPZH[code] = EXTRA_ZH.get(a["ms"].strip(), a["ms"].strip())
         c["pests"].append(p["id"]); p["crops"] = [code]
 for c in data["crops"]:
     c["name"]["zh"] = CROPZH.get(c["code"], c["name"]["ms"])
@@ -61,7 +64,7 @@ KIND = {  # what kind of organism causes it: decides which control works
  "insect": [104, 105, 106, 109, 110, 112, 117, 118, 120, 122, 124, 125, 127, 131, 134, 156, 157, 173, 310],
  "mammal": [309]}
 for p in data["pests"]:
-    p["kind"] = next((k for k, ids in KIND.items() if p["id"] in ids), None)
+    p["kind"] = next((k for k, ids in KIND.items() if p["id"] in ids), None) or tr.get(p["id"], {}).get("kind")
     if not p["kind"]: print("no kind for", p["id"])
 # active ingredients named in the control advice (names are kept in English in all three languages)
 AI = ["Abamectin", "Acephate", "Azadirachtin", "Bacillus thuringiensis", "Beauveria bassiana", "Benomyl", "Bordeaux mixture", "Buprofezin",
@@ -72,7 +75,9 @@ AI = ["Abamectin", "Acephate", "Azadirachtin", "Bacillus thuringiensis", "Beauve
 for p in data["pests"]:
     txt = re.sub(r"<[^>]+>", " ", p["desc"]["en"] + " " + " ".join(x["text"]["en"] for x in p["symptoms"])).lower()
     txt = txt.replace("phosphorous acid", "phosphonate").replace("copper-based", "copper").replace("copper oxychloride", "copper")
-    p["ai"] = [a for a in AI if re.search(r"(?<![a-z-])" + re.escape(a.lower()) + r"(?![a-z])", txt)]
+    found = [a for a in AI if re.search(r"(?<![a-z-])" + re.escape(a.lower()) + r"(?![a-z])", txt)]
+    extra = [a[:1].upper() + a[1:] for a in tr.get(p["id"], {}).get("ai", []) if a.lower() not in {x.lower() for x in found}]
+    p["ai"] = sorted(found + extra, key=str.lower)
     if "Gamma-cyhalothrin" in p["ai"] or "Lambda-cyhalothrin" in p["ai"]: pass
 for p in data["pests"]: p.pop("affected", None)
 for k, v in data["parts"].items(): v["zh"] = PARTS.get(k, v.get("en", k))

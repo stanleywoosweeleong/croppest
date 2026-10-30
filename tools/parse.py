@@ -35,9 +35,12 @@ for L in ("ms", "en"):
 for cr in out["crops"]:
     m = main(rd("ms", "/ALUS/Pest/library/pest/?CropCode=" + cr["code"]))
     cr["pests"] = [int(x) for x in re.findall(r"/ALUS/Pest/library/pest/detail/(\d+)/view/", m)]
-ids = sorted({p for c in out["crops"] for p in c["pests"]} | {int(x) for x in re.findall(r"detail/(\d+)/view/", rd("ms", "/ALUS/Pest/library/pest/"))})
+listed = {p for c in out["crops"] for p in c["pests"]} | {int(x) for x in re.findall(r"detail/(\d+)/view/", rd("ms", "/ALUS/Pest/library/pest/"))}
+# every detail page that was downloaded, including those the site's lists leave out
+ids = sorted({int(m.group(1)) for f in glob.glob(D + "/raw/ms/ALUS_Pest_library_pest_detail_*_view.html")
+              for m in [re.search(r"detail_(\d+)_view", f)] if os.path.exists(f.replace("/raw/ms/", "/raw/en/"))})
 for pid in ids:
-    P = {"id": pid, "crops": [c["code"] for c in out["crops"] if pid in c["pests"]], "name": {}, "affected": {}, "desc": {}, "symptoms": []}
+    P = {"id": pid, "listed": pid in listed, "crops": [c["code"] for c in out["crops"] if pid in c["pests"]], "name": {}, "affected": {}, "desc": {}, "symptoms": []}
     for L in ("ms", "en"):
         m = main(rd(L, "/ALUS/Pest/library/pest/detail/%d/view/" % pid))
         P["name"][L] = clean(re.search(r"<h2>(.*?)</h2>", m, re.S).group(1))
@@ -64,6 +67,8 @@ for pid in ids:
                 si = re.search(r"src=\"([^\"]+)\"", sim or ""); si = os.path.basename(si.group(1)).replace(".TH.", ".") if si else None
                 if L == "ms": S["steps"].append({"img": si, "text": {}})
                 S["steps"][j]["text"][L] = clean(st)
+    dup = next((q for q in out["pests"] if q["name"]["ms"] == P["name"]["ms"] and q["desc"]["ms"] == P["desc"]["ms"]), None)
+    if dup: print("duplicate of", dup["id"], ":", pid); continue
     out["pests"].append(P)
 json.dump(out, open(D + "/data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(out["crops"]), "crops", len(out["pests"]), "pests", sum(len(p["symptoms"]) for p in out["pests"]), "symptoms", sum(len(s["steps"]) for p in out["pests"] for s in p["symptoms"]), "steps")

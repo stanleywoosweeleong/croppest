@@ -30,8 +30,15 @@ Names: produce a clean structured name for each pest:
   Fix spelling errors in Latin names if clearly wrong (e.g. "Phytopthora" -> "Phytophthora",
   "Colletothricum" -> "Colletotrichum", "Planococcus pacifus" -> "Planococcus pacificus") — be careful, only when certain.
 
+Also classify each pest:
+- `kind`: exactly one of insect, mite, mollusc, bird, mammal, fungus, oomycete (Phytophthora, Pythium), bacteria, virus,
+  nematode, alga, lichen, weed.
+- `ai`: list of the pesticide/control active ingredients the source text names, in English, Title case, e.g.
+  ["Deltamethrin", "Lambda-cyhalothrin", "Thiamethoxam", "Copper"]. Brand names (e.g. Colam ZC, Prevathon) are not
+  active ingredients: give the active ingredient if the source states it, otherwise skip it. [] if none.
+
 Output: ONE JSON file per batch, an array of objects, one per pest id, exactly:
-{"id": 112,
+{"id": 112, "kind": "insect", "ai": ["Cypermethrin", "Deltamethrin", "Dimethoate"],
  "name": {"ms": "...", "en": "...", "zh": "..."},
  "sci": "<em>...</em> ...",
  "desc": {"en": "<html>", "zh": "<html>"},

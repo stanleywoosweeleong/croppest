@@ -2,6 +2,8 @@
    Keep ms, en and zh in step: every key must exist in all three. */
 const UI = {
   ms: {
+    weedsTitle: 'Rumpai',
+    kind_mite: 'Hama', kind_mollusc: 'Siput', kind_bird: 'Burung', kind_weed: 'Rumpai',
     ctlTitle: 'Kawalan', ctlAI: 'Bahan aktif yang disebut sumber', ctlNone: 'Sumber tidak menyenaraikan racun kimia untuk masalah ini.',
     ctlNoCure: 'Tiada racun yang menyembuhkan jenis ini. Lihat cara kawalan umum',
     ctlMore: 'Cara kawalan penuh', aboutCtl: 'Penerangan & kawalan',
@@ -79,6 +81,8 @@ const UI = {
     pinch: 'Ketik gambar untuk zum'
   },
   en: {
+    weedsTitle: 'Weeds',
+    kind_mite: 'Mite', kind_mollusc: 'Snail', kind_bird: 'Bird', kind_weed: 'Weed',
     ctlTitle: 'Control', ctlAI: 'Active ingredients named by the source', ctlNone: 'The source lists no chemical for this problem.',
     ctlNoCure: 'No spray cures this type. See general control',
     ctlMore: 'Full control advice', aboutCtl: 'Description & control',
@@ -156,6 +160,8 @@ const UI = {
     pinch: 'Tap a photo to zoom'
   },
   zh: {
+    weedsTitle: '杂草',
+    kind_mite: '螨类', kind_mollusc: '螺类', kind_bird: '鸟类', kind_weed: '杂草',
     ctlTitle: '防治', ctlAI: '资料提到的有效成分', ctlNone: '资料没有列出针对这个问题的化学药剂。',
     ctlNoCure: '这类病因没有农药能治好。查看一般防治方法',
     ctlMore: '完整防治方法', aboutCtl: '简介和防治',
