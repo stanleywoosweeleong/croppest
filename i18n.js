@@ -2,6 +2,11 @@
    Keep ms, en and zh in step: every key must exist in all three. */
 const UI = {
   ms: {
+    ctlTitle: 'Kawalan', ctlAI: 'Bahan aktif yang disebut sumber', ctlNone: 'Sumber tidak menyenaraikan racun kimia untuk masalah ini.',
+    ctlNoCure: 'Tiada racun yang menyembuhkan jenis ini. Lihat cara kawalan umum',
+    ctlMore: 'Cara kawalan penuh', aboutCtl: 'Penerangan & kawalan',
+    ctlCheck: 'Sebelum guna, baca label dan pastikan racun berdaftar dengan Lembaga Racun Makhluk Perosak. Sesetengah bahan dalam sumber asal mungkin sudah tidak dibenarkan.',
+    aiIndex: 'Bahan aktif', aiIndexLede: 'Racun dan bahan kawalan yang disebut dalam aplikasi ini, dan perosak yang dikawalnya.',
     change: 'Tukar',
     kind_insect: 'Serangga', kind_fungus: 'Kulat', kind_oomycete: 'Kulapuk air', kind_bacteria: 'Bakteria', kind_virus: 'Virus',
     kind_nematode: 'Nematod', kind_alga: 'Alga', kind_lichen: 'Liken', kind_mammal: 'Haiwan',
@@ -74,6 +79,11 @@ const UI = {
     pinch: 'Ketik gambar untuk zum'
   },
   en: {
+    ctlTitle: 'Control', ctlAI: 'Active ingredients named by the source', ctlNone: 'The source lists no chemical for this problem.',
+    ctlNoCure: 'No spray cures this type. See general control',
+    ctlMore: 'Full control advice', aboutCtl: 'Description & control',
+    ctlCheck: 'Before use, read the label and make sure the product is registered with the Pesticides Board (Lembaga Racun Makhluk Perosak). Some ingredients in the original source may no longer be permitted.',
+    aiIndex: 'Active ingredients', aiIndexLede: 'Pesticides and control agents named in this app, and the pests they are used against.',
     change: 'Change',
     kind_insect: 'Insect', kind_fungus: 'Fungus', kind_oomycete: 'Water mould', kind_bacteria: 'Bacteria', kind_virus: 'Virus',
     kind_nematode: 'Nematode', kind_alga: 'Alga', kind_lichen: 'Lichen', kind_mammal: 'Animal',
@@ -146,6 +156,11 @@ const UI = {
     pinch: 'Tap a photo to zoom'
   },
   zh: {
+    ctlTitle: '防治', ctlAI: '资料提到的有效成分', ctlNone: '资料没有列出针对这个问题的化学药剂。',
+    ctlNoCure: '这类病因没有农药能治好。查看一般防治方法',
+    ctlMore: '完整防治方法', aboutCtl: '简介和防治',
+    ctlCheck: '使用前请阅读标签，并确认产品已在农药局（Lembaga Racun Makhluk Perosak）注册。原资料中的部分成分可能已不再允许使用。',
+    aiIndex: '有效成分', aiIndexLede: '本应用提到的农药和防治材料，以及它们针对的病虫害。',
     change: '更换',
     kind_insect: '昆虫', kind_fungus: '真菌', kind_oomycete: '卵菌', kind_bacteria: '细菌', kind_virus: '病毒',
     kind_nematode: '线虫', kind_alga: '藻类', kind_lichen: '地衣', kind_mammal: '动物',

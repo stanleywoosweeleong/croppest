@@ -63,6 +63,17 @@ KIND = {  # what kind of organism causes it: decides which control works
 for p in data["pests"]:
     p["kind"] = next((k for k, ids in KIND.items() if p["id"] in ids), None)
     if not p["kind"]: print("no kind for", p["id"])
+# active ingredients named in the control advice (names are kept in English in all three languages)
+AI = ["Abamectin", "Acephate", "Azadirachtin", "Bacillus thuringiensis", "Beauveria bassiana", "Benomyl", "Bordeaux mixture", "Buprofezin",
+ "Captan", "Carbendazim", "Carbosulfan", "Cartap hydrochloride", "Chlorantraniliprole", "Copper", "Cypermethrin", "Deltamethrin",
+ "Diafenthiuron", "Dimethoate", "Dinotefuran", "Emamectin benzoate", "Fenobucarb", "Fenthion", "Fipronil", "Gamma-cyhalothrin",
+ "Imidacloprid", "Isoprothiolane", "Lambda-cyhalothrin", "Malathion", "Mancozeb", "Maneb", "Metarhizium anisopliae", "Methamidophos", "Methyl eugenol",
+ "Naphthalene", "Neem", "Phosphonate", "Pymetrozine", "Spinosad", "Tebuconazole", "Thiram", "Tricyclazole", "Tridemorph", "White oil", "Wood vinegar"]
+for p in data["pests"]:
+    txt = re.sub(r"<[^>]+>", " ", p["desc"]["en"] + " " + " ".join(x["text"]["en"] for x in p["symptoms"])).lower()
+    txt = txt.replace("phosphorous acid", "phosphonate").replace("copper-based", "copper").replace("copper oxychloride", "copper")
+    p["ai"] = [a for a in AI if re.search(r"(?<![a-z-])" + re.escape(a.lower()) + r"(?![a-z])", txt)]
+    if "Gamma-cyhalothrin" in p["ai"] or "Lambda-cyhalothrin" in p["ai"]: pass
 for p in data["pests"]: p.pop("affected", None)
 for k, v in data["parts"].items(): v["zh"] = PARTS.get(k, v.get("en", k))
 # only pests attached to some crop are reachable; keep the rest too (search finds them)
