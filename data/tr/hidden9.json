@@ -1,0 +1,418 @@
+[
+ {
+  "id": 13,
+  "kind": "insect",
+  "ai": [
+   "Emamectin Benzoate",
+   "Chlorantraniliprole",
+   "Indoxacarb",
+   "Bacillus thuringiensis",
+   "Nucleopolyhedrovirus"
+  ],
+  "name": {
+   "ms": "Ulat Ratus Jagung",
+   "en": "Tobacco Cutworm",
+   "zh": "斜纹夜蛾"
+  },
+  "sci": "<em>Spodoptera litura</em> (Fabricius)",
+  "desc": {
+   "en": "<p>An important pest that attacks maize at all growth stages, especially from the seedling to the vegetative stage. The larvae feed greedily on the leaves, first scraping the leaf surface and then making irregular holes. A severe attack can leave the leaves almost completely eaten, with only the leaf veins remaining.</p><p>The larvae are usually active at night and hide at the base of the plant, between the leaves or in the soil during the day. This pest has a wide range of host plants and breeds quickly, causing serious damage if it is not controlled.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Check the crop regularly, especially at the early growth stage.</li><li>Collect and destroy any egg masses and larvae found.</li><li>Clear weeds in the field, as they can act as host plants.</li><li>Destroy crop residues after harvest to reduce breeding sources.</li><li>Rotate with non-host crops where suitable.</li><li>Protect natural enemies such as egg parasitoids (<em>Trichogramma</em> spp.), larval parasitoids, predatory beetles, dragonflies, ants and birds.</li><li>Use bioinsecticides based on <em>Bacillus thuringiensis</em> (Bt) or <em>Nucleopolyhedrovirus</em> (NPV) where suitable to control young larvae.</li></ul><p>Chemical Control (If Needed)</p><p>If the caterpillar population exceeds the economic threshold level, use registered insecticides and rotate active ingredients to reduce the risk of resistance. Commonly used active ingredients include:</p><ul><li>Emamectin benzoate</li><li>Chlorantraniliprole</li><li>Indoxacarb</li><li>When using pesticides, always wear suitable personal protective equipment (PPE) and follow the instructions on the product label, including the recommended dose rate, time of application and the pre-harvest interval (PHI) before the crop is harvested.</li></ul>",
+   "zh": "<p>斜纹夜蛾是玉米的重要害虫，会在所有生长阶段危害玉米，尤其是从幼苗期到营养生长期。幼虫贪婪地啃食叶片，先刮食叶面，然后咬出不规则的孔洞。严重危害时，叶片几乎被吃光，只剩下叶脉。</p><p>幼虫通常在夜间活动，白天躲在植株基部、叶缝中或土壤里。这种害虫的寄主范围很广，繁殖很快，如果不加以防治，会造成严重损失。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期检查作物，尤其是在生长初期。</li><li>收集并销毁发现的卵块和幼虫。</li><li>清除田间杂草，因为杂草可成为寄主植物。</li><li>收成后销毁作物残株，以减少繁殖来源。</li><li>在适合的情况下，与非寄主作物进行轮作。</li><li>保护天敌，如卵寄生蜂（<em>Trichogramma</em> spp. 赤眼蜂）、幼虫寄生蜂、捕食性甲虫、蜻蜓、蚂蚁和鸟类。</li><li>在适合时，使用以<em>Bacillus thuringiensis</em>（Bt，苏云金杆菌）或<em>Nucleopolyhedrovirus</em>（NPV，核型多角体病毒）为主的生物杀虫剂来防治低龄幼虫。</li></ul><p>化学防治（如有需要）</p><p>如果毛虫数量超过经济阈值，应使用已注册的杀虫剂，并轮换使用不同的有效成分，以降低抗药性风险。常用的有效成分包括：</p><ul><li>Emamectin benzoate（甲氨基阿维菌素苯甲酸盐）</li><li>Chlorantraniliprole（氯虫苯甲酰胺）</li><li>Indoxacarb（茚虫威）</li><li>使用农药时，务必穿戴合适的个人防护装备（PPE），并遵守产品标签上的指示，包括建议剂量、施药时间以及收成前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "...",
+    "zh": "...",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Penyakit Smut Jagung",
+   "en": "Corn Smut",
+   "zh": "玉米瘤黑粉病"
+  },
+  "sci": "<em>Ustilago maydis</em> (DC.) Corda",
+  "desc": {
+   "en": "This fungus causes smut in maize. It is a basidiomycete fungal pathogen of maize. The fungus causes tumours on the host. The fungus infects all parts of the host by invading the host's ovaries. Infection makes the maize kernels swell into tumour-like growths. To prevent this, destroy infected plants by burying or burning them after harvest. Practise crop rotation.",
+   "zh": "这种真菌引起玉米黑粉病。它是一种危害玉米的担子菌类病原真菌，会使寄主长出瘤状物。真菌通过侵入寄主的子房来感染寄主的所有部位。受感染后，玉米粒会膨大形成肿瘤状的瘤。为防止这种情况发生，收成后应将受感染的植株掩埋或烧毁。实行轮作。"
+  },
+  "symptoms": [
+   {
+    "en": "'Galls' on the cob are light whitish green. The spores are blackish brown and are spread by wind or water.",
+    "zh": "玉米棒上的“瘤”呈浅绿偏白色。孢子呈黑褐色，会随风或水传播。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "kind": "bacteria",
+  "ai": [
+   "Malathion",
+   "Mineral Oil"
+  ],
+  "name": {
+   "ms": "Reput Teras Bakteria dan Buah Hantu",
+   "en": "Bacterial Heart Rot and Fruit Collapse",
+   "zh": "黄梨细菌性心腐病与果实崩解病"
+  },
+  "sci": "<em>Erwinia chrysanthemi</em>",
+  "desc": {
+   "en": "This bacterium causes Bacterial Heart Rot and Fruit Collapse disease in pineapple. The pathogen is spread by wind and rain splash. The disease increases during the rainy season. The plant is most easily infected at the early growth stage after planting and during fast vegetative growth between 5-13 months. Infection happens through wounds and other openings. There is no chemical control to treat Bacterial Heart Rot. To prevent it, always practise Good Agricultural Practices, especially farm hygiene. Destroy all infected plants and control ants in the area to stop the disease spreading to healthy plants. Controlling ants can reduce infection by 50-70%. Plant resistant varieties. For Fruit Collapse, spray with a pesticide such as malathion or white oil at the rate recommended on the label.",
+   "zh": "这种细菌会引起黄梨细菌性心腐病和果实崩解病（俗称“鬼果”）。病原菌通过风和雨水飞溅传播。雨季时病害发生率会增加。黄梨在种植后的生长初期，以及在5-13个月之间营养快速生长期间最容易受感染。病菌通过伤口和其他开口侵入。目前没有化学药剂可以治疗细菌性心腐病。为防止病害发生，应始终实行良好农业规范（APB/GAP），特别是注意园地卫生。销毁所有受感染的植株，并控制园内的蚂蚁，以防病害传到健康植株。控制蚂蚁可减少50-70%的感染。种植抗病品种。至于果实崩解病，可按标签上的建议用量喷洒Malathion（马拉硫磷）或白油（white oil）等农药。"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Bacterial Heart Rot</p><ul><li>Seen 4-8 months after planting.</li><li>At the early stage, water-soaked spots appear at the base of the leaves in the centre of the shoot.</li><li>The spots enlarge, blister and spread. They change colour from green to yellow and release a foul-smelling liquid.</li></ul>",
+    "zh": "<p>细菌性心腐病</p><ul><li>在种植后4-8个月出现。</li><li>初期，在心叶中央的叶基部会出现水渍状斑点。</li><li>斑点会扩大、起泡并蔓延，颜色由绿色变为黄色，并流出有恶臭的液体。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<p>Fruit Collapse</p><ul><li>Signs of attack are seen on fruit 2-3 weeks before ripening, or on young fruit. Foul-smelling liquid oozes out from between the fruit eyes, together with gas bubbles.</li><li>The fruit skin blisters and changes colour from purplish red to dirty green, and the fruit is spoiled within 5 days.</li><li>If the fruit is cut lengthwise, only skeleton-like fibres separated by hollow spaces are left inside.</li></ul>",
+    "zh": "<p>果实崩解病</p><ul><li>在果实成熟前2-3周或幼果上可见受害症状。恶臭液体连同气泡从果眼之间的缝隙流出。</li><li>果皮起泡，颜色由紫红色变为污绿色，果实在5天内腐坏。</li><li>若将果实纵向切开，里面只剩下被空洞隔开的骨架状纤维。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 67,
+  "kind": "fungus",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Tebuconazole"
+  ],
+  "name": {
+   "ms": "Kulapuk Berdebu",
+   "en": "Powdery Mildew",
+   "zh": "白粉病"
+  },
+  "sci": "<em>Erysiphe cichoracearum</em> DC.",
+  "desc": {
+   "en": "This fungus causes powdery mildew on luffa (petola). It is a fungal disease that commonly attacks the cucurbit family and beans. It usually does not kill the plant directly, but it can slow its growth and make it less productive. It is most troublesome in shady, humid areas and areas with poor air circulation. To prevent it, practise crop rotation in the field and pull out and destroy infected plants. Spray with fungicides such as propineb, mancozeb and tebuconazole, following the rate recommended on the label.",
+   "zh": "这种真菌会引起丝瓜白粉病。这是一种常见于瓜类（葫芦科）和豆类作物的真菌病害。它通常不会直接使植株死亡，但会使植株生长变慢、产量减少。在阴凉、潮湿和通风不良的地方，这种病害最为严重。为防止病害发生，应在田间实行轮作，并拔除和销毁受感染的植株。可按标签上的建议用量喷洒Propineb（丙森锌）、Mancozeb（代森锰锌）和Tebuconazole（戊唑醇）等杀菌剂。"
+  },
+  "symptoms": [
+   {
+    "en": "White, powdery patches of mycelium appear on the leaf surface. Over time the fungus spreads over the whole leaf surface. The leaves turn yellowish and finally dry out, turning brownish and wrinkled. Attacked plants bear fewer fruits and the fruits produced are small.",
+    "zh": "叶面上出现白色粉状的菌丝斑块。时间一久，真菌会蔓延至整个叶面。叶片变黄，最后干枯、变褐并皱缩。受害植株结果较少，所结的果实也较小。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 82,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Copper Oxychloride"
+  ],
+  "name": {
+   "ms": "Bintik Daun Corynespora",
+   "en": "Corynespora Leaf Spot",
+   "zh": "棒孢叶斑病"
+  },
+  "sci": "<em>Corynespora cassiicola</em> (Berk. &amp; M.A. Curtis) C.T. Wei",
+  "desc": {
+   "en": "This fungus causes Corynespora leaf spot on papaya. It spreads by spores that grow on the underside of the leaves. The spores are carried from plant to plant by wind and rain. Severe infection is favoured by wet and humid weather. It can cause widespread leaf damage, leading to yield loss and lower fruit quality. The conidia of the fungus are spread by wind and can survive as saprophytes in plant debris. So always practise Good Agricultural Practices in the field. If needed, use a systemic fungicide such as benomyl, alternated with a contact fungicide such as copper oxychloride, so that the pathogen does not become resistant to the fungicide.",
+   "zh": "这种真菌会引起木瓜棒孢叶斑病。病菌通过在叶背长出的孢子传播，孢子随风和雨水从一株传到另一株。潮湿多雨的天气有利于严重感染。它可造成大面积叶片受损，导致减产并降低果实品质。真菌的分生孢子随风传播，并能以腐生方式在植物残体中存活。因此，在田间应始终实行良好农业规范（APB/GAP）。如有需要，可使用内吸性杀菌剂如Benomyl（苯菌灵），并与保护性（接触性）杀菌剂如Copper oxychloride（氧氯化铜）交替使用，以免病原菌对杀菌剂产生抗药性。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attacks the leaves and also the leaf stalks of papaya.</li><li>Round, light brown spot lesions appear on mature leaves, sometimes with a hole in the centre.</li><li>The lesions can reach 2mm in size and are surrounded by a yellowish halo 4-8mm in diameter. The lesions are scattered over the whole leaf surface.</li><li>A severe attack can kill the leaves.</li></ul>",
+    "zh": "<ul><li>危害木瓜的叶片和叶柄。</li><li>成熟叶片上出现圆形的浅褐色斑点病斑，有时中央穿孔。</li><li>病斑可达2mm大小，周围有直径4-8mm的黄色晕圈。病斑散布于整个叶面。</li><li>严重危害时会导致叶片死亡。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 98,
+  "kind": "mollusc",
+  "ai": [
+   "Metaldehyde"
+  ],
+  "name": {
+   "ms": "Siput Gondang Emas",
+   "en": "Golden Apple Snail",
+   "zh": "福寿螺"
+  },
+  "sci": "<em>Pomacea</em> spp.",
+  "desc": {
+   "en": "<p>The Golden Apple Snail (GAS) is one of the main pests of paddy in Sabah. GAS can cause severe damage to newly planted rice seedlings, especially at 1 to 4 weeks of age, and particularly in direct seeding systems. The golden apple snail attacks paddy at the early growth stage by eating young seedlings and soft stems. This attack can cause loss of seedlings and uneven crop growth.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Collect and destroy snails and egg masses by hand.</li><li>Lower the water level for a while after planting to reduce snail attack.</li><li>Use traps or baits such as papaya leaves and rice bran to attract the snails.</li><li>Install barriers at drains to reduce snails entering from other areas.</li><li>Encourage natural enemies such as ducks in the paddy field.</li></ul><p><strong>Chemical Control (If Needed)</strong></p><ul><li>Use the recommended metaldehyde at the set dose rate.</li><li>Spray or broadcast in heavily attacked areas.</li><li>Always wear protective clothing and follow the instructions on the pesticide label.</li></ul>",
+   "zh": "<p>福寿螺（SGE）是沙巴稻田的主要害虫之一。福寿螺会对刚种下的秧苗造成严重损害，尤其是1至4周龄的秧苗，特别是在直播种植系统中。福寿螺在水稻生长初期啃食幼嫩的秧苗和柔软的茎，造成秧苗损失及作物生长不均匀。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>用手收集并销毁福寿螺和卵块。</li><li>种植后暂时降低水位，以减少福寿螺危害。</li><li>使用木瓜叶和米糠等陷阱或诱饵来引诱福寿螺。</li><li>在水沟设置拦网，减少福寿螺从其他地方进入。</li><li>鼓励利用稻田中的天敌，如鸭子。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>按规定剂量使用推荐的Metaldehyde（四聚乙醛）。</li><li>在危害严重的地方进行喷洒或撒施。</li><li>务必穿戴防护衣物，并遵守农药标签上的指示。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The Golden Apple Snail (GAS) damages newly planted rice seedlings, especially in direct seeding systems.",
+    "zh": "福寿螺（SGE）会危害刚种下的秧苗，尤其是在直播种植系统中。",
+    "steps": [
+     {
+      "en": "Check the paddy field at the early planting stage for damage to newly planted rice seedlings.",
+      "zh": "在种植初期检查稻田，查看刚种下的秧苗是否受损。"
+     }
+    ]
+   },
+   {
+    "en": "Eggs of the golden apple snail (<em>Pomacea</em> spp.)",
+    "zh": "福寿螺（<em>Pomacea</em> spp.）的卵",
+    "steps": []
+   },
+   {
+    "en": "Golden apple snail <em>Pomacea</em> spp.",
+    "zh": "福寿螺 <em>Pomacea</em> spp.",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 142,
+  "kind": "mammal",
+  "ai": [],
+  "name": {
+   "ms": "Tupai",
+   "en": "Squirrel",
+   "zh": "松鼠"
+  },
+  "sci": "Scandentia: Tupaiidae",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>Squirrels are small mammals that are active during the day (diurnal) and are very agile tree climbers. They attack durian fruits from the growing stage until almost ripe by gnawing the husk and digging out the flesh to eat. Attacks usually start on fruits with small cracks or a thinner husk. Besides durian, squirrels also eat many other kinds of fruit. Body size 22 cm; the upper body and tail are olive brown, while the belly and inner legs are reddish brown. The sides of the body have a black and white stripe. It has a bushy tail and a white eye ring.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Check the orchard regularly, especially when the fruits start growing until almost ripe.</li><li>Collect and destroy damaged fruits to make the orchard less attractive to squirrels.</li><li>Wrap fruits with suitable netting or protective bags if practical.</li><li>Fit physical barriers such as smooth metal sheets or guards on tree trunks to reduce squirrels climbing.</li><li>Use cage traps in areas with high populations, following the rules and guidelines of the authorities.</li><li>Encourage natural predators such as birds of prey where suitable.</li><li>Harvest fruits as soon as they reach the right maturity to shorten the time they are exposed to attack.</li></ul><p><strong>Chemical Control</strong></p><p>There is no registered pesticide specifically recommended for controlling squirrels in durian. Control works better by combining physical methods, orchard sanitation and habitat management as part of IPM practice.</p>",
+   "zh": "<p><strong>简介</strong></p><p>松鼠是白天活动（昼行性）的小型哺乳动物，非常善于爬树。它们会危害正在发育至接近成熟的榴莲果实，啃咬果壳并挖食果肉。危害通常从有小裂缝或果壳较薄的果实开始。除了榴莲，松鼠也吃其他多种水果。体长22 cm，背部和尾巴呈橄榄褐色，腹部和四肢内侧呈红褐色。身体两侧有黑白条纹。尾巴蓬松，眼圈白色。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>定期巡查果园，尤其是在果实开始发育至接近成熟期间。</li><li>收集并销毁受损果实，以减少对松鼠的吸引。</li><li>在可行的情况下，用合适的网或保护袋包裹果实。</li><li>在树干上安装光滑的金属片或挡板等物理屏障，以减少松鼠爬树。</li><li>在松鼠数量多的地方，依照当局的法规和指南使用笼式陷阱。</li><li>在适合的情况下，鼓励猛禽等天敌出现。</li><li>果实一达到适当成熟度便立即收成，以缩短受害的时间。</li></ul><p><strong>化学防治</strong></p><p>目前没有专门推荐用于防治榴莲园松鼠的注册农药。结合物理方法、果园卫生和栖息地管理，作为综合虫害管理（IPM）的一部分，防治效果更好。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Symptoms</strong></p><p>Damages the fruit husk and flesh.</p><p><strong>Control Management</strong></p><p>1. Cultural control:</p><p> - Trapping and shooting.</p><p>2. Biological control:</p><p> - Predator: barn owl <em>Tyto alba</em>.</p>",
+    "zh": "<p><strong>症状</strong></p><p>损坏果壳和果肉。</p><p><strong>防治管理</strong></p><p>1. 栽培防治：</p><p> - 设陷阱捕捉和射杀。</p><p>2. 生物防治：</p><p> - 天敌：仓鸮 <em>Tyto alba</em>。</p>",
+    "steps": [
+     {
+      "en": "<p>Symptoms</p><p>Damages the fruit husk and flesh.</p>",
+      "zh": "<p>症状</p><p>损坏果壳和果肉。</p>"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 163,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Rama-rama Intan",
+   "en": "Diamondback Moth",
+   "zh": "小菜蛾"
+  },
+  "sci": "<em>Plutella xylostella</em> (Linnaeus)",
+  "desc": {
+   "en": "Mature diamondback moth larvae are small, greenish-yellow caterpillars with black hairs, only 0.33 inch long. The body is slender and pointed at both ends, with a distinctive V shape formed by two prolegs at the rear end.",
+   "zh": "小菜蛾的老熟幼虫是体型细小、呈黄绿色并带有黑色细毛的毛虫，体长仅0.33英寸。虫体细长，两端尖细，尾端有一对腹足形成明显的“V”字形。"
+  },
+  "symptoms": [
+   {
+    "en": "The larvae scrape and eat the leaf epidermis, so the leaves become see-through and full of holes, and in the end only the leaf skeleton is left.",
+    "zh": "幼虫刮食叶片表皮，使叶片变得透明并布满孔洞，最后只剩下叶脉骨架。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 181,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Karat",
+   "en": "Bean Rust",
+   "zh": "菜豆锈病"
+  },
+  "sci": "<em>Uromyces appendiculatus</em> (Pers.) Unger",
+  "desc": {
+   "en": "The symptoms of this disease are small white spots on the leaf surface. The spots then enlarge and turn into powdery brown spots surrounded by yellow, or with a brown ring. In the end they become dark brown, looking like rust on iron.",
+   "zh": "这种病害的症状是叶面上出现白色小斑点，之后斑点扩大，变成褐色粉状斑，周围有黄色晕圈或褐色环纹。最后斑点变成深褐色，看起来像铁锈。"
+  },
+  "symptoms": []
+ },
+ {
+  "id": 199,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pengorek Buah",
+   "en": "Bean Pod Borer",
+   "zh": "豆荚野螟"
+  },
+  "sci": "<em>Maruca testulalis</em> Geyer",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "Attacks the leaves and pods of French beans, causing the plant or pods to be stunted or the pods to be damaged. At the flowering stage, the French bean flowers drop.",
+    "zh": "危害四季豆的叶片和豆荚，导致植株或豆荚生长受阻，或豆荚受损。在开花期，四季豆的花会脱落。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 222,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Lenting",
+   "en": "Striped Flea Beetle",
+   "zh": "黄曲条跳甲"
+  },
+  "sci": "<em>Phyllotreta vittata</em> (Fabricius)",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "The larvae feed on the plant roots and the adults feed on the leaves, leaving many tiny holes in the leaf surface.",
+    "zh": "幼虫取食作物的根部，成虫取食叶片，使叶面布满细小的孔洞。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 243,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Pengorek Buah",
+   "en": "Rambutan Fruit Borer",
+   "zh": "可可荚螟"
+  },
+  "sci": "<em>Conopomorpha cramerella</em> (Snellen)",
+  "desc": {
+   "en": "1) The eggs are orange, flat and oval, measuring 0.5 x 0.2 mm. The egg stage lasts 6-9 days, and eggs are laid in the grooves of the fruit skin.<br>2) The larvae are yellowish white to light green and 1-12 mm long. The larval stage lasts 15-18 days and has 3-5 instars.<br>3) The pupa is wrapped in a clear, waterproof cocoon stuck to the surface of fruits, leaves, leaf litter, or sacks or baskets used for fruit in the orchard. It measures 11-15 mm. The pupal stage lasts 5-8 days.<br>4) The adult insect (moth) is brown, with a white zigzag pattern on the forewings, and about 7 mm long. It is active at night. Each female can lay 50-100 eggs. The moth stage lasts about 7-8 days.<br>5) The life cycle of the borer takes 26-35 days.",
+   "zh": "1) 卵呈橙色，扁平椭圆形，大小为0.5 x 0.2 mm。卵期6-9天，产在果皮的沟纹中。<br>2) 幼虫呈黄白色至浅绿色，体长1-12 mm。幼虫期15-18天，共3-5龄。<br>3) 蛹包在透明、防水的茧中，附着在果实、叶片、落叶，或园中装果实用的麻袋或箩筐表面。蛹长11-15 mm，蛹期5-8天。<br>4) 成虫（蛾）呈褐色，前翅有白色锯齿状（之字形）花纹，体长约7 mm。夜间活动。每只雌蛾可产卵50-100粒。成虫期约7-8天。<br>5) 这种蛀果害虫的生活周期为26-35天。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>This pest often damages only the part of the fruit near the fruit stalk.</li><li>Fruits drop early if the attack is at the base of the fruit stalk.</li><li>The flesh around the fruit stalk is damaged and black.</li><li>Black waste (frass) can be seen on the surface of the flesh.</li></ul>",
+    "zh": "<ul><li>这种害虫通常只危害靠近果柄的部位。</li><li>如果危害发生在果柄基部，果实会提早脱落。</li><li>果柄周围的果肉受损并变黑。</li><li>果肉表面可见黑色的虫粪（frass）。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 255,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumpai Aligator",
+   "en": "Alligator Weed",
+   "zh": "空心莲子草"
+  },
+  "sci": "<em>Alternanthera philoxeroides</em> (Mart.) Griseb.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Amaranthaceae</p><p><strong>Habitat:</strong> Water, wet areas and dry land</p><p><strong>Alligator weed</strong> is an invasive plant that comes from South America, but it has now spread to many parts of the world, including Southeast Asia, Australia, New Zealand and the United States. This plant is very hard to control because it grows aggressively and can adapt to many different environmental conditions.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li><strong>Physical control:</strong> Pull out the plants by hand, but all plant pieces must be carefully collected and thrown away to stop them growing back.</li><li><strong>Biological control:</strong> Some insects, such as <em>Agasicles hygrophila</em> (the alligator weed flea beetle), are used as biological agents to eat the leaves of this plant.</li><li><strong>Chemical control:</strong> Certain herbicides (weed killers) can be used, but they must be applied carefully so as not to harm the aquatic ecosystem.</li></ul><p><strong>How It Spreads</strong></p><p>Alligator weed spreads mainly by <strong>reproducing or spreading from pieces of stem</strong>, not by seed.</p><ul><li><strong>Floating stems that grow again:</strong> Small pieces of stem or root can form new plants when they land in a suitable place, especially in water or wet soil.</li><li><strong>Easily spread by water:</strong> Plant fragments (pieces or parts of the plant that have broken off but can still grow again) can float and be carried by water flow, floods, or human activities such as boating and earthworks.</li></ul>",
+   "zh": "<p><strong>科：</strong>苋科（Amaranthaceae）</p><p><strong>生境：</strong>水中、潮湿地区及旱地</p><p><strong>空心莲子草（水花生）</strong>是一种原产于南美洲的入侵植物，现已蔓延到世界许多地区，包括东南亚、澳大利亚、新西兰和美国。由于它生长旺盛，又能适应各种环境条件，所以非常难以防治。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li><strong>物理防治：</strong>用手拔除植株，但必须仔细收集并清除所有植物碎片，以防重新生长。</li><li><strong>生物防治：</strong>一些昆虫，例如<em>Agasicles hygrophila</em>（空心莲子草叶甲），被用作生物防治天敌来啃食这种植物的叶片。</li><li><strong>化学防治：</strong>可使用某些除草剂，但必须小心施用，以免危害水生生态系统。</li></ul><p><strong>传播方式</strong></p><p>空心莲子草主要是<strong>通过茎段繁殖或传播</strong>，而不是靠种子。</p><ul><li><strong>茎段漂浮并重新生长：</strong>小段的茎或根落在合适的地方，特别是水中或湿地，就能长成新植株。</li><li><strong>容易随水传播：</strong>植物碎片（已断开但仍能重新生长的植物碎块或部分）可漂浮在水面，随水流、洪水或人类活动（如行船和土方工程）被带到别处。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Alternanthera philoxeroides</em></p><ul><li>Stem: Purplish green, sometimes reddish. Hollow and soft (floats easily in water). Grows by creeping or trailing, and can root at the stem nodes when they touch the soil.</li><li>Leaves: Elliptical / oblong with a pointed tip. Arranged opposite each other (two leaves at each node). About 4&ndash;10 cm long, bright green. Smooth surface, sometimes slightly shiny.</li><li>Flowers: Small and white, looking like a clover flower head. Borne singly in the leaf axils. Flower diameter about 1&ndash;2 cm.</li></ul>",
+    "zh": "<p><em>Alternanthera philoxeroides</em>的主要特征</p><ul><li>茎：紫绿色，有时偏红色。中空而柔软（容易浮在水面）。匍匐或蔓生，茎节接触土壤时可生根。</li><li>叶：椭圆形／长圆形，叶尖渐尖。对生（每节两片叶）。长约4&ndash;10 cm，鲜绿色。叶面光滑，有时略有光泽。</li><li>花：小，白色，形似三叶草的头状花序。单生于叶腋。花直径约1&ndash;2 cm。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 267,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate",
+   "Paraquat"
+  ],
+  "name": {
+   "ms": "Rumput Jejarongan",
+   "en": "Swollen Fingergrass",
+   "zh": "孟仁草"
+  },
+  "sci": "<em>Chloris barbata</em> Sw.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat</strong></p><p>This weed usually grows along roadsides, on abandoned land, in farming areas and in grasslands. It adapts easily to many kinds of environments and is often found in disturbed areas.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Cover the soil surface with a cover crop (<em>cover crop</em>) to stop weed growth.</li><li>Slash or cut the weed before it flowers to prevent seed formation.</li><li>Weed or pull out the weeds by hand.</li><li>Use grass-cutting machines for larger areas.</li><li><strong>Glyphosate</strong> &ndash; used in uncultivated areas because it is a systemic herbicide.</li><li><strong>Paraquat</strong> &ndash; used in a controlled way if still permitted.</li><li>Pre-emergence or post-emergence herbicides can be used depending on the main crop.</li></ul><p><strong>How It Spreads</strong></p><ul><li><strong>By seed:</strong> The seeds are light and have fine hair-like structures that help them spread by wind. The seeds can also be spread by rainwater or surface run-off.</li><li><strong>Human activities:</strong> Seeds can stick to clothing, shoes, farm machinery and animals, and be carried to other areas.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境</strong></p><p>这种杂草通常生长在路边、荒地、农业区和草地。它容易适应各种环境，常见于受干扰的地方。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>用覆盖作物（<em>cover crop</em>）覆盖地表，以抑制杂草生长。</li><li>在杂草开花前砍除或割除，以防结籽。</li><li>人工除草或拔草。</li><li>面积较大的地方可使用割草机。</li><li><strong>Glyphosate（草甘膦）</strong> &ndash; 属于内吸性除草剂，用于非种植区。</li><li><strong>Paraquat（百草枯）</strong> &ndash; 如仍获准使用，应在管控下使用。</li><li>可根据主要作物，使用芽前或芽后除草剂。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>通过种子：</strong>种子轻，带有细毛状结构，容易随风传播。此外，种子也可随雨水或地表径流传播。</li><li><strong>人类活动：</strong>种子可黏附在衣服、鞋子、农业机械和动物身上，被带到其他地方。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Chloris barbata</em> Sw.</p><ul><li>Height: About 30 &ndash; 100 cm.</li><li>Stem: Upright or slightly creeping, with fine hairs.</li><li>Leaves: Long and narrow, sometimes hairy at the base.</li><li>Inflorescence (flowers): Shaped like a fan or fingers &ndash; usually 4&ndash;10 spikes arranged radially on one main stalk. It looks like &ldquo;fingers&rdquo; (jejari), which is why it is called jejarongan.</li><li>Seeds: Small, light and easily spread by wind.</li></ul>",
+    "zh": "<p><em>Chloris barbata</em> Sw. 的主要特征</p><ul><li>株高：约30 &ndash; 100 cm。</li><li>茎：直立或略匍匐，有细毛。</li><li>叶：狭长，基部有时有毛。</li><li>花序：呈扇形或手指状 &ndash; 通常有4&ndash;10枚穗状花序呈放射状排列在一根主轴上，形似“手指”（马来文jejari），因此马来文称为jejarongan。</li><li>种子：小而轻，容易随风传播。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 279,
+  "kind": "fungus",
+  "ai": [
+   "Trichoderma",
+   "Hexaconazole"
+  ],
+  "name": {
+   "ms": "Reput Pangkal Batang",
+   "en": "Basal Stem Rot",
+   "zh": "基腐病"
+  },
+  "sci": "<em>Ganoderma boninense</em> Pat.",
+  "desc": {
+   "en": "<p>This disease is caused by the soil-borne fungus <em>Ganoderma boninense</em>.<br>It is one of the most serious diseases infecting coconut trees. The disease can spread through infected soil, the roots of nearby trees and also through tools used on infected trees.</p><p>Disease Management:</p><ul><li><p>Remove and destroy infected trees as early as possible</p></li><li><p>Avoid planting coconut trees too close to areas that have been infected before</p></li><li><p>Improve soil drainage and avoid injuring the tree trunks</p></li><li><p>Monitor the farm regularly for early detection</p></li><li><p>Use a biofungicide (<em>Trichoderma</em>) or a systemic fungicide (for example <em>hexaconazole</em>) as a preventive treatment</p></li></ul>",
+   "zh": "<p>这种病害由土传真菌<em>Ganoderma boninense</em>（灵芝菌）引起。<br>它是危害椰子树最严重的病害之一。病害可通过受感染的土壤、邻近树木的根部，以及用于受感染树木的工具传播。</p><p>病害管理：</p><ul><li><p>尽早清除并销毁受感染的树</p></li><li><p>避免在曾经受感染的地方附近种植椰子树</p></li><li><p>改善土壤排水，避免伤及树干</p></li><li><p>定期巡查园地，以便及早发现</p></li><li><p>使用生物杀菌剂（<em>Trichoderma</em> 木霉菌）或内吸性杀菌剂（例如<em>hexaconazole</em> 己唑醇）作为预防处理</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li><p>Dark red or dark brown liquid <strong>oozes out of the coconut trunk</strong>.</p></li><li><p>This liquid usually comes out of cracks or wounds on the trunk.</p></li><li><p>The trunk or base of the tree may show signs of <strong>softening</strong> or <strong>tissue damage</strong> where the liquid is oozing.</p></li><li><p>Infected trees are usually <strong>weak and unhealthy</strong>.</p></li><li><p>Attacks often happen on trees already stressed by environmental factors or other diseases.</p></li><li><p>Over time, if not controlled, the tree's <strong>growth may become stunted</strong> or the tree may die.</p></li></ul>",
+    "zh": "<ul><li><p>深红色或深褐色的液体<strong>从椰子树干流出</strong>。</p></li><li><p>这种液体通常从树干的裂缝或伤口流出。</p></li><li><p>流出液体的部位，树干或树基可能出现<strong>变软</strong>或<strong>组织受损</strong>的迹象。</p></li><li><p>受感染的树通常<strong>衰弱、不健康</strong>。</p></li><li><p>病害常发生在已因环境因素或其他病害而受压的树上。</p></li><li><p>时间一久，若不加以防治，树可能会<strong>生长受阻</strong>甚至死亡。</p></li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 296,
+  "kind": "nematode",
+  "ai": [
+   "Carbofuran"
+  ],
+  "name": {
+   "ms": "Nematod Spiral",
+   "en": "Spiral Nematode",
+   "zh": "螺旋线虫"
+  },
+  "sci": "<em>Helicotylenchus</em> sp.",
+  "desc": {
+   "en": "<p>The spiral nematode is a parasitic nematode that attacks plant roots, causing stunted growth and poor tree health.</p><p><strong>Disease management:</strong></p><ul><li>Increase the use of organic matter in the soil.</li><li>Keep the farm clean by controlling weeds, which can also act as hosts for nematodes.</li><li>Use nematode-free planting material.</li><li>Apply carbofuran before planting.</li></ul>",
+   "zh": "<p>螺旋线虫是一种危害作物根部的寄生线虫，会导致植株生长受阻，影响树的健康。</p><p><strong>病害管理：</strong></p><ul><li>增加土壤中有机质的施用。</li><li>控制杂草，保持园地清洁，因为杂草也可成为线虫的寄主。</li><li>使用无线虫的种植材料。</li><li>种植前撒施Carbofuran（克百威）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The roots become wounded or damaged, reducing their ability to take up water and nutrients.</li><li>Leaves may turn yellow or wilt due to lack of nutrients.</li><li>Tree growth slows down and yield decreases.</li><li>In severe infections, the roots may rot and die.</li></ul>",
+    "zh": "<ul><li>根部受伤或受损，吸收水分和养分的能力下降。</li><li>叶片可能因缺乏养分而变黄或萎蔫。</li><li>树的生长变慢，产量减少。</li><li>严重感染时，根部可能腐烂并死亡。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 311,
+  "kind": "insect",
+  "ai": [
+   "Malathion",
+   "Methyl Eugenol"
+  ],
+  "name": {
+   "ms": "Lalat Buah",
+   "en": "Fruit Fly",
+   "zh": "果实蝇"
+  },
+  "sci": "<em>Bactrocera</em> spp.",
+  "desc": {
+   "en": "<p>One of the main pests of jackfruit. The female fly pierces the fruit skin with its ovipositor to lay eggs inside the fruit, mainly on fruits that are growing until almost ripe. After hatching, the larvae (maggots) eat the fruit flesh, causing serious internal damage. The attack makes the fruit soft, watery and foul-smelling, and finally it rots and drops before maturity. The puncture holes also let fungi and bacteria enter, which speeds up fruit rot. Yield loss and drop in fruit quality can be very high if this pest is not controlled.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Practise orchard sanitation by collecting and destroying fallen fruits.</li><li>Wrap the fruits with suitable fruit bags while they are still young.</li><li>Set up methyl eugenol traps to monitor and reduce the male fly population.</li><li>Harvest at the right stage of maturity and avoid leaving fruits on the tree too long.</li><li>Control weeds and keep the orchard clean at all times.</li></ul><p>Chemical Control (If Needed)</p><ul><li>Chemical treatment using Promar protein bait with malathion, or methyl eugenol with malathion.</li><li>When using pesticides, always wear personal protective equipment (PPE) and follow all instructions on the product label, including the recommended dose rate, the right time of application and the pre-harvest interval (PHI) before the crop is harvested.</li></ul>",
+   "zh": "<p>果实蝇是危害波罗蜜的主要害虫之一。雌蝇用产卵器刺破果皮，把卵产在果实里，主要危害正在发育至接近成熟的果实。卵孵化后，幼虫（蛆）取食果肉，造成严重的内部损伤。受害果实变软、多水、发出恶臭，最后在成熟前腐烂脱落。刺孔也会让真菌和细菌侵入，加快果实腐烂。如果不加以防治，产量损失和果实品质下降可能非常严重。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>保持果园卫生，收集并销毁落果。</li><li>趁果实还小时，用合适的果袋套袋。</li><li>设置Methyl eugenol（甲基丁香酚）诱捕器，以监测并减少雄蝇数量。</li><li>在适当的成熟度收成，避免果实在树上留得太久。</li><li>控制杂草，随时保持果园清洁。</li></ul><p>化学防治（如有需要）</p><ul><li>使用Promar蛋白诱饵加Malathion（马拉硫磷），或Methyl eugenol（甲基丁香酚）加Malathion（马拉硫磷）进行化学防治。</li><li>使用农药时，务必穿戴个人防护装备（PPE），并遵守产品标签上的所有指示，包括建议剂量、适当的施药时间，以及收成前的安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": []
+ }
+]

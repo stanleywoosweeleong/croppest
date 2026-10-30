@@ -1,0 +1,413 @@
+[
+ {
+  "id": 11,
+  "kind": "insect",
+  "ai": [
+   "Deltamethrin",
+   "Chlorantraniliprole"
+  ],
+  "name": {
+   "ms": "Ulat Ratus Jagung",
+   "en": "Fall Armyworm",
+   "zh": "草地贪夜蛾"
+  },
+  "sci": "<em>Spodoptera frugiperda</em> (J.E. Smith)",
+  "desc": {
+   "en": "<p>The fall armyworm is the larva (caterpillar) of the moth <em>Spodoptera frugiperda</em>. It is a major pest of maize and attacks the crop from the early stage until the cob forms. The larvae damage the plant by eating the leaf tissue, especially in the shoot (whorl), leaving holes, torn leaves and only the leaf veins, and they leave droppings (frass) inside the shoot. A severe attack can affect plant growth and reduce maize yield and quality.</p><p><strong>Pest features</strong></p><ul><li>Body green/brown/blackish, smooth and without hairs.</li><li>The head has an upside-down &ldquo;Y&rdquo; mark.</li><li>Four spots (dorsal spots) forming a square on the 8th abdominal segment of the body.</li><li>Active at night; during the day it hides between leaves or in the maize leaf whorl.</li><li>Attacks shoots and leaves until only the veins are left, damaging the shoot and stunting growth.</li></ul><p><strong>Pest management</strong></p><ul><li>Good agricultural practices.</li><li>Plant pest-resistant or early-maturing varieties and destroy affected plants.</li><li>Use natural enemies such as beetles or bio-fungi.</li><li>Monitor regularly to detect attacks early.</li><li>Set up pheromone traps to detect adult FAW.</li><li>Use chemical pesticides as recommended on the label, for example: Deltamethrin and Chlorantraniliprole.</li></ul>",
+   "zh": "<p>草地贪夜蛾是蛾类<em>Spodoptera frugiperda</em>的幼虫，是玉米的主要害虫，从早期生长阶段一直到结穗期都会危害作物。幼虫取食叶片组织，尤其是心叶部位，造成叶片穿孔、撕裂，只剩下叶脉，并在心叶内留下粪便（虫粪）。严重危害会影响植株生长，降低玉米的产量和品质。</p><p><strong>害虫特征</strong></p><ul><li>虫体绿色/褐色/黑褐色，光滑无毛。</li><li>头部有倒“Y”字形斑纹。</li><li>腹部第8节背面有四个斑点（背斑），排成正方形。</li><li>夜间活动，白天躲在叶缝间或玉米心叶（喇叭口）内。</li><li>危害嫩梢和叶片，直至只剩叶脉，导致心叶受损、生长受阻。</li></ul><p><strong>害虫管理</strong></p><ul><li>良好农业规范。</li><li>种植抗虫或早熟品种，并销毁受害植株。</li><li>利用天敌，如甲虫或生物真菌。</li><li>定期监测，及早发现虫害。</li><li>安装性信息素诱捕器，监测草地贪夜蛾成虫的出现。</li><li>按照标签建议使用化学农药，例如：溴氰菊酯 Deltamethrin 和氯虫苯甲酰胺 Chlorantraniliprole。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The larvae bore into young maize cobs. The attack shrinks and destroys the developing male flowers (tassels) and kernels, so grain yield and quality drop and the cobs are damaged.",
+    "zh": "幼虫钻入嫩玉米穗内。危害导致雄穗（雄花）和籽粒萎缩、发育受损，使籽粒产量和品质下降，玉米穗受损。",
+    "steps": []
+   },
+   {
+    "en": "Young larvae eat the upper layer of the leaf, leaving see-through patches on the leaf surface. The larvae then move into the &#39;whorl&#39; (the still-rolled leaves) and feed there, making a row of holes in the leaf. Larvae are hard to spot when they are inside the &#39;whorl&#39;. Attacked leaves have many holes, ragged edges and larval droppings (frass).",
+    "zh": "低龄幼虫取食叶片表层，在叶面留下半透明斑块。之后幼虫转移到心叶（仍卷着的叶片）内取食，使叶片出现一排孔洞。幼虫躲在心叶内时很难被发现。受害叶片有许多孔洞，叶缘呈锯齿状，并留有幼虫粪便（虫粪）。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Bintik Daun Curvularia",
+   "en": "Curvularia Leaf Spot",
+   "zh": "玉米弯孢叶斑病"
+  },
+  "sci": "<em>Curvularia lunata</em>",
+  "desc": {
+   "en": "This fungus causes Curvularia Leaf Spot on maize. It is one of the most destructive diseases in recent years. It damages the crop more seriously than other leaf spots or leaf blights of maize. The disease spreads quickly and causes serious damage because it is highly pathogenic and very good at producing toxins. To prevent this, destroy infected plants, make sure the field has good drainage and practise crop rotation.",
+   "zh": "这种真菌会引起玉米弯孢叶斑病，是近年来危害最严重的病害之一。它对作物造成的损害比玉米上其他叶斑病或叶枯病更严重。由于该病菌致病力强、产生毒素的能力很高，病害传播快，危害严重。为预防此病，应销毁受感染植株，确保田间排水良好，并实行轮作。"
+  },
+  "symptoms": [
+   {
+    "en": "Round spots 1-2 mm in size, yellowish-brown with brown edges, appear on the leaves. A yellow ring surrounds each spot.",
+    "zh": "叶片上出现1-2 mm大小的圆形斑点，呈黄褐色，边缘褐色。斑点周围有一圈黄色晕环。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "kind": "fungus",
+  "ai": [
+   "Borax",
+   "Benomyl"
+  ],
+  "name": {
+   "ms": "Reput Tampuk Buah",
+   "en": "Stem End Rot",
+   "zh": "芒果蒂腐病"
+  },
+  "sci": "<em>Botryodiplodia theobromae</em> Pat.",
+  "desc": {
+   "en": "This fungus causes stem end rot on mango. It is a soil-borne fungus that causes disease both in the field and in storage. It infects mangoes only when the fruit starts to soften; firm mangoes, whether unripe or ripe, are not prone to infection. To prevent this, harvest the fruit once mature, together with the fruit stalk. Picked fruit can be treated by soaking in 6% Borax solution at 43 degrees Celsius for 3 minutes, or in a mixed solution of Benomyl and Tween 20 at 52 degrees Celsius for 5-10 minutes. Store harvested fruit at the recommended temperature of 10 degrees Celsius.",
+   "zh": "这种真菌会引起芒果蒂腐病。它是一种土传真菌，在田间和贮藏期间都会引起病害。只有当果实开始变软时才会感染芒果；坚硬的芒果，无论未熟或已熟，都不易感染。为预防此病，果实成熟后应连同果柄一起采收。采下的果实可浸泡在43摄氏度的6%硼砂 Borax 溶液中3分钟，或浸泡在52摄氏度的苯菌灵 Benomyl 与 Tween 20 混合溶液中5-10分钟。采收后的果实应贮存在建议温度10摄氏度下。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>A post-harvest problem.</li><li>The stalk end of nearly ripe mangoes turns purplish-black brown.</li><li>The attacked tissue becomes soft and watery.</li><li>Attacked fruit rots completely within 3-4 days.</li></ul>",
+    "zh": "<ul><li>采后问题。</li><li>接近成熟的芒果果蒂部位变成紫黑褐色。</li><li>受害组织变软、水渍状。</li><li>受害果实在3-4天内完全腐烂。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "kind": "oomycete",
+  "ai": [
+   "Propamocarb",
+   "Fosetyl"
+  ],
+  "name": {
+   "ms": "Reput Daun",
+   "en": "Leaf Rot (Damping-off)",
+   "zh": "腐霉腐烂病（猝倒病）"
+  },
+  "sci": "<em>Pythium</em> spp.",
+  "desc": {
+   "en": "<p>This fungus causes leaf rot on mustard greens (sawi). It is favoured by cold, wet soil. Seedlings fail to grow out of the soil, or collapse soon after emerging, when a &#39;girdling&#39; canker develops at the soil line. The fungus lives in the soil and has a wide host range.</p><p>To prevent this, make sure the field has good drainage. Pull out and remove all infected plants and practise crop rotation. Treat seeds with a fungicide such as Propamocarb and spray with a fungicide such as Fosetyl, following the recommended rate on the label.</p>",
+   "zh": "<p>这种真菌会引起芥菜（菜心/sawi）腐烂病。冷湿的土壤条件有利于发病。当土表处出现环绕茎部的溃疡后，幼苗无法出土，或出土后不久就倒伏。该菌生活在土壤中，寄主范围很广。</p><p>为预防此病，应确保田间排水良好。拔除并清理所有受感染植株，并实行轮作。用杀菌剂如霜霉威 Propamocarb 处理种子，并按照标签上的建议用量喷施杀菌剂如三乙膦酸铝 Fosetyl。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "Leaves rot and smell foul.",
+    "zh": "叶片腐烂，并发出恶臭。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 80,
+  "kind": "fungus",
+  "ai": [
+   "Carbendazim",
+   "Benomyl",
+   "Mancozeb"
+  ],
+  "name": {
+   "ms": "Antraknos",
+   "en": "Anthracnose",
+   "zh": "番木瓜炭疽病"
+  },
+  "sci": "<em>Colletotrichum gloeosporioides</em> (Penz.) Penz. &amp; Sacc.",
+  "desc": {
+   "en": "This fungus causes papaya anthracnose and brown spot. It is a serious fungal disease that spreads in rainy, humid weather through rain, water splashes, contact between plants and unsanitised tools. The spores infect the plant tissue and then stay inactive until around harvest time. Anthracnose is a serious disease of papaya fruit that can cause heavy crop losses every year. To prevent this, always follow Good Agricultural Practices in the field. If the attack is severe, spray a systemic fungicide such as Carbendazim or Benomyl, alternating with a fungicide such as Mancozeb, every 7-10 days so that the pathogen does not become resistant to the fungicide.",
+   "zh": "这种真菌会引起番木瓜炭疽病和褐斑病。这是一种严重的真菌病害，在多雨潮湿的季节通过雨水、水花溅射、植株间接触以及未消毒的工具传播。孢子侵染植物组织后进入休眠，直到接近采收时才发病。炭疽病是番木瓜果实的严重病害，每年可造成严重的作物损失。为预防此病，田间应始终实行良好农业规范。若危害严重，应喷施内吸性杀菌剂如多菌灵 Carbendazim 或苯菌灵 Benomyl，并与杀菌剂如代森锰锌 Mancozeb 交替使用，每7-10天喷一次，以免病原菌对杀菌剂产生抗性。"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Anthracnose</p><ul><li>Small, round, sunken dead (necrotic) spots appear on the fruit surface. The spots enlarge quickly as the fruit ripens. The attacked fruit surface turns reddish-brown and gummy.</li></ul><p>Brown spot</p><ul><li>The lesions are &#39;superficial&#39; (on the surface only), not sunken like anthracnose, and are typically reddish-brown.</li><li>The lesions grow as the fruit grows and can become sunken like anthracnose.</li></ul>",
+    "zh": "<p>炭疽病</p><ul><li>果实表面出现小而圆、凹陷的坏死斑点。果实成熟时，斑点迅速扩大。受害果面变成红褐色并有胶状物。</li></ul><p>褐斑病</p><ul><li>病斑只在表面（浅表性），不像炭疽病那样凹陷，典型颜色为红褐色。</li><li>病斑随果实长大而扩大，并可能像炭疽病一样凹陷。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 95,
+  "kind": "bacteria",
+  "ai": [
+   "Copper"
+  ],
+  "name": {
+   "ms": "Bintik Bakteria",
+   "en": "Bacterial Spot",
+   "zh": "番茄细菌性斑点病"
+  },
+  "sci": "<em>Xanthomonas vesicatoria</em> (ex Doidge) Vauterin et al.",
+  "desc": {
+   "en": "This bacterium causes bacterial spot on tomato. In severe cases it can make the fruit unsellable and even kill the plant. It can infect all above-ground parts of the tomato plant, including leaves, stems and fruit. Bacterial spot can occur wherever tomatoes are grown, but is most common in hot, wet areas and in greenhouses. To prevent this, practise crop rotation, follow the recommended planting distance, use drip irrigation to avoid wet conditions and remove all infected fallen leaves. No chemical is effective in controlling this disease, but using a fungicide that contains Copper can reduce infection.",
+   "zh": "这种细菌会引起番茄细菌性斑点病。严重时可使果实无法上市，甚至导致植株死亡。它能侵染番茄植株地上的所有部位，包括叶片、茎和果实。凡是种植番茄的地方都可能发生细菌性斑点病，但最常见于炎热潮湿的地区和温室中。为预防此病，应实行轮作，遵守建议的种植距离，使用滴灌以避免环境潮湿，并清除所有受感染的落叶。目前没有能有效防治此病的化学药剂，但使用含铜 Copper 的杀菌剂可减少感染。"
+  },
+  "symptoms": [
+   {
+    "en": "Wet black spots on the fruit. Also found on stems and leaves.",
+    "zh": "果实上出现湿润的黑色斑点，茎和叶片上也有。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 123,
+  "kind": "insect",
+  "ai": [
+   "Cypermethrin",
+   "Deltamethrin",
+   "Methyl Eugenol"
+  ],
+  "name": {
+   "ms": "Lalat Buah",
+   "en": "Fruit Fly",
+   "zh": "果实蝇"
+  },
+  "sci": "<em>Bactrocera</em> spp.",
+  "desc": {
+   "en": "<ul><li>The flies are active in the morning and evening.</li><li>Females lay eggs inside nearly ripe mango fruit.</li><li>The larvae (maggots) hatch and eat the fruit flesh from the inside.</li></ul><p>Pest management</p><ul><li>Good agricultural practices.</li><li>Collect and destroy fallen or damaged fruit.</li><li>Wrap fruit in special bags to prevent attack.</li><li>Set up pheromone traps (for example: Methyl Eugenol) to attract and trap adult flies.</li><li>Use chemical pesticides as recommended on the label, for example: Cypermethrin, Deltamethrin.</li></ul>",
+   "zh": "<ul><li>成虫在早上和傍晚活动。</li><li>雌虫在接近成熟的芒果果实内产卵。</li><li>幼虫（蛆）孵化后从内部取食果肉。</li></ul><p>害虫管理</p><ul><li>良好农业规范。</li><li>收集并销毁落果或受损果实。</li><li>用专用果袋套袋，防止受害。</li><li>安装引诱剂诱捕器（例如：甲基丁香酚 Methyl Eugenol），引诱并诱捕成虫。</li><li>按照标签建议使用化学农药，例如：氯氰菊酯 Cypermethrin、溴氰菊酯 Deltamethrin。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small puncture holes on the fruit skin.</li><li>Black or blackish patches around the egg-laying holes.</li><li>Fruit drops before it is ripe.</li><li>The fruit flesh smells rotten and changes in texture and colour.</li></ul>",
+    "zh": "<ul><li>果皮上有小孔痕迹。</li><li>产卵孔周围出现黑色或暗黑色斑块。</li><li>果实未成熟就掉落。</li><li>果肉发出腐臭味，质地和颜色发生变化。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 158,
+  "kind": "fungus",
+  "ai": [
+   "Chlorothalonil",
+   "Lime"
+  ],
+  "name": {
+   "ms": "Akar Tongkol",
+   "en": "Clubroot",
+   "zh": "十字花科根肿病"
+  },
+  "sci": "<em>Plasmodiophora brassicae</em> Woronin",
+  "desc": {
+   "en": "<p>Clubroot is a disease caused by <em>Plasmodiophora brassicae</em>. This pathogen is an obligate soil-borne organism that attacks crops of the crucifer family such as cabbage, mustard greens, broccoli and cauliflower. It can survive in the soil for a long time as tough resting spores. The pathogen infects plants through the root hairs and causes swellings or clubs on the roots. These swellings disrupt the plant&#39;s uptake of water and nutrients, leading to stunted growth, wilting, yellowing leaves and lower yield.</p><p><strong>Disease management</strong></p><ul><li>Destroy diseased plants.</li><li>Practise crop rotation.</li><li>Make sure drainage is good.</li><li>Correct low soil pH using lime.</li><li>Use a fungicide with the active ingredient Chlorothalonil (50% w/w) as recommended on the label.</li></ul>",
+   "zh": "<p>根肿病是由<em>Plasmodiophora brassicae</em>引起的病害。这种病原体是一种专性寄生的土传生物，危害十字花科作物，如包菜、芥菜、西兰花和花椰菜。它能以抗逆性强的休眠孢子在土壤中长期存活。病原体通过根毛侵染植株，使根部形成肿块或根瘤。这些肿块妨碍植株吸收水分和养分，导致生长受阻、叶片萎蔫、发黄以及产量降低。</p><p><strong>病害管理</strong></p><ul><li>销毁已发病的植株。</li><li>实行轮作。</li><li>确保排水良好。</li><li>施用石灰改良低pH的土壤。</li><li>按照标签建议使用有效成分为百菌清 Chlorothalonil（50% w/w）的杀菌剂。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Roots of infected vegetable plants become swollen and rotten. The plants are stunted.",
+    "zh": "受感染蔬菜植株的根部肿大并腐烂，植株生长矮小。",
+    "steps": []
+   },
+   {
+    "en": "Leaves of the vegetable plants look wilted and stunted.",
+    "zh": "蔬菜植株的叶片萎蔫，生长受阻。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 179,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Bintik Berpusar",
+   "en": "Bean Anthracnose",
+   "zh": "菜豆炭疽病"
+  },
+  "sci": "<em>Colletotrichum lindemuthianum</em> (Sacc. &amp; Magnus) Briosi &amp; Cavara",
+  "desc": {
+   "en": "Bean anthracnose (swirl spot) is a seed-borne disease caused by the fungus <em>Colletotrichum lindemuthianum</em>. It has many hosts among legume species, including those grown as vegetables and as grain legumes.",
+   "zh": "菜豆炭疽病是由真菌<em>Colletotrichum lindemuthianum</em>引起的种传病害。它在许多豆类作物上都有寄主，包括作为蔬菜种植的豆类和粮用豆类。"
+  },
+  "symptoms": [
+   {
+    "en": "Spots look swirled, blackish in colour and sunken into the pods.",
+    "zh": "豆荚上出现呈旋纹状、黑褐色并向内凹陷的斑点。",
+    "steps": []
+   },
+   {
+    "en": "Spots look swirled, blackish in colour and sunken on the leaves.",
+    "zh": "叶片上出现呈旋纹状、黑褐色并向内凹陷的斑点。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 197,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Pengorek Umbisi",
+   "en": "Taro Tuber Borer Beetle",
+   "zh": "芋头块茎钻蛀甲虫"
+  },
+  "sci": "",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "The beetle bores into taro tubers, causing the tubers to rot.",
+    "zh": "甲虫钻蛀芋头块茎，导致块茎腐烂。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 216,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Pelombong Daun Sitrus",
+   "en": "Citrus Leaf Miner",
+   "zh": "柑橘潜叶蛾"
+  },
+  "sci": "<em>Phyllocnistis citrella</em> Stainton",
+  "desc": {
+   "en": "<ul><li>The leaf miner is classed as an insect pest because it damages the leaves: the larva <strong>&#39;</strong>mines<strong>&#39;</strong> inside the leaf by eating the leaf tissue, leaving white winding trails that are easy to see.</li><li>Adults lay &#39;creamy white&#39; eggs on the leaf surface. The eggs are very small and hard to see with the naked eye.</li><li>Scientific studies show that one adult can lay up to 100 eggs at a time.</li><li>The eggs hatch in only 5 days, and the larvae eat the inner tissue of the leaf, which affects photosynthesis.</li><li>At 7 days old, the larva turns into a pupa (cocoon), and this stage takes 8 days before it comes out as an adult.</li><li>The adult, about the size of a fly, flies and mates before laying eggs again on new leaves to continue the life cycle.</li></ul>",
+   "zh": "<ul><li>潜叶蛾被归类为害虫，因为它会损害叶片：幼虫在叶片内取食叶肉组织，像“挖隧道”一样潜食，留下容易看见的白色弯曲虫道。</li><li>成虫在叶面产下“乳白色”的卵，卵非常细小，肉眼难以看见。</li><li>科学研究显示，一只成虫一次可产卵多达100粒。</li><li>卵只需5天就孵化，幼虫取食叶片内部组织，影响光合作用。</li><li>幼虫7日龄时化蛹（结茧），蛹期8天后羽化为成虫。</li><li>成虫大小如苍蝇，会飞行并交配，然后再在新叶上产卵，继续其生活史。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>A serious leaf miner attack makes the leaves dry up and lowers fruit quality.</li><li>The citrus leaf miner sometimes also attacks the fruit, leaving whitish streaks on the fruit skin and spoiling the outer look of the citrus fruit.</li><li>If the leaves are badly attacked, they dry up and fungal infection follows.</li><li>Monitor this pest so you know its population level, because if it is not controlled it will reduce yield.</li></ul>",
+    "zh": "<ul><li>潜叶蛾严重危害会使叶片干枯，并影响果实品质。</li><li>柑橘潜叶蛾有时也会危害果实，使果皮出现白色条纹，影响柑橘果实的外观品质。</li><li>如果叶片受害太严重，叶片会干枯，并引发真菌感染。</li><li>应监测这种害虫，以了解其种群数量，因为若不加以防治，将导致减产。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 241,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Pemakan Daun",
+   "en": "Leaf-eating Beetle",
+   "zh": "丽金龟（食叶甲虫）"
+  },
+  "sci": "<em>Adoretus</em> sp.",
+  "desc": {
+   "en": "<ul><li>A small, elongated oval beetle, 10-12 mm long.</li><li>Body brown, covered with many white/cream setae (bristles) that are sometimes rubbed off in worn specimens.</li><li>Clypeus broad and rounded with a turned-up margin. Labrum projects vertically below the clypeus, with a central tip projection extending past the mentum.</li><li>Antennae with 9-10 segments and a 3-segmented club.</li><li>Fore tibia with 2 or 3 teeth. Pronotum without an apical membrane, instead with a thickened bristly border.</li><li>Elytra coarsely and unevenly punctured; the disc usually has 2-3 raised lengthwise lines, sometimes none. Elytra lack a membrane along the side margins.</li><li>Tip of the hind tibia truncate, with 2 apical spurs set close together. Carina present on the outer side. Middle and hind claws simple and unequal.</li></ul>",
+   "zh": "<ul><li>小型长椭圆形甲虫，体长10-12 mm。</li><li>体褐色，覆盖许多白色/乳白色刚毛，磨损的标本上有时会脱落。</li><li>唇基宽而圆，边缘上翻。上唇在唇基下方垂直伸出，中央端部突起超过颏。</li><li>触角9-10节，端部有3节组成的锤状部。</li><li>前足胫节有2齿或3齿。前胸背板无端膜，而有加厚的刚毛边缘。</li><li>鞘翅刻点粗而不规则，盘区通常有2-3条隆起的纵线，有时没有。鞘翅侧缘无膜质边。</li><li>后足胫节端部平截，有2枚靠近的端距。外侧有隆脊。中足和后足的爪简单，大小不等。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Adults are active at night and eat the leaves from the edge inwards.</li><li>Leaves end up with holes of irregular shape starting from the leaf edge, with jagged feeding marks.</li></ul>",
+    "zh": "<ul><li>成虫夜间活动，从叶缘向内取食叶片。</li><li>叶片出现从叶缘开始的不规则孔洞，取食痕迹呈锯齿状。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 253,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Akasia",
+   "en": "Acacia (Mangium)",
+   "zh": "马占相思"
+  },
+  "sci": "<em>Acacia mangium</em> Willd.",
+  "desc": {
+   "en": "<p><strong>Family</strong>: Fabaceae (legume family)</p><p>Habitat / Description</p><p><strong>The acacia tree (</strong><em><strong>Acacia mangium</strong></em><strong>)</strong> is a tree of the <strong>Fabaceae</strong> family, native to Australia and Papua New Guinea. It is often planted in tropical and subtropical areas, especially in Southeast Asia, for many commercial and ecological purposes such as reforestation, timber production and restoring degraded land.</p><p>However, if not well controlled, this tree can become invasive and harm local ecosystems.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li><strong>Planting management (early prevention):</strong> Make sure <em>Acacia mangium</em> is planted only in suitable areas such as degraded land or forest areas that need rehabilitation, and avoid planting it in ecologically sensitive areas.</li><li><strong>Control of planting areas:</strong> Plant only in managed and controlled areas so that invasive effects are kept to a minimum.</li><li><strong>Regular pruning:</strong> Regularly pruning and removing branches and young trees helps reduce seed production and spread.</li><li><strong>Complete removal:</strong> For long-term control, dig up and remove the whole tree, including the main roots, to prevent regrowth.</li></ul><p><strong>How it spreads</strong></p><ul><li><strong>Fruits and seeds:</strong> The acacia tree produces fruit in the form of <strong>pods</strong> that contain seeds.</li><li><strong>Wind and water:</strong> In some cases, seeds can be spread by wind or carried by flowing water.</li><li><strong>Root or stem shoots:</strong> Roots or underground stems can produce new shoots that grow into new trees.</li><li><strong>Replanting in certain areas:</strong> Acacia is often replanted in forest areas or abandoned land because it grows fast and can improve soil through nitrogen fixation.</li></ul>",
+   "zh": "<p><strong>科</strong>：豆科（Fabaceae）</p><p>生境 / 简介</p><p><strong>马占相思（</strong><em><strong>Acacia mangium</strong></em><strong>）</strong>是<strong>豆科</strong>树木，原产于澳大利亚和巴布亚新几内亚。它常种植在热带和亚热带地区，尤其是东南亚，用于多种商业和生态用途，如重新造林、木材生产以及修复退化土地。</p><p>然而，如果管理不当，这种树可能变成入侵物种，危害当地生态系统。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li><strong>种植管理（早期预防）：</strong>确保<em>Acacia mangium</em>只种植在合适的地方，如退化土地或需要复原的林区，避免种植在生态敏感区。</li><li><strong>控制种植区域：</strong>应在有管理、受控制的区域种植，尽量减少入侵影响。</li><li><strong>定期修剪：</strong>定期修剪并清除枝条和幼树，有助于减少种子的产生和传播。</li><li><strong>彻底清除：</strong>为长期防治，应把整棵树连同主根挖出清除，以防再生。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>果实和种子：</strong>相思树结出含有种子的<strong>荚果</strong>。</li><li><strong>风和水：</strong>在某些情况下，种子可随风传播或被水流带走。</li><li><strong>根蘖或茎芽：</strong>根或地下茎可长出新芽，进而长成新树。</li><li><strong>在特定地区重新种植：</strong>相思树生长快，并能通过固氮作用改良土壤，因此常被重新种植在林区或荒地。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of the acacia tree (<em>Acacia mangium</em>)</p><ul><li>Height: can grow up to 40 metres tall when mature.</li><li>Leaves: compound leaves arranged as fine leaflets, giving a needle-like look.</li><li>Flowers: yellow, blooming in clusters, with a pleasant smell.</li></ul>",
+    "zh": "<p>马占相思（<em>Acacia mangium</em>）的主要特征</p><ul><li>高度：成熟时可高达40米。</li><li>叶：复叶由细小的小叶排列而成，看起来像针叶。</li><li>花：黄色，成簇开放，气味芳香。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 265,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Colok Cina",
+   "en": "Wrinkled Duckbeak Grass",
+   "zh": "田间鸭嘴草"
+  },
+  "sci": "<em>Ischaemum rugosum</em> Salisb.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> Wet areas such as rice fields</p><p>It is a major weed of rice fields, especially in direct-seeded rice. It competes with rice for light, space, nutrients and water, and reduces rice yield if not controlled.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Use clean, certified rice seed.</li><li>Clean farm equipment before moving to another field.</li><li>Control the weed early, before it flowers and sets seed.</li><li>Practise integrated control (IPM) &ndash; including chemical, cultural and mechanical control.</li><li>Good water management in the rice field &ndash; flood the field after sowing rice to drown the weeds.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Produces many seeds: one plant can produce hundreds to thousands of seeds.</li><li>Light and easily carried by water: seeds spread easily with water flow in the rice field.</li><li>Spreads with rice seed: sometimes the weed seeds are mixed in rice seed that has not been cleaned.</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科（Poaceae）</p><p><strong>生境：</strong>潮湿地区，如稻田</p><p>它是稻田的主要杂草，尤其是在直播稻种植系统中。它与水稻争夺光照、空间、养分和水分，若不加以防治，会导致水稻减产。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>使用干净、经认证的稻种。</li><li>转移到其他田地前先清洁农具。</li><li>在杂草开花结籽前及早防治。</li><li>实行综合防治（IPM）&ndash;包括化学、栽培和机械防治。</li><li>做好稻田水分管理&ndash;播种后灌水，淹没杂草。</li></ul><p><strong>传播方式：</strong></p><ul><li>结籽量多：一株可产生数百至数千粒种子。</li><li>种子轻，易随水漂流：种子容易随稻田水流传播。</li><li>随稻种传播：杂草种子有时混在未清选的稻种中。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Ischaemum rugosum</em> Salisb.</p><ul><li>An annual grass that grows upright, 30&ndash;100 cm tall.</li><li>Leaves narrow, rough and finely hairy.</li><li>Flowers in paired spikelets that look wrinkled &ndash; this is the meaning of &quot;rugosum&quot;.</li><li>Easily mistaken for rice seedlings in early growth.</li><li>Spreads through seeds that are easily carried in water and soil.</li></ul>",
+    "zh": "<p><em>Ischaemum rugosum</em> Salisb. 的主要特征</p><ul><li>一年生直立禾草，高30&ndash;100 cm。</li><li>叶片狭窄、粗糙，有细毛。</li><li>小穗成对着生，表面有皱纹&ndash;这就是&quot;rugosum&quot;（有皱纹的）的意思。</li><li>生长早期容易与稻苗混淆。</li><li>通过种子传播，种子容易随水和土壤扩散。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 277,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kumbang Pengorek Batang Nangka",
+   "en": "Jackfruit Longhorn Stem Borer",
+   "zh": "菠萝蜜天牛"
+  },
+  "sci": "<em>Apriona flavescens</em> Jordan",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>The jackfruit stem borer beetle (<em>Apriona flavescens</em>) is an insect pest that attacks jackfruit trees by boring into the trunk and main branches. The larvae (grubs) bore into the trunk and eat the wood tissue, disrupting the flow of water and nutrients. Attacks usually occur on both young and mature trees and can cause branches to die and trees to become weak, or fall over if the attack is severe.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good agricultural practices.</li><li>Prune attacked branches or twigs to reduce the spread of the insect.</li></ul><p>Chemical control (if needed)</p><ul><li>Use chemical pesticides as recommended on the label (systemic insecticides to kill the larvae inside the trunk).</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p><strong>简介</strong></p><p>菠萝蜜天牛（<em>Apriona flavescens</em>）是一种钻蛀树干和主枝、危害菠萝蜜树的害虫。幼虫（蛴螬）钻入树干，取食木质组织，阻碍水分和养分的输送。幼树和成年树都会受害，可导致枝条枯死、树势衰弱，严重时树木倒伏。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范。</li><li>剪除受害枝条或小枝，减少害虫扩散。</li></ul><p>化学防治（必要时）</p><ul><li>按照标签建议使用化学农药（使用内吸性杀虫剂杀死树干内的幼虫）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及采收前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small holes appear on the trunk.</li><li>Leaves turn yellow or wilt because the flow of water and nutrients is disrupted.</li><li>The trunk becomes brittle, and the tree looks weak or falls over easily.</li></ul>",
+    "zh": "<ul><li>树干上出现小孔。</li><li>由于水分和养分输送受阻，叶片变黄或萎蔫。</li><li>树干变脆，树木显得衰弱或容易倒伏。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 294,
+  "kind": "alga",
+  "ai": [],
+  "name": {
+   "ms": "Bintik Daun Alga",
+   "en": "Algal Leaf Spot",
+   "zh": "芒果藻斑病"
+  },
+  "sci": "<em>Cephaleuros virescens</em> Kunze",
+  "desc": {
+   "en": "<ul><li>Algal leaf spot is caused by the parasitic alga <em>Cephaleuros virescens</em>.</li><li>The disease often attacks the leaves, twigs and branches of mango trees, especially in very humid areas.</li><li>Although it is not a very damaging disease, it can weaken the tree and lower the quality of the harvest.</li></ul><p><strong>Disease management:</strong></p><ul><li>Always follow Good Agricultural Practices. Prune to give good air flow and reduce humidity around the tree.</li><li>Keep the field thoroughly clean (sanitation).</li><li>Make sure fertilising and watering are done properly.</li></ul>",
+   "zh": "<ul><li>藻斑病由寄生藻类<em>Cephaleuros virescens</em>引起。</li><li>此病常危害芒果树的叶片、小枝和枝条，尤其是在湿度高的地区。</li><li>虽然危害不算很严重，但会削弱树势，降低收成品质。</li></ul><p><strong>病害管理：</strong></p><ul><li>始终实行良好农业规范。应进行修剪，使通风良好，降低树冠周围的湿度。</li><li>彻底做好田园清洁。</li><li>确保施肥和灌溉做得妥当。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Starts as velvety orange/rust-coloured spots that finally become grey patches on the upper or lower leaf surface, 5 &ndash; 8 mm across.</li><li>The spots often join into larger patches and finally become greenish-grey patches. If this greenish-grey layer is scraped off, a whitish-grey crust can be seen.</li></ul>",
+    "zh": "<ul><li>起初在叶片正面或背面出现天鹅绒状的橙色/锈色斑点，最后变成灰色斑块，直径5 &ndash; 8 mm。</li><li>斑点常合并成较大的斑块，最后变成灰绿色斑块。刮去这层灰绿色物后，可见灰白色的痂皮。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 307,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Bintik Ungu",
+   "en": "Purple Blotch",
+   "zh": "洋葱紫斑病"
+  },
+  "sci": "<em>Alternaria porri</em> (Ellis) Cif.",
+  "desc": {
+   "en": "<p>Purple blotch is caused by <em>Alternaria porri</em>. The fungus is spread by wind and water splashes, and attacks often occur in the rainy season.</p><p>Disease management</p><ul><li>Use disease-free planting material.</li><li>Keep the field clean by removing and destroying infected crop debris.</li><li>Use proper plant spacing to improve air flow between plants.</li><li>Avoid excess humidity and leaves staying wet for long periods.</li><li>Practise crop rotation with non-host crops.</li><li>Use fungicides as a preventive measure when the weather favours disease development.</li></ul>",
+   "zh": "<p>紫斑病由<em>Alternaria porri</em>引起。这种真菌通过风和水花溅射传播，常在雨季发病。</p><p>病害管理</p><ul><li>使用无病的种植材料。</li><li>做好田园清洁，清除并销毁受感染的作物残体。</li><li>保持适当的种植距离，改善植株间的通风。</li><li>避免湿度过高以及叶片长时间潮湿。</li><li>与非寄主作物轮作。</li><li>当天气有利于病害发展时，预防性地使用杀菌剂。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Small lesions with white centres that finally turn purplish-brown. The sunken lesions cause the leaves to break and droop.",
+    "zh": "出现中央白色的小病斑，最后变成紫褐色。病斑部位凹陷，导致叶片折断下垂。",
+    "steps": []
+   }
+  ]
+ }
+]

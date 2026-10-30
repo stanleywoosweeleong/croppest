@@ -1,0 +1,414 @@
+[
+ {
+  "id": 12,
+  "kind": "insect",
+  "ai": [
+   "Thiamethoxam",
+   "Lufenuron",
+   "Chlorantraniliprole"
+  ],
+  "name": {
+   "ms": "Ulat Pengorek Batang Jagung",
+   "en": "Maize Stem Borer",
+   "zh": "亚洲玉米螟"
+  },
+  "sci": "<em>Ostrinia furnacalis</em> (Guenée)",
+  "desc": {
+   "en": "<p>The larvae of the stem borer <em>Ostrinia furnacalis</em> attack maize stems by boring into the stem tissue and making tunnels inside the stem. The attack makes the stems weak and easy to fall over, stunts growth and lowers crop yield.</p><ul><li>Active at night and hides inside the maize stem during the day.</li><li>Body is yellowish-white to light brown, with a dark brown head, smooth and hairless; 2-3 cm long when fully grown.</li><li>Makes tunnels (holes) inside the maize stem and is hard to detect at the early stage.</li></ul><p><strong>Pest management</strong></p><ul><li>Good agricultural practices.</li><li>Destroy infested crop residues.</li><li>Collect and destroy the larvae to reduce the population.</li><li>Monitor regularly to detect the pest and its attack.</li><li>Use chemical pesticides as recommended on the label, for example: thiamethoxam, lufenuron and chlorantraniliprole.</li></ul>",
+   "zh": "<p>玉米螟 <em>Ostrinia furnacalis</em> 的幼虫钻入玉米茎秆组织，在茎内蛀成隧道。受害后茎秆变弱、容易倒伏，植株生长受阻，产量下降。</p><ul><li>夜间活动，白天躲在玉米茎秆内。</li><li>虫体黄白色至浅褐色，头部深褐色，光滑无毛，老熟幼虫长2-3 cm。</li><li>在玉米茎秆内蛀成隧道（孔洞），早期难以发现。</li></ul><p><strong>虫害管理</strong></p><ul><li>良好农业规范。</li><li>销毁受害的作物残体。</li><li>捕捉并销毁幼虫，以减少虫口数量。</li><li>定期监测，及早发现害虫及其危害。</li><li>按标签建议使用化学农药，例如：噻虫嗪 thiamethoxam、虱螨脲 lufenuron 和氯虫苯甲酰胺 chlorantraniliprole。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Stem borer larvae attack maize stems, especially young stems, by making tunnels inside the stem tissue. The attack leaves holes and frass (larval droppings) on the stem; the stem becomes weak and falls over easily, and plant growth is stunted.",
+    "zh": "玉米螟幼虫危害玉米茎秆，尤其是嫩茎，在茎秆组织内蛀成隧道。受害茎秆上可见蛀孔和虫粪（幼虫排泄物），茎秆变弱、容易倒伏，植株生长受阻。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Hawar Upih Daun",
+   "en": "Leaf Sheath Blight",
+   "zh": "玉米纹枯病"
+  },
+  "sci": "<em>Rhizoctonia solani</em> Kühn",
+  "desc": {
+   "en": "This fungus causes leaf sheath blight. It occurs in areas with high temperatures of 28-32 degrees Celsius, heavy use of N fertiliser and high relative humidity. To prevent it, destroy infected plants, use disease-free seed, practise crop rotation, make sure the field has good drainage and avoid using too much N fertiliser on the crop.",
+   "zh": "这种真菌引起纹枯病。病害多发生在气温高（28-32摄氏度）、氮肥施用量高和相对湿度高的地区。预防方法：销毁染病植株，使用无病种子，实行轮作，确保田间排水良好，避免对作物过量施用氮肥。"
+  },
+  "symptoms": [
+   {
+    "en": "Infection causes spots on the leaf sheath. Long oval grey spots surrounded by a blackish-brown band appear. The spots grow larger, change colour and produce sclerotia inside them. When humidity is high, the fungal mycelium easily infects the leaf sheath and any leaves touching it.",
+    "zh": "染病后叶鞘上出现病斑。病斑为灰色长椭圆形，周围有黑褐色带纹。病斑逐渐扩大、变色，并在病斑内产生菌核。湿度高时，菌丝容易侵染叶鞘及与其接触的叶片。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl"
+  ],
+  "name": {
+   "ms": "Reput Hitam / Reput Lembut",
+   "en": "Black Rot / Soft Rot",
+   "zh": "黄梨黑腐病（软腐病）"
+  },
+  "sci": "<em>Thielaviopsis paradoxa</em> (De Seynes) Höhn.",
+  "desc": {
+   "en": "This fungus causes Thielaviopsis black rot / soft rot in pineapple. The pathogen infects the fruit through wounds or other openings after harvest, while the fruit is fresh. The pathogen can survive for a long time and can infect again in the next pineapple season. To prevent this, build a good drainage system in the field. Destroy all infected plants as soon as possible, clean up the area and follow proper cultural practices. Avoid field work that can wound the plants, to reduce disease. It is also recommended to dip the suckers in benomyl.",
+   "zh": "这种真菌引起黄梨的根串珠霉黑腐病/软腐病。病原菌在采收后、果实尚新鲜时，通过伤口或其他开口侵染果实。病原菌能长期存活，并可在下一个黄梨种植季再次侵染。预防方法：在田间建立良好的排水系统；尽快销毁所有染病植株，清理园区，并采取正确的栽培管理措施；避免可能使植株受伤的田间作业，以减少病害发生。也建议将吸芽浸泡于苯菌灵 benomyl 中。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Signs of infection are seen 4-8 months after planting.</li><li>Infected fruit shows a grey fungus that later turns dark and blackish. There are gas bubbles and a bad smell in the rotting part.</li><li>This infection lets the core (pith) be pulled out of the plant easily.</li></ul>",
+    "zh": "<ul><li>种植后4-8个月可见染病迹象。</li><li>染病果实上出现灰色霉层，随后变暗发黑。腐烂部位有气泡并发出异味。</li><li>受害植株的髓心很容易从植株上拔出。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "kind": "oomycete",
+  "ai": [
+   "Metalaxyl",
+   "Mancozeb",
+   "Chlorothalonil",
+   "Copper Oxychloride"
+  ],
+  "name": {
+   "ms": "Kulapuk Berbulu",
+   "en": "Downy Mildew",
+   "zh": "芥菜霜霉病"
+  },
+  "sci": "<em>Peronospora parasitica</em> (Pers.) Fr.",
+  "desc": {
+   "en": "<p>This fungus causes downy mildew on mustard. The disease is very serious on leafy vegetables such as mustard (<em>Brassica spp.</em>), especially in wet and cool weather. The fungal spores can spread as contaminants on seed. The fungus can carry over from season to season on infected roots or plant debris, which then affects the crop. Young seedlings are more susceptible than mature plants and can die if infected while young.</p><p>Disease management:</p><p>1. Early prevention:</p><ul><li>Use disease-free seed.</li><li>Avoid low-lying, damp areas for planting.</li><li>Use suitable plant spacing to improve air flow.</li><li>Practise crop rotation – do not plant crops of the Brassicaceae family again and again in the same area.</li></ul><p>2. Field practices:</p><ul><li>Monitor the field regularly to detect early symptoms.</li><li>Remove and destroy infected leaves or plants.</li><li>Reduce overhead watering – use drip irrigation if possible.</li></ul><p>3. Chemical control (if needed):</p><ul><li>Use systemic and contact fungicides in rotation, such as<ul><li>Metalaxyl</li><li>Mancozeb</li><li>Chlorothalonil</li><li>Copper oxychloride</li></ul></li><li>Spray every 7–10 days during wet weather or when symptoms start to appear.</li></ul>",
+   "zh": "<p>这种真菌引起芥菜霜霉病。该病对芥菜（<em>Brassica spp.</em>）等叶菜类危害非常严重，尤其是在潮湿凉爽的天气。病菌孢子可附着在种子上传播。病菌可在染病的根部或植物残体上越季存活，进而危害作物。幼苗比成株更易感病，幼苗期染病可导致死亡。</p><p>病害管理：</p><p>1. 早期预防：</p><ul><li>使用无病种子。</li><li>避免在低洼潮湿的地方种植。</li><li>采用适当的株距，促进通风。</li><li>实行轮作 – 不要在同一地块重复种植十字花科作物。</li></ul><p>2. 田间管理：</p><ul><li>定期巡查田间，及早发现症状。</li><li>摘除并销毁染病的叶片或植株。</li><li>减少从上方淋水（顶部喷灌）– 尽可能使用滴灌系统。</li></ul><p>3. 化学防治（如有需要）：</p><ul><li>轮换使用内吸性和保护性（触杀性）杀菌剂，例如<ul><li>甲霜灵 Metalaxyl</li><li>代森锰锌 Mancozeb</li><li>百菌清 Chlorothalonil</li><li>氧氯化铜 Copper oxychloride</li></ul></li><li>在潮湿天气或症状开始出现时，每7–10天喷施一次。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li><p>Downy mildew often attacks <strong>young seedlings</strong>.</p></li><li><p>Infected seedlings show yellow leaves and wilting, and <strong>can die before maturing</strong>.</p></li></ul>",
+    "zh": "<ul><li><p>霜霉病常危害<strong>幼苗</strong>。</p></li><li><p>染病幼苗表现为叶片发黄、萎蔫，<strong>可在成熟前死亡</strong>。</p></li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li><p><strong>The main part affected</strong>.</p></li><li><p><strong>Greenish-yellow</strong> patches appear on the <strong>upper surface of the leaf</strong>.</p></li><li><p>The <strong>underside of the leaf</strong> shows a <strong>grey, purple or greenish-black mildew layer</strong> – these are the fungal spores.</p></li><li><p>Infected leaves become <strong>wilted, dry and finally fall off</strong></p></li></ul>",
+    "zh": "<ul><li><p><strong>主要受害部位</strong>。</p></li><li><p><strong>叶片正面</strong>出现<strong>黄绿色</strong>斑块。</p></li><li><p><strong>叶片背面</strong>出现<strong>灰色、紫色或墨绿色的霉层</strong> – 即病菌孢子。</p></li><li><p>染病叶片<strong>萎蔫、干枯，最后脱落</strong></p></li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 81,
+  "kind": "fungus",
+  "ai": [
+   "Benomyl",
+   "Mancozeb"
+  ],
+  "name": {
+   "ms": "Pucuk Cacat / Pucuk Berjambak",
+   "en": "Malformed Top / Bunchy Top",
+   "zh": "木瓜畸顶病（簇顶病）"
+  },
+  "sci": "<em>Cladosporium oxysporum</em> Berk. & M.A. Curtis",
+  "desc": {
+   "en": "This fungus causes 'malformed top' / 'bunchy top' in papaya. Thrips feed on young leaves by scraping and sucking them, and these spots become entry points for infection. Plants that show symptoms are slower to recover and produce almost no yield if infection happens before fruiting. To prevent this, always follow Good Agricultural Practices in the field. If the attack is severe, spray pesticides to control the thrips, together with fungicides such as benomyl and mancozeb every 7-10 days.",
+   "zh": "这种真菌引起木瓜的“畸顶病/簇顶病”。蓟马以锉吸方式取食嫩叶，取食处成为病菌侵入的入口。出现症状的植株恢复较慢；若在结果前染病，几乎没有收成。预防方法：田间应始终遵循良好农业规范。若危害严重，应喷施农药防治蓟马，并每7-10天喷施苯菌灵 benomyl、代森锰锌 mancozeb 等杀菌剂。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Leaf shoots look deformed and crinkled.</li><li>There are leaf spots and small holes of 1-3 mm.</li><li>On old leaves there are brown spots with a yellow ring around them.</li></ul>",
+    "zh": "<ul><li>嫩梢叶片畸形、皱缩。</li><li>叶片上有斑点和1-3 mm的穿孔斑。</li><li>老叶上有褐色斑点，周围有黄色晕圈。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 96,
+  "kind": "fungus",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Chlorothalonil",
+   "Triforine",
+   "Myclobutanil",
+   "Tebuconazole"
+  ],
+  "name": {
+   "ms": "Penyakit Karat",
+   "en": "Bean Rust",
+   "zh": "菜豆锈病"
+  },
+  "sci": "<em>Uromyces appendiculatus</em>, <em>U. vignae</em>",
+  "desc": {
+   "en": "This fungus causes rust on French beans. Bean rust is a fungal disease that affects the leaves, pods and stems. It occurs mostly in wet weather and is easily spread by wind from one plant to another. It can survive from one season to the next on crop residues. Rust infection can lead to other disease and pest problems. To prevent this, collect and destroy infected plant parts. Spray with fungicides such as propineb, mancozeb, chlorothalonil, triforine, myclobutanil and tebuconazole.",
+   "zh": "这种真菌引起菜豆（四季豆）锈病。豆类锈病是一种危害叶片、豆荚和茎的真菌病害，多发生于潮湿天气，容易随风在植株间传播。病菌可在作物残体上越季存活。锈病侵染还可能引发其他病虫害问题。预防方法：收集并销毁染病的植株部位。喷施杀菌剂，例如丙森锌 propineb、代森锰锌 mancozeb、百菌清 chlorothalonil、嗪氨灵 triforine、腈菌唑 myclobutanil 和戊唑醇 tebuconazole。"
+  },
+  "symptoms": [
+   {
+    "en": "There are round yellow spots. In the centre of each spot there are brown spores. Severe attack makes the leaves turn yellow and dry.",
+    "zh": "叶片上出现黄色圆形斑点，斑点中央有褐色孢子。危害严重时叶片发黄、干枯。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 136,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Trip",
+   "en": "Thrips",
+   "zh": "蓟马"
+  },
+  "sci": "<em>Scirtothrips aurantii</em> Faure",
+  "desc": {
+   "en": "<ul><li>Thrips are active in the morning and evening, especially in hot, dry weather.</li><li>Thrips are tiny insects, pale yellow or black, about 1 mm long. They attack young leaves, flowers and fruits of mango and can cause serious damage if not controlled.</li></ul><p>Pest management</p><ul><li>Good agricultural practices</li><li>Monitor young shoots and flowers early.</li><li>Prune heavily attacked parts of the tree.</li><li>Use chemical pesticides as recommended on the label</li></ul>",
+   "zh": "<ul><li>蓟马在早晨和傍晚活动，尤其是在炎热干燥的天气。</li><li>蓟马是微小的昆虫，呈淡黄色或黑色，体长约1 mm。它们危害芒果的嫩叶、花和果实，如不加以防治，可造成严重损失。</li></ul><p>虫害管理</p><ul><li>良好农业规范</li><li>及早巡查嫩梢和花部。</li><li>修剪受害严重的枝叶。</li><li>按标签建议使用化学农药</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Fruit surface is scarred or brownish</li><li>Fruit skin becomes rough and wrinkled</li><li>Brownish patches on the fruit</li><li>Young fruits are damaged or drop if the attack is severe</li><li>Fruit growth is stunted and fruit shape is uneven</li></ul>",
+    "zh": "<ul><li>果面出现疤痕或呈褐色</li><li>果皮变得粗糙、皱缩</li><li>果实上有褐色斑块</li><li>危害严重时幼果受损或脱落</li><li>果实发育受阻，果形不整齐</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>Silvery or yellowish patches on the leaf surface</li><li>Leaves become curled, crinkled or deformed</li><li>Brown or dry patches on the leaves</li><li>Young leaves become deformed or abnormal</li><li>Leaves dry up and die if the attack is severe</li></ul>",
+    "zh": "<ul><li>叶面出现银白色或淡黄色斑块</li><li>叶片卷曲、皱缩或变形</li><li>叶片上出现褐色或干枯斑块</li><li>嫩叶畸形或发育异常</li><li>危害严重时叶片干枯死亡</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 161,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Trip",
+   "en": "Thrips",
+   "zh": "小棘蓟马"
+  },
+  "sci": "<em>Thrips parvispinus</em> Karny",
+  "desc": {
+   "en": "<p>Very tiny, about 1 mm, and cannot fly. Immature thrips are usually clear in colour and are usually found under the leaves, on new shoots and on unopened buds.</p><p>Adult thrips measure 0.5-14 mm, but most are about 1 mm; they are usually black and are mostly found inside rose petals, in the centre of the flower.</p>",
+   "zh": "<p>虫体非常微小，约1 mm，不能飞行。未成熟的蓟马（若虫）通常无色透明，多见于叶背、新梢以及尚未开放的花蕾上。</p><p>成虫体长0.5-14 mm，但大多数约1 mm，通常为黑色，多见于玫瑰花瓣内，即花朵中央部位。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "Shoots and young leaves show yellowish spots, the leaves are crinkled and shoot growth is stunted. The fruit surface is scarred from scraping, with fine brownish scabs.",
+    "zh": "嫩梢和嫩叶出现淡黄色斑点，叶片皱缩，嫩梢生长受阻。果面有锉吸留下的疤痕，并有细小的褐色痂皮。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 180,
+  "kind": "fungus",
+  "ai": [],
+  "name": {
+   "ms": "Penyakit Layu Fusarium",
+   "en": "Fusarium Wilt",
+   "zh": "姜枯萎病（镰刀菌枯萎病）"
+  },
+  "sci": "<em>Fusarium oxysporum</em> Schltdl.",
+  "desc": {
+   "en": "<p>Fusarium wilt of ginger is a disease caused by the fungus <em>Fusarium oxysporum.</em></p><ul><li><p><strong>Symptoms</strong>: Ginger plants infected with <em>Fusarium oxysporum</em> usually show gradual wilting, from the older leaves to the younger ones. The leaves usually stay green, but the whole plant becomes stunted and grows poorly.</p></li><li><p><strong>Pathogen</strong>: <em>Fusarium oxysporum</em> is a pathogenic fungus that infects the vascular (water-conducting) system of ginger. It blocks the movement of water and nutrients inside the plant, causing wilting and leaf drop.</p></li><li><p><strong>Effect on the crop</strong>: The disease can cause major yield loss because infected plants cannot grow well. Severe infection can kill the plant.</p></li><li><p><strong>Spread</strong>:<em> Fusarium oxysporum</em> can spread through contaminated soil, infected seed, or planting tools that are not properly cleaned.</p></li><li><p><strong>Management</strong>: Control of Fusarium wilt involves early monitoring, using disease-free seed and good sanitation practices. Fungicides may be needed in some situations to reduce the level of infection.</p></li></ul><p>Effective prevention and management are important to protect ginger from Fusarium wilt and to ensure the best possible harvest.</p>",
+   "zh": "<p>姜枯萎病是由真菌 <em>Fusarium oxysporum</em>（尖孢镰刀菌）引起的病害。</p><ul><li><p><strong>症状</strong>：感染 <em>Fusarium oxysporum</em> 的姜株通常出现逐渐萎蔫，从老叶向嫩叶发展。叶片通常仍保持绿色，但整株矮小、生长不良。</p></li><li><p><strong>病原菌</strong>：<em>Fusarium oxysporum</em> 是一种侵染姜维管束（输水系统）的病原真菌。它阻碍植株体内水分和养分的运输，导致萎蔫和落叶。</p></li><li><p><strong>对作物的影响</strong>：由于染病植株无法正常生长，此病可造成严重减产。严重感染可导致植株死亡。</p></li><li><p><strong>传播途径</strong>：<em> Fusarium oxysporum</em> 可通过受污染的土壤、带病种姜，或未妥善清洁消毒的种植工具传播。</p></li><li><p><strong>管理</strong>：防治枯萎病包括及早监测、使用无病种姜以及良好的田园卫生措施。在某些情况下可能需要使用杀菌剂，以降低感染程度。</p></li></ul><p>有效的预防和管理对于保护姜免受枯萎病危害、确保最佳收成十分重要。</p>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li><p><strong>Wilting</strong>: Leaves of infected ginger plants wilt slowly, starting from the lower leaves and moving upwards. The wilting is often accompanied by yellowing of the affected leaves.</p></li><li><p><strong>Yellowing</strong>: Leaves may turn yellow, especially between the veins, as the disease develops. The yellowing can spread over the whole leaf.</p></li><li><p><strong>Stunted growth</strong>: Infected plants may show stunted growth, with smaller and less healthy leaves than healthy plants.</p></li><li><p><strong>Necrosis</strong>: In severe cases, necrosis spreads on the leaves, where the tissue dies and turns brown or black.</p></li></ul>",
+    "zh": "<ul><li><p><strong>萎蔫</strong>：染病姜株的叶片慢慢萎蔫，从下部叶片开始向上发展。萎蔫常伴随受害叶片发黄。</p></li><li><p><strong>黄化</strong>：随着病情发展，叶片可能发黄，尤其是叶脉之间。黄化可扩展至整片叶子。</p></li><li><p><strong>生长受阻</strong>：染病植株可能生长矮小，叶片比健康植株更小、长势更差。</p></li><li><p><strong>坏死</strong>：严重时叶片上出现坏死，组织死亡并变成褐色或黑色。</p></li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 198,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Lalat Kacang",
+   "en": "Bean Fly",
+   "zh": "菜豆潜蝇"
+  },
+  "sci": "<em>Melanagromyza phaseoli</em>",
+  "desc": {
+   "en": "<p>A small insect pest from the leaf miner fly group, commonly known as the bean fly or bean stem maggot. The bean fly is a small, shiny, metallic bluish-black fly, about 2 mm long, with clear wings. The larva is yellowish-white and 3 mm long. The pupa is barrel-shaped and 2-3 mm long; it is yellow at first with dark ends, but turns dark brown, shiny black or reddish-orange. The larvae enter the tissue of leaves and young stems, where they feed on the inside of the plant without damaging the outer surface at the early stage. When the population is high, it can weaken the plant and disrupt growth.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good Agricultural Practices (GAP)</li><li>Monitor the crop regularly, especially at the seedling stage.</li><li>Pull out and destroy badly attacked plants or leaves.</li><li>Control weeds in the field to reduce breeding places for the pest.</li><li>Use trap crops or crop rotation to break the pest's life cycle.</li><li>Encourage natural enemies such as parasitoids that attack the larvae inside the leaves.</li></ul><p>Chemical control (if needed)</p><ul><li>Use registered systemic insecticides at the rate recommended on the product label.</li><li>Spray at the early stage of attack for the best effect. Always wear personal protective equipment (PPE) and follow all instructions on the pesticide label, including dose, spray timing and pre-harvest interval (PHI).</li></ul>",
+   "zh": "<p>一种属于潜叶蝇类的小型害虫，俗称豆蝇或豆茎蛆。成虫为小型蝇类，有金属光泽，蓝黑色，体长约2 mm，翅透明。幼虫黄白色，体长3 mm。蛹呈桶形，长2-3 mm，初期为黄色、两端色深，后变为深褐色、亮黑色或橙红色。幼虫钻入叶片和嫩茎组织内取食，早期不损伤植株外表。虫口密度高时，可使植株衰弱，影响生长。</p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>良好农业规范（APB/GAP）</li><li>定期检查作物，尤其是在幼苗期。</li><li>拔除并销毁受害严重的植株或叶片。</li><li>清除田间杂草，减少害虫的繁殖场所。</li><li>利用诱集作物或轮作，打断害虫的生活周期。</li><li>保护和利用天敌，例如寄生于叶内幼虫的寄生蜂。</li></ul><p>化学防治（如有需要）</p><ul><li>按产品标签建议的用量使用已登记的内吸性杀虫剂。</li><li>在危害初期喷施，效果最佳。务必穿戴个人防护装备（PPE），并遵守农药标签上的所有说明，包括剂量、喷药时间和安全间隔期（PHI）。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Early damage shows on the leaf surface as small pale yellow areas caused by adult feeding and egg-laying. Heavy attack can cause the leaves to drop. When the larvae hatch, they make mines (winding tracks) in the leaves as they feed. The main damage is caused by larvae feeding inside the stem as they move down into the lower stem. This can cause the stem to swell and split. In severe attacks, plants can collapse, wilt and die. If the plant survives, its growth and yield are reduced. It may produce adventitious roots (roots that form from non-root tissue) to make up for the damage. Yield loss can reach 100%.",
+    "zh": "早期危害表现为叶面上出现淡黄色小斑，由成虫取食和产卵造成。严重时可导致落叶。幼虫孵化后在叶片内取食，形成潜道（弯曲的条纹）。主要危害来自幼虫向下移入茎基部并在茎内取食，可使茎部肿胀、开裂。危害严重时植株倒伏、萎蔫并死亡。即使植株存活，生长和产量也会下降。植株可能长出不定根（由非根组织长出的根）以弥补损伤。产量损失可高达100%。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 217,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Lalat Buah",
+   "en": "Fruit Fly",
+   "zh": "果实蝇"
+  },
+  "sci": "<em>Bactrocera</em> spp.",
+  "desc": {
+   "en": "<ul><li>Adults lay eggs on citrus fruits that are nearly ripe or ripe.</li><li>The eggs hatch and the larvae bore into the fruit and feed on the flesh.</li><li>Fruit fly larvae are usually found inside the fruit when it is peeled, and the fruit quality is reduced.</li></ul>",
+   "zh": "<ul><li>成虫在接近成熟或已成熟的柑橘果实上产卵。</li><li>卵孵化后，幼虫钻入果内取食果肉。</li><li>剥开果实时常可见果实蝇幼虫，果实品质下降。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The attacked part is easily infected by fungal or bacterial diseases, and the fruit then rots, decays and drops.</li><li>Fruit quality is reduced</li></ul>",
+    "zh": "<ul><li>受害部位容易感染真菌或细菌病害，随后果实腐烂、变质并脱落。</li><li>果实品质下降</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 242,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Koya",
+   "en": "Mealybugs",
+   "zh": "粉蚧"
+  },
+  "sci": "<em>Planococcus</em> spp., <em>Pseudococcus</em> spp., <em>Exallomochlus hispidus</em>, <em>Dysmicoccus neobrevipes</em>",
+  "desc": {
+   "en": "<ul><li>Young yellowish nymphs stick to the surface of the fruit skin.</li><li>Young nymphs actively move from place to place (<em>crawlers</em>).</li><li>Older nymphs are pale yellow and covered with a layer of white wax on the body surface. After a few days, once they find a suitable place, they settle and suck the plant sap from that part until they become adults.</li><li>The spread of these mealybugs is often helped by ants.</li><li>Mealybugs and ants live in a mutually beneficial relationship, because the ants feed on the sweet liquid (honeydew) produced by the mealybugs.</li></ul>",
+   "zh": "<ul><li>淡黄色的低龄若虫附着在果皮表面。</li><li>低龄若虫活跃，会四处爬动转移（<em>爬虫期</em>）。</li><li>高龄若虫呈淡黄色，体表覆盖一层白色蜡粉。几天后找到合适的部位便固定下来，吸食该部位的汁液，直至发育为成虫。</li><li>粉蚧的扩散常借助蚂蚁。</li><li>粉蚧与蚂蚁互利共生，因为蚂蚁以粉蚧分泌的甜液（蜜露）为食。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>The fruit surface looks like it is covered in white cotton. This pest produces a sweet sticky secretion that promotes fungal growth, making the fruit look dirty and covered in black soot (sooty mould).</li><li>Ants and weaver ants (kerengga) help spread mealybugs in the field</li></ul>",
+    "zh": "<ul><li>果面看起来像覆盖着白色棉絮。这种害虫分泌甜性黏液，促使霉菌生长，使果实看起来脏污并覆盖黑色煤污（煤烟病）。</li><li>蚂蚁和黄猄蚁（kerengga）帮助粉蚧在田间扩散</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 254,
+  "kind": "mite",
+  "ai": [],
+  "name": {
+   "ms": "Hama Merah",
+   "en": "Red Spider Mite",
+   "zh": "朱砂叶螨（红蜘蛛）"
+  },
+  "sci": "<em>Tetranychus cinnabarinus</em> (Boisduval)",
+  "desc": {
+   "en": "<ul><li>Red spider mites are more active in hot, dry weather, making them a major threat in that season.</li><li>Red spider mites have a very fast life cycle of only 5 to 10 days in hot conditions. This lets their population increase quickly and cause heavy attacks in a short time.</li><li>This pest attacks the soft, green parts of the papaya plant, especially the leaves.</li><li>Leaf damage can affect photosynthesis, which is important for plant growth. As a result, the plant becomes weak and less productive</li></ul><p>Pest management</p><ul><li>Good agricultural practices</li><li>Avoid planting too closely and avoid humidity that is too low</li><li>Use chemical pesticides as recommended on the label</li><li>Rotate active ingredients to avoid resistance.</li></ul>",
+   "zh": "<ul><li>红蜘蛛在炎热干燥的天气更为活跃，是这一季节的主要威胁。</li><li>红蜘蛛的生活周期非常短，在高温条件下只需5至10天。因此其数量能迅速增加，在短时间内造成严重危害。</li><li>这种害虫危害木瓜植株柔嫩的绿色部位，尤其是叶片。</li><li>叶片受损会影响光合作用，而光合作用对植株生长十分重要。结果植株变得衰弱，产量降低</li></ul><p>虫害管理</p><ul><li>良好农业规范</li><li>避免种植过密，也避免湿度过低</li><li>按标签建议使用化学农药</li><li>轮换使用不同有效成分，以免产生抗药性。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Attacked leaves turn yellow and wilt, the leaf edges curl, and finally the leaves drop. Serious attacks stunt plant growth and reduce yield. Fruits drop before they mature.",
+    "zh": "受害叶片发黄、萎蔫，叶缘卷曲，最后脱落。危害严重时植株生长受阻，产量下降。果实在成熟前脱落。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 266,
+  "kind": "weed",
+  "ai": [
+   "Pretilachlor",
+   "Oxadiazon",
+   "Penoxsulam",
+   "Cyhalofop-butyl",
+   "Bispyribac-sodium"
+  ],
+  "name": {
+   "ms": "Rumput Ekor Tebu",
+   "en": "Chinese Sprangletop",
+   "zh": "千金子"
+  },
+  "sci": "<em>Leptochloa chinensis</em> (L.) Nees",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat</strong></p><p>This weed is usually found in <strong>wet</strong> areas such as rice fields, drains and paddy plots. It is very aggressive in rice fields, especially in <strong>direct seeding</strong> systems. It competes with the rice crop from the early growth stage by taking up light, nutrients and water. It is also hard to tell apart from rice seedlings at the early growth stage and can reduce rice yield by up to <strong>50%</strong> if not controlled effectively.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Sow rice at the same time across the area to disrupt the weed's life cycle.</li><li>Good field water management, such as early flooding, can suppress weed seed germination.</li><li>Hand weeding or using a weeder after rice sowing.</li><li><strong>Pre-emergence herbicides:</strong> such as pretilachlor and oxadiazon.</li><li><strong>Post-emergence herbicides:</strong> such as penoxsulam, cyhalofop-butyl and bispyribac-sodium.</li></ul><p><strong>How it spreads</strong></p><ul><li><strong>By seed (main way):</strong><ul><li>Each plant can produce thousands of seeds.</li><li>Seeds are spread by field water, wind and farm equipment.</li><li>Seeds can also spread together with rice seed if the seed is not cleaned well.</li></ul></li><li><strong>Vegetative reproduction:</strong><ul><li>This weed can regrow from root remnants if not fully removed</li></ul></li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科 Poaceae</p><p><strong>生境</strong></p><p>这种杂草通常生长在稻田、水沟和田埂等<strong>潮湿</strong>的地方。它在稻田中极具侵略性，尤其是在<strong>直播</strong>稻田。从生长早期起就与水稻争夺光照、养分和水分。此外，在生长早期很难与水稻秧苗区分；若不有效防除，可使稻米减产高达<strong>50%</strong>。</p><p><strong>杂草综合管理（IWM）</strong></p><ul><li>统一同期播种水稻，以打乱杂草的生活周期。</li><li>良好的稻田水分管理，例如早期灌水淹田，可抑制杂草种子萌发。</li><li>水稻播种后人工除草或使用除草工具。</li><li><strong>芽前除草剂：</strong>例如丙草胺 pretilachlor 和噁草酮 oxadiazon。</li><li><strong>芽后除草剂：</strong>例如五氟磺草胺 penoxsulam、氰氟草酯 cyhalofop-butyl 和双草醚 bispyribac-sodium。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>通过种子（主要方式）：</strong><ul><li>每株可产生数千粒种子。</li><li>种子随稻田水、风和农机具传播。</li><li>若稻种未清洁干净，杂草种子也会随稻种传播。</li></ul></li><li><strong>营养繁殖：</strong><ul><li>若未彻底清除，可从残留的根部重新长出</li></ul></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Leptochloa chinensis</em> (L.) Nees</p><ul><li>Type: Annual weed (sometimes short-lived perennial).</li><li>Height: Can reach 30 – 120 cm.</li><li>Stem: Upright or slightly creeping.</li><li>Leaves: Long, narrow and bright green.</li><li>Inflorescence: A panicle (branched flower cluster) arranged like a sugarcane tail, which gives the local name \"rumput ekor tebu\" (sugarcane-tail grass).</li><li>Seeds: Small, smooth and easily spread.</li></ul>",
+    "zh": "<p><em>Leptochloa chinensis</em> (L.) Nees 的主要特征</p><ul><li>类型：一年生杂草（有时为短期多年生）。</li><li>株高：可达30 – 120 cm。</li><li>茎：直立或稍匍匐。</li><li>叶：细长、狭窄，鲜绿色。</li><li>花序：圆锥花序（分枝成簇的花），排列形似甘蔗尾，因此当地俗称“rumput ekor tebu”（甘蔗尾草）。</li><li>种子：细小、光滑，容易传播。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 278,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Psilid Sitrus",
+   "en": "Asian Citrus Psyllid",
+   "zh": "柑橘木虱"
+  },
+  "sci": "<em>Diaphorina citri</em> Kuwayama",
+  "desc": {
+   "en": "<p>This insect is active in the morning and evening and is very active during the young shoot (flush) growth stage of citrus. The psyllid sucks sap from infected trees and then spreads the bacteria to other trees.</p><p><strong>Pest management</strong></p><ul><li>Good agricultural practices.</li><li>Monitor and detect psyllids early.</li><li>Prune young shoots regularly.</li><li>Use natural predators.</li><li>Use chemical pesticides as recommended on the label</li></ul>",
+   "zh": "<p>这种昆虫在早晨和傍晚活动，在柑橘抽发嫩梢期间尤其活跃。木虱从染病植株吸食汁液，再把细菌传播到其他植株。</p><p><strong>虫害管理</strong></p><ul><li>良好农业规范。</li><li>及早监测并发现木虱。</li><li>定期修剪嫩梢。</li><li>利用天敌。</li><li>按标签建议使用化学农药</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attack by <em>Diaphorina citri</em> makes young shoots deformed, leaves curl, growth is stunted, and there is a risk of spreading huanglongbing (HLB, citrus greening) disease.</li></ul>",
+    "zh": "<ul><li><em>Diaphorina citri</em> 危害导致嫩梢畸形、叶片卷曲、生长受阻，并有传播黄龙病（HLB）的风险。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 295,
+  "kind": "fungus",
+  "ai": [
+   "Copper Oxychloride",
+   "Copper Hydroxide"
+  ],
+  "name": {
+   "ms": "Bintik Daun Berkerak",
+   "en": "Crusty Leaf Spot",
+   "zh": "芒果痂状叶斑病"
+  },
+  "sci": "<em>Zimmermanniella trispora</em> Henn.",
+  "desc": {
+   "en": "<ul><li>Often attacks mango leaves, causing crusty patches that can affect the health of the tree.</li><li>The disease spreads more easily in areas with high humidity and poor air circulation.</li></ul><p><strong>Disease management:</strong></p><p>✅ <strong>Good Agricultural Practices (GAP):</strong></p><ul><li>Prune and remove infected leaves or twigs to <strong>reduce the spread of the disease</strong>.</li><li>Make sure plant spacing is suitable to improve <strong>air flow</strong> and <strong>reduce humidity</strong>.</li></ul><p>✅ <strong>Cultural control:</strong></p><ul><li>Reduce <strong>humidity</strong> around the tree by making sure there is <strong>good drainage</strong>.</li><li>Destroy infected parts to prevent further spread.</li></ul><p>✅ <strong>Chemical control:</strong></p><ul><li>Use <strong>copper-based fungicides</strong> (for example: <strong>copper oxychloride, copper hydroxide</strong>) to <strong>control fungal growth</strong>.</li><li>Spray <strong>regularly</strong>, especially in the rainy season or when humidity is high.</li></ul>",
+   "zh": "<ul><li>常危害芒果叶片，形成痂状斑块，可影响树体健康。</li><li>在湿度高、通风不良的地方，此病更容易蔓延。</li></ul><p><strong>病害管理：</strong></p><p>✅ <strong>良好农业规范（APB/GAP）：</strong></p><ul><li>修剪并清除染病的叶片或枝条，以<strong>减少病害传播</strong>。</li><li>确保适当的株距，以改善<strong>通风</strong>并<strong>降低湿度</strong>。</li></ul><p>✅ <strong>栽培防治：</strong></p><ul><li>确保<strong>排水良好</strong>，以降低树体周围的<strong>湿度</strong>。</li><li>销毁染病部位，防止进一步蔓延。</li></ul><p>✅ <strong>化学防治：</strong></p><ul><li>使用<strong>铜基杀菌剂</strong>（例如：<strong>氧氯化铜 copper oxychloride、氢氧化铜 copper hydroxide</strong>）以<strong>控制病菌生长</strong>。</li><li><strong>定期</strong>喷施，尤其是在雨季或湿度高时。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Small brown or grey spots with a crusty surface on the leaves.</li><li>These spots can grow larger and join together, causing severe leaf damage.</li><li>Infected leaves can dry up and drop early.</li><li>In severe cases, the infection can spread to twigs and branches.</li></ul>",
+    "zh": "<ul><li>叶片上出现褐色或灰色小斑点，表面呈痂状。</li><li>斑点可扩大并连成一片，造成叶片严重受损。</li><li>染病叶片可能干枯并提早脱落。</li><li>严重时，感染可蔓延至小枝和枝条。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 308,
+  "kind": "insect",
+  "ai": [
+   "Azadirachtin",
+   "Insecticidal Soap",
+   "Neem"
+  ],
+  "name": {
+   "ms": "Kutu Trip",
+   "en": "Thrips",
+   "zh": "蓟马"
+  },
+  "sci": "<em>Scirtothrips dorsalis</em>, <em>Thrips tabaci</em>, <em>Thrips palmi</em>, <em>Frankliniella occidentalis</em>",
+  "desc": {
+   "en": "<p>Thrips are small insects, 1-2 mm in size, with two pairs of wings made of fine hairs and piercing mouthparts. Thrips (adults and nymphs) attack plants by piercing the plant tissue and sucking the sap, which causes damage. Thrips can be found on leaves and inside flowers.</p><p><strong>Thrips species:</strong></p><p><em>1. Scirtothrips dorsalis</em></p><p><em>2. Thrips tabaci</em></p><p><em>3. Thrips palmi</em></p><p><em>4. Frankliniella occidentalis</em></p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Control nearby weeds that act as alternative hosts for thrips</li><li>Cut off and destroy plant parts that show signs of attack</li><li>Natural predators: green lacewings and some kinds of parasitic wasps help control thrips.</li><li>Encourage populations of useful natural predators by reducing the use of broad-spectrum pesticides.</li></ul><p>Chemical control (if needed)</p><ul><li>Contact pesticides: azadirachtin, insecticidal soap and neem.</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time of application and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p>蓟马是小型昆虫，体长1-2 mm，有两对由细毛（缨毛）组成的翅，口器为刺吸式。蓟马（成虫和若虫）通过刺破植物组织并吸食汁液危害植株，造成损伤。蓟马可见于叶片上和花朵内。</p><p><strong>蓟马种类：</strong></p><p><em>1. Scirtothrips dorsalis</em></p><p><em>2. Thrips tabaci</em></p><p><em>3. Thrips palmi</em></p><p><em>4. Frankliniella occidentalis</em></p><p><strong>综合虫害管理（IPM）</strong></p><ul><li>清除周边作为蓟马替代寄主的杂草</li><li>剪除并销毁出现受害症状的植株部位</li><li>天敌：草蛉和某些寄生蜂有助于控制蓟马。</li><li>减少使用广谱农药，以促进有益天敌的种群数量。</li></ul><p>化学防治（如有需要）</p><ul><li>触杀性农药：印楝素 azadirachtin、杀虫皂和印楝（neem）。</li><li>使用农药时，务必穿戴防护衣物，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及采收前的安全间隔期。</li></ul>"
+  },
+  "symptoms": []
+ }
+]

@@ -1,0 +1,403 @@
+[
+ {
+  "id": 14,
+  "kind": "insect",
+  "ai": [
+   "Bacillus thuringiensis",
+   "Lufenuron",
+   "Metaflumizone"
+  ],
+  "name": {
+   "ms": "Ulat Pengorek Tongkol",
+   "en": "Corn Earworm",
+   "zh": "棉铃虫"
+  },
+  "sci": "<em>Helicoverpa armigera</em>",
+  "desc": {
+   "en": "<p><strong>The corn earworm</strong> is an insect regarded as a pest. Its scientific name is Helicoverpa armigera. It gets its name because the newly hatched caterpillars feed on the silk of the maize cob. When the silk starts to dry, the caterpillars move inside and begin eating the kernels at the tip of the cob. The caterpillars grow inside the cob and damage the tip and middle of the cob as well as the male flowers (tassels).</p><p><strong>Pest characteristics</strong></p><ul><li><strong>Active</strong> at night and hides during the day.</li><li><strong>Body</strong> covered with fine hairs, green, brown to grey depending on age, with a brown head.</li><li>There is a dark stripe running along each side of the body, and the mature larva is about 3-4 cm long.</li><li>Attacks the leaves, shoots and kernels on maize cobs, as well as other crops such as soybean and tomato.</li></ul><p><strong>Pest management</strong></p><ul><li>Good agricultural practices.</li><li>Plough the soil after harvest (pupa busting) to destroy pupae in the soil.</li><li>Use natural enemies or biopesticides such as <em>Bacillus thuringiensis</em> (Bt).</li><li>Set up pheromone traps to monitor adult moths and decide when to spray.</li><li>Use chemical pesticides as recommended on the label, for example: lufenuron and metaflumizone.</li></ul>",
+   "zh": "<p><strong>玉米穗虫（棉铃虫）</strong>是一种害虫，学名为 Helicoverpa armigera。之所以叫玉米穗虫，是因为刚孵化的幼虫会取食玉米穗的花丝。花丝开始干枯时，幼虫便钻入穗内，开始取食穗尖的玉米粒。幼虫在穗内长大，危害穗尖和穗中部以及雄花（雄穗）。</p><p><strong>害虫特征</strong></p><ul><li><strong>夜间</strong>活动，白天躲藏。</li><li><strong>虫体</strong>有细毛，随虫龄不同呈绿色、褐色至灰色，头部褐色。</li><li>虫体两侧各有一条深色纵纹，老熟幼虫长约3-4 cm。</li><li>危害玉米的叶片、嫩梢和穗上的籽粒，也危害大豆和番茄等其他作物。</li></ul><p><strong>害虫管理</strong></p><ul><li>实行良好农业规范。</li><li>收获后翻耕土壤（破坏蛹），消灭土中的蛹。</li><li>利用天敌或生物农药，如苏云金杆菌 <em>Bacillus thuringiensis</em>（Bt）。</li><li>设置性信息素诱捕器，监测成虫（蛾）出现情况并确定喷药时机。</li><li>按标签建议使用化学农药，例如：虱螨脲 lufenuron 和氰氟虫腙 metaflumizone。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "The larvae attack the maize cob by feeding on the silk and the kernels. The attack leaves holes in the cob and a build-up of larval droppings at the tip of the cob. As a result the kernels do not develop properly, and the cob is easily infected by pathogens and rots, which lowers the quality and yield of the maize.",
+    "zh": "幼虫取食玉米花丝和籽粒，危害玉米穗。受害后穗上出现蛀孔，穗尖堆积幼虫粪便。这会使玉米粒发育不良，玉米穗容易被病原菌感染而腐烂，从而降低玉米的品质和产量。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "kind": "oomycete",
+  "ai": [
+   "Thiram"
+  ],
+  "name": {
+   "ms": "Lecuh Anak Benih",
+   "en": "Damping Off",
+   "zh": "猝倒病"
+  },
+  "sci": "<em>Pythium</em> spp., <em>Fusarium</em> sp., <em>Rhizoctonia</em> sp.",
+  "desc": {
+   "en": "These fungi cause damping off in maize. The pathogens can grow and multiply to infect newly emerged seedlings. They can survive in maize residues or in the soil, and are carried on maize seed. To prevent this, destroy infected plants, make sure the field has good drainage and practise crop rotation. Use chemical pesticides such as thiram at the rate recommended on the label.",
+   "zh": "这些真菌引起玉米猝倒病。病原菌能够生长繁殖，侵染刚出土的幼苗。它们可在玉米残株或土壤中存活，也可随玉米种子传播。为防止发病，应销毁染病植株，确保田间排水良好，并实行轮作。按标签建议的用量使用化学农药，如福美双 thiram。"
+  },
+  "symptoms": [
+   {
+    "en": "Seedlings rot and do not germinate well. Seedlings attacked at the base shrivel and die.",
+    "zh": "幼苗腐烂，出苗不良。茎基部受害的幼苗会萎缩并死亡。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "kind": "fungus",
+  "ai": [
+   "Copper"
+  ],
+  "name": {
+   "ms": "Penyakit Mata Dalam",
+   "en": "Fruitlet Core Rot",
+   "zh": "黄梨小果心腐病"
+  },
+  "sci": "<em>Penicillium funiculosum</em>",
+  "desc": {
+   "en": "This fungus causes fruitlet core rot in pineapple. It is an internal disease of the fruit. <em>Penicillium funiculosum</em> infects the developing fruit at some stage between flower initiation and open flowers. Infection happens easily in cool weather five weeks after flower initiation, when the fungus builds up on leaf hairs damaged by mites. <em>Fusarium</em> spp. enters the fruit through open flowers or wounds in hot conditions. To prevent this, control flies with pesticides and pheromone traps during flowering. Reduce the use of nitrogen fertiliser in the field. Spray Bordeaux mixture on plants that show copper deficiency.",
+   "zh": "这种真菌引起黄梨小果心腐病，是一种果实内部病害。<em>Penicillium funiculosum</em> 在花芽分化至开花期间的某个阶段侵染发育中的果实。花芽分化后第五周天气凉爽时最容易发生感染，此时真菌在被螨类损伤的叶毛上大量积累。<em>Fusarium</em> spp. 则在炎热条件下通过开放的花朵或伤口侵入果实。为防止发病，开花期间用农药和性信息素诱捕器防治蝇类。减少田间氮肥的使用。对表现缺铜的植株喷施波尔多液。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Infected tissue turns brown to dark brown, with a water-soaked appearance.</li><li>Mites are linked to this disease, as they injure the fruit buds.</li><li>This soil-borne fungus then infects the fruit buds through the wounds/injuries.</li></ul>",
+    "zh": "<ul><li>受感染组织变为褐色至深褐色，呈水渍状症状。</li><li>螨类与此病有关，它们会造成果芽受伤。</li><li>这种土传真菌随后通过伤口侵染果芽。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 68,
+  "kind": "oomycete",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Chlorothalonil",
+   "Propamocarb"
+  ],
+  "name": {
+   "ms": "Kulapuk Downy",
+   "en": "Downy Mildew",
+   "zh": "霜霉病"
+  },
+  "sci": "<em>Pseudoperonospora cubensis</em>",
+  "desc": {
+   "en": "This fungus causes downy mildew in luffa (ridge gourd). It infects plants of all ages. Although the disease only infects the leaves, the reduced photosynthesis early in the crop's growth leads to stunted plants and lower yield. To prevent this, practise crop rotation, and uproot and destroy all infected plants. Spray fungicides such as propineb, mancozeb, chlorothalonil and propamocarb at the rate recommended on the label.",
+   "zh": "这种病菌引起丝瓜霜霉病，可侵染各个生育期的植株。虽然此病只侵染叶片，但在作物生长初期光合作用减弱，会导致植株矮化和减产。为防止发病，应实行轮作，拔除并销毁所有染病植株。按标签建议的用量喷施杀菌剂，如丙森锌 propineb、代森锰锌 mancozeb、百菌清 chlorothalonil 和霜霉威 propamocarb。"
+  },
+  "symptoms": [
+   {
+    "en": "Yellowish angular spots appear on the upper leaf surface. The underside of the leaf is covered with spores. The leaves then turn brown and finally die. The fruits become stunted.",
+    "zh": "叶片正面出现淡黄色多角形斑点。叶背布满孢子层。叶片随后变褐，最终枯死。果实发育不良。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 83,
+  "kind": "fungus",
+  "ai": [
+   "Propineb",
+   "Mancozeb",
+   "Tebuconazole"
+  ],
+  "name": {
+   "ms": "Bintik Hitam",
+   "en": "Black Spot",
+   "zh": "黑斑病"
+  },
+  "sci": "<em>Alternaria brassicae</em>",
+  "desc": {
+   "en": "This fungus causes black spot in cabbage. It causes economic losses in several different ways. The effect on seed is twofold: seed infection causes damping off before and after emergence, which leads to stem cankers, and it also affects the amount and quality of seed harvested. On mature plants, spots on the head and outer leaves lower the market price and shorten the storage time of the cabbage. To prevent this, use disease-free seed, practise crop rotation and remove infected parts of the cabbage. Spray fungicides such as propineb, mancozeb and tebuconazole.",
+   "zh": "这种真菌引起椰菜黑斑病，会以多种方式造成经济损失。对种子的影响有两方面：种子带菌会造成出苗前后的猝倒，进而引起茎部溃疡，同时也影响种子的收获量和质量。在成熟植株上，菜球和外叶上的病斑会降低市场价格，并缩短椰菜的贮藏时间。为防止发病，应使用无病种子，实行轮作，并清除椰菜的染病部分。喷施杀菌剂，如丙森锌 propineb、代森锰锌 mancozeb 和戊唑醇 tebuconazole。"
+  },
+  "symptoms": [
+   {
+    "en": "Black spots on the leaf surface.",
+    "zh": "叶片表面出现黑色斑点。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 99,
+  "kind": "bird",
+  "ai": [],
+  "name": {
+   "ms": "Burung Pipit",
+   "en": "Munias (Rice Birds)",
+   "zh": "文鸟（禾雀）"
+  },
+  "sci": "<em>Lonchura</em> spp.",
+  "desc": {
+   "en": "<p>Munias (rice birds) attack paddy at the ripening stage by eating the rice grains. Attacks usually happen in flocks and can cause serious yield loss, especially near bushes and trees.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Use nets over the paddy field.</li><li>Set up bird scarers such as shiny tape, noise makers or scarecrows.</li><li>Plant at the same time as neighbouring fields to shorten the period of attack.</li><li>Keep up control continuously, especially at the ripening stage.</li></ul><p><strong>Chemical Control (If Necessary)</strong></p><ul><li>Chemical control is not encouraged. Priority is given to physical control methods and integrated farm management.</li></ul>",
+   "zh": "<p>文鸟（禾雀）在稻谷成熟期取食稻粒，危害稻田。通常成群危害，可造成严重减产，尤其是在靠近灌木丛和树木的地方。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>在稻田使用防鸟网。</li><li>设置驱鸟装置，如反光带、声响装置或稻草人。</li><li>同期统一种植，以缩短受害期。</li><li>持续进行防治，尤其是在成熟期。</li></ul><p><strong>化学防治（如有需要）</strong></p><ul><li>不提倡化学防治。应优先采用物理防治方法和农场综合管理。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Munias damage the rice grains from the start of grain formation until the grain is ripe.",
+    "zh": "文鸟从稻谷开始结实到成熟期间危害稻粒。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 143,
+  "kind": "insect",
+  "ai": [
+   "Cypermethrin",
+   "Carbaryl"
+  ],
+  "name": {
+   "ms": "Pengorek Batang Mangga",
+   "en": "Mango Stem Borer",
+   "zh": "芒果天牛"
+  },
+  "sci": "<em>Rhytidodera simulans</em>",
+  "desc": {
+   "en": "<ul><li>Active at night.</li><li>Adult stage (beetle) is large, about 25&ndash;45 mm long.</li><li>Attacks many crops such as rambutan, guava and others.</li><li>Bores into the inside of the trunk or branches</li></ul><p>Pest management</p><ul><li>Good agricultural practices.</li><li>Regular monitoring and checking, especially of mature trees.</li><li>Prune off the attacked parts.</li><li>Use chemical pesticides as recommended on the label (for example: cypermethrin or carbaryl) by injecting into or pouring into the insect's holes.</li></ul>",
+   "zh": "<ul><li>夜间活动。</li><li>成虫（甲虫）体型大，长约25&ndash;45 mm。</li><li>危害多种作物，如红毛丹、番石榴等。</li><li>钻蛀树干或枝条内部</li></ul><p>害虫管理</p><ul><li>良好农业规范。</li><li>定期监测和检查，尤其是成年树。</li><li>剪除受害部分。</li><li>按标签建议使用化学农药（例如：氯氰菊酯 cypermethrin 或甲萘威 carbaryl），注射或灌入虫孔内。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Attacked branches wilt and the leaves turn yellow.</li><li>Tree growth is affected and stunted.</li><li>Branches break and rot easily</li></ul>",
+    "zh": "<ul><li>受害枝条萎蔫，叶片变黄。</li><li>树木生长受影响，发育迟缓。</li><li>枝条容易折断和腐烂</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 164,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Trips",
+   "en": "Melon Thrips",
+   "zh": "棕榈蓟马"
+  },
+  "sci": "<em>Thrips palmi</em> Karny",
+  "desc": {
+   "en": "Adults and nymphs feed by sucking the cell contents of leaves, stems, flowers and the fruit surface, causing silvery scars and yellowing of the leaves (chlorosis). In heavy attacks plants can become deformed and die.",
+   "zh": "成虫和若虫吸食叶片、茎、花和果实表面的细胞汁液，造成银白色疤痕和叶片褪绿黄化。严重危害时植株会畸形甚至死亡。"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Symptoms</strong></p><ol><li>Leaves become stiff.</li><li>Leaves curl upwards.</li><li>The underside of the leaf turns brown.</li><li>Leaves become narrow.</li><li>Leaves drop.</li></ol>",
+    "zh": "<p><strong>症状</strong></p><ol><li>叶片变硬。</li><li>叶片向上卷曲。</li><li>叶背变褐色。</li><li>叶片变窄。</li><li>叶片脱落。</li></ol>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 184,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Ratus",
+   "en": "Common Cutworm",
+   "zh": "斜纹夜蛾"
+  },
+  "sci": "<em>Spodoptera litura</em>",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "Young larvae attack the leaves in groups and feed greedily at the first instar, then feed separately from the second instar. In severe attacks only the leaf skeleton is left. Adult moths lay eggs in clusters on the leaves at night. The attack can stunt the plants and stop them from producing a crop, reducing the yield.",
+    "zh": "低龄幼虫在一龄时群集危害叶片，取食量大；二龄起分散取食。严重时叶片只剩叶脉。成虫（蛾）在夜间把卵成块产在叶片上。危害可导致植株矮化、不能结实，造成减产。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 201,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Ulat Ratus",
+   "en": "Common Cutworm",
+   "zh": "斜纹夜蛾"
+  },
+  "sci": "<em>Spodoptera litura</em>",
+  "desc": {
+   "en": "",
+   "zh": ""
+  },
+  "symptoms": [
+   {
+    "en": "Feeds on leaves and shoots in groups at all growth stages",
+    "zh": "在各个生长期群集取食叶片和嫩梢",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 223,
+  "kind": "insect",
+  "ai": [],
+  "name": {
+   "ms": "Kutu Daun",
+   "en": "Cotton Aphid",
+   "zh": "棉蚜"
+  },
+  "sci": "<em>Aphis gossypii</em> Glover",
+  "desc": {
+   "en": "Aphids are small, soft-bodied insects with long, slender mouthparts that they use to pierce stems, leaves and other tender plant parts and suck out the sap. Almost every plant has one or more aphid species that sometimes feed on it. Many aphid species are hard to tell apart, but most of them are managed in a similar way.",
+   "zh": "蚜虫是体小、柔软的昆虫，具细长的口器，用来刺入茎、叶和植物其他幼嫩部位吸食汁液。几乎每种植物都有一种或多种蚜虫会不时取食。许多蚜虫种类很难区分，但大多数蚜虫的防治方法相似。"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Sucks sap from the leaves, causing the leaves to curl and shrivel.</li><li>Leaves drop and plant growth is stunted.</li></ul>",
+    "zh": "<ul><li>吸食叶片汁液，导致叶片卷曲、皱缩。</li><li>叶片脱落，植株生长受阻。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 244,
+  "kind": "insect",
+  "ai": [
+   "Deltamethrin",
+   "Malathion"
+  ],
+  "name": {
+   "ms": "Kutu Trips",
+   "en": "Melon Thrips",
+   "zh": "棕榈蓟马"
+  },
+  "sci": "<em>Thrips palmi</em> Karny",
+  "desc": {
+   "en": "<ul><li>The insect is active in sunny, hot weather.</li><li>Thrips are a small but harmful pest of papaya, especially on young leaves and shoots, and sometimes on the fruit</li></ul><p>Pest management</p><ul><li>Good agricultural practices</li><li>Avoid planting too close together</li><li>Use chemical pesticides as recommended on the label (for example: deltamethrin, malathion)</li><li>Rotating pesticides is important so that thrips do not become resistant.</li></ul>",
+   "zh": "<ul><li>这种昆虫在晴朗炎热的天气活跃。</li><li>蓟马虽小，却是木瓜的危险害虫，尤其危害嫩叶和嫩梢，有时也危害果实</li></ul><p>害虫管理</p><ul><li>良好农业规范</li><li>避免种植过密</li><li>按标签建议使用化学农药（例如：溴氰菊酯 deltamethrin、马拉硫磷 malathion）</li><li>轮换使用农药很重要，以免蓟马产生抗药性。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li>Shoots and young leaves show yellowish spots, the leaves become crinkled and shoot growth is stunted.</li></ul>",
+    "zh": "<ul><li>嫩梢和嫩叶出现淡黄色斑点，叶片皱缩，嫩梢生长受阻。</li></ul>",
+    "steps": []
+   },
+   {
+    "en": "Thrips<em> - Thrips palmi</em>",
+    "zh": "蓟马<em> - Thrips palmi</em>",
+    "steps": []
+   },
+   {
+    "en": "<ul><li>The fruit surface is scarred from scraping, with fine brownish scabs.</li></ul>",
+    "zh": "<ul><li>果实表面有锉吸造成的疤痕，呈细小的褐色痂皮。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 256,
+  "kind": "weed",
+  "ai": [],
+  "name": {
+   "ms": "Rumput Duri Bulat",
+   "en": "Southern Sandbur",
+   "zh": "蒺藜草"
+  },
+  "sci": "<em>Cenchrus echinatus</em> L.",
+  "desc": {
+   "en": "<p><strong>Family: </strong>Poaceae</p><p><strong>Southern sandbur (</strong><em><strong>Cenchrus echinatus</strong></em><strong>)</strong> is a grass that can live in many habitats, especially in hot, dry and often disturbed <strong>tropical and subtropical</strong> areas. Because it is very hardy, this weed adapts easily and survives even in conditions unsuitable for other plants.</p><p>Effects / Problems</p><p>This weed can be a nuisance to people and animals because its fruits have <strong>sharp spines</strong> that hurt when they touch the skin. The spines can also cause <strong>wounds, inflammation or infection</strong>, especially in pets and livestock.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li><strong>Manual control:</strong> Pull out the weed by hand wearing thick gloves to avoid injury from the sharp spines.</li><li><strong>Early cutting:</strong> Cut the plants before they flower and produce fruit to reduce the spread of seeds.</li><li><strong>Chemical control:</strong> Suitable herbicides (weed killers) can be used to help control this weed, especially in badly infested areas.</li></ul><p><strong>How It Spreads</strong></p><ul><li><strong>Spiny fruits:</strong> This weed spreads through spiny fruits (burs) that easily stick to people, animals, clothing, machinery or farm tools.</li><li><strong>Invasive nature:</strong> Because it spreads easily and grows fast, this weed is very invasive and hard to control if it is not removed before it flowers or fruits</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科 Poaceae</p><p><strong>蒺藜草（</strong><em><strong>Cenchrus echinatus</strong></em><strong>）</strong>是一种能在多种生境中生长的禾草，尤其常见于炎热、干燥且经常受干扰的<strong>热带和亚热带</strong>地区。由于它对环境的耐受力很强，这种杂草容易适应，即使在不适合其他植物生长的条件下也能存活。</p><p>影响 / 问题</p><p>这种杂草会给人和动物带来困扰，因为它的果实带有<strong>尖刺</strong>，碰到皮肤会很痛。尖刺还可能造成<strong>伤口、发炎或感染</strong>，尤其是对宠物和牲畜。</p><p><strong>杂草综合管理 (IWM)</strong></p><ul><li><strong>人工防除：</strong>戴厚手套用手拔除杂草，以免被尖刺刺伤。</li><li><strong>及早割除：</strong>在开花结果前割除植株，以减少种子传播。</li><li><strong>化学防除：</strong>可使用合适的除草剂帮助控制这种杂草，尤其是在严重滋生的地区。</li></ul><p><strong>传播方式</strong></p><ul><li><strong>带刺果实：</strong>这种杂草通过带刺的果实（刺苞）传播，刺苞容易粘附在人、动物、衣服、机械或农具上。</li><li><strong>入侵性：</strong>由于传播容易、生长迅速，这种杂草入侵性很强，如果不在开花或结果前清除，就很难控制</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p><strong>Main features of <em>Cenchrus echinatus</em></strong></p><ul><li><strong>Plant form: </strong>A clump-forming (tufted) plant<strong>. </strong>Grows low and spreading, sometimes upright up to 30&ndash;70 cm. Usually found in grassland, roadsides, football fields, gardens or open sandy areas</li><li><strong>Leaves: </strong>Long and narrow, like ordinary grass leaves<strong>. </strong>Leaf edges are sometimes rough or sharp. Bright green to greyish green</li><li><strong>Flowers &amp; Fruit (Most distinctive feature): </strong>Flowers on upright stalks with many spiny spikelets. When mature they become <strong>round spiny fruits</strong> (more precisely, sharp-spined &ldquo;burs&rdquo;). The spines are hard and sharp &ndash; they stick to clothing and animal fur, and hurt when stepped on</li></ul>",
+    "zh": "<p><strong><em>Cenchrus echinatus</em> 的主要特征</strong></p><ul><li><strong>株型：</strong>丛生植物（成簇生长）<strong>。</strong>植株低矮匍匐，有时可直立高达30&ndash;70 cm。常见于草地、路边、足球场、园地或开阔的沙地</li><li><strong>叶片：</strong>细长，与普通草叶相似<strong>。</strong>叶缘有时粗糙或锋利。颜色为鲜绿色至灰绿色</li><li><strong>花和果实（最独特的特征）：</strong>花序为直立的穗状，有许多带刺的小穗。成熟后形成<strong>带刺的圆形果实</strong>（更准确地说，是带尖刺的&ldquo;刺苞&rdquo;）。刺硬而尖 &ndash; 会粘附在衣服和动物毛上，踩到时很痛</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 268,
+  "kind": "weed",
+  "ai": [
+   "Glyphosate",
+   "Triclopyr",
+   "Picloram"
+  ],
+  "name": {
+   "ms": "Lalang",
+   "en": "Cogongrass",
+   "zh": "白茅"
+  },
+  "sci": "<em>Imperata cylindrica</em> (L.) P.Beauv.",
+  "desc": {
+   "en": "<p><strong>Family:</strong> Poaceae</p><p><strong>Habitat:</strong> Open &amp; Abandoned Land</p><p>Cogongrass (lalang) is the most dominant weed on open, disturbed, dry or semi-moist land, and can spread quickly in any area that is not managed.</p><p><strong>Integrated Weed Management (IWM)</strong></p><ul><li>Mechanical control: Dig up and remove the rhizomes completely &ndash; very important. Deep ploughing to expose the roots.</li><li>Chemical control: Systemic herbicides are essential because they must reach the roots: Glyphosate (at high concentration and repeated) Triclopyr + Picloram (for non-food-crop areas)</li><li>Cultural / biological control: Plant ground cover crops such as <em>Mucuna</em> spp. (cover legumes) and <em>Centrosema</em> spp.</li></ul><p><strong>How it spreads:</strong></p><ul><li>Through rhizomes (creeping roots) &ndash; the main way. The underground rhizomes spread very fast and deep. If not removed completely, they regrow quickly.</li><li>Through seeds: The seeds have fine hairs and are easily carried by the wind. They can spread to new areas, even far from the parent plant</li></ul>",
+   "zh": "<p><strong>科：</strong>禾本科 Poaceae</p><p><strong>生境：</strong>开阔地和荒地</p><p>白茅（lalang）是开阔、受干扰、干燥或半湿润土地上最占优势的杂草，在任何无人管理的地方都能迅速蔓延。</p><p><strong>杂草综合管理 (IWM)</strong></p><ul><li>机械防除：挖出并彻底清除根状茎 &ndash; 非常重要。深耕以翻出根系。</li><li>化学防除：必须使用内吸性除草剂，因为药剂需要到达根部：草甘膦 Glyphosate（高浓度并重复施用）、绿草定 Triclopyr + 毒莠定 Picloram（用于非粮食作物区）</li><li>栽培 / 生物防除：种植覆盖作物，如 <em>Mucuna</em> spp.（豆科覆盖作物）和 <em>Centrosema</em> spp.</li></ul><p><strong>传播方式：</strong></p><ul><li>通过根状茎（匍匐根）&ndash; 主要方式。地下根状茎蔓延得又快又深。如不彻底清除，会很快重新长出。</li><li>通过种子：种子带有细毛，容易随风传播，即使离母株很远也能扩散到新的地方</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<p>Main features of <em>Imperata cylindrica</em></p><ul><li>Type: Perennial grass (long-lived and hardy).</li><li>Height: Can reach 1 &ndash; 1.5 metres.</li><li>Stem: Upright and tough.</li><li>Leaves: Long (up to 1 metre), sharp-edged (can cut the skin), light green or greyish green.</li><li>Flowers: Look like soft white hairs (like cotton), appearing at the tip of the stem.</li><li>Roots: Thick rhizomes that creep far into the soil, making lalang hard to get rid of.</li></ul>",
+    "zh": "<p><em>Imperata cylindrica</em> 的主要特征</p><ul><li>类型：多年生禾草（寿命长，生命力强）。</li><li>高度：可达1 &ndash; 1.5米。</li><li>茎：直立而坚硬。</li><li>叶片：长（可达1米），叶缘锋利（会割伤皮肤），浅绿色或灰绿色。</li><li>花：像柔软的白色细毛（像棉花），生于茎顶。</li><li>根：根状茎粗壮，在土中向深远处蔓延，使白茅难以根除。</li></ul>",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 280,
+  "kind": "insect",
+  "ai": [
+   "Deltamethrin",
+   "Abamectin"
+  ],
+  "name": {
+   "ms": "Kutu Trip",
+   "en": "Banana Rust Thrips",
+   "zh": "香蕉锈蓟马"
+  },
+  "sci": "<em>Chaetanaphothrips signipennis</em> (Bagnall)",
+  "desc": {
+   "en": "<p><strong>Description</strong></p><p>Thrips are small insects that attack banana leaves, flowers and fruit. They suck sap (plant juice) from the surface tissue, causing damage such as browning and scarring. They are active in the morning and evening, and hide under the leaves during the hot part of the day.</p><p><strong>Integrated Pest Management (IPM)</strong></p><ul><li>Good agricultural practices.</li><li>Remove attacked leaves and fruit.</li><li>Plant at the right spacing.</li><li>Use blue sticky traps to catch adult thrips.</li><li>Control weeds in the banana farm</li><li>Avoid too much humidity and overcrowded planting</li></ul><p>Chemical Control (If Necessary)</p><ul><li>Use chemical pesticides as recommended on the label, for example: deltamethrin, abamectin</li><li>When using pesticides, always wear protective clothing and follow the instructions on the product label, including the recommended dose, the right time to apply, and the pre-harvest interval before harvesting.</li></ul>",
+   "zh": "<p><strong>描述</strong></p><p>蓟马是危害香蕉叶片、花和果实的小型昆虫。它们吸食组织表面的汁液，造成变褐、疤痕等损害。蓟马在早上和傍晚活动，天气炎热时躲在叶背。</p><p><strong>综合虫害管理 (IPM)</strong></p><ul><li>良好农业规范。</li><li>清除受害的叶片和果实。</li><li>按适当的株距种植。</li><li>使用蓝色粘虫板诱捕蓟马成虫。</li><li>控制香蕉园内的杂草</li><li>避免湿度过高和种植过密</li></ul><p>化学防治（如有需要）</p><ul><li>按标签建议使用化学农药，例如：溴氰菊酯 deltamethrin、阿维菌素 abamectin</li><li>使用农药时，务必穿戴防护服，并遵守产品标签上的说明，包括建议剂量、适当的施药时间以及收获前的安全间隔期。</li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "Thrips attack on banana fruit makes the skin turn blackish brown, scarred and rough, with streaks or fine cracks, especially on young fruit.",
+    "zh": "蓟马危害香蕉果实，使果皮变成黑褐色，出现疤痕、粗糙，并有条纹或细小裂纹，尤其在幼果上。",
+    "steps": []
+   },
+   {
+    "en": "Thrips attack on banana leaves causes fine spots or brownish streaks, the leaf surface looks dull, and attacked young leaves often unfold deformed or dry.",
+    "zh": "蓟马危害香蕉叶片，会出现细小斑点或褐色条纹，叶面失去光泽，受害的嫩叶展开时常常畸形或干枯。",
+    "steps": []
+   }
+  ]
+ },
+ {
+  "id": 297,
+  "kind": "fungus",
+  "ai": [
+   "Malathion",
+   "Benomyl",
+   "Carbendazim"
+  ],
+  "name": {
+   "ms": "Kulapuk Hitam",
+   "en": "Black Mildew",
+   "zh": "芒果煤污病（黑霉病）"
+  },
+  "sci": "<em>Meliola mangiferae</em>",
+  "desc": {
+   "en": "<ul><li><strong>This fungus causes black mildew on mango trees.</strong> It is a common disease in orchards where insects such as mealybugs, scale insects and hoppers are not controlled well. The sweet liquid (honeydew) produced by these insects sticks to the leaf surface and becomes a medium for the fungus to grow.</li><li>The fungus is basically saprophytic and non-pathogenic because it gets nutrients from the host tissue. The leaves' photosynthesis is affected because the stomata are blocked by the fungal growth.</li></ul><p><strong>Control management:</strong></p><ul><li><p>To prevent this, always practise <strong>Good Agricultural Practices (GAP)</strong> in the field.</p></li><li><p>Do <strong>regular weeding</strong> and <strong>pruning</strong> to improve air flow and reduce humidity in the canopy and around the trees.</p></li><li><p>Control insects such as <strong>mealybugs</strong> and <strong>scale insects</strong> with insecticides such as <strong>malathion</strong>, because these insects produce the sweet liquid (honeydew) that feeds the fungus.</p></li><li><p>If the attack is severe, use a <strong>systemic fungicide</strong> such as <strong>benomyl</strong> or <strong>carbendazim</strong>, alternating with a <strong>contact fungicide</strong> every <strong>7&ndash;10 days</strong> until the disease is under control.</p></li></ul>",
+   "zh": "<ul><li><strong>这种真菌引起芒果树黑霉病。</strong>在未能有效防治粉蚧、介壳虫和叶蝉等昆虫的果园中，这是一种常见病害。这些昆虫分泌的甜液（蜜露）粘附在叶面上，成为真菌生长的基质。</li><li>这种真菌基本上属于腐生性、非致病性，因为它从寄主组织中获取养分。真菌生长堵塞了气孔，使叶片的光合作用受到影响。</li></ul><p><strong>防治管理：</strong></p><ul><li><p>为防止发病，田间应始终实行<strong>良好农业规范 (GAP)</strong>。</p></li><li><p><strong>定期除草</strong>和<strong>修剪</strong>，改善通风，降低树冠内及树木周围的湿度。</p></li><li><p>用<strong>马拉硫磷 malathion</strong>等杀虫剂防治<strong>粉蚧</strong>和<strong>介壳虫</strong>等昆虫，因为这些昆虫分泌的甜液（蜜露）是真菌的食物来源。</p></li><li><p>如危害严重，使用<strong>内吸性杀菌剂</strong>，如<strong>苯菌灵 benomyl</strong>或<strong>多菌灵 carbendazim</strong>，并与<strong>保护性（触杀性）杀菌剂</strong>交替使用，每<strong>7&ndash;10天</strong>喷一次，直到病害得到控制。</p></li></ul>"
+  },
+  "symptoms": [
+   {
+    "en": "<ul><li><p>The black mildew fungus attacks the leaves and fruit. It is an obligate parasite, meaning the fungal hyphae penetrate the host tissue.</p></li><li><p>There are black, velvet-like colonies that are irregular in shape and size.</p></li><li><p>These black colonies can grow up to 1 cm in diameter.</p></li><li><p>The colonies are found on both the upper and lower leaf surfaces, and can cover the whole leaf surface.</p></li></ul>",
+    "zh": "<ul><li><p>黑霉病菌危害叶片和果实。它是一种专性寄生菌，即菌丝会穿入寄主组织。</p></li><li><p>叶上有形状和大小不规则的黑色天鹅绒状菌落。</p></li><li><p>这些黑色菌落直径可扩大到1 cm。</p></li><li><p>菌落见于叶片正反两面，可覆盖整个叶面。</p></li></ul>",
+    "steps": []
+   }
+  ]
+ }
+]
