@@ -234,6 +234,15 @@ a.match{text-decoration:none;color:inherit}
 .gloss .chips small{color:var(--muted);font-size:.78rem}
 #ctl,#ai,[id^="ai-"],[id^="kind-"]{scroll-margin-top:calc(var(--topbar) + env(safe-area-inset-top,0px) + 12px)}
 
+.collapse{align-self:center;display:flex;gap:6px;align-items:center;margin:14px auto 2px;border:1px solid var(--line);background:var(--surface);
+  border-radius:999px;padding:8px 18px;font-weight:700;cursor:pointer}
+.collapse span{font-size:1.1rem;line-height:1;transform:translateY(3px)}
+details > summary{list-style:none;position:relative;padding-right:28px;scroll-margin-top:calc(var(--topbar) + env(safe-area-inset-top,0px) + 12px)}
+details > summary::-webkit-details-marker{display:none}
+details > summary::after{content:'›';position:absolute;right:4px;top:50%;transform:translateY(-55%);font-size:1.4rem;line-height:1;color:var(--muted);transition:transform .2s}
+details[open] > summary::after{transform:translateY(-45%) rotate(90deg)}
+details.steps .collapse{background:var(--bg)}
+
 /* Tabs */
 .tabs{position:fixed;inset:auto 0 0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);
   padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px))}
@@ -342,7 +351,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '2.1.0';
+const VERSION = '2.2.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -586,6 +595,7 @@ function render(keepScroll) {
   $$('.tabs a').forEach(x => x.dataset.tab === tab ? x.setAttribute('aria-current', 'page') : x.removeAttribute('aria-current'));
   v.innerHTML = r === 'crop' ? vCrop(a) : r === 'pest' ? vPest(a) : r === 'diag' ? vDiag(a, b) : r === 'learn' ? vLearn() : r === 'search' ? vSearch() : r === 'guide' ? (aiOpen = a === 'ai' ? b : null, vGuide(a)) : vCrops();
   if (r === 'search') { renderSearch(); const i = $('#q'); i.addEventListener('input', () => { q = i.value; renderSearch() }); if (!keepScroll) i.focus({ preventScroll: true }) }
+  $$('#view details').forEach(d => d.insertAdjacentHTML('beforeend', `<button class="collapse" type="button">${esc(t('close'))} <span aria-hidden="true">˄</span></button>`));
   if (!keepScroll) { window.scrollTo(0, 0); v.focus({ preventScroll: true }) }
 }
 function go() {
@@ -606,6 +616,12 @@ document.addEventListener('click', e => {
   const m = e.target.closest('#lMode button'); if (m) { learn.mode = m.dataset.v; store.set('learnMode', learn.mode); buildDeck(); render(true); return }
   const kf = e.target.closest('#kFilter button'); if (kf) { kindFilter = kf.dataset.v; render(true); return }
   if (e.target.closest('#shareBtn')) { sharePest(); return }
+  const cl = e.target.closest('.collapse');
+  if (cl) {  // close the section and bring its heading back into view if it scrolled away
+    const d = cl.closest('details'), sum = d.querySelector('summary'); d.open = false;
+    if (sum.getBoundingClientRect().top < $('.top').offsetHeight) sum.scrollIntoView({ block: 'start' });
+    sum.focus({ preventScroll: true }); return
+  }
   const j = e.target.closest('[data-jump]'); if (j) { document.getElementById(j.dataset.jump)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); return }
   if (e.target.closest('#resetBtn')) { stats = {}; store.set('stats', stats); toast(t('resetDone')); return }
   if (e.target.closest('#lShow')) { learn.shown = true; render(true); return }
