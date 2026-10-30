@@ -246,6 +246,14 @@ details.more{border-top:1px solid var(--line);padding-top:12px}
 details.more summary{cursor:pointer;font-weight:700;color:var(--accent)}
 details.more[open] summary{margin-bottom:10px}
 
+.chip.ai small{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.chip.ai.reg-banned,.chip.ai.reg-unreg{color:var(--bad);border-color:var(--bad);background:var(--bad-soft);text-decoration:line-through;text-decoration-thickness:1.5px}
+.chip.ai.reg-banned small,.chip.ai.reg-unreg small{text-decoration:none;display:inline-block}
+.chip.ai.reg-phaseout,.chip.ai.reg-restricted{color:var(--warn);border-color:var(--warn);background:var(--warn-soft)}
+.regwarn{border-left:4px solid var(--bad);background:var(--bad-soft);border-radius:8px;padding:10px 12px;font-weight:700;font-size:.93rem}
+.regwarn.soft{border-color:var(--warn);background:var(--warn-soft);font-weight:400}
+.gloss dt .chip{align-self:flex-start}
+
 /* Tabs */
 .tabs{position:fixed;inset:auto 0 0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);
   padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px))}
@@ -354,7 +362,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '2.3.0';
+const VERSION = '2.4.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -423,11 +431,20 @@ const words = h => new Set(plain(h).toLowerCase().split(/[^\p{L}\p{N}]+/u).filte
 const overlap = (a, b) => { const A = words(a), B = words(b); if (!A.size) return 1; let n = 0; A.forEach(w => B.has(w) && n++); return n / A.size };
 const kindLink = p => p.kind ? `<a class="kind k-${KINDS[p.kind].color}" href="#guide/${p.kind}">${esc(t('kind_' + p.kind))}</a>` : '';
 /* Control at a glance: the active ingredients the source names, or why there are none */
+/* Active ingredient chip, marked when the ingredient is banned, unregistered, being banned or restricted in Malaysia */
+const regOf = a => REG[a] || REG[Object.keys(REG).find(k => k.toLowerCase() === a.toLowerCase())];
+const aiChip = a => { const r = regOf(a);
+  return `<a class="chip ai${r ? ' reg-' + r.level : ''}" href="#guide/ai/${encodeURIComponent(a)}">${esc(a)}${r ? ` <small>${esc(t('reg_' + r.level))}${r.since ? ' ' + esc(r.since) : ''}</small>` : ''}</a>` };
+function regNotes(ais) {
+  return ais.map(a => { const r = regOf(a); if (!r) return '';
+    return r.level === 'banned' ? `<p class="regwarn">${esc(t('regBan', a, r.since))}</p>` : r.level === 'unreg' ? `<p class="regwarn">${esc(t('regUnreg', a))}</p>`
+      : r.level === 'phaseout' ? `<p class="regwarn soft">${esc(t('regPhase', a))}</p>` : '' }).join('');
+}
 function ctlBox(p) {
   const noCure = ['bacteria', 'virus', 'nematode'].includes(p.kind);
   // the full description and control advice open inline here, closed by default
   return `<div class="card ctl"><h3>${esc(t('ctlTitle'))}</h3>
-    ${p.ai.length ? `<span class="eyebrow">${esc(t('ctlAI'))}</span><div class="chips">${p.ai.map(a => `<a class="chip ai" href="#guide/ai/${encodeURIComponent(a)}">${esc(a)}</a>`).join('')}</div><p class="small muted">${esc(t('ctlCheck'))}</p>`
+    ${p.ai.length ? `<span class="eyebrow">${esc(t('ctlAI'))}</span><div class="chips">${p.ai.map(aiChip).join('')}</div>${regNotes(p.ai)}<p class="small muted">${esc(t('ctlCheck'))}</p>`
       : `<p>${esc(t('ctlNone'))}${noCure ? ` <a href="#guide/${p.kind}">${esc(t('ctlNoCure'))} ›</a>` : ''}</p>`}
     ${L(p.desc) ? `<details class="more" id="ctl"><summary>${esc(t('ctlMore'))}</summary><div class="rich">${L(p.desc)}</div></details>` : ''}</div>`;
 }
@@ -462,8 +479,9 @@ function vGuide(open) {
   ${Object.entries(KINDS).map(([k, K]) => `<details class="card kindcard k-${K.color}" id="kind-${k}"${k === open ? ' open' : ''}><summary><b>${esc(L(K.name))}</b><small>${esc(t('nPests', count(k)))}</small></summary>
     <div class="kv"><b>${esc(t('kindWhat'))}</b><p>${esc(L(K.what))}</p><b>${esc(t('kindSign'))}</b><p>${esc(L(K.sign))}</p><b>${esc(t('kindControl'))}</b><p>${esc(L(K.control))}</p></div>
     <div class="chips">${DATA.pests.filter(p => p.kind === k).map(p => `<a class="chip" href="#pest/${p.id}">${esc(L(p.name))}</a>`).join('')}</div></details>`).join('')}
-  <h2 id="ai">${esc(t('aiIndex'))}</h2><p class="lede">${esc(t('aiIndexLede'))}</p>
-  <dl class="gloss">${[...new Set(DATA.pests.flatMap(p => p.ai))].sort().map(a => `<div id="ai-${esc(a.replace(/\W+/g, '-'))}"${decodeURIComponent(aiOpen || '') === a ? ' class="hl"' : ''}><dt>${esc(a)}</dt><dd><div class="chips">${DATA.pests.filter(p => p.ai.includes(a)).map(p => `<a class="chip" href="#pest/${p.id}">${esc(L(p.name))} <small>${p.crops.map(c => esc(L(CROPS.get(c).name))).join(', ')}</small></a>`).join('')}</div></dd></div>`).join('')}</dl>
+  <h2 id="ai">${esc(t('aiIndex'))}</h2><p class="lede">${esc(t('aiIndexLede'))}</p><p class="regwarn soft">${esc(t('regLede'))}</p>
+  <div class="blk"><b>${esc(t('regFlagged'))}</b><div class="chips">${[...new Set(DATA.pests.flatMap(p => p.ai))].filter(regOf).sort().map(a => `<a class="chip ai reg-${regOf(a).level}" href="#guide/ai/${encodeURIComponent(a)}">${esc(a)} <small>${esc(t('reg_' + regOf(a).level))}</small></a>`).join('')}</div></div>
+  <dl class="gloss">${[...new Set(DATA.pests.flatMap(p => p.ai))].sort().map(a => `<div id="ai-${esc(a.replace(/\W+/g, '-'))}"${decodeURIComponent(aiOpen || '') === a ? ' class="hl"' : ''}><dt>${aiChip(a).replace(/^<a /, '<span ').replace(/<\/a>$/, '</span>').replace(/ href="[^"]*"/, '')}</dt><dd><div class="chips">${DATA.pests.filter(p => p.ai.includes(a)).map(p => `<a class="chip" href="#pest/${p.id}">${esc(L(p.name))} <small>${p.crops.map(c => esc(L(CROPS.get(c).name))).join(', ')}</small></a>`).join('')}</div></dd></div>`).join('')}</dl>
   <h2 id="glossary">${esc(t('glossary'))}</h2><p class="lede">${esc(t('glossaryLede'))}</p>
   <dl class="gloss">${GLOSSARY.map(g => `<div><dt>${esc(L(g.t))}</dt><dd>${esc(L(g.d))}</dd></div>`).join('')}</dl>`;
 }

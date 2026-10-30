@@ -2,6 +2,12 @@
    Keep ms, en and zh in step: every key must exist in all three. */
 const UI = {
   ms: {
+    reg_banned: 'Diharamkan', reg_unreg: 'Tidak berdaftar', reg_phaseout: 'Akan diharamkan', reg_restricted: 'Terhad',
+    regBan: (n, y) => n + ' diharamkan di Malaysia sejak ' + y + '. Jangan guna.',
+    regUnreg: n => n + ' tidak lagi berdaftar di Malaysia. Jangan guna; pilih bahan lain yang berdaftar.',
+    regFlagged: 'Perlu perhatian',
+    regPhase: n => n + ' sedang dihapuskan secara berperingkat (2025–2030). Elakkan; pilih bahan lain jika ada.',
+    regTitle: 'Status di Malaysia', regLede: 'Bahan bertanda merah diharamkan atau tidak lagi berdaftar. Senarai ini disemak pada 30 Okt 2026 dan mungkin tidak lengkap; rujuk Jabatan Pertanian untuk senarai terkini.',
     weedsTitle: 'Rumpai',
     kind_mite: 'Hama', kind_mollusc: 'Siput', kind_bird: 'Burung', kind_weed: 'Rumpai',
     ctlTitle: 'Kawalan', ctlAI: 'Bahan aktif', ctlNone: 'Sumber tidak menyenaraikan racun kimia untuk masalah ini.',
@@ -81,6 +87,12 @@ const UI = {
     pinch: 'Ketik gambar untuk zum'
   },
   en: {
+    reg_banned: 'Banned', reg_unreg: 'Not registered', reg_phaseout: 'Being banned', reg_restricted: 'Restricted',
+    regBan: (n, y) => n + ' has been banned in Malaysia since ' + y + '. Do not use it.',
+    regUnreg: n => n + ' is no longer registered in Malaysia. Do not use it; choose another registered product.',
+    regFlagged: 'Needs attention',
+    regPhase: n => n + ' is being phased out (2025–2030). Avoid it; choose another product if one is listed.',
+    regTitle: 'Status in Malaysia', regLede: 'Ingredients marked red are banned or no longer registered. This list was checked on 30 Oct 2026 and may not be complete; ask the Department of Agriculture for the current list.',
     weedsTitle: 'Weeds',
     kind_mite: 'Mite', kind_mollusc: 'Snail', kind_bird: 'Bird', kind_weed: 'Weed',
     ctlTitle: 'Control', ctlAI: 'Active ingredients', ctlNone: 'The source lists no chemical for this problem.',
@@ -160,6 +172,12 @@ const UI = {
     pinch: 'Tap a photo to zoom'
   },
   zh: {
+    reg_banned: '已禁用', reg_unreg: '未注册', reg_phaseout: '逐步禁用', reg_restricted: '限用',
+    regBan: (n, y) => n + ' 自 ' + y + ' 年起在马来西亚禁用。请勿使用。',
+    regUnreg: n => n + ' 在马来西亚已不再注册。请勿使用，改用其他已注册的产品。',
+    regFlagged: '需要注意',
+    regPhase: n => n + ' 正在逐步禁用（2025–2030）。尽量避免，如有其他选择请改用。',
+    regTitle: '在马来西亚的状态', regLede: '红色标记的成分已被禁用或不再注册。此名单于 2026 年 10 月 30 日核对，可能不完整；最新名单请向农业局查询。',
     weedsTitle: '杂草',
     kind_mite: '螨类', kind_mollusc: '螺类', kind_bird: '鸟类', kind_weed: '杂草',
     ctlTitle: '防治', ctlAI: '有效成分', ctlNone: '资料没有列出针对这个问题的化学药剂。',

@@ -331,3 +331,14 @@ const GLOSSARY = [
          en: 'Removing and destroying diseased plant parts, fallen fruit and debris so pests cannot breed.',
          zh: '清除并销毁病残体、落果和杂物，不让病虫繁殖。' } }
 ];
+
+/* Status in Malaysia of active ingredients the source texts name. Only entries confirmed by a source
+   are listed; anything absent is not checked. Checked 30 Oct 2026; the DOA list itself should be
+   re-read when doa.gov.my is reachable. level: banned > unreg > phaseout > restricted */
+const REG = {
+  Paraquat:      { level: 'banned', since: '2020', src: 'Jabatan Pertanian: Senarai racun makhluk perosak yang telah diharamkan (Ogos 2025)' },
+  Carbofuran:    { level: 'banned', since: '2023', src: 'Jabatan Pertanian: Senarai racun makhluk perosak yang telah diharamkan (Ogos 2025)' },
+  Benomyl:       { level: 'unreg', since: '', src: 'Jabatan Pertanian, pangkalan data MRL: 0 pendaftaran (lihat carbendazim)' },
+  Methamidophos: { level: 'phaseout', since: '2025–2030', src: 'KPKM, dilaporkan The Star (4 Nov 2025)' },
+  Triazophos:    { level: 'restricted', since: '2004', src: 'IPPC Plant Protection Profile Malaysia' }
+};
