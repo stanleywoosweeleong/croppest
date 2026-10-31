@@ -2,6 +2,8 @@
    Keep ms, en and zh in step: every key must exist in all three. */
 const UI = {
   ms: {
+    tabChem: 'Racun',
+    chemPh: 'Cari bahan aktif atau perosak…',
     aiInsects: 'Untuk serangga berkaitan',
     aiHoneydew: 'Racun serangga tidak membunuh kulat. Ia mengawal koya dan teritip yang mengeluarkan embun madu, makanan kulat ini.',
     aiVector: 'Racun serangga tidak merawat penyakit ini. Ia mengawal serangga atau semut yang membawa dan menyebarkannya.',
@@ -42,7 +44,7 @@ const UI = {
     cropsTitle: 'Pilih tanaman',
     cropsLede: 'Lihat perosak dan penyakit yang menyerang setiap tanaman.',
     nPests: n => n + ' perosak & penyakit',
-    searchPh: 'Cari nama perosak, penyakit atau gejala…',
+    searchPh: 'Cari perosak, gejala atau racun…',
     searchNone: 'Tiada padanan.',
     searchHint: 'Taip sekurang-kurangnya 2 huruf. Carian merangkumi ketiga-tiga bahasa.',
     back: 'Kembali',
@@ -93,6 +95,8 @@ const UI = {
     pinch: 'Ketik gambar untuk zum'
   },
   en: {
+    tabChem: 'Chemicals',
+    chemPh: 'Search an ingredient or pest…',
     aiInsects: 'For the insects involved',
     aiHoneydew: 'Insecticide does not kill the fungus. It controls the mealybugs and scale insects whose honeydew feeds it.',
     aiVector: 'Insecticide does not treat this disease. It controls the insects or ants that carry and spread it.',
@@ -133,7 +137,7 @@ const UI = {
     cropsTitle: 'Choose a crop',
     cropsLede: 'See the pests and diseases that attack each crop.',
     nPests: n => n + (n === 1 ? ' pest or disease' : ' pests & diseases'),
-    searchPh: 'Search pests, diseases or symptoms…',
+    searchPh: 'Search pests, symptoms or chemicals…',
     searchNone: 'No matches.',
     searchHint: 'Type at least 2 letters. Search covers all three languages.',
     back: 'Back',
@@ -184,6 +188,8 @@ const UI = {
     pinch: 'Tap a photo to zoom'
   },
   zh: {
+    tabChem: '农药',
+    chemPh: '搜索有效成分或病虫害…',
     aiInsects: '针对相关昆虫',
     aiHoneydew: '杀虫剂杀不死真菌，它用来防治分泌蜜露（真菌的食物）的粉蚧和介壳虫。',
     aiVector: '杀虫剂不能治这种病，它用来防治携带和传播病原的昆虫或蚂蚁。',
@@ -224,7 +230,7 @@ const UI = {
     cropsTitle: '选择作物',
     cropsLede: '查看每种作物的虫害和病害。',
     nPests: n => n + ' 种病虫害',
-    searchPh: '搜索虫害、病害或症状…',
+    searchPh: '搜索病虫害、症状或农药…',
     searchNone: '没有找到。',
     searchHint: '至少输入 2 个字。可用三种语言搜索。',
     back: '返回',
