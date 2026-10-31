@@ -286,16 +286,12 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 .viewer .vc{color:#e8eee9;font-size:.9rem;padding:8px 16px 12px;text-align:center}
 .onboard{position:fixed;inset:0;z-index:50;background:var(--bg);overflow:auto;
   padding:calc(28px + env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) calc(24px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px))}
-.ob-in{max-width:420px;min-height:100%;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+.ob-in{max-width:420px;min-height:100%;margin:0 auto;display:flex;flex-direction:column;justify-content:center;gap:32px}
 .ob-top{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
 .ob-top img{width:64px;height:64px;border-radius:14px}
 .ob-top b{font-family:var(--f-display);font-weight:400;font-size:1.4rem}
-.ob-top span{color:var(--muted);font-size:.9rem}
-.ob-pick{text-align:center;margin-top:auto;display:flex;flex-direction:column;gap:4px}
-.ob-pick h2{font-size:1.35rem;line-height:1.35}
-.ob-pick h2 + h2{font-size:1.05rem;color:var(--muted)}
-.langs{display:flex;flex-direction:column;gap:10px;margin-bottom:auto}
-.langs button{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;cursor:pointer;
+.langs{display:flex;flex-direction:column;gap:10px}
+.langs button{display:flex;align-items:center;justify-content:center;width:100%;text-align:center;cursor:pointer;
   border:2px solid var(--line);background:var(--surface);border-radius:12px;padding:15px 16px;font-size:1.1rem;font-weight:700}
 .langs button span{font-weight:400;color:var(--muted);font-size:.85rem}
 .langs button[aria-pressed="true"]{border-color:var(--accent)}
@@ -346,12 +342,11 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 
 <div class="onboard" id="onboard" hidden>
   <div class="ob-in">
-    <div class="ob-top"><img src="icons/icon-192.png" alt=""><b>Perosak Tanaman</b><span>Sabah</span></div>
-    <div class="ob-pick"><h2 lang="ms">Pilih bahasa</h2><h2 lang="en">Choose your language</h2><h2 lang="zh">选择语言</h2></div>
-    <div class="langs">
-      <button type="button" data-lang="ms" lang="ms">Bahasa Melayu <span>BM</span></button>
-      <button type="button" data-lang="en" lang="en">English <span>EN</span></button>
-      <button type="button" data-lang="zh" lang="zh">中文 <span>中</span></button>
+    <div class="ob-top"><img src="icons/icon-192.png" alt=""><b>Perosak Tanaman</b></div>
+    <div class="langs" role="group" aria-label="Pilih bahasa · Choose your language · 选择语言">
+      <button type="button" data-lang="ms" lang="ms">Bahasa Melayu</button>
+      <button type="button" data-lang="en" lang="en">English</button>
+      <button type="button" data-lang="zh" lang="zh">中文</button>
     </div>
   </div>
 </div>
@@ -362,7 +357,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '2.5.0';
+const VERSION = '2.5.1';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
