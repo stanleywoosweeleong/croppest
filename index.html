@@ -357,7 +357,7 @@ html:has(.scrim:not([hidden])),html:has(.viewer:not([hidden])),html:has(.onboard
 <script src="data.js"></script>
 <script src="guide.js"></script>
 <script>
-const VERSION = '2.5.1';
+const VERSION = '2.6.0';
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const store = {
   get(k, d) { try { const v = localStorage.getItem('cp.' + k); return v == null ? d : JSON.parse(v) } catch { return d } },
@@ -454,7 +454,7 @@ function groupOf(p) {
   return [fine, 'fungus'];
 }
 /* What each kind of problem may borrow: fungicides for fungi, copper only for bacteria, insecticides for insects, etc. */
-const FUNGICIDE = /mancozeb|maneb|propineb|carbendazim|thiophanate|chlorothalonil|captan|thiram|conazole|myclobutanil|triadimefon|triforine|strobin|tricyclazole|isoprothiolane|pencycuron|tridemorph|metalaxyl|propamocarb|fosetyl|phosphonate|copper|bordeaux|sulphur|trichoderma/i;
+const FUNGICIDE = /benomyl|mancozeb|maneb|propineb|carbendazim|thiophanate|chlorothalonil|captan|thiram|conazole|myclobutanil|triadimefon|triforine|strobin|tricyclazole|isoprothiolane|pencycuron|tridemorph|metalaxyl|propamocarb|fosetyl|phosphonate|copper|bordeaux|sulphur|trichoderma/i;
 const HERBICIDE = /glyphosate|glufosinate|2,4-d|mcpa|atrazine|diuron|bispyribac|cyhalofop|metsulfuron|oxadiazon|oxyfluorfen|penoxsulam|picloram|pretilachlor|propanil|triclopyr|paraquat/i;
 const NOT_INSECTICIDE = /naphthalene|chlorine|borax|lime|methyl eugenol/i;
 function fits(group, broad, a) {
@@ -485,11 +485,20 @@ function simBox(p, noCure) {
   return `<span class="eyebrow">${esc(t('simTitle'))}</span><div class="chips">${sim.ai.map(aiChip).join('')}</div>
     <p class="small muted">${esc(t('simNote'))} ${esc(t('simFrom'))} ${sim.from.map(o => `<a href="#pest/${o.id}">${esc(L(o.name))}</a> (${o.crops.map(c => esc(L(CROPS.get(c).name))).join(', ')})`).join(', ')}.</p>${cure}`;
 }
+/* On a disease page, insecticides do not treat the disease: they kill the insects that feed it (honeydew) or
+   carry it (vectors). Show them apart so it is clear what each chemical is for. */
+function aiLists(p) {
+  const disease = ['fungus', 'oomycete', 'bacteria', 'virus', 'alga'].includes(p.kind);
+  const forInsects = disease ? p.ai.filter(a => !FUNGICIDE.test(a) && !HERBICIDE.test(a) && !NOT_INSECTICIDE.test(a)) : [];
+  const main = p.ai.filter(a => !forInsects.includes(a));
+  return (main.length ? `<span class="eyebrow">${esc(t('ctlAI'))}</span><div class="chips">${main.map(aiChip).join('')}</div>` : '')
+    + (forInsects.length ? `<span class="eyebrow">${esc(t('aiInsects'))}</span><div class="chips">${forInsects.map(aiChip).join('')}</div><p class="small muted">${esc(t(p.kind === 'fungus' || p.kind === 'alga' ? 'aiHoneydew' : 'aiVector'))}</p>` : '');
+}
 function ctlBox(p) {
   const noCure = ['bacteria', 'virus', 'nematode'].includes(p.kind);
   // the full description and control advice open inline here, closed by default
   return `<div class="card ctl"><h3>${esc(t('ctlTitle'))}</h3>
-    ${p.ai.length ? `<span class="eyebrow">${esc(t('ctlAI'))}</span><div class="chips">${p.ai.map(aiChip).join('')}</div>${regNotes(p.ai)}<p class="small muted">${esc(t('ctlCheck'))}</p>`
+    ${p.ai.length ? aiLists(p) + `${regNotes(p.ai)}<p class="small muted">${esc(t('ctlCheck'))}</p>`
       : simBox(p, noCure)}
     ${L(p.desc) ? `<details class="more" id="ctl"><summary>${esc(t('ctlMore'))}</summary><div class="rich">${L(p.desc)}</div></details>` : ''}</div>`;
 }

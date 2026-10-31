@@ -2,6 +2,9 @@
    Keep ms, en and zh in step: every key must exist in all three. */
 const UI = {
   ms: {
+    aiInsects: 'Untuk serangga berkaitan',
+    aiHoneydew: 'Racun serangga tidak membunuh kulat. Ia mengawal koya dan teritip yang mengeluarkan embun madu, makanan kulat ini.',
+    aiVector: 'Racun serangga tidak merawat penyakit ini. Ia mengawal serangga atau semut yang membawa dan menyebarkannya.',
     simTitle: 'Bahan aktif untuk masalah sejenis',
     simNote: 'Sumber tidak menyebut racun untuk masalah ini. Bahan di atas disyorkan Smart Tani untuk masalah yang sama pada tanaman lain; pastikan label membenarkan penggunaan pada tanaman anda.',
     simFrom: 'Daripada:',
@@ -90,6 +93,9 @@ const UI = {
     pinch: 'Ketik gambar untuk zum'
   },
   en: {
+    aiInsects: 'For the insects involved',
+    aiHoneydew: 'Insecticide does not kill the fungus. It controls the mealybugs and scale insects whose honeydew feeds it.',
+    aiVector: 'Insecticide does not treat this disease. It controls the insects or ants that carry and spread it.',
     simTitle: 'Active ingredients for similar problems',
     simNote: 'The source names no chemical for this problem. Smart Tani recommends the ones above for the same problem on other crops; make sure the label allows use on your crop.',
     simFrom: 'From:',
@@ -178,6 +184,9 @@ const UI = {
     pinch: 'Tap a photo to zoom'
   },
   zh: {
+    aiInsects: '针对相关昆虫',
+    aiHoneydew: '杀虫剂杀不死真菌，它用来防治分泌蜜露（真菌的食物）的粉蚧和介壳虫。',
+    aiVector: '杀虫剂不能治这种病，它用来防治携带和传播病原的昆虫或蚂蚁。',
     simTitle: '同类问题使用的有效成分',
     simNote: '资料没有列出针对这个问题的药剂。以上成分是 Smart Tani 针对其他作物上同类问题推荐的；请确认标签允许用于您的作物。',
     simFrom: '来自：',
